@@ -1,0 +1,13 @@
+characters = {
+
+	GER_Joseph_Joos = {
+		name = "Joseph Joos"
+		portraits = {
+			civilian = { large = GFX_Portrait_GER_Joseph_Joos }
+		}
+		country_leader = {
+			ideology = weimar_socialism
+			traits = { }
+		}
+	}
+}

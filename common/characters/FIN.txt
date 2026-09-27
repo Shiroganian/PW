@@ -1,0 +1,13 @@
+characters = {
+
+	FIN_Carl_G_E_Mannerheim = {
+		name = "Carl Gustaf Emanuel Mannerheim"
+		portraits = {
+			civilian = { large = GFX_Portrait_FIN_Carl_G_E_Mannerheim }
+		}
+		country_leader = {
+			ideology = anocracy
+			traits = { }
+		}
+	}
+}

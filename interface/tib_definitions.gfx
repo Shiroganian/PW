@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_TIB_Reting_Rinpoche
+        texturefile = gfx/leaders/TIB/Portrait_TIB_Reting_Rinpoche.dds
+    }
+}

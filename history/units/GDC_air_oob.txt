@@ -1,0 +1,29 @@
+# GDC BBA air OOB -- source: GDC_1936_air_bba.txt
+air_wings = {
+	493 = {
+		small_plane_airframe_1 = {
+			owner = "GDC"
+			amount = 48
+			version_name = "GDC 1936 Fighter"
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "GDC"
+			amount = 12
+			version_name = "GDC 1936 Naval Bomber"
+		}
+	}
+	306 = {
+		small_plane_cas_airframe_1 = {
+			owner = "GDC"
+			amount = 24
+			version_name = "GDC 1936 CAS"
+		}
+	}
+	305 = {
+		medium_plane_airframe_1 = {
+			owner = "GDC"
+			amount = 12
+			version_name = "GDC 1936 Tactical Bomber"
+		}
+	}
+}

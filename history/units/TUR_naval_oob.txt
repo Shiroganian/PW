@@ -1,0 +1,66 @@
+# TUR MTG naval OOB -- source: TUR_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "Royal Navy"
+		naval_base = 4112
+		task_force = {
+			name = "Royal Navy Task Force"
+			location = 4112
+			ship = { name = "TCG Mecidiye" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Cruiser Class" } } }
+			ship = { name = "TCG Hamidiye" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Cruiser Class" } } }
+			ship = { name = "TUR CL-03" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Cruiser Class" } } }
+			ship = { name = "TCG Peyk" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Destroyer Class" } } }
+			ship = { name = "TCG Berk" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Destroyer Class" } } }
+			ship = { name = "TCG Kocatepe" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Destroyer Class" } } }
+			ship = { name = "TCG Adatepe" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Destroyer Class" } } }
+			ship = { name = "TCG Zafer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Destroyer Class" } } }
+			ship = { name = "TCG Tinaztepe" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Destroyer Class" } } }
+			ship = { name = "TUR DD-07" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Destroyer Class" } } }
+			ship = { name = "TUR DD-08" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Destroyer Class" } } }
+			ship = { name = "TUR DD-09" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Destroyer Class" } } }
+			ship = { name = "TUR DD-10" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Destroyer Class" } } }
+			ship = { name = "TCG Birinci Inönü" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Submarine Class" } } }
+			ship = { name = "TCG Ikinci Inönü" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Submarine Class" } } }
+			ship = { name = "TCG Dumlupinar" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Submarine Class" } } }
+			ship = { name = "TCG Sakarya" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Submarine Class" } } }
+			ship = { name = "TCG Gür" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Submarine Class" } } }
+			ship = { name = "TUR SS-06" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = TUR version_name = "TUR 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = TUR
+			version_name = "TUR 1936 Destroyer Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = TUR
+			version_name = "TUR 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = TUR
+			version_name = "TUR 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

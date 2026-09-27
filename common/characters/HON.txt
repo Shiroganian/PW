@@ -1,0 +1,13 @@
+characters = {
+
+	HON_Tiburcio_Carias_Andino = {
+		name = "Tiburcio Carias Andino"
+		portraits = {
+			civilian = { large = GFX_Portrait_HON_Tiburcio_Carias_Andino }
+		}
+		country_leader = {
+			ideology = anocracy
+			traits = { }
+		}
+	}
+}

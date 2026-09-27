@@ -1,0 +1,13 @@
+characters = {
+
+	BUL_Ferdinand_I = {
+		name = "Ferdinand I"
+		portraits = {
+			civilian = { large = GFX_Portrait_BUL_Ferdinand_I }
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			traits = { }
+		}
+	}
+}

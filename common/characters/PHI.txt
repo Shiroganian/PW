@@ -1,0 +1,13 @@
+characters = {
+
+	PHI_Manuel_Quezon = {
+		name = "Manuel Quezon"
+		portraits = {
+			civilian = { large = GFX_Portrait_PHI_Manuel_Quezon }
+		}
+		country_leader = {
+			ideology = progressive_liberalism
+			traits = { }
+		}
+	}
+}

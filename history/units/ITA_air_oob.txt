@@ -1,0 +1,66 @@
+# ITA BBA air OOB -- source: ITA_1936_air_bba.txt
+air_wings = {
+	159 = {
+		small_plane_airframe_1 = {
+			owner = "ITA"
+			amount = 100
+			version_name = "ITA 1936 Fighter"
+		}
+	}
+	115 = {
+		small_plane_airframe_1 = {
+			owner = "ITA"
+			amount = 100
+			version_name = "ITA 1936 Fighter"
+		}
+	}
+	158 = {
+		small_plane_airframe_1 = {
+			owner = "ITA"
+			amount = 100
+			version_name = "ITA 1936 Fighter"
+		}
+	}
+	2 = {
+		small_plane_airframe_1 = {
+			owner = "ITA"
+			amount = 52
+			version_name = "ITA 1936 Fighter"
+		}
+	}
+	448 = {
+		small_plane_cas_airframe_1 = {
+			owner = "ITA"
+			amount = 100
+			version_name = "ITA 1936 CAS"
+		}
+	}
+	849 = {
+		small_plane_cas_airframe_1 = {
+			owner = "ITA"
+			amount = 68
+			version_name = "ITA 1936 CAS"
+		}
+	}
+	114 = {
+		medium_plane_airframe_1 = {
+			owner = "ITA"
+			amount = 100
+			version_name = "ITA 1936 Tactical Bomber"
+		}
+	}
+	451 = {
+		medium_plane_airframe_1 = {
+			owner = "ITA"
+			amount = 8
+			version_name = "ITA 1936 Tactical Bomber"
+		}
+	}
+	160 = {
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "ITA"
+			amount = 72
+			version_name = "ITA 1936 Naval Bomber"
+		}
+	}
+}

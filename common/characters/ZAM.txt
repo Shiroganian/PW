@@ -1,0 +1,13 @@
+characters = {
+
+	ZAM_Yeta_III = {
+		name = "Yeta III"
+		portraits = {
+			civilian = { large = GFX_Portrait_ZAM_Yeta_III }
+		}
+		country_leader = {
+			ideology = ethnic_oligarchism
+			traits = { }
+		}
+	}
+}

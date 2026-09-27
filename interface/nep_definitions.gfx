@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_NEP_Tribhuvan
+        texturefile = gfx/leaders/NEP/Portrait_NEP_Tribhuvan.dds
+    }
+}

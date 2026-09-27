@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_SAU_Ibn_Saud
+        texturefile = gfx/leaders/SAU/Portrait_SAU_Ibn_Saud.dds
+    }
+}

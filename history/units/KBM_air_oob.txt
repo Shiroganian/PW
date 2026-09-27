@@ -1,0 +1,20 @@
+# KBM BBA air OOB -- source: lore-scaled BBA template
+air_wings = {
+	997 = {
+		small_plane_airframe_1 = {
+			owner = "KBM"
+			amount = 24
+			version_name = "KBM 1936 Fighter"
+		}
+		small_plane_cas_airframe_1 = {
+			owner = "KBM"
+			amount = 12
+			version_name = "KBM 1936 CAS"
+		}
+		medium_plane_airframe_1 = {
+			owner = "KBM"
+			amount = 12
+			version_name = "KBM 1936 Tactical Bomber"
+		}
+	}
+}

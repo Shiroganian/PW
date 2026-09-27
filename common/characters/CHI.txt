@@ -1,0 +1,13 @@
+characters = {
+
+	CHI_Sun_Yat_sen = {
+		name = "Sun Yat-sen"
+		portraits = {
+			civilian = { large = GFX_Portrait_CHI_Sun_Yat_sen }
+		}
+		country_leader = {
+			ideology = orthodox_tridemism
+			traits = { }
+		}
+	}
+}

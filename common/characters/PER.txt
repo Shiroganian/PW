@@ -1,0 +1,13 @@
+characters = {
+
+	PER_Reza_Shah = {
+		name = "Reza Shah"
+		portraits = {
+			civilian = { large = GFX_Portrait_PER_Reza_Shah }
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			traits = { }
+		}
+	}
+}

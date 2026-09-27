@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_GUA_Jorge_Ubico
+        texturefile = gfx/leaders/GUA/Portrait_GUA_Jorge_Ubico.dds
+    }
+}

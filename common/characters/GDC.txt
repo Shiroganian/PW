@@ -1,0 +1,13 @@
+characters = {
+
+	GDC_Jose_Camacho_Carreno = {
+		name = "Jose Camacho Carreno"
+		portraits = {
+			civilian = { large = GFX_Portrait_GDC_Jose_Camacho_Carreno }
+		}
+		country_leader = {
+			ideology = pan_hispanic_ultranationalism
+			traits = { }
+		}
+	}
+}

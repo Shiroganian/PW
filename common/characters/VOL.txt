@@ -1,0 +1,13 @@
+characters = {
+
+	VOL_Mogho_Naba_Kom_II = {
+		name = "Mogho Naba Kom II"
+		portraits = {
+			civilian = { large = GFX_Portrait_VOL_Mogho_Naba_Kom_II }
+		}
+		country_leader = {
+			ideology = left_wing_nationalism
+			traits = { }
+		}
+	}
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_ARG_Julio_Meinvielle
+        texturefile = gfx/leaders/ARG/Portrait_ARG_Julio_Meinvielle.dds
+    }
+}

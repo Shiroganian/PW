@@ -1,0 +1,89 @@
+# INS MTG naval OOB -- source: lore-scaled MTG template
+units = {
+	fleet = {
+		name = "Angkatan Laut Indonesia"
+		naval_base = 10297
+		task_force = {
+			name = "Angkatan Laut Indonesia Task Force"
+			location = 10297
+			ship = { name = "INS CL-01" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = INS version_name = "INS 1936 Cruiser Class" } } }
+			ship = { name = "INS CL-02" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = INS version_name = "INS 1936 Cruiser Class" } } }
+			ship = { name = "INS CL-03" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = INS version_name = "INS 1936 Cruiser Class" } } }
+			ship = { name = "INS CL-04" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = INS version_name = "INS 1936 Cruiser Class" } } }
+			ship = { name = "INS CL-05" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = INS version_name = "INS 1936 Cruiser Class" } } }
+			ship = { name = "INS CL-06" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = INS version_name = "INS 1936 Cruiser Class" } } }
+			ship = { name = "INS DD-01" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-02" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-03" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-04" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-05" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-06" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-07" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-08" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-09" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-10" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-11" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-12" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-13" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-14" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-15" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-16" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-17" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-18" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-19" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-20" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-21" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS DD-22" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = INS version_name = "INS 1936 Destroyer Class" } } }
+			ship = { name = "INS SS-01" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = INS version_name = "INS 1936 Submarine Class" } } }
+			ship = { name = "INS SS-02" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = INS version_name = "INS 1936 Submarine Class" } } }
+			ship = { name = "INS SS-03" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = INS version_name = "INS 1936 Submarine Class" } } }
+			ship = { name = "INS SS-04" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = INS version_name = "INS 1936 Submarine Class" } } }
+			ship = { name = "INS SS-05" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = INS version_name = "INS 1936 Submarine Class" } } }
+			ship = { name = "INS SS-06" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = INS version_name = "INS 1936 Submarine Class" } } }
+			ship = { name = "INS SS-07" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = INS version_name = "INS 1936 Submarine Class" } } }
+			ship = { name = "INS SS-08" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = INS version_name = "INS 1936 Submarine Class" } } }
+			ship = { name = "INS SS-09" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = INS version_name = "INS 1936 Submarine Class" } } }
+			ship = { name = "INS SS-10" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = INS version_name = "INS 1936 Submarine Class" } } }
+			ship = { name = "INS SS-11" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = INS version_name = "INS 1936 Submarine Class" } } }
+			ship = { name = "INS SS-12" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = INS version_name = "INS 1936 Submarine Class" } } }
+			ship = { name = "INS SS-13" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = INS version_name = "INS 1936 Submarine Class" } } }
+			ship = { name = "INS SS-14" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = INS version_name = "INS 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = INS
+			version_name = "INS 1936 Cruiser Class"
+		}
+		requested_factories = 3
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = INS
+			version_name = "INS 1936 Destroyer Class"
+		}
+		requested_factories = 10
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = INS
+			version_name = "INS 1936 Submarine Class"
+		}
+		requested_factories = 4
+		progress = 0.20
+		efficiency = 50
+	}
+}

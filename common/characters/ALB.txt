@@ -1,0 +1,13 @@
+characters = {
+
+	ALB_Zog_I = {
+		name = "Zog I"
+		portraits = {
+			civilian = { large = GFX_Portrait_ALB_Zog_I }
+		}
+		country_leader = {
+			ideology = paternalistic_conservatism
+			traits = { }
+		}
+	}
+}

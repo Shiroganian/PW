@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_YEM_Ali_bin_Abd_al_Karim_al_Abdali
+        texturefile = gfx/leaders/YEM/Portrait_YEM_Ali_bin_Abd_al_Karim_al_Abdali.dds
+    }
+}

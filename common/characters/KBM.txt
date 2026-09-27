@@ -1,0 +1,13 @@
+characters = {
+
+	KBM_Taw_Phaya_Galay = {
+		name = "Taw Phaya Galay"
+		portraits = {
+			civilian = { large = GFX_Portrait_KBM_Taw_Phaya_Galay }
+		}
+		country_leader = {
+			ideology = revolutionary_monarchy
+			traits = { }
+		}
+	}
+}

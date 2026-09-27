@@ -1,0 +1,13 @@
+characters = {
+
+	NOR_Haakon_VII = {
+		name = "Haakon VII"
+		portraits = {
+			civilian = { large = GFX_Portrait_NOR_Haakon_VII }
+		}
+		country_leader = {
+			ideology = progressivism
+			traits = { }
+		}
+	}
+}

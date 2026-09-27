@@ -1,0 +1,13 @@
+spriteTypes = {
+	# Switch-view button used by the KX leader GUI.
+	spriteType = {
+		name = "GFX_HOS_button"
+		texturefile = "gfx/interface/HOS_button.png"
+	}
+
+	# Gustav Noske HoG portrait.
+	spriteType = {
+		name = "GFX_Portrait_Germany_Gustav_Noske"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Gustav_Noske.png"
+	}
+}

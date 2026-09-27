@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_CAN_George_V
+        texturefile = gfx/leaders/CAN/Portrait_CAN_George_V.dds
+    }
+}

@@ -1,0 +1,66 @@
+# ARG MTG naval OOB -- source: ARG_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "National Navy"
+		naval_base = 12364
+		task_force = {
+			name = "National Navy Task Force"
+			location = 12364
+			ship = { name = "ARA Libertad" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Cruiser Class" } } }
+			ship = { name = "ARA Independencia" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Cruiser Class" } } }
+			ship = { name = "ARG CL-03" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Cruiser Class" } } }
+			ship = { name = "ARA Catamarca" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Destroyer Class" } } }
+			ship = { name = "ARA Jujuy" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Destroyer Class" } } }
+			ship = { name = "ARA Córdoba" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Destroyer Class" } } }
+			ship = { name = "ARA La Plata" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Destroyer Class" } } }
+			ship = { name = "ARA Cervantes" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Destroyer Class" } } }
+			ship = { name = "ARA Juan de Garay" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Destroyer Class" } } }
+			ship = { name = "ARA Mendoza" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Destroyer Class" } } }
+			ship = { name = "ARA La Rioja" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Destroyer Class" } } }
+			ship = { name = "ARA Tucumán" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Destroyer Class" } } }
+			ship = { name = "ARG DD-10" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Destroyer Class" } } }
+			ship = { name = "ARA Santa Fe" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Submarine Class" } } }
+			ship = { name = "ARA Santiago del Estero" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Submarine Class" } } }
+			ship = { name = "ARA Salta" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Submarine Class" } } }
+			ship = { name = "ARG SS-04" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Submarine Class" } } }
+			ship = { name = "ARG SS-05" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Submarine Class" } } }
+			ship = { name = "ARG SS-06" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ARG version_name = "ARG 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = ARG
+			version_name = "ARG 1936 Destroyer Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = ARG
+			version_name = "ARG 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = ARG
+			version_name = "ARG 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

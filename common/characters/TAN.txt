@@ -1,0 +1,13 @@
+characters = {
+
+	TAN_Mongush_Buyan_Badyrgy = {
+		name = "Mongush Buyan-Badyrgy"
+		portraits = {
+			civilian = { large = GFX_Portrait_TAN_Mongush_Buyan_Badyrgy }
+		}
+		country_leader = {
+			ideology = ethnic_oligarchism
+			traits = { }
+		}
+	}
+}

@@ -1,0 +1,13 @@
+characters = {
+
+	SND_Han_Fuju = {
+		name = "Han Fuju"
+		portraits = {
+			civilian = { large = GFX_Portrait_SND_Han_Fuju }
+		}
+		country_leader = {
+			ideology = anocracy
+			traits = { }
+		}
+	}
+}

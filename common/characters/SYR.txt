@@ -1,0 +1,13 @@
+characters = {
+
+	SYR_Faisal_I = {
+		name = "Faisal I"
+		portraits = {
+			civilian = { large = GFX_Portrait_SYR_Faisal_I }
+		}
+		country_leader = {
+			ideology = arab_nationalism
+			traits = { }
+		}
+	}
+}

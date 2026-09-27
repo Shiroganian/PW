@@ -1,0 +1,33 @@
+﻿l_english:
+ news.1.t:0 "Hitler Incapacitated"
+ news.1.d:0 "Adolf Hitler, the absolute dictator of Germany, was announced to be in a coma, after suffering a stroke last week. This announcement has shocked many."
+ news.1.a:0 "Is it such a bad thing?"
+ news.1.b:0 "Scheiße..."
+
+ news.2.t:0 "German Coup Defeated"
+ news.2.d:0 "Despites the efforts of the SS, they were forced out of government, and a purge is likely to commence."
+ news.2.a:0 "Nothing Ever Happens."
+ news.2.b:0 "Germany is saved!"
+
+ news.3.t:0 "German Coup Succeeds"
+ news.3.d:0 "The SS has successfully inserted themselves into the German government, beginning a purge of their enemies."
+ news.3.a:0 "It only can get worse.."
+ news.3.b:0 "Forwards!"
+
+ news.4.t:0 "German-Soviet War Ends"
+ news.4.d:0 "It was noted by international observers today that combat has mostly ceased along the frontline of the Axis and Soviet forces, with the Red Army seemingly to have melted away in the face of continued pressure. Many had speculated that the Soviet War effort would soon collapse after the loss of Moscow and the disappearance of Stalin. While Germany technically hasn’t conquered the Soviet Union, it is utterly exhausted and the German Government has stated that it will consolidate its gains first before “eventually” taking the rest of the country."
+ news.4.a:0 "Germany seems to have conquered the greatest enemy of them all."
+ news.4.b:0 "We have defeated Bolshevism!"
+ news.4.c:0 "We are not finished!"
+
+ news.5.t:0 "United Nations Resolution 91"
+ news.5.d:0 "The United Nations yesterday passed a resolution demanding Germany withdraw from all occupied territories, release all political prisoners, and submit to international supervision. \n- To the surprise of no one, Germany has denounced this, proclaiming they will never submit to “International Judeo organizations”. The Security Council is scheduled to meet today, and they are expected to issue a UN resolution calling upon its member states to provide military forces to enforce Resolution 91."
+ news.5.a:0 "And the World descends into flames once more.."
+
+ news.6.t:0 "United Nations Resolution 92"
+ news.6.d:0 "The United States went before the UN Security Council with evidence of Japanese support of anti-colonial wars in the Dutch East Indies and Indochina, as well as other nationalist groups in other territories throughout southeast Asia. This, along with a dossier consisting of the many documented instance of Japanese atrocities in China, was enough to convince the UNSC to authorize the use of force against Japan. /n- Many aren’t as enthusiastic to fight Japan considering the experiences of the Pacific War and the fact that many of the anti-colonial groups in question have garnered significant sympathy for their causes, but nevertheless the United States vows to not leave the people of China to the Japanese without a fight."
+ news.6.a:0 "The Fire Rises.. in the east."
+
+ news.7.t:0 "Hitler Awakens"
+ news.7.d:0 "Hitler has awoken from his coma, assuming his duties oncemore. During his coma, many vied for power, and Hitler has favored those on top."
+ news.7.a:0 "Order.. Restored."

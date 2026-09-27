@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_SIZ_Hafez_Afifi_Pasha
+        texturefile = gfx/leaders/SIZ/Portrait_SIZ_Hafez_Afifi_Pasha.dds
+    }
+}

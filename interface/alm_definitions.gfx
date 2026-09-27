@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_ALM_Luis_Carlos_Prestes
+        texturefile = gfx/leaders/ALM/Portrait_ALM_Luis_Carlos_Prestes.dds
+    }
+}

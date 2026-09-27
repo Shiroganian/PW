@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_XSM_Ma_Bufang
+        texturefile = gfx/leaders/XSM/Portrait_XSM_Ma_Bufang.dds
+    }
+}

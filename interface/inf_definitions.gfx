@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_INF_Hideki_Tojo
+        texturefile = gfx/leaders/INF/Portrait_INF_Hideki_Tojo.dds
+    }
+}

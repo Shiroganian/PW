@@ -1,0 +1,311 @@
+# ROM land OOB -- adapted from ROM_1936_nsb.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Divizia de Infanterie"
+
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Territorial Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Royal Motorized Brigade"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Regimentul de Blindate"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Brigada de Cavalerie"
+
+
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Divizia de Infanterie"
+		location = 9617
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Divizia de Infanterie"
+		location = 6711
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "3rd Divizia de Infanterie"
+		location = 9606
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "4th Divizia de Infanterie"
+		location = 657
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "5th Divizia de Infanterie"
+		location = 9716
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "6th Divizia de Infanterie"
+		location = 3707
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "7th Divizia de Infanterie"
+		location = 690
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "8th Divizia de Infanterie"
+		location = 6652
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "9th Divizia de Infanterie"
+		location = 6682
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "10th Divizia de Infanterie"
+		location = 6727
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "11th Divizia de Infanterie"
+		location = 9617
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "12th Divizia de Infanterie"
+		location = 6711
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "13th Divizia de Infanterie"
+		location = 9606
+		division_template = "Divizia de Infanterie"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Territorial Brigade"
+		location = 657
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "2nd Territorial Brigade"
+		location = 9716
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "1st Royal Motorized Brigade"
+		location = 3707
+		division_template = "Royal Motorized Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Royal Motorized Brigade"
+		location = 690
+		division_template = "Royal Motorized Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Regimentul de Blindate"
+		location = 6652
+		division_template = "Regimentul de Blindate"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Brigada de Cavalerie"
+		location = 6682
+		division_template = "Brigada de Cavalerie"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Brigada de Cavalerie"
+		location = 6727
+		division_template = "Brigada de Cavalerie"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = ROM
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = ROM
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = ROM
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = ROM
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_1
+				creator = ROM
+				version_name = "ROM 1936 Fighter"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_cas_airframe_1
+				creator = ROM
+				version_name = "ROM 1936 CAS"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+	}
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_chassis_2
+				creator = ROM
+				version_name = "ROM 1936 Light Tank"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+		else = {
+			add_equipment_production = {
+				equipment = {
+					type = light_tank_equipment_2
+					creator = ROM
+					version_name = "ROM 1936 Light Tank"
+				}
+				requested_factories = 1
+				progress = 0.20
+				efficiency = 50
+			}
+		}
+	}
+}

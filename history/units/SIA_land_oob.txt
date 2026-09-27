@@ -1,0 +1,203 @@
+# SIA land OOB -- adapted from SIA_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Royal Thai Division"
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Territorial Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Royal Motorized Brigade"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Royal Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Royal Thai Division"
+		location = 7408
+		division_template = "Royal Thai Division"
+		start_experience_factor = 0.28
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "2nd Royal Thai Division"
+		location = 10221
+		division_template = "Royal Thai Division"
+		start_experience_factor = 0.28
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "3rd Royal Thai Division"
+		location = 12360
+		division_template = "Royal Thai Division"
+		start_experience_factor = 0.28
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "4th Royal Thai Division"
+		location = 12230
+		division_template = "Royal Thai Division"
+		start_experience_factor = 0.28
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "5th Royal Thai Division"
+		location = 7312
+		division_template = "Royal Thai Division"
+		start_experience_factor = 0.28
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "6th Royal Thai Division"
+		location = 7531
+		division_template = "Royal Thai Division"
+		start_experience_factor = 0.28
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "7th Royal Thai Division"
+		location = 12224
+		division_template = "Royal Thai Division"
+		start_experience_factor = 0.28
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "1st Territorial Brigade"
+		location = 7408
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "2nd Territorial Brigade"
+		location = 10221
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "3rd Territorial Brigade"
+		location = 12360
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "4th Territorial Brigade"
+		location = 12230
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "5th Territorial Brigade"
+		location = 7312
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "1st Royal Motorized Brigade"
+		location = 7531
+		division_template = "Royal Motorized Brigade"
+		start_experience_factor = 0.28
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "1st Royal Cavalry Brigade"
+		location = 12224
+		division_template = "Royal Cavalry Brigade"
+		start_experience_factor = 0.28
+		start_equipment_factor = 0.72
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = SIA
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = SIA
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = SIA
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = SIA
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

@@ -1,0 +1,13 @@
+characters = {
+
+	SIZ_Hafez_Afifi_Pasha = {
+		name = "Hafez Afifi Pasha"
+		portraits = {
+			civilian = { large = GFX_Portrait_SIZ_Hafez_Afifi_Pasha }
+		}
+		country_leader = {
+			ideology = league_mandate_soclib
+			traits = { }
+		}
+	}
+}

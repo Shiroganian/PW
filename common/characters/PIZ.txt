@@ -1,0 +1,13 @@
+characters = {
+
+	PIZ_Ricardo_J_Alfaro = {
+		name = "Ricardo J. Alfaro"
+		portraits = {
+			civilian = { large = GFX_Portrait_PIZ_Ricardo_J_Alfaro }
+		}
+		country_leader = {
+			ideology = league_mandate_soclib
+			traits = { }
+		}
+	}
+}

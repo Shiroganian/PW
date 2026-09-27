@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_GDC_Jose_Camacho_Carreno
+        texturefile = gfx/leaders/GDC/Portrait_GDC_Jose_Camacho_Carreno.dds
+    }
+}

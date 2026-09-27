@@ -1,0 +1,99 @@
+# NEP land OOB -- adapted from NEP_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Royal Nepalese Division"
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Territorial Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Royal Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Royal Nepalese Division"
+		location = 4987
+		division_template = "Royal Nepalese Division"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "2nd Royal Nepalese Division"
+		location = 4987
+		division_template = "Royal Nepalese Division"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "3rd Royal Nepalese Division"
+		location = 4987
+		division_template = "Royal Nepalese Division"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "1st Territorial Brigade"
+		location = 4987
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.12
+		start_equipment_factor = 0.52
+	}
+	division = {
+		name = "2nd Territorial Brigade"
+		location = 4987
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.12
+		start_equipment_factor = 0.52
+	}
+	division = {
+		name = "1st Royal Cavalry Brigade"
+		location = 4987
+		division_template = "Royal Cavalry Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = NEP
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+}

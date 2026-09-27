@@ -1,0 +1,101 @@
+GUA_unit_production = {
+	allowed = { original_tag = GUA }
+	enable = { always = yes }
+	abort = { always = no }
+
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 5
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = 3
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = motorized
+		value = 0
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = anti_armor
+		value = 1
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = mechanized
+		value = 0
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = -10
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 78
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 5
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 30
+	}
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 10
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 45
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = anti_tank
+		value = 10
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = anti_air
+		value = 8
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 45
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = naval_bomber
+		value = 10
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories_archetype
+		id = infantry_equipment
+		value = 1
+	}
+}

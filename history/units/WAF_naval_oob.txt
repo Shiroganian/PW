@@ -1,0 +1,31 @@
+# WAF MTG naval OOB -- source: lore-scaled MTG template
+units = {
+	fleet = {
+		name = "National Navy"
+		naval_base = 2050
+		task_force = {
+			name = "National Navy Task Force"
+			location = 2050
+			ship = { name = "WAF DD-01" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = WAF version_name = "WAF 1936 Destroyer Class" } } }
+			ship = { name = "WAF DD-02" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = WAF version_name = "WAF 1936 Destroyer Class" } } }
+			ship = { name = "WAF DD-03" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = WAF version_name = "WAF 1936 Destroyer Class" } } }
+			ship = { name = "WAF SS-01" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = WAF version_name = "WAF 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = WAF
+			version_name = "WAF 1936 Destroyer Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

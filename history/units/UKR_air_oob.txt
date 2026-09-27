@@ -1,0 +1,38 @@
+# UKR BBA air OOB -- source: lore-scaled BBA template
+air_wings = {
+	202 = {
+		small_plane_airframe_1 = {
+			owner = "UKR"
+			amount = 100
+			version_name = "UKR 1936 Fighter"
+		}
+	}
+	193 = {
+		small_plane_airframe_1 = {
+			owner = "UKR"
+			amount = 12
+			version_name = "UKR 1936 Fighter"
+		}
+	}
+	192 = {
+		small_plane_cas_airframe_1 = {
+			owner = "UKR"
+			amount = 48
+			version_name = "UKR 1936 CAS"
+		}
+	}
+	221 = {
+		medium_plane_airframe_1 = {
+			owner = "UKR"
+			amount = 36
+			version_name = "UKR 1936 Tactical Bomber"
+		}
+	}
+	201 = {
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "UKR"
+			amount = 24
+			version_name = "UKR 1936 Naval Bomber"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+# SWI BBA air OOB -- source: SWI_1936_air_bba.txt
+air_wings = {
+	3 = {
+		small_plane_airframe_1 = {
+			owner = "SWI"
+			amount = 60
+			version_name = "SWI 1936 Fighter"
+		}
+		small_plane_cas_airframe_1 = {
+			owner = "SWI"
+			amount = 24
+			version_name = "SWI 1936 CAS"
+		}
+		medium_plane_airframe_1 = {
+			owner = "SWI"
+			amount = 12
+			version_name = "SWI 1936 Tactical Bomber"
+		}
+	}
+}

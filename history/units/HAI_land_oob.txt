@@ -1,0 +1,74 @@
+# HAI land OOB -- adapted from HAI_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Brigade de Infanterie"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Infantry Division"
+		location = 4641
+		division_template = "Infantry Division"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "2nd Infantry Division"
+		location = 4641
+		division_template = "Infantry Division"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "1st Brigade de Infanterie"
+		location = 4641
+		division_template = "Brigade de Infanterie"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "2nd Brigade de Infanterie"
+		location = 4641
+		division_template = "Brigade de Infanterie"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = HAI
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

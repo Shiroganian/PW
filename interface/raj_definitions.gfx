@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_RAJ_Vinayak_Damodar_Savarkar
+        texturefile = gfx/leaders/RAJ/Portrait_RAJ_Vinayak_Damodar_Savarkar.dds
+    }
+}

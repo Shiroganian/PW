@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_GEO_Noe_Zhordania
+        texturefile = gfx/leaders/GEO/Portrait_GEO_Noe_Zhordania.dds
+    }
+}

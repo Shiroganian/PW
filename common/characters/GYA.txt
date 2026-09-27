@@ -1,0 +1,13 @@
+characters = {
+
+	GYA_Hubert_Nathaniel_Critchlow = {
+		name = "Hubert Nathaniel Critchlow"
+		portraits = {
+			civilian = { large = GFX_Portrait_GYA_Hubert_Nathaniel_Critchlow }
+		}
+		country_leader = {
+			ideology = liberal_socialism
+			traits = { }
+		}
+	}
+}

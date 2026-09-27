@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_CUB_Jose_Agripino_Barnet
+        texturefile = gfx/leaders/CUB/Portrait_CUB_Jose_Agripino_Barnet.dds
+    }
+}

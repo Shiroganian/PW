@@ -1,0 +1,229 @@
+# ARG land OOB -- adapted from ARG_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "División de Infanteria"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "National Militia Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Motorized Legion"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "División de Caballería"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "National Guard Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1st División de Infanteria"
+		location = 12364
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "2nd División de Infanteria"
+		location = 8216
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "3rd División de Infanteria"
+		location = 1449
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "4th División de Infanteria"
+		location = 10953
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "5th División de Infanteria"
+		location = 7500
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "6th División de Infanteria"
+		location = 10964
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "7th División de Infanteria"
+		location = 12364
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "8th División de Infanteria"
+		location = 8216
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "1st National Militia Brigade"
+		location = 1449
+		division_template = "National Militia Brigade"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "1st Motorized Legion"
+		location = 10953
+		division_template = "Motorized Legion"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "1st División de Caballería"
+		location = 7500
+		division_template = "División de Caballería"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "1st National Guard Brigade"
+		location = 10964
+		division_template = "National Guard Brigade"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = ARG
+		}
+		requested_factories = 8
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = ARG
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = ARG
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = ARG
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_1
+				creator = ARG
+				version_name = "ARG 1936 Fighter"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_cas_airframe_1
+				creator = ARG
+				version_name = "ARG 1936 CAS"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+	}
+}

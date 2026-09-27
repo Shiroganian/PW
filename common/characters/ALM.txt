@@ -1,0 +1,13 @@
+characters = {
+
+	ALM_Luis_Carlos_Prestes = {
+		name = "Luis Carlos Prestes"
+		portraits = {
+			civilian = { large = GFX_Portrait_ALM_Luis_Carlos_Prestes }
+		}
+		country_leader = {
+			ideology = national_communism
+			traits = { }
+		}
+	}
+}

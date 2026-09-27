@@ -1,0 +1,2978 @@
+annexation_decisions = {
+	annexation_USA_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				361 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_USA_CONQ"
+			country_event = annex.2
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_USA_CONQ"
+			set_country_flag = USA_CONQ
+			occupy_massive_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_PIZ_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				685 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_PIZ_CONQ"
+			country_event = annex.3
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PIZ_CONQ"
+			set_country_flag = PIZ_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_CAN_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				276 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_CAN_CONQ"
+			country_event = annex.4
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CAN_CONQ"
+			set_country_flag = CAN_CONQ
+			occupy_massive_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_MEX_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				277 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_MEX_CONQ"
+			country_event = annex.5
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MEX_CONQ"
+			set_country_flag = MEX_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_PAN_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				304 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_PAN_CONQ"
+			country_event = annex.6
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PAN_CONQ"
+			set_country_flag = PAN_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_CUB_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				315 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_CUB_CONQ"
+			country_event = annex.7
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CUB_CONQ"
+			set_country_flag = CUB_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_GUA_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				313 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_GUA_CONQ"
+			country_event = annex.8
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GUA_CONQ"
+			set_country_flag = GUA_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_ELS_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				314 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_ELS_CONQ"
+			country_event = annex.9
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ELS_CONQ"
+			set_country_flag = ELS_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_HON_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				312 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_HON_CONQ"
+			country_event = annex.10
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_HON_CONQ"
+			set_country_flag = HON_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_NIC_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				317 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_NIC_CONQ"
+			country_event = annex.11
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NIC_CONQ"
+			set_country_flag = NIC_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_COS_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				316 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_COS_CONQ"
+			country_event = annex.12
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_COS_CONQ"
+			set_country_flag = COS_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_HAI_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				318 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_HAI_CONQ"
+			country_event = annex.13
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_HAI_CONQ"
+			set_country_flag = HAI_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_DOM_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				319 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_DOM_CONQ"
+			country_event = annex.14
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DOM_CONQ"
+			set_country_flag = DOM_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_BRA_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				500 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_BRA_CONQ"
+			country_event = annex.15
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BRA_CONQ"
+			set_country_flag = BRA_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_ALM_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				495 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_ALM_CONQ"
+			country_event = annex.16
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ALM_CONQ"
+			set_country_flag = ALM_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_BSF_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				940 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_BSF_CONQ"
+			country_event = annex.17
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BSF_CONQ"
+			set_country_flag = BSF_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_AMA_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				938 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_AMA_CONQ"
+			country_event = annex.18
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AMA_CONQ"
+			set_country_flag = AMA_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_GDC_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				306 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_GDC_CONQ"
+			country_event = annex.19
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GDC_CONQ"
+			set_country_flag = GDC_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_GYA_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				687 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_GYA_CONQ"
+			country_event = annex.20
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GYA_CONQ"
+			set_country_flag = GYA_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_VEN_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				307 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_VEN_CONQ"
+			country_event = annex.21
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_VEN_CONQ"
+			set_country_flag = VEN_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_ARG_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				278 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_ARG_CONQ"
+			country_event = annex.22
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ARG_CONQ"
+			set_country_flag = ARG_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_PRU_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				303 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_PRU_CONQ"
+			country_event = annex.23
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PRU_CONQ"
+			set_country_flag = PRU_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_CHL_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				279 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_CHL_CONQ"
+			country_event = annex.24
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CHL_CONQ"
+			set_country_flag = CHL_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_BOL_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				302 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_BOL_CONQ"
+			country_event = annex.25
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BOL_CONQ"
+			set_country_flag = BOL_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_PAR_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				301 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_PAR_CONQ"
+			country_event = annex.26
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PAR_CONQ"
+			set_country_flag = PAR_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_URG_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				300 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_URG_CONQ"
+			country_event = annex.27
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_URG_CONQ"
+			set_country_flag = URG_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_GER_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				64 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_GER_CONQ"
+			country_event = annex.28
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GER_CONQ"
+			set_country_flag = GER_CONQ
+			occupy_massive_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_ENG_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				126 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_ENG_CONQ"
+			country_event = annex.29
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ENG_CONQ"
+			set_country_flag = ENG_CONQ
+			occupy_massive_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_SOV_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				219 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_SOV_CONQ"
+			country_event = annex.30
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SOV_CONQ"
+			set_country_flag = SOV_CONQ
+			occupy_massive_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_FRA_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				16 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_FRA_CONQ"
+			country_event = annex.31
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_FRA_CONQ"
+			set_country_flag = FRA_CONQ
+			occupy_massive_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_ITA_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				2 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_ITA_CONQ"
+			country_event = annex.32
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ITA_CONQ"
+			set_country_flag = ITA_CONQ
+			occupy_massive_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_POL_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				10 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_POL_CONQ"
+			country_event = annex.33
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_POL_CONQ"
+			set_country_flag = POL_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_DNZ_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				85 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_DNZ_CONQ"
+			country_event = annex.34
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DNZ_CONQ"
+			set_country_flag = DNZ_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_BLR_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				206 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_BLR_CONQ"
+			country_event = annex.35
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BLR_CONQ"
+			set_country_flag = BLR_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_UKR_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				202 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_UKR_CONQ"
+			country_event = annex.36
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_UKR_CONQ"
+			set_country_flag = UKR_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_BLT_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				808 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_BLT_CONQ"
+			country_event = annex.37
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BLT_CONQ"
+			set_country_flag = BLT_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_HUN_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				43 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_HUN_CONQ"
+			country_event = annex.38
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_HUN_CONQ"
+			set_country_flag = HUN_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_YUG_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				107 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_YUG_CONQ"
+			country_event = annex.39
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_YUG_CONQ"
+			set_country_flag = YUG_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_ROM_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				46 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_ROM_CONQ"
+			country_event = annex.40
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ROM_CONQ"
+			set_country_flag = ROM_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_ALB_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				44 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_ALB_CONQ"
+			country_event = annex.41
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ALB_CONQ"
+			set_country_flag = ALB_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_CZE_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				9 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_CZE_CONQ"
+			country_event = annex.42
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CZE_CONQ"
+			set_country_flag = CZE_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_BUL_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				48 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_BUL_CONQ"
+			country_event = annex.43
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BUL_CONQ"
+			set_country_flag = BUL_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_SPR_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				41 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_SPR_CONQ"
+			country_event = annex.44
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SPR_CONQ"
+			set_country_flag = SPR_CONQ
+			occupy_massive_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_POR_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				112 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_POR_CONQ"
+			country_event = annex.45
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_POR_CONQ"
+			set_country_flag = POR_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_BEL_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				6 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_BEL_CONQ"
+			country_event = annex.46
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BEL_CONQ"
+			set_country_flag = BEL_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_HOL_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				7 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_HOL_CONQ"
+			country_event = annex.47
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_HOL_CONQ"
+			set_country_flag = HOL_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_LUX_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				8 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_LUX_CONQ"
+			country_event = annex.48
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LUX_CONQ"
+			set_country_flag = LUX_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_DEN_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				37 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_DEN_CONQ"
+			country_event = annex.49
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DEN_CONQ"
+			set_country_flag = DEN_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_NOR_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				110 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_NOR_CONQ"
+			country_event = annex.50
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NOR_CONQ"
+			set_country_flag = NOR_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_SWE_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				141 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_SWE_CONQ"
+			country_event = annex.51
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SWE_CONQ"
+			set_country_flag = SWE_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_FIN_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				111 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_FIN_CONQ"
+			country_event = annex.52
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_FIN_CONQ"
+			set_country_flag = FIN_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_ICE_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				100 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_ICE_CONQ"
+			country_event = annex.53
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ICE_CONQ"
+			set_country_flag = ICE_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_JAP_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				282 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_JAP_CONQ"
+			country_event = annex.54
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_JAP_CONQ"
+			set_country_flag = JAP_CONQ
+			occupy_massive_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_CHI_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				1035 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_CHI_CONQ"
+			country_event = annex.55
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CHI_CONQ"
+			set_country_flag = CHI_CONQ
+			occupy_massive_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_SIK_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				617 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_SIK_CONQ"
+			country_event = annex.56
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SIK_CONQ"
+			set_country_flag = SIK_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_QIN_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				608 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_QIN_CONQ"
+			country_event = annex.57
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_QIN_CONQ"
+			set_country_flag = QIN_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_TAN_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				329 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_TAN_CONQ"
+			country_event = annex.58
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TAN_CONQ"
+			set_country_flag = TAN_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_MON_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				330 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_MON_CONQ"
+			country_event = annex.59
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MON_CONQ"
+			set_country_flag = MON_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_MAN_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				328 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_MAN_CONQ"
+			country_event = annex.60
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MAN_CONQ"
+			set_country_flag = MAN_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_TIB_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				322 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_TIB_CONQ"
+			country_event = annex.61
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TIB_CONQ"
+			set_country_flag = TIB_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_SIC_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				1037 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_SIC_CONQ"
+			country_event = annex.62
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SIC_CONQ"
+			set_country_flag = SIC_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_XSM_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				283 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_XSM_CONQ"
+			country_event = annex.63
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_XSM_CONQ"
+			set_country_flag = XSM_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_SHX_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				615 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_SHX_CONQ"
+			country_event = annex.64
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SHX_CONQ"
+			set_country_flag = SHX_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_SND_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				1038 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_SND_CONQ"
+			country_event = annex.65
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SND_CONQ"
+			set_country_flag = SND_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_SHG_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				613 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_SHG_CONQ"
+			country_event = annex.66
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SHG_CONQ"
+			set_country_flag = SHG_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_RAJ_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				439 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_RAJ_CONQ"
+			country_event = annex.67
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_RAJ_CONQ"
+			set_country_flag = RAJ_CONQ
+			occupy_massive_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_INS_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				1058 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_INS_CONQ"
+			country_event = annex.68
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_INS_CONQ"
+			set_country_flag = INS_CONQ
+			occupy_massive_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_PHI_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				327 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_PHI_CONQ"
+			country_event = annex.69
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PHI_CONQ"
+			set_country_flag = PHI_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_AST_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				285 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_AST_CONQ"
+			country_event = annex.70
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AST_CONQ"
+			set_country_flag = AST_CONQ
+			occupy_massive_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_NZL_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				284 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_NZL_CONQ"
+			country_event = annex.71
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NZL_CONQ"
+			set_country_flag = NZL_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_KBM_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				288 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_KBM_CONQ"
+			country_event = annex.72
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KBM_CONQ"
+			set_country_flag = KBM_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_BRM_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				640 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_BRM_CONQ"
+			country_event = annex.73
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BRM_CONQ"
+			set_country_flag = BRM_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_DBM_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				995 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_DBM_CONQ"
+			country_event = annex.74
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DBM_CONQ"
+			set_country_flag = DBM_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_VIN_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				286 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_VIN_CONQ"
+			country_event = annex.75
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_VIN_CONQ"
+			set_country_flag = VIN_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_KHM_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				741 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_KHM_CONQ"
+			country_event = annex.76
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KHM_CONQ"
+			set_country_flag = KHM_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_LAO_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				1068 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_LAO_CONQ"
+			country_event = annex.77
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LAO_CONQ"
+			set_country_flag = LAO_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_IRA_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				1017 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_IRA_CONQ"
+			country_event = annex.78
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_IRA_CONQ"
+			set_country_flag = IRA_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_IDC_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				1066 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_IDC_CONQ"
+			country_event = annex.79
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_IDC_CONQ"
+			set_country_flag = IDC_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_INF_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				671 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_INF_CONQ"
+			country_event = annex.80
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_INF_CONQ"
+			set_country_flag = INF_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_SIA_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				1076 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_SIA_CONQ"
+			country_event = annex.81
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SIA_CONQ"
+			set_country_flag = SIA_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_KAZ_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				405 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_KAZ_CONQ"
+			country_event = annex.82
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KAZ_CONQ"
+			set_country_flag = KAZ_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_TMS_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				584 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_TMS_CONQ"
+			country_event = annex.83
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TMS_CONQ"
+			set_country_flag = TMS_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_NOM_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				586 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_NOM_CONQ"
+			country_event = annex.84
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NOM_CONQ"
+			set_country_flag = NOM_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_AFG_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				267 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_AFG_CONQ"
+			country_event = annex.85
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AFG_CONQ"
+			set_country_flag = AFG_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_BLC_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				1012 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_BLC_CONQ"
+			country_event = annex.86
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BLC_CONQ"
+			set_country_flag = BLC_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_GRE_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				47 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_GRE_CONQ"
+			country_event = annex.87
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GRE_CONQ"
+			set_country_flag = GRE_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_CIZ_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				797 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_CIZ_CONQ"
+			country_event = annex.88
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CIZ_CONQ"
+			set_country_flag = CIZ_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_TUR_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				49 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_TUR_CONQ"
+			country_event = annex.89
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TUR_CONQ"
+			set_country_flag = TUR_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_SYR_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				554 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_SYR_CONQ"
+			country_event = annex.90
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SYR_CONQ"
+			set_country_flag = SYR_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_ARM_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				230 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_ARM_CONQ"
+			country_event = annex.91
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ARM_CONQ"
+			set_country_flag = ARM_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_KUR_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				350 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_KUR_CONQ"
+			country_event = annex.92
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KUR_CONQ"
+			set_country_flag = KUR_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_IRQ_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				291 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_IRQ_CONQ"
+			country_event = annex.93
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_IRQ_CONQ"
+			set_country_flag = IRQ_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_GEO_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				231 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_GEO_CONQ"
+			country_event = annex.94
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GEO_CONQ"
+			set_country_flag = GEO_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_AZR_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				229 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_AZR_CONQ"
+			country_event = annex.95
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AZR_CONQ"
+			set_country_flag = AZR_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_TRA_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				821 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_TRA_CONQ"
+			country_event = annex.96
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TRA_CONQ"
+			set_country_flag = TRA_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_SAU_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				292 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_SAU_CONQ"
+			country_event = annex.97
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SAU_CONQ"
+			set_country_flag = SAU_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_PER_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				266 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_PER_CONQ"
+			country_event = annex.98
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PER_CONQ"
+			set_country_flag = PER_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_EGY_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				907 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_EGY_CONQ"
+			country_event = annex.99
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_EGY_CONQ"
+			set_country_flag = EGY_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_SIZ_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				446 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_SIZ_CONQ"
+			country_event = annex.100
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SIZ_CONQ"
+			set_country_flag = SIZ_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_ETH_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				271 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_ETH_CONQ"
+			country_event = annex.101
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ETH_CONQ"
+			set_country_flag = ETH_CONQ
+			occupy_huge_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_LIB_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				298 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_LIB_CONQ"
+			country_event = annex.102
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LIB_CONQ"
+			set_country_flag = LIB_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_WAF_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				558 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_WAF_CONQ"
+			country_event = annex.103
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_WAF_CONQ"
+			set_country_flag = WAF_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_SAF_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				275 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_SAF_CONQ"
+			country_event = annex.104
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SAF_CONQ"
+			set_country_flag = SAF_CONQ
+			occupy_large_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_RHO_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				545 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_RHO_CONQ"
+			country_event = annex.105
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_RHO_CONQ"
+			set_country_flag = RHO_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_COG_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				538 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_COG_CONQ"
+			country_event = annex.106
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_COG_CONQ"
+			set_country_flag = COG_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_CLM_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				718 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_CLM_CONQ"
+			country_event = annex.107
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CLM_CONQ"
+			set_country_flag = CLM_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_KAT_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				889 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_KAT_CONQ"
+			country_event = annex.108
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KAT_CONQ"
+			set_country_flag = KAT_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_CFS_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				295 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_CFS_CONQ"
+			country_event = annex.109
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CFS_CONQ"
+			set_country_flag = CFS_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_ZAM_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				771 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_ZAM_CONQ"
+			country_event = annex.110
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ZAM_CONQ"
+			set_country_flag = ZAM_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_MAD_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				543 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_MAD_CONQ"
+			country_event = annex.111
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MAD_CONQ"
+			set_country_flag = MAD_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_CMR_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				773 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_CMR_CONQ"
+			country_event = annex.112
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CMR_CONQ"
+			set_country_flag = CMR_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_CHA_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				774 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_CHA_CONQ"
+			country_event = annex.113
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CHA_CONQ"
+			set_country_flag = CHA_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_CAR_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				660 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_CAR_CONQ"
+			country_event = annex.114
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CAR_CONQ"
+			set_country_flag = CAR_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_VOL_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				778 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_VOL_CONQ"
+			country_event = annex.115
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_VOL_CONQ"
+			set_country_flag = VOL_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_IVO_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				779 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_IVO_CONQ"
+			country_event = annex.116
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_IVO_CONQ"
+			set_country_flag = IVO_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_NGR_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				781 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_NGR_CONQ"
+			country_event = annex.117
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NGR_CONQ"
+			set_country_flag = NGR_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_GHA_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				274 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_GHA_CONQ"
+			country_event = annex.118
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GHA_CONQ"
+			set_country_flag = GHA_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_GAB_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				539 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_GAB_CONQ"
+			country_event = annex.119
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GAB_CONQ"
+			set_country_flag = GAB_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_IRE_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				113 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_IRE_CONQ"
+			country_event = annex.120
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_IRE_CONQ"
+			set_country_flag = IRE_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_NEP_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				323 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_NEP_CONQ"
+			country_event = annex.121
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NEP_CONQ"
+			set_country_flag = NEP_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_BHU_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				324 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_BHU_CONQ"
+			country_event = annex.122
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BHU_CONQ"
+			set_country_flag = BHU_CONQ
+			occupy_tiny_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_OMA_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				294 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_OMA_CONQ"
+			country_event = annex.123
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_OMA_CONQ"
+			set_country_flag = OMA_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_YEM_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				992 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_YEM_CONQ"
+			country_event = annex.124
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_YEM_CONQ"
+			set_country_flag = YEM_CONQ
+			occupy_small_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	annexation_SWI_CONQ = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				3 = { is_owned_and_controlled_by = ROOT }
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_SWI_CONQ"
+			country_event = annex.125
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SWI_CONQ"
+			set_country_flag = SWI_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+}

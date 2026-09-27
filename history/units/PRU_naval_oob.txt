@@ -1,0 +1,47 @@
+# PRU MTG naval OOB -- source: PRU_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "National Navy"
+		naval_base = 12997
+		task_force = {
+			name = "National Navy Task Force"
+			location = 12997
+			ship = { name = "BAP Almirante Grau" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PRU version_name = "PRU 1936 Cruiser Class" } } }
+			ship = { name = "BAP Almirante Villar" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "PRU 1936 Destroyer Class" } } }
+			ship = { name = "BAP Almirante Guise" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "PRU 1936 Destroyer Class" } } }
+			ship = { name = "PRU DD-03" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "PRU 1936 Destroyer Class" } } }
+			ship = { name = "PRU DD-04" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "PRU 1936 Destroyer Class" } } }
+			ship = { name = "PRU DD-05" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "PRU 1936 Destroyer Class" } } }
+			ship = { name = "PRU DD-06" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "PRU 1936 Destroyer Class" } } }
+			ship = { name = "BAP R1" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRU version_name = "PRU 1936 Submarine Class" } } }
+			ship = { name = "BAP R2" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRU version_name = "PRU 1936 Submarine Class" } } }
+			ship = { name = "BAP R3" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRU version_name = "PRU 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = PRU
+			version_name = "PRU 1936 Destroyer Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = PRU
+			version_name = "PRU 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

@@ -1,0 +1,13 @@
+characters = {
+
+	POR_Antonio_de_Oliveira_Salazar = {
+		name = "Antonio de Oliveira Salazar"
+		portraits = {
+			civilian = { large = GFX_Portrait_POR_Antonio_de_Oliveira_Salazar }
+		}
+		country_leader = {
+			ideology = radical_nationalism
+			traits = { }
+		}
+	}
+}

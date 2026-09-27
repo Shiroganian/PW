@@ -1,0 +1,228 @@
+# BUL land OOB -- adapted from BUL_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Pekhotna Divizija"
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Territorial Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Konna Divizija"
+
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Royal Armored Brigade"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Royal Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Pekhotna Divizija"
+		location = 793
+		division_template = "Pekhotna Divizija"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Pekhotna Divizija"
+		location = 878
+		division_template = "Pekhotna Divizija"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "3rd Pekhotna Divizija"
+		location = 649
+		division_template = "Pekhotna Divizija"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "4th Pekhotna Divizija"
+		location = 3796
+		division_template = "Pekhotna Divizija"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "5th Pekhotna Divizija"
+		location = 793
+		division_template = "Pekhotna Divizija"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "6th Pekhotna Divizija"
+		location = 878
+		division_template = "Pekhotna Divizija"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "7th Pekhotna Divizija"
+		location = 649
+		division_template = "Pekhotna Divizija"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "8th Pekhotna Divizija"
+		location = 3796
+		division_template = "Pekhotna Divizija"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Territorial Brigade"
+		location = 793
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "1st Konna Divizija"
+		location = 878
+		division_template = "Konna Divizija"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Royal Armored Brigade"
+		location = 649
+		division_template = "Royal Armored Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Royal Cavalry Brigade"
+		location = 3796
+		division_template = "Royal Cavalry Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = BUL
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = BUL
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = BUL
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_chassis_1
+				creator = BUL
+				version_name = "BUL 1936 Light Tank"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+		else = {
+			add_equipment_production = {
+				equipment = {
+					type = light_tank_equipment_1
+					creator = BUL
+					version_name = "BUL 1936 Light Tank"
+				}
+				requested_factories = 1
+				progress = 0.20
+				efficiency = 50
+			}
+		}
+	}
+}

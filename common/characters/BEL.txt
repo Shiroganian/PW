@@ -1,0 +1,13 @@
+characters = {
+
+	BEL_Albert_I = {
+		name = "Albert I"
+		portraits = {
+			civilian = { large = GFX_Portrait_BEL_Albert_I }
+		}
+		country_leader = {
+			ideology = christian_conservatism
+			traits = { }
+		}
+	}
+}

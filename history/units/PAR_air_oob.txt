@@ -1,0 +1,15 @@
+# PAR BBA air OOB -- source: PAR_1936_air_bba.txt
+air_wings = {
+	301 = {
+		small_plane_airframe_1 = {
+			owner = "PAR"
+			amount = 12
+			version_name = "PAR 1936 Fighter"
+		}
+		small_plane_cas_airframe_1 = {
+			owner = "PAR"
+			amount = 12
+			version_name = "PAR 1936 CAS"
+		}
+	}
+}

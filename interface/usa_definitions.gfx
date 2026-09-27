@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_USA_Huey_P_Long_Jr
+        texturefile = gfx/leaders/USA/Portrait_USA_Huey_P_Long_Jr.dds
+    }
+}

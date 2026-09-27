@@ -1,0 +1,66 @@
+# GRE MTG naval OOB -- source: GRE_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "Royal Navy"
+		naval_base = 4109
+		task_force = {
+			name = "Royal Navy Task Force"
+			location = 4109
+			ship = { name = "RHS Elli" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Cruiser Class" } } }
+			ship = { name = "GRE CL-02" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Cruiser Class" } } }
+			ship = { name = "GRE CL-03" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Cruiser Class" } } }
+			ship = { name = "RHS Aetos" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Destroyer Class" } } }
+			ship = { name = "RHS Ierax" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Destroyer Class" } } }
+			ship = { name = "RHS Leon" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Destroyer Class" } } }
+			ship = { name = "RHS Panthir" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Destroyer Class" } } }
+			ship = { name = "RHS Kountouriotis" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Destroyer Class" } } }
+			ship = { name = "RHS Hydra" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Destroyer Class" } } }
+			ship = { name = "RHS Psara" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Destroyer Class" } } }
+			ship = { name = "RHS Spetsai" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Destroyer Class" } } }
+			ship = { name = "GRE DD-09" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Destroyer Class" } } }
+			ship = { name = "GRE DD-10" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Destroyer Class" } } }
+			ship = { name = "RHS Katsonis" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Submarine Class" } } }
+			ship = { name = "RHS Papanikolis" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Submarine Class" } } }
+			ship = { name = "RHS Protefs" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Submarine Class" } } }
+			ship = { name = "RHS Nirefs" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Submarine Class" } } }
+			ship = { name = "RHS Triton" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Submarine Class" } } }
+			ship = { name = "RHS Glafkos" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GRE version_name = "GRE 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = GRE
+			version_name = "GRE 1936 Destroyer Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = GRE
+			version_name = "GRE 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = GRE
+			version_name = "GRE 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

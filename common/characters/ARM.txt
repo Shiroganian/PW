@@ -1,0 +1,13 @@
+characters = {
+
+	ARM_Avetis_Aharonian = {
+		name = "Avetis Aharonian"
+		portraits = {
+			civilian = { large = GFX_Portrait_ARM_Avetis_Aharonian }
+		}
+		country_leader = {
+			ideology = centrism
+			traits = { }
+		}
+	}
+}

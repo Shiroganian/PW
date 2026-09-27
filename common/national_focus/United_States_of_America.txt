@@ -1,0 +1,2434 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_USA_CONGRESS}
+
+focus_tree = {
+	id = usa_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = USA
+		}
+	}
+	default = no
+
+	continuous_focus_position = { x = 50 y = 2100 }
+
+	######    #####   ####      ####    ######    ####      ####     ##     ####
+	##  ##  ##   ##   ##        ##     # ## #     ##      ##  ##   ####     ##
+	##  ##  ##   ##   ##        ##       ##       ##     ##       ##  ##    ##
+	#####   ##   ##   ##        ##       ##       ##     ##       ##  ##    ##
+	##      ##   ##   ##   #    ##       ##       ##     ##       ######    ##   #
+	##      ##   ##   ##  ##    ##       ##       ##      ##  ##  ##  ##    ##  ##
+	####      #####   #######   ####     ####     ####      ####   ##  ##   #######
+	
+	##### 1936
+	focus = {
+		id = USA_1936_Aftermath_Of_The_Court_Battle
+		icon = GFX_focus_generic_court
+		x = 15
+		y = 0
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	## LONG 1948
+	focus = {
+		id = USA_1936_Whole_Systems_Rigged
+		icon = GFX_focus_SIA_the_duty_of_the_thai_people_during_the_war_act
+		x = -2
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Aftermath_Of_The_Court_Battle 
+		}
+
+		relative_position_id = USA_1936_Aftermath_Of_The_Court_Battle
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Saturday_Night_Massacre
+		icon = GFX_focus_ARG_strengthening_the_concordancia
+		x = 2
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Aftermath_Of_The_Court_Battle 
+		}
+
+		relative_position_id = USA_1936_Aftermath_Of_The_Court_Battle
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Address_The_People
+		icon = GFX_focus_generic_radio_communication
+		x = 2
+		y = 1
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Whole_Systems_Rigged 
+		}
+		prerequisite = {
+			focus = USA_1936_Saturday_Night_Massacre 
+		}
+
+		relative_position_id = USA_1936_Whole_Systems_Rigged
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Party_Shuffle_Leadership
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		x = -6
+		y = 1
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Address_The_People 
+		}
+
+		relative_position_id = USA_1936_Address_The_People
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Party_Approach_The_Center
+		icon = GFX_focus_AFG_parliamentary_democracy
+		x = -2
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Party_Shuffle_Leadership 
+		}
+
+		relative_position_id = USA_1936_Party_Shuffle_Leadership
+
+		mutually_exclusive = {
+			focus = USA_1936_Party_Approach_The_Right
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Party_Pass_League_Funding_Bill
+		icon = GFX_focus_generic_league_of_nations
+		x = -1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Party_Approach_The_Center 
+		}
+
+		relative_position_id = USA_1936_Party_Approach_The_Center
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Party_Work_With_Money
+		icon = GFX_focus_RAJ_institutional_money_laundering
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Party_Approach_The_Center 
+		}
+
+		relative_position_id = USA_1936_Party_Approach_The_Center
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Party_Meet_With_Kennedy
+		icon = GFX_focus_generic_catholic_dominion
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Party_Pass_League_Funding_Bill 
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Party_Work_With_Money
+		}
+
+		relative_position_id = USA_1936_Party_Pass_League_Funding_Bill
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Party_A_Peculiar_Reconciliation
+		icon = GFX_focus_generic_american_investments
+		x = -1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Party_Meet_With_Kennedy 
+		}
+
+		relative_position_id = USA_1936_Party_Meet_With_Kennedy
+
+		mutually_exclusive = {
+			focus = USA_1936_Party_Thesis_Antithesis_Synthesis
+			focus = USA_1936_Party_White_Populism
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Party_Approach_The_Right
+		icon = GFX_focus_ARG_crackdown_on_corruption
+		x = 2
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Party_Shuffle_Leadership 
+		}
+
+		relative_position_id = USA_1936_Party_Shuffle_Leadership
+
+		mutually_exclusive = {
+			focus = USA_1936_Party_Approach_The_Center
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Party_A_Blind_Eye
+		icon = GFX_focus_generic_turning_a_blind_eye
+		x = -1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Party_Approach_The_Right 
+		}
+
+		relative_position_id = USA_1936_Party_Approach_The_Right
+
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Party_Decentralize_Populism
+		icon = GFX_focus_RAJ_just_good_business
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Party_Approach_The_Right 
+		}
+
+		relative_position_id = USA_1936_Party_Approach_The_Right
+
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	
+	focus = {
+		id = USA_1936_Party_Meet_With_Byrd
+		icon = GFX_focus_usa_honor_the_confederacy
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Party_A_Blind_Eye 
+		}
+		
+		prerequisite = { 
+			focus = USA_1936_Party_Decentralize_Populism 
+		}
+
+		relative_position_id = USA_1936_Party_A_Blind_Eye
+
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Party_White_Populism
+		icon = GFX_focus_ger_reichskommisariats
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Party_Meet_With_Byrd 
+		}
+
+		relative_position_id = USA_1936_Party_Meet_With_Byrd
+
+		mutually_exclusive = {
+			focus = USA_1936_Party_Thesis_Antithesis_Synthesis
+			focus = USA_1936_Party_A_Peculiar_Reconciliation
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Party_Thesis_Antithesis_Synthesis
+		icon = GFX_focus_GER_the_peoples_victory
+		x = 2
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Party_Meet_With_Kennedy 
+			focus = USA_1936_Party_Meet_With_Byrd
+		}
+
+		relative_position_id = USA_1936_Party_Meet_With_Kennedy
+
+		mutually_exclusive = {
+			focus = USA_1936_Party_A_Peculiar_Reconciliation
+			focus = USA_1936_Party_White_Populism
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Economic_A_New_Plan
+		icon = GFX_focus_SOV_merge_plants
+		x = 0
+		y = 1
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Address_The_People 
+		}
+
+		relative_position_id = USA_1936_Address_The_People
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Economic_Strike_Oil
+		icon = GFX_focus_PER_increase_oil_sales
+		x = -1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Economic_A_New_Plan 
+		}
+
+		relative_position_id = USA_1936_Economic_A_New_Plan
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Economic_Fight_The_Dust_Bowl
+		icon = GFX_focus_generic_farmland
+		x = 0
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Economic_Strike_Oil 
+		}
+
+		relative_position_id = USA_1936_Economic_Strike_Oil
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Economic_Mechanize_Farming
+		icon = GFX_focus_JAP_central_agricultural_association
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Economic_Fight_The_Dust_Bowl 
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Economic_Industrial_Jobs
+		}
+
+		relative_position_id = USA_1936_Economic_Fight_The_Dust_Bowl
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Economic_Public_Works
+		icon = GFX_focus_JAP_launch_the_income_doubling_plan
+		x = 2
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Economic_A_New_Plan 
+		}
+
+		relative_position_id = USA_1936_Economic_A_New_Plan
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Economic_Industrial_Jobs
+		icon = GFX_focus_CHI_found_fertiliser_plant
+		x = -1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Economic_Public_Works 
+		}
+
+		relative_position_id = USA_1936_Economic_Public_Works
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Economic_Infastructure_Projects
+		icon = GFX_focus_PRC_establish_shorter_market_plans
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Economic_Public_Works 
+		}
+
+		relative_position_id = USA_1936_Economic_Public_Works
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Economic_Hospital_Expansion
+		icon = GFX_focus_INS_expand_batavia_med_school
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Economic_Industrial_Jobs 
+		}
+
+		prerequisite = {
+			focus = USA_1936_Economic_Infastructure_Projects
+		}
+
+		relative_position_id = USA_1936_Economic_Industrial_Jobs
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Economic_Steady_Progress
+		icon = GFX_focus_CHI_planned_economy
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Economic_Mechanize_Farming 
+		}
+
+		prerequisite = {
+			focus = USA_1936_Economic_Hospital_Expansion
+		}
+
+		relative_position_id = USA_1936_Economic_Mechanize_Farming
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_People_Mobilizing_Coalition
+		icon = GFX_focus_CZE_coalition_building
+		x = 6
+		y = 1
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Address_The_People 
+		}
+
+		relative_position_id = USA_1936_Address_The_People
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_People_Take_The_Airwaves
+		icon = GFX_goal_generic_radar
+		x = -2
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_People_Mobilizing_Coalition 
+		}
+
+		relative_position_id = USA_1936_People_Mobilizing_Coalition
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_People_Free_Club_Commissions
+		icon = GFX_focus_usa_union_representation_act
+		x = 0
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_People_Mobilizing_Coalition 
+		}
+
+		relative_position_id = USA_1936_People_Mobilizing_Coalition
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_People_A_National_Machine
+		icon = GFX_focus_generic_election
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_People_Take_The_Airwaves 
+		}
+
+		prerequisite = { 
+			focus = USA_1936_People_Free_Club_Commissions
+		}
+
+		relative_position_id = USA_1936_People_Take_The_Airwaves
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_People_Barnstorm_America
+		icon = GFX_focus_PRC_rally_the_women
+		x = 2
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_People_Mobilizing_Coalition 
+		}
+
+		relative_position_id = USA_1936_People_Mobilizing_Coalition
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_People_Print_The_American_Progress
+		icon = GFX_focus_generic_printing_press
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_People_Free_Club_Commissions 
+		}
+
+		prerequisite = { 
+			focus = USA_1936_People_Barnstorm_America 
+		}
+
+		relative_position_id = USA_1936_People_Free_Club_Commissions
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_People_Enroll_Blacks
+		icon = GFX_focus_generic_vote
+		x = -1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_People_A_National_Machine 
+		}
+
+		prerequisite = { 
+			focus = USA_1936_People_Print_The_American_Progress 
+		}
+
+		relative_position_id = USA_1936_People_A_National_Machine
+
+		mutually_exclusive = {
+			focus = USA_1936_People_Enroll_Southerners
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_People_Enroll_Southerners
+		icon = GFX_focus_RAJ_enrollment_of_dali_children
+		x = 3
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_People_A_National_Machine 
+		}
+
+		prerequisite = { 
+			focus = USA_1936_People_Print_The_American_Progress 
+		}
+
+		relative_position_id = USA_1936_People_A_National_Machine
+
+		mutually_exclusive = {
+			focus = USA_1936_People_Enroll_Blacks
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_People_The_DC_Rally
+		icon = GFX_focus_AFG_royal_guard
+		x = 2
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_People_Enroll_Blacks
+			focus = USA_1936_People_Enroll_Southerners  
+		}
+
+		relative_position_id = USA_1936_People_Enroll_Blacks
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Rock_Em_Sock_Em
+		icon = GFX_focus_generic_workers_and_farmers_rise
+		x = 9
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Party_A_Peculiar_Reconciliation
+			focus = USA_1936_Party_Thesis_Antithesis_Synthesis
+			focus = USA_1936_Party_White_Populism
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Economic_Steady_Progress
+		}
+
+		prerequisite = { 
+			focus = USA_1936_People_The_DC_Rally
+		}
+
+		relative_position_id = USA_1936_Party_A_Peculiar_Reconciliation
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_1936_Longism_Ready_For_Reelection
+		icon = GFX_focus_usa_recruit_the_free_corps
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_1936_Rock_Em_Sock_Em
+		}
+
+		relative_position_id = USA_1936_Rock_Em_Sock_Em
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	## LONG 2
+
+	focus = {
+		id = USA_Long_President_Long_Relected
+		icon = GFX_focus_AFG_pashtunistan_referendum 
+		x = 10
+		y = 10
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		available = {
+			always = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_War_On_Poverty
+		icon = GFX_focus_generic_low_cost_housing
+		x = -4
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_President_Long_Relected 
+		}
+
+		relative_position_id = USA_Long_President_Long_Relected
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Bypass_The_Court
+		icon = GFX_focus_RAJ_war_taxes
+		x = -2
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_War_On_Poverty 
+		}
+
+		relative_position_id = USA_Long_War_On_Poverty
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Fund_Federal_Guidance
+		icon = GFX_focus_NOR_continue_nygaardsvold_government
+		x = -2
+		y = 1
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Bypass_The_Court 
+		}
+
+		relative_position_id = USA_Long_Bypass_The_Court
+
+		mutually_exclusive = {
+			focus = USA_Long_Fund_State_Guidance
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Fund_State_Guidance
+		icon = GFX_focus_CHI_a_new_middle_kingdom
+		x = 0
+		y = 1
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Bypass_The_Court 
+		}
+
+		relative_position_id = USA_Long_Bypass_The_Court
+
+		mutually_exclusive = {
+			focus = USA_Long_Fund_Federal_Guidance
+		}
+
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Great_War_Bonus_Bill
+		icon = GFX_focus_ETH_ecole_militaire_haile_selassie_1er
+		x = 2
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Fund_Federal_Guidance 
+			focus = USA_Long_Fund_State_Guidance
+		}
+
+		relative_position_id = USA_Long_Fund_Federal_Guidance
+
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Housing_Grant_Bill
+		icon = GFX_focus_SWE_hygienic_housing
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_War_On_Poverty 
+		}
+
+		relative_position_id = USA_Long_War_On_Poverty
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Thirty_Hour_Work_Week
+		icon = GFX_focus_ICE_embrace_the_workers_revolution
+		x = -1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Housing_Grant_Bill 
+		}
+
+		relative_position_id = USA_Long_Housing_Grant_Bill
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Townsend_Plan
+		icon = GFX_focus_generic_monetary_union
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Housing_Grant_Bill 
+		}
+
+		relative_position_id = USA_Long_Housing_Grant_Bill
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Free_College_Concept
+		icon = GFX_focus_AFG_education_reform
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Thirty_Hour_Work_Week 
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Townsend_Plan
+		}
+
+		relative_position_id = USA_Long_Thirty_Hour_Work_Week
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_War_On_Autocracy
+		icon = GFX_focus_BEL_government_resigns
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_President_Long_Relected 
+		}
+
+		relative_position_id = USA_Long_President_Long_Relected
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Cap_Campaign_Donations
+		icon = GFX_focus_FIN_motti_tactics
+		x = -1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_War_On_Autocracy 
+		}
+
+		relative_position_id = USA_Long_War_On_Autocracy
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Destroying_The_Poll_Tax
+		icon = GFX_focus_AUS_lawmaking_leniency
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_War_On_Autocracy 
+		}
+
+		relative_position_id = USA_Long_War_On_Autocracy
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Every_Friend_A_Longist
+		icon = GFX_focus_generic_stalinist_industry
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Cap_Campaign_Donations 
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Destroying_The_Poll_Tax
+		}
+
+		relative_position_id = USA_Long_Cap_Campaign_Donations
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Reforming_The_Electoral_College
+		icon = GFX_focus_generic_treaty
+		x = -1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Every_Friend_A_Longist 
+		}
+
+		relative_position_id = USA_Long_Every_Friend_A_Longist
+
+		mutually_exclusive = {
+			focus = USA_Long_Abolishing_The_Electoral_College
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Abolishing_The_Electoral_College
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Every_Friend_A_Longist 
+		}
+
+		relative_position_id = USA_Long_Every_Friend_A_Longist
+
+		mutually_exclusive = {
+			focus = USA_Long_Reforming_The_Electoral_College
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_War_On_Disease
+		icon = GFX_focus_research2
+		x = 4
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_President_Long_Relected 
+		}
+
+		relative_position_id = USA_Long_President_Long_Relected
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Hospital_In_Every_Creek
+		icon = GFX_goal_generic_soviet_construction
+		x = -1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_War_On_Disease 
+		}
+
+		relative_position_id = USA_Long_War_On_Disease
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Cap_Drug_Prices
+		icon = GFX_focus_FIN_oy_alkoholiliike
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_War_On_Disease 
+		}
+
+		relative_position_id = USA_Long_War_On_Disease
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Mayo_Brothers
+		icon = GFX_focus_ARG_develop_the_electricity_sector
+		x = 3
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_War_On_Disease 
+		}
+
+		relative_position_id = USA_Long_War_On_Disease
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Revolutionize_Medicine
+		icon = GFX_focus_generic_socialist_science
+		x = 0
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Mayo_Brothers 
+		}
+
+		relative_position_id = USA_Long_Mayo_Brothers
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Overhaul_Orphanages
+		icon = GFX_focus_PHI_pro_hacendados
+		x = 0
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Hospital_In_Every_Creek 
+		}
+
+		relative_position_id = USA_Long_Hospital_In_Every_Creek
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Maternal_Welfare_Bill
+		icon = GFX_focus_generic_stockpile_currency
+		x = 2
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Cap_Drug_Prices
+		}
+
+		relative_position_id = USA_Long_Hospital_In_Every_Creek
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Nationalize_Healthcare
+		icon = GFX_focus_generic_field_hostpital
+		x = 2
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Overhaul_Orphanages 
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Maternal_Welfare_Bill
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Revolutionize_Medicine
+		}
+
+		relative_position_id = USA_Long_Overhaul_Orphanages
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = USA_Long_Every_Man_A_King
+		icon = GFX_focus_generic_monarchist_sentiment
+		x = 6
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10			
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Great_War_Bonus_Bill 
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Free_College_Concept
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Reforming_The_Electoral_College
+			focus = USA_Long_Abolishing_The_Electoral_College
+		}
+
+		prerequisite = { 
+			focus = USA_Long_Nationalize_Healthcare
+		}
+
+		relative_position_id = USA_Long_Great_War_Bonus_Bill
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	##   ##   ####    ####      ####    ######     ##     ######   ##  ##
+	### ###    ##      ##        ##     # ## #    ####     ##  ##  ##  ##
+	#######    ##      ##        ##       ##     ##  ##    ##  ##  ##  ##
+	#######    ##      ##        ##       ##     ##  ##    #####    ####
+	## # ##    ##      ##   #    ##       ##     ######    ## ##     ##
+	##   ##    ##      ##  ##    ##       ##     ##  ##    ##  ##    ##
+	##   ##   ####    #######   ####     ####    ##  ##   #### ##   ####
+	focus = {
+		id = USA_MILITARY_The_Armed_Forces
+		icon = GFX_usa_recruit_the_free_corps
+		x = 55
+		y = 5
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			army_experience = 15
+			navy_experience = 15
+			air_experience = 15
+		}
+	}
+	## LAND
+
+	#######   #####   ######    #####
+	##   #  ##   ##   ##  ##  ##   ##
+	## #    ##   ##   ##  ##  ##   ##
+	####    ##   ##   #####   ##   ##
+	## #    ##   ##   ##      ##   ##
+	##      ##   ##   ##      ##   ##
+	####      #####   ####      #####
+	focus = {
+		id = USA_FOPO_Assessing_The_Situation
+		icon = GFX_generic_diplomatic_treaty
+		x = 30
+		y = 5
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.05
+				date < 1950.1.1
+			}		
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_POLITICS }
+
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	## LTO
+}

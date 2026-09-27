@@ -1,0 +1,13 @@
+characters = {
+
+	FRA_Francois_de_La_Rocque = {
+		name = "Francois de La Rocque"
+		portraits = {
+			civilian = { large = GFX_Portrait_FRA_Francois_de_La_Rocque }
+		}
+		country_leader = {
+			ideology = clerical_ultranationalism
+			traits = { }
+		}
+	}
+}

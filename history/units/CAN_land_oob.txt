@@ -1,0 +1,207 @@
+# CAN land OOB -- adapted from CAN_1936_nsb.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Royal Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "District Militia"
+
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Royal Motorized Brigade"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Royal Garrison Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1st Royal Infantry Division"
+		location = 3778
+		division_template = "Royal Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "2nd Royal Infantry Division"
+		location = 4345
+		division_template = "Royal Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "3rd Royal Infantry Division"
+		location = 1408
+		division_template = "Royal Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "4th Royal Infantry Division"
+		location = 4872
+		division_template = "Royal Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "5th Royal Infantry Division"
+		location = 3010
+		division_template = "Royal Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "6th Royal Infantry Division"
+		location = 3778
+		division_template = "Royal Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "7th Royal Infantry Division"
+		location = 4345
+		division_template = "Royal Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "1st District Militia"
+		location = 1408
+		division_template = "District Militia"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "1st Royal Motorized Brigade"
+		location = 4872
+		division_template = "Royal Motorized Brigade"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "1st Royal Garrison Brigade"
+		location = 3010
+		division_template = "Royal Garrison Brigade"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = CAN
+		}
+		requested_factories = 4
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = CAN
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = CAN
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = CAN
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_1
+				creator = CAN
+				version_name = "CAN 1936 Fighter"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_cas_airframe_1
+				creator = CAN
+				version_name = "CAN 1936 CAS"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+	}
+}

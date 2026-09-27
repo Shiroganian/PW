@@ -1,0 +1,13 @@
+characters = {
+
+	NIC_Juan_Bautista_Sacasa = {
+		name = "Juan Bautista Sacasa"
+		portraits = {
+			civilian = { large = GFX_Portrait_NIC_Juan_Bautista_Sacasa }
+		}
+		country_leader = {
+			ideology = progressive_liberalism
+			traits = { }
+		}
+	}
+}

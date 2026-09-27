@@ -1,0 +1,136 @@
+# IRA land OOB -- adapted from lore-scaled generated formation set
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "People's Rifle Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Revolutionary Militia"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1st People's Rifle Division"
+		location = 4379
+		division_template = "People's Rifle Division"
+		start_experience_factor = 0.32
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "2nd People's Rifle Division"
+		location = 1464
+		division_template = "People's Rifle Division"
+		start_experience_factor = 0.32
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "3rd People's Rifle Division"
+		location = 10467
+		division_template = "People's Rifle Division"
+		start_experience_factor = 0.32
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "1st Revolutionary Militia"
+		location = 4379
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.52
+	}
+	division = {
+		name = "2nd Revolutionary Militia"
+		location = 1464
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.52
+	}
+	division = {
+		name = "3rd Revolutionary Militia"
+		location = 10467
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.52
+	}
+	division = {
+		name = "4th Revolutionary Militia"
+		location = 4379
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.52
+	}
+	division = {
+		name = "5th Revolutionary Militia"
+		location = 1464
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.52
+	}
+	division = {
+		name = "6th Revolutionary Militia"
+		location = 10467
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.52
+	}
+	division = {
+		name = "7th Revolutionary Militia"
+		location = 4379
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.52
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = IRA
+		}
+		requested_factories = 5
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = IRA
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = IRA
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

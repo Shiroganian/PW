@@ -1,0 +1,37 @@
+
+state = {
+	id = 940
+	name = "STATE_940"
+	manpower = 463559
+	
+	state_category = town
+	
+	resources = {
+		rubber = 4 
+	}
+
+	history = {
+
+
+		
+		owner = BSF
+
+		add_core_of = BSF
+buildings = {
+	industrial_complex = 1
+	arms_factory = 1
+			infrastructure = 1
+		}
+
+		victory_points = {
+			13278 2 
+		}
+		
+	}
+
+	provinces = {
+		13278 13279 13280
+	}
+
+	local_supplies = 0.0 
+}

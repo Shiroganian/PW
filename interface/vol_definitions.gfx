@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_VOL_Mogho_Naba_Kom_II
+        texturefile = gfx/leaders/VOL/Portrait_VOL_Mogho_Naba_Kom_II.dds
+    }
+}

@@ -1,0 +1,13 @@
+characters = {
+
+	UKR_Symon_V_Petliura = {
+		name = "Symon V. Petliura"
+		portraits = {
+			civilian = { large = GFX_Portrait_UKR_Symon_V_Petliura }
+		}
+		country_leader = {
+			ideology = popular_front_socialism
+			traits = { }
+		}
+	}
+}

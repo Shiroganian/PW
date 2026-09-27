@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_QIN_Puyi
+        texturefile = gfx/leaders/QIN/Portrait_QIN_Puyi.dds
+    }
+}

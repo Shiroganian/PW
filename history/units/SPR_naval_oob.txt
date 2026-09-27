@@ -1,0 +1,85 @@
+# SPR MTG naval OOB -- source: SPR_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "Armada Española"
+		naval_base = 10024
+		task_force = {
+			name = "Armada Española Task Force"
+			location = 10024
+			ship = { name = "ARE España" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Battleship Class" } } }
+			ship = { name = "ARE Jaime I" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Battleship Class" } } }
+			ship = { name = "ARE Libertad" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Cruiser Class" } } }
+			ship = { name = "ARE Almirante Cervera" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Cruiser Class" } } }
+			ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Cruiser Class" } } }
+			ship = { name = "ARE República" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Cruiser Class" } } }
+			ship = { name = "ARE Méndez Núñez" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Cruiser Class" } } }
+			ship = { name = "SPR CL-06" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Cruiser Class" } } }
+			ship = { name = "ARE Alsedo" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "ARE Velasco" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "ARE Lazaga" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "ARE Almirante Miranda" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "ARE Almirante Ferrándiz" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "ARE Alcalá Galiano" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "ARE Almirante Valdés" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "ARE Churucca" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "ARE José Luis Díez" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "ARE Lepanto" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "ARE Almirante Antequera" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "SPR DD-13" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "SPR DD-14" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "SPR DD-15" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "SPR DD-16" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "SPR DD-17" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "SPR DD-18" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Destroyer Class" } } }
+			ship = { name = "ARE B1" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Submarine Class" } } }
+			ship = { name = "ARE B2" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Submarine Class" } } }
+			ship = { name = "ARE B3" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Submarine Class" } } }
+			ship = { name = "ARE B4" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Submarine Class" } } }
+			ship = { name = "ARE B5" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Submarine Class" } } }
+			ship = { name = "ARE B6" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Submarine Class" } } }
+			ship = { name = "ARE C1" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Submarine Class" } } }
+			ship = { name = "ARE C2" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Submarine Class" } } }
+			ship = { name = "ARE C3" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Submarine Class" } } }
+			ship = { name = "ARE C4" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Submarine Class" } } }
+			ship = { name = "ARE C5" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Submarine Class" } } }
+			ship = { name = "ARE C6" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "SPR 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = SPR
+			version_name = "SPR 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = SPR
+			version_name = "SPR 1936 Destroyer Class"
+		}
+		requested_factories = 3
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = SPR
+			version_name = "SPR 1936 Submarine Class"
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+}

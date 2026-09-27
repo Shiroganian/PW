@@ -1,0 +1,13 @@
+characters = {
+
+	BLC_Ahmad_Yar_Khan = {
+		name = "Ahmad Yar Khan"
+		portraits = {
+			civilian = { large = GFX_Portrait_BLC_Ahmad_Yar_Khan }
+		}
+		country_leader = {
+			ideology = decentralized_oligarchism
+			traits = { }
+		}
+	}
+}

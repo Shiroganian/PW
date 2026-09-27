@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_DNZ_Arthur_Brill
+        texturefile = gfx/leaders/DNZ/Portrait_DNZ_Arthur_Brill.dds
+    }
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_SHG_Wu_Tiecheng
+        texturefile = gfx/leaders/SHG/Portrait_SHG_Wu_Tiecheng.dds
+    }
+}

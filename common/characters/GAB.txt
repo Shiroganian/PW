@@ -1,0 +1,13 @@
+characters = {
+
+	GAB_Leon_Mba = {
+		name = "Leon Mba"
+		portraits = {
+			civilian = { large = GFX_Portrait_GAB_Leon_Mba }
+		}
+		country_leader = {
+			ideology = national_liberalism
+			traits = { }
+		}
+	}
+}

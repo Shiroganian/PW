@@ -1,0 +1,119 @@
+# BRM land OOB -- adapted from BRM_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Foghorn Leghorn"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+
+	}
+	support = {
+  	      engineer = { x = 0 y = 0 }
+ 	}
+}
+
+division_template = {
+	name = "Reserve Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1st Foghorn Leghorn"
+		location = 1492
+		division_template = "Foghorn Leghorn"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "2nd Foghorn Leghorn"
+		location = 7603
+		division_template = "Foghorn Leghorn"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "3rd Foghorn Leghorn"
+		location = 7909
+		division_template = "Foghorn Leghorn"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "1st Reserve Brigade"
+		location = 1492
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "2nd Reserve Brigade"
+		location = 7603
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "3rd Reserve Brigade"
+		location = 1417
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "4th Reserve Brigade"
+		location = 12256
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "5th Reserve Brigade"
+		location = 12404
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "6th Reserve Brigade"
+		location = 7469
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "7th Reserve Brigade"
+		location = 4626
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = BRM
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+}

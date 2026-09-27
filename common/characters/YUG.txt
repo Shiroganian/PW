@@ -1,0 +1,13 @@
+characters = {
+
+	YUG_Alexander_I = {
+		name = "Alexander I"
+		portraits = {
+			civilian = { large = GFX_Portrait_YUG_Alexander_I }
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			traits = { }
+		}
+	}
+}

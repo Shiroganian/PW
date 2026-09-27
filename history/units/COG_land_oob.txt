@@ -1,0 +1,159 @@
+# COG land OOB -- adapted from COG_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Troupes du Katanga"
+
+	template_counter = 3
+	role = infantry
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Reserve Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Troupes du Katanga"
+		location = 988
+		division_template = "Troupes du Katanga"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "2nd Troupes du Katanga"
+		location = 2024
+		division_template = "Troupes du Katanga"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "3rd Troupes du Katanga"
+		location = 988
+		division_template = "Troupes du Katanga"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "4th Troupes du Katanga"
+		location = 4128
+		division_template = "Troupes du Katanga"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "5th Troupes du Katanga"
+		location = 4128
+		division_template = "Troupes du Katanga"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "6th Troupes du Katanga"
+		location = 2024
+		division_template = "Troupes du Katanga"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "1st Reserve Brigade"
+		location = 2024
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.12
+		start_equipment_factor = 0.52
+	}
+	division = {
+		name = "2nd Reserve Brigade"
+		location = 988
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.12
+		start_equipment_factor = 0.52
+	}
+	division = {
+		name = "3rd Reserve Brigade"
+		location = 1929
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.12
+		start_equipment_factor = 0.52
+	}
+	division = {
+		name = "1st Cavalry Brigade"
+		location = 2024
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "2nd Cavalry Brigade"
+		location = 8048
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "3rd Cavalry Brigade"
+		location = 8048
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = COG
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = COG
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

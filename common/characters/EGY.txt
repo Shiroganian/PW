@@ -1,0 +1,13 @@
+characters = {
+
+	EGY_Farouk_I = {
+		name = "Farouk I"
+		portraits = {
+			civilian = { large = GFX_Portrait_EGY_Farouk_I }
+		}
+		country_leader = {
+			ideology = national_liberalism
+			traits = { }
+		}
+	}
+}

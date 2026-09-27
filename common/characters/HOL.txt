@@ -1,0 +1,13 @@
+characters = {
+
+	HOL_Wilhelmina = {
+		name = "Wilhelmina"
+		portraits = {
+			civilian = { large = GFX_Portrait_HOL_Wilhelmina }
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			traits = { }
+		}
+	}
+}

@@ -1,0 +1,80 @@
+# FRA BBA air OOB -- source: FRA_1936_air_bba.txt
+air_wings = {
+	29 = {
+		small_plane_airframe_1 = {
+			owner = "FRA"
+			amount = 100
+			version_name = "FRA 1936 Fighter"
+		}
+	}
+	21 = {
+		small_plane_airframe_1 = {
+			owner = "FRA"
+			amount = 100
+			version_name = "FRA 1936 Fighter"
+		}
+	}
+	18 = {
+		small_plane_airframe_1 = {
+			owner = "FRA"
+			amount = 100
+			version_name = "FRA 1936 Fighter"
+		}
+	}
+	458 = {
+		small_plane_airframe_1 = {
+			owner = "FRA"
+			amount = 100
+			version_name = "FRA 1936 Fighter"
+		}
+	}
+	15 = {
+		small_plane_airframe_1 = {
+			owner = "FRA"
+			amount = 4
+			version_name = "FRA 1936 Fighter"
+		}
+	}
+	459 = {
+		small_plane_cas_airframe_1 = {
+			owner = "FRA"
+			amount = 100
+			version_name = "FRA 1936 CAS"
+		}
+	}
+	28 = {
+		small_plane_cas_airframe_1 = {
+			owner = "FRA"
+			amount = 100
+			version_name = "FRA 1936 CAS"
+		}
+	}
+	17 = {
+		small_plane_cas_airframe_1 = {
+			owner = "FRA"
+			amount = 4
+			version_name = "FRA 1936 CAS"
+		}
+	}
+	16 = {
+		medium_plane_airframe_1 = {
+			owner = "FRA"
+			amount = 100
+			version_name = "FRA 1936 Tactical Bomber"
+		}
+	}
+	14 = {
+		medium_plane_airframe_1 = {
+			owner = "FRA"
+			amount = 20
+			version_name = "FRA 1936 Tactical Bomber"
+		}
+	}
+	461 = {
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "FRA"
+			amount = 72
+			version_name = "FRA 1936 Naval Bomber"
+		}
+	}
+}

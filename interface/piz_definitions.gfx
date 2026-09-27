@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_PIZ_Ricardo_J_Alfaro
+        texturefile = gfx/leaders/PIZ/Portrait_PIZ_Ricardo_J_Alfaro.dds
+    }
+}

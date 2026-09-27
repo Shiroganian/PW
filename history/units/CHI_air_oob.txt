@@ -1,0 +1,52 @@
+# CHI BBA air OOB -- source: CHI_1936_air_bba.txt
+air_wings = {
+	592 = {
+		small_plane_airframe_1 = {
+			owner = "CHI"
+			amount = 100
+			version_name = "CHI 1936 Fighter"
+		}
+	}
+	750 = {
+		small_plane_airframe_1 = {
+			owner = "CHI"
+			amount = 100
+			version_name = "CHI 1936 Fighter"
+		}
+	}
+	599 = {
+		small_plane_airframe_1 = {
+			owner = "CHI"
+			amount = 60
+			version_name = "CHI 1936 Fighter"
+		}
+	}
+	1036 = {
+		small_plane_cas_airframe_1 = {
+			owner = "CHI"
+			amount = 100
+			version_name = "CHI 1936 CAS"
+		}
+	}
+	596 = {
+		small_plane_cas_airframe_1 = {
+			owner = "CHI"
+			amount = 20
+			version_name = "CHI 1936 CAS"
+		}
+	}
+	593 = {
+		medium_plane_airframe_1 = {
+			owner = "CHI"
+			amount = 72
+			version_name = "CHI 1936 Tactical Bomber"
+		}
+	}
+	591 = {
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "CHI"
+			amount = 48
+			version_name = "CHI 1936 Naval Bomber"
+		}
+	}
+}

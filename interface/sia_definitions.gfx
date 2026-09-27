@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_SIA_Ananda_Mahidol
+        texturefile = gfx/leaders/SIA/Portrait_SIA_Ananda_Mahidol.dds
+    }
+}

@@ -1,0 +1,13 @@
+faction_template_union_of_europe = {
+	name = "Union of Europe"
+	icon = GFX_faction_logo_eu 
+	manifest = faction_manifest_european_dominance
+
+	goals = {
+		
+	}
+
+	default_rules = {
+	}
+	
+}

@@ -1,0 +1,13 @@
+characters = {
+
+	BHU_Jigme_Wangchuck = {
+		name = "Jigme Wangchuck"
+		portraits = {
+			civilian = { large = GFX_Portrait_BHU_Jigme_Wangchuck }
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			traits = { }
+		}
+	}
+}

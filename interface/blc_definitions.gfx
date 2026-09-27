@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_BLC_Ahmad_Yar_Khan
+        texturefile = gfx/leaders/BLC/Portrait_BLC_Ahmad_Yar_Khan.dds
+    }
+}

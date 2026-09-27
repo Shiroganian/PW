@@ -1,0 +1,25 @@
+# HOL BBA air OOB -- source: HOL_1936_air_bba.txt
+air_wings = {
+	7 = {
+		small_plane_airframe_1 = {
+			owner = "HOL"
+			amount = 48
+			version_name = "HOL 1936 Fighter"
+		}
+		small_plane_cas_airframe_1 = {
+			owner = "HOL"
+			amount = 24
+			version_name = "HOL 1936 CAS"
+		}
+		medium_plane_airframe_1 = {
+			owner = "HOL"
+			amount = 12
+			version_name = "HOL 1936 Tactical Bomber"
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "HOL"
+			amount = 12
+			version_name = "HOL 1936 Naval Bomber"
+		}
+	}
+}

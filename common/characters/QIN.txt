@@ -1,0 +1,13 @@
+characters = {
+
+	QIN_Puyi = {
+		name = "Puyi"
+		portraits = {
+			civilian = { large = GFX_Portrait_QIN_Puyi }
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			traits = { }
+		}
+	}
+}

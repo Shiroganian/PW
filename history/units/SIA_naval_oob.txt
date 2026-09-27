@@ -1,0 +1,57 @@
+# SIA MTG naval OOB -- source: SIA_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "Royal Navy"
+		naval_base = 7408
+		task_force = {
+			name = "Royal Navy Task Force"
+			location = 7408
+			ship = { name = "HTMS Sukhothai" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SIA version_name = "SIA 1936 Cruiser Class" } } }
+			ship = { name = "HTMS Phra Ruang" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "SIA 1936 Destroyer Class" } } }
+			ship = { name = "HTMS Trad" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "SIA 1936 Destroyer Class" } } }
+			ship = { name = "HTMS Phuket" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "SIA 1936 Destroyer Class" } } }
+			ship = { name = "HTMS Surasdra" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "SIA 1936 Destroyer Class" } } }
+			ship = { name = "HTMS Pattani" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "SIA 1936 Destroyer Class" } } }
+			ship = { name = "HTMS CMB 1" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "SIA 1936 Destroyer Class" } } }
+			ship = { name = "SIA SS-01" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIA version_name = "SIA 1936 Submarine Class" } } }
+			ship = { name = "SIA SS-02" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIA version_name = "SIA 1936 Submarine Class" } } }
+			ship = { name = "SIA SS-03" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIA version_name = "SIA 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = SIA
+			version_name = "SIA 1936 Destroyer Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = SIA
+			version_name = "SIA 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = SIA
+			version_name = "SIA 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

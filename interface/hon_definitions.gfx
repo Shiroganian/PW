@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_HON_Tiburcio_Carias_Andino
+        texturefile = gfx/leaders/HON/Portrait_HON_Tiburcio_Carias_Andino.dds
+    }
+}

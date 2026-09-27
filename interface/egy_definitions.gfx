@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_EGY_Farouk_I
+        texturefile = gfx/leaders/EGY/Portrait_EGY_Farouk_I.dds
+    }
+}

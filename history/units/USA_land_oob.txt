@@ -1,0 +1,282 @@
+# USA land OOB -- adapted from USA_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Infantry Division"
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "National Guard Division"
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Division"
+
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Garrison Brigade"
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Marine Brigade"
+
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1st Infantry Division"
+		location = 3957
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "2nd Infantry Division"
+		location = 3878
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "3rd Infantry Division"
+		location = 9450
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "4th Infantry Division"
+		location = 9814
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "5th Infantry Division"
+		location = 6845
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "6th Infantry Division"
+		location = 6732
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "7th Infantry Division"
+		location = 6710
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "8th Infantry Division"
+		location = 10412
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "9th Infantry Division"
+		location = 4180
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "10th Infantry Division"
+		location = 3957
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "1st National Guard Division"
+		location = 3878
+		division_template = "National Guard Division"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "2nd National Guard Division"
+		location = 9450
+		division_template = "National Guard Division"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "3rd National Guard Division"
+		location = 9814
+		division_template = "National Guard Division"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "1st Cavalry Division"
+		location = 6845
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "1st Garrison Brigade"
+		location = 6732
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "2nd Garrison Brigade"
+		location = 6710
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "1st Marine Brigade"
+		location = 10412
+		division_template = "Marine Brigade"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "2nd Marine Brigade"
+		location = 4180
+		division_template = "Marine Brigade"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = USA
+		}
+		requested_factories = 12
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = USA
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = USA
+		}
+		requested_factories = 4
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_1
+				creator = USA
+				version_name = "USA 1936 Fighter"
+			}
+			requested_factories = 2
+			progress = 0.20
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_cas_airframe_1
+				creator = USA
+				version_name = "USA 1936 CAS"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+	}
+}

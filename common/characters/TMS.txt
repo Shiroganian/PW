@@ -1,0 +1,13 @@
+characters = {
+
+	TMS_Junaid_Khan = {
+		name = "Junaid Khan"
+		portraits = {
+			civilian = { large = GFX_Portrait_TMS_Junaid_Khan }
+		}
+		country_leader = {
+			ideology = ethnic_oligarchism
+			traits = { }
+		}
+	}
+}

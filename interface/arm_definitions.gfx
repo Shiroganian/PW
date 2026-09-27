@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_ARM_Avetis_Aharonian
+        texturefile = gfx/leaders/ARM/Portrait_ARM_Avetis_Aharonian.dds
+    }
+}

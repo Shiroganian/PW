@@ -1,0 +1,13 @@
+characters = {
+
+	IRA_Nguyen_An_Ninh = {
+		name = "Nguyen An Ninh"
+		portraits = {
+			civilian = { large = GFX_Portrait_IRA_Nguyen_An_Ninh }
+		}
+		country_leader = {
+			ideology = left_wing_nationalism
+			traits = { }
+		}
+	}
+}

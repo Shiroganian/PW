@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_DEN_Christian_X
+        texturefile = gfx/leaders/DEN/Portrait_DEN_Christian_X.dds
+    }
+}

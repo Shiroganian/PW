@@ -1,0 +1,38 @@
+# BRA BBA air OOB -- source: BRA_1936_air_bba.txt
+air_wings = {
+	500 = {
+		small_plane_airframe_1 = {
+			owner = "BRA"
+			amount = 100
+			version_name = "BRA 1936 Fighter"
+		}
+	}
+	502 = {
+		small_plane_airframe_1 = {
+			owner = "BRA"
+			amount = 20
+			version_name = "BRA 1936 Fighter"
+		}
+	}
+	944 = {
+		small_plane_cas_airframe_1 = {
+			owner = "BRA"
+			amount = 60
+			version_name = "BRA 1936 CAS"
+		}
+	}
+	499 = {
+		medium_plane_airframe_1 = {
+			owner = "BRA"
+			amount = 36
+			version_name = "BRA 1936 Tactical Bomber"
+		}
+	}
+	498 = {
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "BRA"
+			amount = 24
+			version_name = "BRA 1936 Naval Bomber"
+		}
+	}
+}

@@ -1,0 +1,192 @@
+# ENG MTG naval OOB -- source: ENG_1936_Naval.txt
+units = {
+	fleet = {
+		name = "Royal Navy 1"
+		naval_base = 9458
+		task_force = {
+			name = "Royal Navy Task Force 1"
+			location = 9458
+			ship = { name = "HMS Furious" definition = carrier start_experience_factor = 0.35 equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Carrier Class" } } }
+			ship = { name = "HMS Glorious" definition = carrier start_experience_factor = 0.35 equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Carrier Class" } } }
+			ship = { name = "HMS Eagle" definition = carrier start_experience_factor = 0.35 equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Carrier Class" } } }
+			ship = { name = "HMS Nelson" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Battleship Class" } } }
+			ship = { name = "HMS Royal Oak" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Battleship Class" } } }
+			ship = { name = "HMS Ramillies" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Battleship Class" } } }
+			ship = { name = "HMS Valiant" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Battleship Class" } } }
+			ship = { name = "HMS Revenge" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Battleship Class" } } }
+			ship = { name = "HMS Barham" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Battleship Class" } } }
+			ship = { name = "HMS Calcutta" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Enterprise" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Curlew" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Ceres" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Cairo" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Dragon" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Delhi" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Curacoa" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Capetown" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Galatea" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Orion" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Sabre" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Keith" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Vanessa" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Wessex" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Vivacious" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Windsor" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Foxhound" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Fearless" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Fame" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Foresight" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Whitshed" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Viceroy" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Vanity" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Acasta" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Ardent" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Achates" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Arrow" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Broke" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Whitehall" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Verity" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Witherington" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Wallace" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Whitley" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Vivien" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Woolston" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Codrington" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Beagle" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Bulldog" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Boadicea" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Brilliant" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Saladin" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Oxley" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS Sturgeon" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS Starfish" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS L26" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS Oberon" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS L23" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS H31" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS H34" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS H44" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS H50" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS Shark" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS Salmon" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS Otway" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS Oswald" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+		}
+	}
+	fleet = {
+		name = "Royal Navy 2"
+		naval_base = 11064
+		task_force = {
+			name = "Royal Navy Task Force 2"
+			location = 11064
+			ship = { name = "HMS Courageous" definition = carrier start_experience_factor = 0.35 equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Carrier Class" } } }
+			ship = { name = "HMS Hermes" definition = carrier start_experience_factor = 0.35 equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Carrier Class" } } }
+			ship = { name = "HMS Rodney" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Battleship Class" } } }
+			ship = { name = "HMS Royal Sovereign" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Battleship Class" } } }
+			ship = { name = "HMS Queen Elizabeth" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Battleship Class" } } }
+			ship = { name = "HMS Resolution" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Battleship Class" } } }
+			ship = { name = "HMS Warspite" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Battleship Class" } } }
+			ship = { name = "HMS Emerald" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Carlisle" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Adventure" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Caradoc" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Diomede" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Cardiff" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Dunedin" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Colombo" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Arethusa" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Coventry" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Cruiser Class" } } }
+			ship = { name = "HMS Shikari" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Venetia" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Viscount" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Vesper" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Wakeful" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Faulknor" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Fury" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Forester" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Firedrake" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Fortune" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Wild Swan" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Verdun" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Kempenfelt" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Antelope" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Acheron" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Anthony" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Amazon" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Wanderer" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Witch" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Volunteer" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Wolverine" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Valorous" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Campbell" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Worcester" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Wolfhound" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Basilisk" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Boreas" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Blanche" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Brazen" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Skate" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Scimitar" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Destroyer Class" } } }
+			ship = { name = "HMS Swordfish" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS Seahorse" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS H32" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS L27" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS Thames" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS H28" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS H33" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS H43" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS H49" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS Sealion" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS Snapper" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS Porpoise" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS Osiris" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+			ship = { name = "HMS Severn" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "ENG 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = ENG
+			version_name = "ENG 1936 Cruiser Class"
+		}
+		requested_factories = 3
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = ENG
+			version_name = "ENG 1936 Battleship Class"
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = ENG
+			version_name = "ENG 1936 Destroyer Class"
+		}
+		requested_factories = 11
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = ENG
+			version_name = "ENG 1936 Submarine Class"
+		}
+		requested_factories = 5
+		progress = 0.20
+		efficiency = 50
+	}
+}

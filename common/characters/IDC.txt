@@ -1,0 +1,13 @@
+characters = {
+
+	IDC_Ngo_Dinh_Diem = {
+		name = "Ngo Dinh Diem"
+		portraits = {
+			civilian = { large = GFX_Portrait_IDC_Ngo_Dinh_Diem }
+		}
+		country_leader = {
+			ideology = liberal_socialism
+			traits = { }
+		}
+	}
+}

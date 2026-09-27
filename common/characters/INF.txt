@@ -1,0 +1,13 @@
+characters = {
+
+	INF_Hideki_Tojo = {
+		name = "Hideki Tojo"
+		portraits = {
+			civilian = { large = GFX_Portrait_INF_Hideki_Tojo }
+		}
+		country_leader = {
+			ideology = pan_asian_ultranationalism
+			traits = { }
+		}
+	}
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_BLT_Kazys_Grinius
+        texturefile = gfx/leaders/BLT/Portrait_BLT_Kazys_Grinius.dds
+    }
+}

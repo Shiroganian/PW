@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_GAB_Leon_Mba
+        texturefile = gfx/leaders/GAB/Portrait_GAB_Leon_Mba.dds
+    }
+}

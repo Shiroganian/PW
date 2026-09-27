@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_CAR_Barthelemy_Boganda
+        texturefile = gfx/leaders/CAR/Portrait_CAR_Barthelemy_Boganda.dds
+    }
+}

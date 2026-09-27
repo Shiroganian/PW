@@ -1,0 +1,13 @@
+characters = {
+
+	TUR_Abdulmecid_II = {
+		name = "Abdulmecid II"
+		portraits = {
+			civilian = { large = GFX_Portrait_TUR_Abdulmecid_II }
+		}
+		country_leader = {
+			ideology = national_liberalism
+			traits = { }
+		}
+	}
+}

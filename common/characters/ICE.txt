@@ -1,0 +1,13 @@
+characters = {
+
+	ICE_Christian_X = {
+		name = "Christian X"
+		portraits = {
+			civilian = { large = GFX_Portrait_ICE_Christian_X }
+		}
+		country_leader = {
+			ideology = progressive_liberalism
+			traits = { }
+		}
+	}
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_KBM_Taw_Phaya_Galay
+        texturefile = gfx/leaders/KBM/Portrait_KBM_Taw_Phaya_Galay.dds
+    }
+}

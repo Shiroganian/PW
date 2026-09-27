@@ -1,0 +1,20 @@
+# IRQ BBA air OOB -- source: IRQ_1936_air_bba.txt
+air_wings = {
+	291 = {
+		small_plane_airframe_1 = {
+			owner = "IRQ"
+			amount = 24
+			version_name = "IRQ 1936 Fighter"
+		}
+		small_plane_cas_airframe_1 = {
+			owner = "IRQ"
+			amount = 12
+			version_name = "IRQ 1936 CAS"
+		}
+		medium_plane_airframe_1 = {
+			owner = "IRQ"
+			amount = 12
+			version_name = "IRQ 1936 Tactical Bomber"
+		}
+	}
+}

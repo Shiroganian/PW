@@ -1,0 +1,56 @@
+# BHU land OOB -- adapted from BHU_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Infantry Division"
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Territorial Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1st Infantry Division"
+		location = 8010
+		division_template = "Infantry Division"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "1st Territorial Brigade"
+		location = 8010
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.12
+		start_equipment_factor = 0.52
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = BHU
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

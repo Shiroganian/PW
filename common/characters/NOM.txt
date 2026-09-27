@@ -1,0 +1,13 @@
+characters = {
+
+	NOM_Ibrahim_Bek = {
+		name = "Ibrahim Bek"
+		portraits = {
+			civilian = { large = GFX_Portrait_NOM_Ibrahim_Bek }
+		}
+		country_leader = {
+			ideology = ethnic_oligarchism
+			traits = { }
+		}
+	}
+}

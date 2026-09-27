@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_SOV_Roman_I
+        texturefile = gfx/leaders/SOV/Portrait_SOV_Roman_I.dds
+    }
+}

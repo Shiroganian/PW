@@ -1,0 +1,33 @@
+
+state = {
+	id = 942
+	name = "STATE_942"
+	manpower = 120000
+	
+	state_category = town
+
+	history = {
+
+
+		
+		owner = BSF
+
+		add_core_of = BSF
+buildings = {
+	arms_factory = 1
+			infrastructure = 1
+		}
+
+		victory_points = {
+			12939 2 
+		}
+
+	}
+
+	provinces = {
+		12939 13283 13284
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0 
+}

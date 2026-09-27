@@ -1,0 +1,13 @@
+characters = {
+
+	WAF_Obafemi_Awolowo = {
+		name = "Obafemi Awolowo"
+		portraits = {
+			civilian = { large = GFX_Portrait_WAF_Obafemi_Awolowo }
+		}
+		country_leader = {
+			ideology = centrism
+			traits = { }
+		}
+	}
+}

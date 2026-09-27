@@ -1,0 +1,80 @@
+# GER BBA air OOB -- source: GER_1936_air_bba.txt
+air_wings = {
+	763 = {
+		small_plane_airframe_1 = {
+			owner = "GER"
+			amount = 100
+			version_name = "GER 1936 Fighter"
+		}
+	}
+	66 = {
+		small_plane_airframe_1 = {
+			owner = "GER"
+			amount = 100
+			version_name = "GER 1936 Fighter"
+		}
+	}
+	64 = {
+		small_plane_airframe_1 = {
+			owner = "GER"
+			amount = 100
+			version_name = "GER 1936 Fighter"
+		}
+	}
+	52 = {
+		small_plane_airframe_1 = {
+			owner = "GER"
+			amount = 100
+			version_name = "GER 1936 Fighter"
+		}
+	}
+	4 = {
+		small_plane_airframe_1 = {
+			owner = "GER"
+			amount = 4
+			version_name = "GER 1936 Fighter"
+		}
+	}
+	58 = {
+		small_plane_cas_airframe_1 = {
+			owner = "GER"
+			amount = 100
+			version_name = "GER 1936 CAS"
+		}
+	}
+	153 = {
+		small_plane_cas_airframe_1 = {
+			owner = "GER"
+			amount = 100
+			version_name = "GER 1936 CAS"
+		}
+	}
+	63 = {
+		small_plane_cas_airframe_1 = {
+			owner = "GER"
+			amount = 4
+			version_name = "GER 1936 CAS"
+		}
+	}
+	61 = {
+		medium_plane_airframe_1 = {
+			owner = "GER"
+			amount = 100
+			version_name = "GER 1936 Tactical Bomber"
+		}
+	}
+	57 = {
+		medium_plane_airframe_1 = {
+			owner = "GER"
+			amount = 20
+			version_name = "GER 1936 Tactical Bomber"
+		}
+	}
+	56 = {
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "GER"
+			amount = 72
+			version_name = "GER 1936 Naval Bomber"
+		}
+	}
+}

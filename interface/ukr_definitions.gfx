@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_UKR_Symon_V_Petliura
+        texturefile = gfx/leaders/UKR/Portrait_UKR_Symon_V_Petliura.dds
+    }
+}

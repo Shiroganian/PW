@@ -1,0 +1,172 @@
+﻿###########################
+# Political Events
+###########################
+# By Kallar, Nijato, Sir Rogers, Zankoas and ~mw~
+###########################
+
+add_namespace = kr.political
+
+#################################
+### Returning Cores to Allies ###
+#################################
+
+# Which cores to return?
+country_event = {
+	id = kr.political.75
+	immediate = { log = "[GetDateText]: [Root.GetName]: event kr.political.75" }
+	title = kr.political.75.t
+	desc = kr.political.75.d
+	picture = GFX_report_event_generic_diplomacy2
+
+	is_triggered_only = yes
+
+	option = {
+		name = kr.political.75.a #return all land
+		ai_chance = {
+			factor = 100
+		}
+		clr_country_flag = KR_returning_land
+		custom_effect_tooltip = KR_will_return_all
+		hidden_effect = {
+			event_target:return_to = {
+				country_event = kr.political.76
+			}
+		}
+	}
+	option = {
+		name = kr.political.75.b #return all land but vital provinces
+		trigger = {
+			any_owned_state = {
+				is_controlled_by = ROOT
+				is_claim_or_core_of_ROOT = no
+				is_important_state = yes
+				NOT = { has_state_flag = KR_keeping_state@ROOT }
+				OR = {
+					is_core_of = event_target:return_to
+					is_claimed_by = event_target:return_to
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+		custom_effect_tooltip = KR_will_return_rest
+		hidden_effect = {
+			clr_country_flag = KR_returning_land
+			every_owned_state = {
+				limit = {
+					is_claim_or_core_of_ROOT = no
+					NOT = { has_state_flag = KR_keeping_state@ROOT }
+					NOT = { is_core_of = event_target:return_to }
+					is_claimed_by = event_target:return_to
+				}
+				set_state_flag = KR_keeping_state@ROOT
+			}
+			event_target:return_to = {
+				country_event = kr.political.76
+			}
+		}
+	}
+	option = {
+		name = kr.political.75.c #return cores only
+		trigger = {
+			is_ai = no
+			any_owned_state = {
+				is_claim_or_core_of_ROOT = no
+				is_important_state = no
+				NOT = { has_state_flag = KR_keeping_state@ROOT 	}
+				is_core_of = event_target:return_to
+			}
+			any_owned_state = {
+				is_claim_or_core_of_ROOT = no
+				is_important_state = no
+				NOT = { has_state_flag = KR_keeping_state@ROOT 	}
+				NOT = { is_core_of = event_target:return_to }
+				is_claimed_by = event_target:return_to
+			}
+		}
+		custom_effect_tooltip = KR_will_return_cores
+		hidden_effect = {
+			clr_country_flag = KR_returning_land
+			every_owned_state = {
+				limit = {
+					is_claim_or_core_of_ROOT = no
+					NOT = { has_state_flag = KR_keeping_state@ROOT }
+					NOT = { is_core_of = event_target:return_to }
+					is_claimed_by = event_target:return_to
+				}
+				set_state_flag = KR_keeping_state@ROOT
+			}
+			event_target:return_to = {
+				country_event = kr.political.76
+			}
+		}
+	}
+	option = {
+		name = kr.political.75.e #keep it all you pig
+		trigger = {
+			is_ai = no
+		}
+		clr_country_flag = KR_returning_land
+		custom_effect_tooltip = KR_will_not_return
+		hidden_effect = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						is_core_of = event_target:return_to
+						is_claimed_by = event_target:return_to
+					}
+					is_claim_or_core_of_ROOT = no
+					NOT = { has_state_flag = KR_keeping_state@ROOT }
+				}
+				set_state_flag = KR_keeping_state@ROOT
+			}
+		}
+	}
+}
+
+# Cores/claims have been returned by an ally
+country_event = {
+	id = kr.political.76
+	immediate = { log = "[GetDateText]: [Root.GetName]: event kr.political.76" }
+	title = kr.political.76.t
+	desc = kr.political.76.d
+	picture = GFX_report_event_generic_diplomacy2
+
+	is_triggered_only = yes
+
+	option = {
+		name = kr.political.76.a
+		add_opinion_modifier = {
+			target = FROM
+			modifier = KR_returned_land
+		}
+		while_loop_effect = {
+			limit = {
+				any_state = {
+					is_owned_by = FROM
+					is_claim_or_core_of_ROOT = yes
+					is_claim_or_core_of_FROM = no
+					OR = {
+						any_neighbor_state = { is_owned_by = ROOT }
+						is_coastal = yes
+					}
+					NOT = { has_state_flag = KR_keeping_state@FROM }
+				}
+			}
+			every_state = {
+				limit = {
+					is_owned_by = FROM
+					is_claim_or_core_of_ROOT = yes
+					is_claim_or_core_of_FROM = no
+					OR = {
+						any_neighbor_state = { is_owned_by = ROOT }
+						is_coastal = yes
+					}
+					NOT = { has_state_flag = KR_keeping_state@FROM }
+				}
+				transfer_to_ROOT = yes
+			}
+		}
+	}
+}

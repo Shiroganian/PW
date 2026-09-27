@@ -1,0 +1,15 @@
+# INF BBA air OOB -- source: lore-scaled BBA template
+air_wings = {
+	671 = {
+		small_plane_airframe_1 = {
+			owner = "INF"
+			amount = 12
+			version_name = "INF 1936 Fighter"
+		}
+		small_plane_cas_airframe_1 = {
+			owner = "INF"
+			amount = 6
+			version_name = "INF 1936 CAS"
+		}
+	}
+}

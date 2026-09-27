@@ -1,0 +1,13 @@
+characters = {
+
+	TRA_Roman_von_Ungern_Sternberg = {
+		name = "Roman von Ungern-Sternberg"
+		portraits = {
+			civilian = { large = GFX_Portrait_TRA_Roman_von_Ungern_Sternberg }
+		}
+		country_leader = {
+			ideology = military_junta
+			traits = { }
+		}
+	}
+}

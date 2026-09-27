@@ -1,0 +1,13 @@
+characters = {
+
+	NZL_George_V = {
+		name = "George V"
+		portraits = {
+			civilian = { large = GFX_Portrait_NZL_George_V }
+		}
+		country_leader = {
+			ideology = progressivism
+			traits = { }
+		}
+	}
+}

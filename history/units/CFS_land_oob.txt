@@ -1,0 +1,100 @@
+# CFS land OOB -- adapted from lore-scaled generated formation set
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Reserve Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1st Infantry Division"
+		location = 5117
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "2nd Infantry Division"
+		location = 2115
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "3rd Infantry Division"
+		location = 5117
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "1st Reserve Brigade"
+		location = 2115
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = CFS
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = CFS
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = CFS
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

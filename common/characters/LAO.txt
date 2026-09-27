@@ -1,0 +1,13 @@
+characters = {
+
+	LAO_Sisavang_Vong = {
+		name = "Sisavang Vong"
+		portraits = {
+			civilian = { large = GFX_Portrait_LAO_Sisavang_Vong }
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			traits = { }
+		}
+	}
+}

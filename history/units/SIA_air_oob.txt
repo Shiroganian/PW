@@ -1,0 +1,27 @@
+# SIA BBA air OOB -- source: SIA_1936_air_bba.txt
+air_wings = {
+	1076 = {
+		small_plane_airframe_1 = {
+			owner = "SIA"
+			amount = 36
+			version_name = "SIA 1936 Fighter"
+		}
+		medium_plane_airframe_1 = {
+			owner = "SIA"
+			amount = 12
+			version_name = "SIA 1936 Tactical Bomber"
+		}
+	}
+	289 = {
+		small_plane_cas_airframe_1 = {
+			owner = "SIA"
+			amount = 12
+			version_name = "SIA 1936 CAS"
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "SIA"
+			amount = 12
+			version_name = "SIA 1936 Naval Bomber"
+		}
+	}
+}

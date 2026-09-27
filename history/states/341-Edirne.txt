@@ -1,0 +1,36 @@
+
+state= {
+	id=341
+	name="STATE_341"
+	manpower = 363947
+	resources={
+
+	}
+	
+	state_category = town
+
+	history= {
+		victory_points = {
+			11842 5
+		}
+		buildings = {
+			dockyard = 1
+			infrastructure = 2
+			industrial_complex = 3
+			849 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
+		}
+		owner = CIZ
+
+		add_core_of = CIZ
+		add_core_of = TUR
+		add_claim_by = GRE
+	}
+	provinces=
+	{
+849 922 3879 3893 6895 11842 	}
+
+	local_supplies=0.0 
+}

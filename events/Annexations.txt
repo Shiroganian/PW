@@ -1,0 +1,2875 @@
+###########################
+# Annexation Events
+###########################
+
+add_namespace = annex
+
+country_event = { # Check for possible annexations
+	id = annex.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.1" }
+	hidden = yes
+	is_triggered_only = yes
+	option = {
+		every_owned_state = {
+			limit = {
+				is_in_array = { global.annexation_relevant_states = THIS }
+				is_claim_or_core_of_ROOT = no
+				is_controlled_by = ROOT
+			}
+			check_potential_annexations = yes
+		}
+		clr_country_flag = KR_checking_for_possible_annexations
+	}
+}
+
+country_event = { # Fate of the United States of America
+	id = annex.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.2" }
+	title = annexation_USA_CONQ
+	desc = annexation_USA_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = USA }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = USA } }
+		set_country_flag = USA_CONQ
+		occupy_massive_country = yes
+	}
+}
+
+country_event = { # Fate of the Panama International Zone
+	id = annex.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.3" }
+	title = annexation_PIZ_CONQ
+	desc = annexation_PIZ_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = PIZ }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = PIZ } }
+		set_country_flag = PIZ_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Dominion of Canada
+	id = annex.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.4" }
+	title = annexation_CAN_CONQ
+	desc = annexation_CAN_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = CAN }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = CAN } }
+		set_country_flag = CAN_CONQ
+		occupy_massive_country = yes
+	}
+}
+
+country_event = { # Fate of the Mexican State
+	id = annex.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.5" }
+	title = annexation_MEX_CONQ
+	desc = annexation_MEX_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = MEX }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = MEX } }
+		set_country_flag = MEX_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Panama
+	id = annex.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.6" }
+	title = annexation_PAN_CONQ
+	desc = annexation_PAN_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = PAN }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = PAN } }
+		set_country_flag = PAN_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Cuba
+	id = annex.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.7" }
+	title = annexation_CUB_CONQ
+	desc = annexation_CUB_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = CUB }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = CUB } }
+		set_country_flag = CUB_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Guatemala
+	id = annex.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.8" }
+	title = annexation_GUA_CONQ
+	desc = annexation_GUA_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = GUA }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = GUA } }
+		set_country_flag = GUA_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of El Salvador
+	id = annex.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.9" }
+	title = annexation_ELS_CONQ
+	desc = annexation_ELS_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = ELS }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = ELS } }
+		set_country_flag = ELS_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Honduras
+	id = annex.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.10" }
+	title = annexation_HON_CONQ
+	desc = annexation_HON_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = HON }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = HON } }
+		set_country_flag = HON_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Nicaragua
+	id = annex.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.11" }
+	title = annexation_NIC_CONQ
+	desc = annexation_NIC_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = NIC }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = NIC } }
+		set_country_flag = NIC_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Costa Rica
+	id = annex.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.12" }
+	title = annexation_COS_CONQ
+	desc = annexation_COS_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = COS }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = COS } }
+		set_country_flag = COS_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Haiti
+	id = annex.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.13" }
+	title = annexation_HAI_CONQ
+	desc = annexation_HAI_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = HAI }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = HAI } }
+		set_country_flag = HAI_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Dominican Republic
+	id = annex.14
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.14" }
+	title = annexation_DOM_CONQ
+	desc = annexation_DOM_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = DOM }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = DOM } }
+		set_country_flag = DOM_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of the United States of Brazil
+	id = annex.15
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.15" }
+	title = annexation_BRA_CONQ
+	desc = annexation_BRA_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = BRA }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = BRA } }
+		set_country_flag = BRA_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of Amazonian Liberation Movement
+	id = annex.16
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.16" }
+	title = annexation_ALM_CONQ
+	desc = annexation_ALM_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = ALM }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = ALM } }
+		set_country_flag = ALM_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Brazilian Salvation Front
+	id = annex.17
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.17" }
+	title = annexation_BSF_CONQ
+	desc = annexation_BSF_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = BSF }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = BSF } }
+		set_country_flag = BSF_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Amazon Authority
+	id = annex.18
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.18" }
+	title = annexation_AMA_CONQ
+	desc = annexation_AMA_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = AMA }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = AMA } }
+		set_country_flag = AMA_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Gran Colombia
+	id = annex.19
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.19" }
+	title = annexation_GDC_CONQ
+	desc = annexation_GDC_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = GDC }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = GDC } }
+		set_country_flag = GDC_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Guayana
+	id = annex.20
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.20" }
+	title = annexation_GYA_CONQ
+	desc = annexation_GYA_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = GYA }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = GYA } }
+		set_country_flag = GYA_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Venezuela
+	id = annex.21
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.21" }
+	title = annexation_VEN_CONQ
+	desc = annexation_VEN_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = VEN }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = VEN } }
+		set_country_flag = VEN_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Argentine Republic
+	id = annex.22
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.22" }
+	title = annexation_ARG_CONQ
+	desc = annexation_ARG_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = ARG }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = ARG } }
+		set_country_flag = ARG_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Peru
+	id = annex.23
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.23" }
+	title = annexation_PRU_CONQ
+	desc = annexation_PRU_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = PRU }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = PRU } }
+		set_country_flag = PRU_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Chile
+	id = annex.24
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.24" }
+	title = annexation_CHL_CONQ
+	desc = annexation_CHL_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = CHL }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = CHL } }
+		set_country_flag = CHL_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Bolivia
+	id = annex.25
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.25" }
+	title = annexation_BOL_CONQ
+	desc = annexation_BOL_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = BOL }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = BOL } }
+		set_country_flag = BOL_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Paraguay
+	id = annex.26
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.26" }
+	title = annexation_PAR_CONQ
+	desc = annexation_PAR_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = PAR }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = PAR } }
+		set_country_flag = PAR_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Uruguay
+	id = annex.27
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.27" }
+	title = annexation_URG_CONQ
+	desc = annexation_URG_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = URG }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = URG } }
+		set_country_flag = URG_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the German Reich
+	id = annex.28
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.28" }
+	title = annexation_GER_CONQ
+	desc = annexation_GER_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = GER }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = GER } }
+		set_country_flag = GER_CONQ
+		occupy_massive_country = yes
+	}
+}
+
+country_event = { # Fate of the United Kingdom of Great Britain and Northern Ireland
+	id = annex.29
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.29" }
+	title = annexation_ENG_CONQ
+	desc = annexation_ENG_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = ENG }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = ENG } }
+		set_country_flag = ENG_CONQ
+		occupy_massive_country = yes
+	}
+}
+
+country_event = { # Fate of the Russian Republic
+	id = annex.30
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.30" }
+	title = annexation_SOV_CONQ
+	desc = annexation_SOV_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = SOV }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = SOV } }
+		set_country_flag = SOV_CONQ
+		occupy_massive_country = yes
+	}
+}
+
+country_event = { # Fate of the French State
+	id = annex.31
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.31" }
+	title = annexation_FRA_CONQ
+	desc = annexation_FRA_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = FRA }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = FRA } }
+		set_country_flag = FRA_CONQ
+		occupy_massive_country = yes
+	}
+}
+
+country_event = { # Fate of the Italian Social Republic
+	id = annex.32
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.32" }
+	title = annexation_ITA_CONQ
+	desc = annexation_ITA_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = ITA }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = ITA } }
+		set_country_flag = ITA_CONQ
+		occupy_massive_country = yes
+	}
+}
+
+country_event = { # Fate of the Polish Republic
+	id = annex.33
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.33" }
+	title = annexation_POL_CONQ
+	desc = annexation_POL_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = POL }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = POL } }
+		set_country_flag = POL_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of the Danzig International Zone
+	id = annex.34
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.34" }
+	title = annexation_DNZ_CONQ
+	desc = annexation_DNZ_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = DNZ }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = DNZ } }
+		set_country_flag = DNZ_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of White Ruthenia
+	id = annex.35
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.35" }
+	title = annexation_BLR_CONQ
+	desc = annexation_BLR_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = BLR }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = BLR } }
+		set_country_flag = BLR_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of Ukrainian People's Republic
+	id = annex.36
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.36" }
+	title = annexation_UKR_CONQ
+	desc = annexation_UKR_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = UKR }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = UKR } }
+		set_country_flag = UKR_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of the Baltic Union
+	id = annex.37
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.37" }
+	title = annexation_BLT_CONQ
+	desc = annexation_BLT_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = BLT }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = BLT } }
+		set_country_flag = BLT_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Hungary
+	id = annex.38
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.38" }
+	title = annexation_HUN_CONQ
+	desc = annexation_HUN_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = HUN }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = HUN } }
+		set_country_flag = HUN_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Yugoslavia
+	id = annex.39
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.39" }
+	title = annexation_YUG_CONQ
+	desc = annexation_YUG_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = YUG }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = YUG } }
+		set_country_flag = YUG_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Romania
+	id = annex.40
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.40" }
+	title = annexation_ROM_CONQ
+	desc = annexation_ROM_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = ROM }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = ROM } }
+		set_country_flag = ROM_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Albania
+	id = annex.41
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.41" }
+	title = annexation_ALB_CONQ
+	desc = annexation_ALB_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = ALB }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = ALB } }
+		set_country_flag = ALB_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Czechoslovakian Republic
+	id = annex.42
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.42" }
+	title = annexation_CZE_CONQ
+	desc = annexation_CZE_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = CZE }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = CZE } }
+		set_country_flag = CZE_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Bulgaria
+	id = annex.43
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.43" }
+	title = annexation_BUL_CONQ
+	desc = annexation_BUL_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = BUL }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = BUL } }
+		set_country_flag = BUL_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Spanish Directory
+	id = annex.44
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.44" }
+	title = annexation_SPR_CONQ
+	desc = annexation_SPR_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = SPR }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = SPR } }
+		set_country_flag = SPR_CONQ
+		occupy_massive_country = yes
+	}
+}
+
+country_event = { # Fate of the Portuguese State
+	id = annex.45
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.45" }
+	title = annexation_POR_CONQ
+	desc = annexation_POR_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = POR }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = POR } }
+		set_country_flag = POR_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Belgium
+	id = annex.46
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.46" }
+	title = annexation_BEL_CONQ
+	desc = annexation_BEL_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = BEL }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = BEL } }
+		set_country_flag = BEL_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of the Netherlands
+	id = annex.47
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.47" }
+	title = annexation_HOL_CONQ
+	desc = annexation_HOL_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = HOL }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = HOL } }
+		set_country_flag = HOL_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Grand Duchy of Luxembourg
+	id = annex.48
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.48" }
+	title = annexation_LUX_CONQ
+	desc = annexation_LUX_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = LUX }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = LUX } }
+		set_country_flag = LUX_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Denmark
+	id = annex.49
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.49" }
+	title = annexation_DEN_CONQ
+	desc = annexation_DEN_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = DEN }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = DEN } }
+		set_country_flag = DEN_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Norway
+	id = annex.50
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.50" }
+	title = annexation_NOR_CONQ
+	desc = annexation_NOR_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = NOR }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = NOR } }
+		set_country_flag = NOR_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Sweden
+	id = annex.51
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.51" }
+	title = annexation_SWE_CONQ
+	desc = annexation_SWE_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = SWE }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = SWE } }
+		set_country_flag = SWE_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Finland
+	id = annex.52
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.52" }
+	title = annexation_FIN_CONQ
+	desc = annexation_FIN_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = FIN }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = FIN } }
+		set_country_flag = FIN_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Iceland
+	id = annex.53
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.53" }
+	title = annexation_ICE_CONQ
+	desc = annexation_ICE_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = ICE }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = ICE } }
+		set_country_flag = ICE_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Empire of Japan
+	id = annex.54
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.54" }
+	title = annexation_JAP_CONQ
+	desc = annexation_JAP_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = JAP }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = JAP } }
+		set_country_flag = JAP_CONQ
+		occupy_massive_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of China
+	id = annex.55
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.55" }
+	title = annexation_CHI_CONQ
+	desc = annexation_CHI_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = CHI }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = CHI } }
+		set_country_flag = CHI_CONQ
+		occupy_massive_country = yes
+	}
+}
+
+country_event = { # Fate of Xinjiang National Republic
+	id = annex.56
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.56" }
+	title = annexation_SIK_CONQ
+	desc = annexation_SIK_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = SIK }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = SIK } }
+		set_country_flag = SIK_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Chinese Empire
+	id = annex.57
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.57" }
+	title = annexation_QIN_CONQ
+	desc = annexation_QIN_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = QIN }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = QIN } }
+		set_country_flag = QIN_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Tuva
+	id = annex.58
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.58" }
+	title = annexation_TAN_CONQ
+	desc = annexation_TAN_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = TAN }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = TAN } }
+		set_country_flag = TAN_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Mongolian People's Republic
+	id = annex.59
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.59" }
+	title = annexation_MON_CONQ
+	desc = annexation_MON_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = MON }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = MON } }
+		set_country_flag = MON_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Manchurian Republic
+	id = annex.60
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.60" }
+	title = annexation_MAN_CONQ
+	desc = annexation_MAN_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = MAN }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = MAN } }
+		set_country_flag = MAN_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Tibetan State
+	id = annex.61
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.61" }
+	title = annexation_TIB_CONQ
+	desc = annexation_TIB_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = TIB }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = TIB } }
+		set_country_flag = TIB_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of Sichuan Clique
+	id = annex.62
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.62" }
+	title = annexation_SIC_CONQ
+	desc = annexation_SIC_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = SIC }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = SIC } }
+		set_country_flag = SIC_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of Ma Clique
+	id = annex.63
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.63" }
+	title = annexation_XSM_CONQ
+	desc = annexation_XSM_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = XSM }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = XSM } }
+		set_country_flag = XSM_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of Shanxi Clique
+	id = annex.64
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.64" }
+	title = annexation_SHX_CONQ
+	desc = annexation_SHX_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = SHX }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = SHX } }
+		set_country_flag = SHX_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of Shandong Clique
+	id = annex.65
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.65" }
+	title = annexation_SND_CONQ
+	desc = annexation_SND_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = SND }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = SND } }
+		set_country_flag = SND_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Shanghai International Zone
+	id = annex.66
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.66" }
+	title = annexation_SHG_CONQ
+	desc = annexation_SHG_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = SHG }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = SHG } }
+		set_country_flag = SHG_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Indian State
+	id = annex.67
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.67" }
+	title = annexation_RAJ_CONQ
+	desc = annexation_RAJ_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = RAJ }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = RAJ } }
+		set_country_flag = RAJ_CONQ
+		occupy_massive_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Indonesia
+	id = annex.68
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.68" }
+	title = annexation_INS_CONQ
+	desc = annexation_INS_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = INS }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = INS } }
+		set_country_flag = INS_CONQ
+		occupy_massive_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of the Philippines
+	id = annex.69
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.69" }
+	title = annexation_PHI_CONQ
+	desc = annexation_PHI_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = PHI }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = PHI } }
+		set_country_flag = PHI_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Dominion of Australia
+	id = annex.70
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.70" }
+	title = annexation_AST_CONQ
+	desc = annexation_AST_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = AST }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = AST } }
+		set_country_flag = AST_CONQ
+		occupy_massive_country = yes
+	}
+}
+
+country_event = { # Fate of the Dominion of New Zealand
+	id = annex.71
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.71" }
+	title = annexation_NZL_CONQ
+	desc = annexation_NZL_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = NZL }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = NZL } }
+		set_country_flag = NZL_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Burma
+	id = annex.72
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.72" }
+	title = annexation_KBM_CONQ
+	desc = annexation_KBM_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = KBM }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = KBM } }
+		set_country_flag = KBM_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of Burmese Republic
+	id = annex.73
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.73" }
+	title = annexation_BRM_CONQ
+	desc = annexation_BRM_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = BRM }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = BRM } }
+		set_country_flag = BRM_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Dominion of Burma
+	id = annex.74
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.74" }
+	title = annexation_DBM_CONQ
+	desc = annexation_DBM_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = DBM }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = DBM } }
+		set_country_flag = DBM_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Vietnam
+	id = annex.75
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.75" }
+	title = annexation_VIN_CONQ
+	desc = annexation_VIN_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = VIN }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = VIN } }
+		set_country_flag = VIN_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Cambodia
+	id = annex.76
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.76" }
+	title = annexation_KHM_CONQ
+	desc = annexation_KHM_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = KHM }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = KHM } }
+		set_country_flag = KHM_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Laos
+	id = annex.77
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.77" }
+	title = annexation_LAO_CONQ
+	desc = annexation_LAO_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = LAO }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = LAO } }
+		set_country_flag = LAO_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Indochinese Revolutionary Army
+	id = annex.78
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.78" }
+	title = annexation_IRA_CONQ
+	desc = annexation_IRA_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = IRA }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = IRA } }
+		set_country_flag = IRA_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the State of Indochina
+	id = annex.79
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.79" }
+	title = annexation_IDC_CONQ
+	desc = annexation_IDC_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = IDC }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = IDC } }
+		set_country_flag = IDC_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Indochinese National Front
+	id = annex.80
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.80" }
+	title = annexation_INF_CONQ
+	desc = annexation_INF_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = INF }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = INF } }
+		set_country_flag = INF_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Siam
+	id = annex.81
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.81" }
+	title = annexation_SIA_CONQ
+	desc = annexation_SIA_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = SIA }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = SIA } }
+		set_country_flag = SIA_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Alash Orda
+	id = annex.82
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.82" }
+	title = annexation_KAZ_CONQ
+	desc = annexation_KAZ_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = KAZ }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = KAZ } }
+		set_country_flag = KAZ_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of the Turkmenistani Republic
+	id = annex.83
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.83" }
+	title = annexation_TMS_CONQ
+	desc = annexation_TMS_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = TMS }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = TMS } }
+		set_country_flag = TMS_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Nomadic Union
+	id = annex.84
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.84" }
+	title = annexation_NOM_CONQ
+	desc = annexation_NOM_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = NOM }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = NOM } }
+		set_country_flag = NOM_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Afghanistan
+	id = annex.85
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.85" }
+	title = annexation_AFG_CONQ
+	desc = annexation_AFG_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = AFG }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = AFG } }
+		set_country_flag = AFG_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Balochistan
+	id = annex.86
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.86" }
+	title = annexation_BLC_CONQ
+	desc = annexation_BLC_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = BLC }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = BLC } }
+		set_country_flag = BLC_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Greece
+	id = annex.87
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.87" }
+	title = annexation_GRE_CONQ
+	desc = annexation_GRE_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = GRE }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = GRE } }
+		set_country_flag = GRE_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Constantinople International Zone
+	id = annex.88
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.88" }
+	title = annexation_CIZ_CONQ
+	desc = annexation_CIZ_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = CIZ }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = CIZ } }
+		set_country_flag = CIZ_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of Ottoman Empire
+	id = annex.89
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.89" }
+	title = annexation_TUR_CONQ
+	desc = annexation_TUR_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = TUR }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = TUR } }
+		set_country_flag = TUR_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Syria
+	id = annex.90
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.90" }
+	title = annexation_SYR_CONQ
+	desc = annexation_SYR_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = SYR }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = SYR } }
+		set_country_flag = SYR_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Armenia
+	id = annex.91
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.91" }
+	title = annexation_ARM_CONQ
+	desc = annexation_ARM_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = ARM }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = ARM } }
+		set_country_flag = ARM_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Kurdistan
+	id = annex.92
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.92" }
+	title = annexation_KUR_CONQ
+	desc = annexation_KUR_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = KUR }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = KUR } }
+		set_country_flag = KUR_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Mesopotamia
+	id = annex.93
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.93" }
+	title = annexation_IRQ_CONQ
+	desc = annexation_IRQ_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = IRQ }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = IRQ } }
+		set_country_flag = IRQ_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Georgia
+	id = annex.94
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.94" }
+	title = annexation_GEO_CONQ
+	desc = annexation_GEO_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = GEO }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = GEO } }
+		set_country_flag = GEO_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Azerbaijan
+	id = annex.95
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.95" }
+	title = annexation_AZR_CONQ
+	desc = annexation_AZR_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = AZR }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = AZR } }
+		set_country_flag = AZR_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Southern White Army
+	id = annex.96
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.96" }
+	title = annexation_TRA_CONQ
+	desc = annexation_TRA_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = TRA }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = TRA } }
+		set_country_flag = TRA_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Saudi Arabia
+	id = annex.97
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.97" }
+	title = annexation_SAU_CONQ
+	desc = annexation_SAU_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = SAU }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = SAU } }
+		set_country_flag = SAU_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Persia
+	id = annex.98
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.98" }
+	title = annexation_PER_CONQ
+	desc = annexation_PER_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = PER }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = PER } }
+		set_country_flag = PER_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Egypt
+	id = annex.99
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.99" }
+	title = annexation_EGY_CONQ
+	desc = annexation_EGY_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = EGY }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = EGY } }
+		set_country_flag = EGY_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of the Suez International Zone
+	id = annex.100
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.100" }
+	title = annexation_SIZ_CONQ
+	desc = annexation_SIZ_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = SIZ }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = SIZ } }
+		set_country_flag = SIZ_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Ethiopian Empire
+	id = annex.101
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.101" }
+	title = annexation_ETH_CONQ
+	desc = annexation_ETH_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = ETH }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = ETH } }
+		set_country_flag = ETH_CONQ
+		occupy_huge_country = yes
+	}
+}
+
+country_event = { # Fate of the Liberian Republic
+	id = annex.102
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.102" }
+	title = annexation_LIB_CONQ
+	desc = annexation_LIB_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = LIB }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = LIB } }
+		set_country_flag = LIB_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the West African Federation
+	id = annex.103
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.103" }
+	title = annexation_WAF_CONQ
+	desc = annexation_WAF_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = WAF }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = WAF } }
+		set_country_flag = WAF_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Union of South Africa
+	id = annex.104
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.104" }
+	title = annexation_SAF_CONQ
+	desc = annexation_SAF_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = SAF }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = SAF } }
+		set_country_flag = SAF_CONQ
+		occupy_large_country = yes
+	}
+}
+
+country_event = { # Fate of the Dominion of Southern Rhodesia
+	id = annex.105
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.105" }
+	title = annexation_RHO_CONQ
+	desc = annexation_RHO_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = RHO }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = RHO } }
+		set_country_flag = RHO_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of the Congo
+	id = annex.106
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.106" }
+	title = annexation_COG_CONQ
+	desc = annexation_COG_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = COG }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = COG } }
+		set_country_flag = COG_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of Congolese Liberation Movement
+	id = annex.107
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.107" }
+	title = annexation_CLM_CONQ
+	desc = annexation_CLM_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = CLM }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = CLM } }
+		set_country_flag = CLM_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Katanga
+	id = annex.108
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.108" }
+	title = annexation_KAT_CONQ
+	desc = annexation_KAT_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = KAT }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = KAT } }
+		set_country_flag = KAT_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Congo Free State
+	id = annex.109
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.109" }
+	title = annexation_CFS_CONQ
+	desc = annexation_CFS_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = CFS }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = CFS } }
+		set_country_flag = CFS_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Zambia
+	id = annex.110
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.110" }
+	title = annexation_ZAM_CONQ
+	desc = annexation_ZAM_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = ZAM }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = ZAM } }
+		set_country_flag = ZAM_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Madagascar
+	id = annex.111
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.111" }
+	title = annexation_MAD_CONQ
+	desc = annexation_MAD_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = MAD }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = MAD } }
+		set_country_flag = MAD_CONQ
+		occupy_medium_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Cameroon
+	id = annex.112
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.112" }
+	title = annexation_CMR_CONQ
+	desc = annexation_CMR_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = CMR }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = CMR } }
+		set_country_flag = CMR_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Chad
+	id = annex.113
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.113" }
+	title = annexation_CHA_CONQ
+	desc = annexation_CHA_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = CHA }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = CHA } }
+		set_country_flag = CHA_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Central African Republic
+	id = annex.114
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.114" }
+	title = annexation_CAR_CONQ
+	desc = annexation_CAR_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = CAR }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = CAR } }
+		set_country_flag = CAR_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Burkina Faso
+	id = annex.115
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.115" }
+	title = annexation_VOL_CONQ
+	desc = annexation_VOL_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = VOL }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = VOL } }
+		set_country_flag = VOL_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of the Ivory Coast
+	id = annex.116
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.116" }
+	title = annexation_IVO_CONQ
+	desc = annexation_IVO_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = IVO }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = IVO } }
+		set_country_flag = IVO_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Niger
+	id = annex.117
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.117" }
+	title = annexation_NGR_CONQ
+	desc = annexation_NGR_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = NGR }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = NGR } }
+		set_country_flag = NGR_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Republic of Ghana
+	id = annex.118
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.118" }
+	title = annexation_GHA_CONQ
+	desc = annexation_GHA_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = GHA }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = GHA } }
+		set_country_flag = GHA_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Gabonese Republic
+	id = annex.119
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.119" }
+	title = annexation_GAB_CONQ
+	desc = annexation_GAB_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = GAB }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = GAB } }
+		set_country_flag = GAB_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Irish Free State
+	id = annex.120
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.120" }
+	title = annexation_IRE_CONQ
+	desc = annexation_IRE_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = IRE }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = IRE } }
+		set_country_flag = IRE_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Nepal
+	id = annex.121
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.121" }
+	title = annexation_NEP_CONQ
+	desc = annexation_NEP_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = NEP }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = NEP } }
+		set_country_flag = NEP_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of Bhutan
+	id = annex.122
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.122" }
+	title = annexation_BHU_CONQ
+	desc = annexation_BHU_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = BHU }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = BHU } }
+		set_country_flag = BHU_CONQ
+		occupy_tiny_country = yes
+	}
+}
+
+country_event = { # Fate of the Sultanate of Muscat and Oman
+	id = annex.123
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.123" }
+	title = annexation_OMA_CONQ
+	desc = annexation_OMA_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = OMA }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = OMA } }
+		set_country_flag = OMA_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Kingdom of South Yemen
+	id = annex.124
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.124" }
+	title = annexation_YEM_CONQ
+	desc = annexation_YEM_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = YEM }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = YEM } }
+		set_country_flag = YEM_CONQ
+		occupy_small_country = yes
+	}
+}
+
+country_event = { # Fate of the Swiss Confederation
+	id = annex.125
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.125" }
+	title = annexation_SWI_CONQ
+	desc = annexation_SWI_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = SWI }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = SWI } }
+		set_country_flag = SWI_CONQ
+		occupy_medium_country = yes
+	}
+}

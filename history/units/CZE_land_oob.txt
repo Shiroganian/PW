@@ -1,0 +1,289 @@
+# CZE land OOB -- adapted from CZE_1936_nsb.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Pěší divize"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Reserve Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Rychlá divize"
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+
+	regimental_support = {
+		field_guns = { x = 1 y = 0 }
+	}
+
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Jezdecká brigáda"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Pěší divize"
+		location = 11542
+		division_template = "Pěší divize"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Pěší divize"
+		location = 3569
+		division_template = "Pěší divize"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "3rd Pěší divize"
+		location = 9692
+		division_template = "Pěší divize"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "4th Pěší divize"
+		location = 3583
+		division_template = "Pěší divize"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "5th Pěší divize"
+		location = 11401
+		division_template = "Pěší divize"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "6th Pěší divize"
+		location = 3581
+		division_template = "Pěší divize"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "7th Pěší divize"
+		location = 11691
+		division_template = "Pěší divize"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "8th Pěší divize"
+		location = 557
+		division_template = "Pěší divize"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "9th Pěší divize"
+		location = 11542
+		division_template = "Pěší divize"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "10th Pěší divize"
+		location = 3569
+		division_template = "Pěší divize"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Reserve Brigade"
+		location = 9692
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "2nd Reserve Brigade"
+		location = 3583
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "1st Motorized Division"
+		location = 11401
+		division_template = "Motorized Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Rychlá divize"
+		location = 3581
+		division_template = "Rychlá divize"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Jezdecká brigáda"
+		location = 11691
+		division_template = "Jezdecká brigáda"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Jezdecká brigáda"
+		location = 557
+		division_template = "Jezdecká brigáda"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = CZE
+		}
+		requested_factories = 4
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = CZE
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = CZE
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = CZE
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_1
+				creator = CZE
+				version_name = "CZE 1936 Fighter"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_cas_airframe_1
+				creator = CZE
+				version_name = "CZE 1936 CAS"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+	}
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_chassis_2
+				creator = CZE
+				version_name = "CZE 1936 Light Tank"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+		else = {
+			add_equipment_production = {
+				equipment = {
+					type = light_tank_equipment_2
+					creator = CZE
+					version_name = "CZE 1936 Light Tank"
+				}
+				requested_factories = 1
+				progress = 0.20
+				efficiency = 50
+			}
+		}
+	}
+}

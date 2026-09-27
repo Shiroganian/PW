@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_SWE_Gustaf_V
+        texturefile = gfx/leaders/SWE/Portrait_SWE_Gustaf_V.dds
+    }
+}

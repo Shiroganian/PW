@@ -1,0 +1,13 @@
+characters = {
+
+	COS_Ricardo_Jimenez_Oreamuno = {
+		name = "Ricardo Jimenez Oreamuno"
+		portraits = {
+			civilian = { large = GFX_Portrait_COS_Ricardo_Jimenez_Oreamuno }
+		}
+		country_leader = {
+			ideology = classical_conservatism
+			traits = { }
+		}
+	}
+}

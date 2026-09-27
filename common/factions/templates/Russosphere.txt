@@ -1,0 +1,13 @@
+faction_template_russosphere = {
+	name = "Russosphere"
+	icon = GFX_faction_logo_eu 
+	manifest = faction_manifest_european_dominance
+
+	goals = {
+		
+	}
+
+	default_rules = {
+	}
+	
+}

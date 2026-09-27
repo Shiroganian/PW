@@ -1,0 +1,43 @@
+# Subideology labels attached through common/scripted_guis/sg_subideologies.txt.
+# Politics: broad ideology, subideology, election information.
+# Diplomacy: ruling party, subideology, election information.
+
+guiTypes = {
+	containerWindowType = {
+		name = "countrypoliticsview_ideology_info"
+		position = { x = 88 y = 305 }
+		size = { width = 180 height = 60 }
+		clipping = no
+
+		instantTextboxType = {
+			name = "subideology_name"
+			position = { x = 9 y = 22 }
+			font = "hoi_16mbs"
+			text = "[GetSubIdeology]"
+			maxWidth = 170
+			maxHeight = 18
+			fixedsize = yes
+			alwaystransparent = yes
+			format = left
+		}
+	}
+
+	containerWindowType = {
+		name = "countrydiplomacyview_ideology_info"
+		position = { x = 258 y = 135 }
+		size = { width = 255 height = 60 }
+		clipping = no
+
+		instantTextboxType = {
+			name = "subideology_name"
+			position = { x = 5 y = 10 }
+			font = "hoi_16mbs"
+			text = "[GetSubIdeology]"
+			maxWidth = 245
+			maxHeight = 20
+			fixedsize = yes
+			alwaystransparent = yes
+			format = left
+		}
+	}
+}

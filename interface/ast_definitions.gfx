@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_AST_George_V
+        texturefile = gfx/leaders/AST/Portrait_AST_George_V.dds
+    }
+}

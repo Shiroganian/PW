@@ -1,0 +1,31 @@
+# CAN BBA air OOB -- source: CAN_1936_air_bba.txt
+air_wings = {
+	276 = {
+		small_plane_airframe_1 = {
+			owner = "CAN"
+			amount = 86
+			version_name = "CAN 1936 Fighter"
+		}
+	}
+	473 = {
+		small_plane_cas_airframe_1 = {
+			owner = "CAN"
+			amount = 48
+			version_name = "CAN 1936 CAS"
+		}
+	}
+	468 = {
+		medium_plane_airframe_1 = {
+			owner = "CAN"
+			amount = 24
+			version_name = "CAN 1936 Tactical Bomber"
+		}
+	}
+	464 = {
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "CAN"
+			amount = 12
+			version_name = "CAN 1936 Naval Bomber"
+		}
+	}
+}

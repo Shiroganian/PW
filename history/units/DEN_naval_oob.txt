@@ -1,0 +1,66 @@
+# DEN MTG naval OOB -- source: DEN_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "Royal Navy"
+		naval_base = 6287
+		task_force = {
+			name = "Royal Navy Task Force"
+			location = 6287
+			ship = { name = "DEN CL-01" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Cruiser Class" } } }
+			ship = { name = "DEN CL-02" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Cruiser Class" } } }
+			ship = { name = "DEN CL-03" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Cruiser Class" } } }
+			ship = { name = "DEN DD-01" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Destroyer Class" } } }
+			ship = { name = "DEN DD-02" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Destroyer Class" } } }
+			ship = { name = "DEN DD-03" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Destroyer Class" } } }
+			ship = { name = "DEN DD-04" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Destroyer Class" } } }
+			ship = { name = "DEN DD-05" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Destroyer Class" } } }
+			ship = { name = "DEN DD-06" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Destroyer Class" } } }
+			ship = { name = "DEN DD-07" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Destroyer Class" } } }
+			ship = { name = "DEN DD-08" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Destroyer Class" } } }
+			ship = { name = "DEN DD-09" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Destroyer Class" } } }
+			ship = { name = "DEN DD-10" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Destroyer Class" } } }
+			ship = { name = "HDMS Rota" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Submarine Class" } } }
+			ship = { name = "HDMS Bellona" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Submarine Class" } } }
+			ship = { name = "HDMS Flora" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Submarine Class" } } }
+			ship = { name = "HDMS Daphne" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Submarine Class" } } }
+			ship = { name = "HDMS Dryaden" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Submarine Class" } } }
+			ship = { name = "DEN SS-06" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "DEN 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = DEN
+			version_name = "DEN 1936 Destroyer Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = DEN
+			version_name = "DEN 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = DEN
+			version_name = "DEN 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

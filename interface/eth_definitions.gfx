@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_ETH_Haile_Selassie_I
+        texturefile = gfx/leaders/ETH/Portrait_ETH_Haile_Selassie_I.dds
+    }
+}

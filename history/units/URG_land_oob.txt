@@ -1,0 +1,96 @@
+# URG land OOB -- adapted from URG_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "División de Infanteria"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Reserve Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1st División de Infanteria"
+		location = 10362
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "2nd División de Infanteria"
+		location = 12468
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "3rd División de Infanteria"
+		location = 1641
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "1st Reserve Brigade"
+		location = 10362
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "2nd Reserve Brigade"
+		location = 12468
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = URG
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = URG
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = URG
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

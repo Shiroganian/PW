@@ -1,0 +1,426 @@
+# JAP land OOB -- adapted from JAP_1936_nsb.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Hohei Shidan"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Yobi Hohei Ryodan"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Jidousha Shidan"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		mot_recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kihei Shidan"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Chuton-chi Shidan"
+	template_counter = 109
+	role = garrison
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Rikusentai"
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1st Hohei Shidan"
+		location = 1182
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Hohei Shidan"
+		location = 7072
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "3rd Hohei Shidan"
+		location = 10125
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "4th Hohei Shidan"
+		location = 1092
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "5th Hohei Shidan"
+		location = 9950
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "6th Hohei Shidan"
+		location = 10032
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "7th Hohei Shidan"
+		location = 4102
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "8th Hohei Shidan"
+		location = 10444
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "9th Hohei Shidan"
+		location = 7169
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "10th Hohei Shidan"
+		location = 4179
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "11th Hohei Shidan"
+		location = 10015
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "12th Hohei Shidan"
+		location = 11932
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "13th Hohei Shidan"
+		location = 7186
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "14th Hohei Shidan"
+		location = 4056
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "15th Hohei Shidan"
+		location = 6994
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "16th Hohei Shidan"
+		location = 10000
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "17th Hohei Shidan"
+		location = 2489
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "18th Hohei Shidan"
+		location = 13025
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "19th Hohei Shidan"
+		location = 1182
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "20th Hohei Shidan"
+		location = 7072
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Yobi Hohei Ryodan"
+		location = 10125
+		division_template = "Yobi Hohei Ryodan"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "2nd Yobi Hohei Ryodan"
+		location = 1092
+		division_template = "Yobi Hohei Ryodan"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "3rd Yobi Hohei Ryodan"
+		location = 9950
+		division_template = "Yobi Hohei Ryodan"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "4th Yobi Hohei Ryodan"
+		location = 10032
+		division_template = "Yobi Hohei Ryodan"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "5th Yobi Hohei Ryodan"
+		location = 4102
+		division_template = "Yobi Hohei Ryodan"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "1st Jidousha Shidan"
+		location = 10444
+		division_template = "Jidousha Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Jidousha Shidan"
+		location = 7169
+		division_template = "Jidousha Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Kihei Shidan"
+		location = 4179
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Kihei Shidan"
+		location = 10015
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "3rd Kihei Shidan"
+		location = 11932
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "4th Kihei Shidan"
+		location = 7186
+		division_template = "Kihei Shidan"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Chuton-chi Shidan"
+		location = 4056
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "2nd Chuton-chi Shidan"
+		location = 6994
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "3rd Chuton-chi Shidan"
+		location = 10000
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "1st Rikusentai"
+		location = 2489
+		division_template = "Rikusentai"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Rikusentai"
+		location = 13025
+		division_template = "Rikusentai"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = JAP
+		}
+		requested_factories = 9
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = JAP
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = JAP
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = JAP
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_1
+				creator = JAP
+				version_name = "JAP 1936 Fighter"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_cas_airframe_1
+				creator = JAP
+				version_name = "JAP 1936 CAS"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+	}
+}

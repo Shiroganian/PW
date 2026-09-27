@@ -1,0 +1,13 @@
+characters = {
+
+	SHG_Wu_Tiecheng = {
+		name = "Wu Tiecheng"
+		portraits = {
+			civilian = { large = GFX_Portrait_SHG_Wu_Tiecheng }
+		}
+		country_leader = {
+			ideology = league_mandate_soccon
+			traits = { }
+		}
+	}
+}

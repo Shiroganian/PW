@@ -1,0 +1,13 @@
+characters = {
+
+	GEO_Noe_Zhordania = {
+		name = "Noe Zhordania"
+		portraits = {
+			civilian = { large = GFX_Portrait_GEO_Noe_Zhordania }
+		}
+		country_leader = {
+			ideology = progressivism
+			traits = { }
+		}
+	}
+}

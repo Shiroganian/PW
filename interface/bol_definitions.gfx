@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_BOL_Jose_Luis_Tejada_Sorzano
+        texturefile = gfx/leaders/BOL/Portrait_BOL_Jose_Luis_Tejada_Sorzano.dds
+    }
+}

@@ -1,0 +1,13 @@
+characters = {
+
+	LUX_Charlotte = {
+		name = "Charlotte"
+		portraits = {
+			civilian = { large = GFX_Portrait_LUX_Charlotte }
+		}
+		country_leader = {
+			ideology = christian_conservatism
+			traits = { }
+		}
+	}
+}

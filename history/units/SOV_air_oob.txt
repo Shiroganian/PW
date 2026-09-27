@@ -1,0 +1,80 @@
+# SOV BBA air OOB -- source: SOV_1936_air_bba.txt
+air_wings = {
+	219 = {
+		small_plane_airframe_1 = {
+			owner = "SOV"
+			amount = 100
+			version_name = "SOV 1936 Fighter"
+		}
+	}
+	195 = {
+		small_plane_airframe_1 = {
+			owner = "SOV"
+			amount = 100
+			version_name = "SOV 1936 Fighter"
+		}
+	}
+	408 = {
+		small_plane_airframe_1 = {
+			owner = "SOV"
+			amount = 100
+			version_name = "SOV 1936 Fighter"
+		}
+	}
+	242 = {
+		small_plane_airframe_1 = {
+			owner = "SOV"
+			amount = 100
+			version_name = "SOV 1936 Fighter"
+		}
+	}
+	409 = {
+		small_plane_airframe_1 = {
+			owner = "SOV"
+			amount = 56
+			version_name = "SOV 1936 Fighter"
+		}
+	}
+	222 = {
+		small_plane_cas_airframe_1 = {
+			owner = "SOV"
+			amount = 100
+			version_name = "SOV 1936 CAS"
+		}
+	}
+	209 = {
+		small_plane_cas_airframe_1 = {
+			owner = "SOV"
+			amount = 100
+			version_name = "SOV 1936 CAS"
+		}
+	}
+	216 = {
+		small_plane_cas_airframe_1 = {
+			owner = "SOV"
+			amount = 28
+			version_name = "SOV 1936 CAS"
+		}
+	}
+	214 = {
+		medium_plane_airframe_1 = {
+			owner = "SOV"
+			amount = 100
+			version_name = "SOV 1936 Tactical Bomber"
+		}
+	}
+	208 = {
+		medium_plane_airframe_1 = {
+			owner = "SOV"
+			amount = 32
+			version_name = "SOV 1936 Tactical Bomber"
+		}
+	}
+	657 = {
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "SOV"
+			amount = 84
+			version_name = "SOV 1936 Naval Bomber"
+		}
+	}
+}

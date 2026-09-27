@@ -1,0 +1,13 @@
+characters = {
+
+	CHA_Abdelkader_Koulamallah = {
+		name = "Abdelkader Koulamallah"
+		portraits = {
+			civilian = { large = GFX_Portrait_CHA_Abdelkader_Koulamallah }
+		}
+		country_leader = {
+			ideology = centrism
+			traits = { }
+		}
+	}
+}

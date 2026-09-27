@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_VIN_Bao_Dai
+        texturefile = gfx/leaders/VIN/Portrait_VIN_Bao_Dai.dds
+    }
+}

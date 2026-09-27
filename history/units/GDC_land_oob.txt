@@ -1,0 +1,282 @@
+# GDC land OOB -- adapted from lore-scaled generated formation set
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "National Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "National Militia Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Motorized Legion"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Armored Legion"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "National Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st National Infantry Division"
+		location = 10747
+		division_template = "National Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd National Infantry Division"
+		location = 12798
+		division_template = "National Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "3rd National Infantry Division"
+		location = 12790
+		division_template = "National Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "4th National Infantry Division"
+		location = 5023
+		division_template = "National Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "5th National Infantry Division"
+		location = 1887
+		division_template = "National Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "6th National Infantry Division"
+		location = 10747
+		division_template = "National Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "7th National Infantry Division"
+		location = 12798
+		division_template = "National Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "8th National Infantry Division"
+		location = 12790
+		division_template = "National Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "9th National Infantry Division"
+		location = 5023
+		division_template = "National Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "10th National Infantry Division"
+		location = 1887
+		division_template = "National Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "11th National Infantry Division"
+		location = 10747
+		division_template = "National Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "12th National Infantry Division"
+		location = 12798
+		division_template = "National Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st National Militia Brigade"
+		location = 12790
+		division_template = "National Militia Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "2nd National Militia Brigade"
+		location = 5023
+		division_template = "National Militia Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "1st Motorized Legion"
+		location = 1887
+		division_template = "Motorized Legion"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Armored Legion"
+		location = 10747
+		division_template = "Armored Legion"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st National Cavalry Brigade"
+		location = 12798
+		division_template = "National Cavalry Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd National Cavalry Brigade"
+		location = 12790
+		division_template = "National Cavalry Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = GDC
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = GDC
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = GDC
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = GDC
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_chassis_1
+				creator = GDC
+				version_name = "GDC 1936 Light Tank"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+		else = {
+			add_equipment_production = {
+				equipment = {
+					type = light_tank_equipment_1
+					creator = GDC
+					version_name = "GDC 1936 Light Tank"
+				}
+				requested_factories = 1
+				progress = 0.20
+				efficiency = 50
+			}
+		}
+	}
+}

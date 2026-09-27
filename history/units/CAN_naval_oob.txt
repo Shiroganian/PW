@@ -1,0 +1,66 @@
+# CAN MTG naval OOB -- source: CAN_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "Royal Canadian Navy"
+		naval_base = 12149
+		task_force = {
+			name = "Royal Canadian Navy Task Force"
+			location = 12149
+			ship = { name = "CAN CL-01" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Cruiser Class" } } }
+			ship = { name = "CAN CL-02" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Cruiser Class" } } }
+			ship = { name = "CAN CL-03" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Cruiser Class" } } }
+			ship = { name = "HMCS Saguenay" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Destroyer Class" } } }
+			ship = { name = "HMCS Skeena" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Destroyer Class" } } }
+			ship = { name = "HMCS Champlain" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Destroyer Class" } } }
+			ship = { name = "HMCS Vancouver" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Destroyer Class" } } }
+			ship = { name = "CAN DD-05" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Destroyer Class" } } }
+			ship = { name = "CAN DD-06" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Destroyer Class" } } }
+			ship = { name = "CAN DD-07" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Destroyer Class" } } }
+			ship = { name = "CAN DD-08" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Destroyer Class" } } }
+			ship = { name = "CAN DD-09" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Destroyer Class" } } }
+			ship = { name = "CAN DD-10" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Destroyer Class" } } }
+			ship = { name = "CAN SS-01" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Submarine Class" } } }
+			ship = { name = "CAN SS-02" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Submarine Class" } } }
+			ship = { name = "CAN SS-03" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Submarine Class" } } }
+			ship = { name = "CAN SS-04" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Submarine Class" } } }
+			ship = { name = "CAN SS-05" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Submarine Class" } } }
+			ship = { name = "CAN SS-06" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "CAN 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = CAN
+			version_name = "CAN 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = CAN
+			version_name = "CAN 1936 Destroyer Class"
+		}
+		requested_factories = 4
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = CAN
+			version_name = "CAN 1936 Submarine Class"
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+}

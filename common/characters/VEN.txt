@@ -1,0 +1,13 @@
+characters = {
+
+	VEN_Jovito_Villalba = {
+		name = "Jovito Villalba"
+		portraits = {
+			civilian = { large = GFX_Portrait_VEN_Jovito_Villalba }
+		}
+		country_leader = {
+			ideology = progressive_liberalism
+			traits = { }
+		}
+	}
+}

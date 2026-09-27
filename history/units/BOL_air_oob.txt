@@ -1,0 +1,15 @@
+# BOL BBA air OOB -- source: BOL_1936_air_bba.txt
+air_wings = {
+	302 = {
+		small_plane_airframe_1 = {
+			owner = "BOL"
+			amount = 24
+			version_name = "BOL 1936 Fighter"
+		}
+		small_plane_cas_airframe_1 = {
+			owner = "BOL"
+			amount = 12
+			version_name = "BOL 1936 CAS"
+		}
+	}
+}

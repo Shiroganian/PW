@@ -1,0 +1,13 @@
+characters = {
+
+	BLT_Kazys_Grinius = {
+		name = "Kazys Grinius"
+		portraits = {
+			civilian = { large = GFX_Portrait_BLT_Kazys_Grinius }
+		}
+		country_leader = {
+			ideology = liberal_socialism
+			traits = { }
+		}
+	}
+}

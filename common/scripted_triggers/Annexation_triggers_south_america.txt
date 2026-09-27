@@ -1,0 +1,118 @@
+# South America annexation-release triggers
+
+can_release_BRA = {
+	state = 500 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = BRA_CONQ }
+		NOT = { country_exists = BRA }
+	}
+}
+
+can_release_ALM = {
+	state = 495 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = ALM_CONQ }
+		NOT = { country_exists = ALM }
+	}
+}
+
+can_release_BSF = {
+	state = 940 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = BSF_CONQ }
+		NOT = { country_exists = BSF }
+	}
+}
+
+can_release_AMA = {
+	state = 938 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = AMA_CONQ }
+		NOT = { country_exists = AMA }
+	}
+}
+
+can_release_GDC = {
+	state = 306 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = GDC_CONQ }
+		NOT = { country_exists = GDC }
+	}
+}
+
+can_release_GYA = {
+	state = 687 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = GYA_CONQ }
+		NOT = { country_exists = GYA }
+	}
+}
+
+can_release_VEN = {
+	state = 307 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = VEN_CONQ }
+		NOT = { country_exists = VEN }
+	}
+}
+
+can_release_ARG = {
+	state = 278 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = ARG_CONQ }
+		NOT = { country_exists = ARG }
+	}
+}
+
+can_release_PRU = {
+	state = 303 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = PRU_CONQ }
+		NOT = { country_exists = PRU }
+	}
+}
+
+can_release_CHL = {
+	state = 279 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = CHL_CONQ }
+		NOT = { country_exists = CHL }
+	}
+}
+
+can_release_BOL = {
+	state = 302 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = BOL_CONQ }
+		NOT = { country_exists = BOL }
+	}
+}
+
+can_release_PAR = {
+	state = 301 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = PAR_CONQ }
+		NOT = { country_exists = PAR }
+	}
+}
+
+can_release_URG = {
+	state = 300 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = URG_CONQ }
+		NOT = { country_exists = URG }
+	}
+}

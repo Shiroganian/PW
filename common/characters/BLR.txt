@@ -1,0 +1,13 @@
+characters = {
+
+	BLR_Radaslaw_Astrouski = {
+		name = "Radaslaw Astrouski"
+		portraits = {
+			civilian = { large = GFX_Portrait_BLR_Radaslaw_Astrouski }
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = { }
+		}
+	}
+}

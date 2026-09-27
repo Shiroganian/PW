@@ -1,0 +1,13 @@
+characters = {
+
+	SAF_George_V = {
+		name = "George V"
+		portraits = {
+			civilian = { large = GFX_Portrait_SAF_George_V }
+		}
+		country_leader = {
+			ideology = national_liberalism
+			traits = { }
+		}
+	}
+}

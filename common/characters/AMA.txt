@@ -1,0 +1,13 @@
+characters = {
+
+	AMA_Pedro_Aurelio_de_Gois_Monteiro = {
+		name = "Pedro Aurelio de Gois Monteiro"
+		portraits = {
+			civilian = { large = GFX_Portrait_AMA_Pedro_Aurelio_de_Gois_Monteiro }
+		}
+		country_leader = {
+			ideology = transitional_government
+			traits = { }
+		}
+	}
+}

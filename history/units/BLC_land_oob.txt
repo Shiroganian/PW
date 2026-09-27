@@ -1,0 +1,39 @@
+# BLC land OOB -- adapted from lore-scaled generated formation set
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Reserve Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1st Reserve Brigade"
+		location = 8098
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.12
+		start_equipment_factor = 0.45
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = BLC
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

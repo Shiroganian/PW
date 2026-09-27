@@ -1,0 +1,411 @@
+# this is a check to see if a major is an actual major due to its number of factories
+# meaning it's the top 7 in the world or has at least 70% of the average of those 7
+# we're also including a number of tags which should act like majors even if they're not in that category
+is_actual_major = {
+	custom_trigger_tooltip = {
+		tooltip = is_actual_major_tt
+		is_major = yes
+		if = {
+			limit = {
+				# if is in the list of "always acts like a major" countries, only above is_major check needs to be true
+				NOT = {
+					tag = GER
+					tag = FRA
+					tag = ENG
+					tag = SOV
+					tag = JAP
+					tag = USA
+					tag = ARA
+					tag = ITA
+				}
+			}
+
+			# rank the majors according to their num_of_factories
+			clear_temp_array = global.actual_majors
+			get_sorted_scored_countries_temp = {
+				scorer = actual_majors_score
+				array = global.actual_majors
+			}
+
+			# limit that ranking to the top 7
+			resize_temp_array = { global.actual_majors = 7 }
+
+			# now figure out what 70% of the average of those 7 is, with a minimum of 35
+			set_temp_variable = { global.factory_average = 0 }
+			all_of_scopes = {
+				array = global.actual_majors
+				add_to_temp_variable = { global.factory_average = THIS.num_of_factories }
+			}
+			divide_temp_variable = { global.factory_average = 7 }
+			multiply_temp_variable = { global.factory_average = 0.7 }
+			clamp_temp_variable = { var = global.factory_average min = 35 }
+
+			OR = {
+				# is actually in the top 7
+				is_in_array = { global.actual_majors = THIS }
+				# has more than 70% of the average of the top 7
+				check_variable = { num_of_factories > global.factory_average }
+			}
+		}
+	}
+}
+
+is_actual_major_without_exceptions = {
+	custom_trigger_tooltip = {
+		tooltip = is_actual_major_without_exceptions
+		is_major = yes
+
+		# rank the majors according to their num_of_factories
+		clear_temp_array = global.actual_majors
+		get_sorted_scored_countries_temp = {
+			scorer = actual_majors_score
+			array = global.actual_majors
+		}
+
+		# limit that ranking to the top 7
+		resize_temp_array = { global.actual_majors = 7 }
+
+		# now figure out what 70% of the average of those 7 is, with a minimum of 35
+		set_temp_variable = { global.factory_average = 0 }
+		all_of_scopes = {
+			array = global.actual_majors
+			add_to_temp_variable = { global.factory_average = THIS.num_of_factories }
+		}
+		divide_temp_variable = { global.factory_average = 7 }
+		multiply_temp_variable = { global.factory_average = 0.7 }
+		clamp_temp_variable = { var = global.factory_average min = 35 }
+
+		OR = {
+			# is actually in the top 7
+			is_in_array = { global.actual_majors = THIS }
+			# has more than 70% of the average of the top 7
+			check_variable = { num_of_factories > global.factory_average }
+		}
+	}
+}
+# Can be used in any country scope (to ensure the country has no owned state which it doesn't control)
+controls_all_owned_states = {
+	custom_trigger_tooltip = {
+		tooltip = controls_all_states
+		NOT = {
+			any_owned_state = {
+				NOT = { is_controlled_by = PREV }
+				impassable = no
+			}
+		}
+	}
+}
+# Checks if the country does not exist or ally
+does_not_exist_or_ally_of_ROOT = {
+	OR = {
+		exists = no
+		is_ally_of_ROOT = yes
+	}
+}
+does_not_exist_or_ally_of_PREV = {
+	OR = {
+		exists = no
+		is_ally_of_PREV = yes
+	}
+}
+# Checks if the country does not exist or subject
+does_not_exist_or_subject_of_ROOT = {
+	OR = {
+		exists = no
+		is_ally_of_ROOT = yes
+	}
+}
+does_not_exist_or_subject_of_PREV = {
+	OR = {
+		exists = no
+		is_ally_of_PREV = yes
+	}
+}
+
+# Checks if the country is in a faction or a puppet
+is_ally_of_ROOT = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_an_ally
+		NOT = { tag = ROOT }
+		exists = yes
+		OR = {
+			is_in_faction_with = ROOT
+			is_subject_of = ROOT
+			ROOT = { is_subject_of = PREV }
+		}
+	}
+}
+
+is_ally_of_PREV = {
+	hidden_trigger = { country_exists = PREV } #needed to avoid error log spam
+	custom_trigger_tooltip = {
+		tooltip = KR_is_an_ally
+		NOT = { tag = PREV }
+		exists = yes
+		OR = {
+			is_in_faction_with = PREV
+			is_subject_of = PREV
+			PREV = { is_subject_of = PREV }
+		}
+	}
+}
+# Checks if the country is a puppet
+is_subject_of_ROOT = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_a_puppet
+		NOT = { tag = ROOT }
+		exists = yes
+		is_subject_of = ROOT
+	}
+}
+
+is_subject_of_PREV = {
+	hidden_trigger = { country_exists = PREV } #needed to avoid error log spam
+	custom_trigger_tooltip = {
+		tooltip = KR_is_a_puppet
+		NOT = { tag = PREV }
+		exists = yes
+		is_subject_of = PREV
+	}
+}
+
+# Can be used in state scope, to check if the owner is ROOT or a subject of ROOT
+is_owned_by_ROOT_or_subject = {
+	custom_trigger_tooltip = {
+		tooltip = KR_owned_by_ROOT_or_subject
+		owner = {
+			OR = {
+				tag = ROOT
+				is_subject_of = ROOT
+			}
+		}
+	}
+}
+
+# Can be used in state scope, to check if the owner is ROOT or an ally/subject of ROOT
+is_owned_by_ROOT_or_ally = {
+	custom_trigger_tooltip = {
+		tooltip = KR_owned_by_ROOT_or_ally
+		owner = {
+			is_ally_with = ROOT
+		}
+	}
+}
+
+is_owned_by_ROOT_or_war_ally = {
+	owner = {
+		OR = {
+			tag = ROOT
+			is_subject_of = ROOT
+			is_in_faction_with = ROOT
+			has_war_together_with = ROOT
+		}
+	}
+}
+
+# Can be used in state scope, to check if the controller (not owner) is ROOT or a subject of ROOT
+is_controlled_by_ROOT_or_subject = {
+	custom_trigger_tooltip = {
+		tooltip = KR_controlled_by_ROOT_or_subject
+		controller = {
+			OR = {
+				tag = ROOT
+				is_subject_of = ROOT
+			}
+		}
+	}
+}
+
+# Can be used in state scope, to check if the controller (not owner) is ROOT or ally/subject of ROOT
+is_controlled_by_ROOT_or_ally = {
+	custom_trigger_tooltip = {
+		tooltip = KR_controlled_by_ROOT_or_ally
+		controller = {
+			is_ally_with = ROOT
+		}
+	}
+}
+
+# Can be used in state scope, to check if the owner and controller is ROOT or a subject of ROOT
+is_owned_and_controlled_by_ROOT_or_subject = {
+	custom_trigger_tooltip = {
+		tooltip = KR_owned_and_controlled_by_ROOT_or_subject
+		owner = {
+			controls_state = PREV
+			OR = {
+				tag = ROOT
+				is_subject_of = ROOT
+			}
+		}
+	}
+}
+
+# Can be used in state scope, to check if the owner and controller is ROOT or a subject of ROOT
+is_owned_and_controlled_by_ROOT_or_ally = {
+	custom_trigger_tooltip = {
+		tooltip = KR_owned_and_controlled_by_ROOT_or_ally
+		owner = {
+			controls_state = PREV
+			is_ally_with = ROOT
+		}
+	}
+}
+
+is_actual_neighbor_of_ROOT_or_ally = {
+	any_neighbor_country = {
+		is_owner_neighbor_of = PREV
+		is_ally_with = ROOT
+	}
+}
+
+# Used to check whether a country is eligible for peace deal events
+is_valid_peace_target = {
+	is_subject = no
+	OR = {
+		is_in_faction = no
+		is_faction_leader = yes
+	}
+}
+
+ROOT_is_in_entente = {
+	OR = {
+		CAN = {
+			is_faction_leader = yes
+			is_in_faction_with = ROOT
+		}
+		GBR = {
+			is_faction_leader = yes
+			is_in_faction_with = ROOT
+		}
+	}
+}
+
+ROOT_is_in_international = {
+	OR = {
+		FRA = {
+			is_faction_leader = yes
+			is_in_faction_with = ROOT
+		}
+		ENG = {
+			is_faction_leader = yes
+			is_in_faction_with = ROOT
+		}
+	}
+}
+
+# Used to check if a nation...wait for it...uses generic concerns! Wow!
+
+# Useful triggers for the annexation codebase
+is_clear_other_claims = {
+	NOT = {
+		is_important_state = yes
+		any_country = {
+			is_ally_of_ROOT = yes
+			PREV = { is_claim_or_core_of_PREV = yes }
+		}
+	}
+	if = {
+		limit = {
+			ROOT = { tag = JAP }
+			is_china_claim_of_JAP = yes
+		}
+		NOT = { has_variable = ambition_area_@ROOT }
+	}
+	OR = {
+		NOT = { has_variable = ambition_area_@ROOT }
+		AND = {
+			ROOT = { tag = CAN }
+			is_british_colonial_claim = yes
+		}
+		AND = {
+			ROOT = { tag = ENG }
+			is_british_colonial_claim = yes
+		}
+		AND = {
+			ROOT = { tag = GBR }
+			is_british_colonial_claim = yes
+		}
+		AND = {
+			ROOT = { tag = FRA }
+			is_french_colonial_claim = yes
+		}
+		AND = {
+			ROOT = { tag = JAP }
+			OR = {
+				region = 194 #Malay Peninsula
+				region = 91 #Arafura Sea
+				region = 93 #Java Sea
+				region = 158 #Sunda Islands
+				region = 159 #Borneo
+				region = 167 #New Guinea
+				region = 192 #Sumatra
+			}
+		}
+		AND = {
+			ROOT = { tag = NFA }
+			is_french_colonial_claim = yes
+		}
+		ROOT = { is_ai = no }
+	}
+}
+# in state scope
+is_claim_or_core_of_ROOT = {
+	OR = {
+		is_claimed_by = ROOT
+		is_core_of = ROOT
+	}
+}
+
+is_claim_or_core_of_FROM = {
+	OR = {
+		is_claimed_by = FROM
+		is_core_of = FROM
+	}
+}
+
+is_not_claim_or_core_of_ROOT = {
+	NOT = {
+		is_claimed_by = ROOT
+		is_core_of = ROOT
+	}
+}
+
+is_not_claim_or_core_of_FROM = {
+	NOT = {
+		is_claimed_by = FROM
+		is_core_of = FROM
+	}
+}
+
+is_claim_or_core_of_PREV = {
+	OR = {
+		is_claimed_by = PREV
+		is_core_of = PREV
+	}
+}
+
+is_claim_or_core_of_owner = {
+	OR = {
+		is_claimed_by = owner
+		is_core_of = owner
+	}
+}
+
+is_not_claim_or_core_of_PREV = {
+	NOT = {
+		is_claimed_by = PREV
+		is_core_of = PREV
+	}
+}
+
+is_fully_controlled_by_ROOT_and_is_not_core_of_ROOT = {
+	is_owned_by = ROOT
+	is_fully_controlled_by = ROOT
+	NOT = { is_core_of = ROOT }
+}
+
+is_fully_controlled_by_ROOT_and_is_core_of_ROOT = {
+	is_owned_by = ROOT
+	is_fully_controlled_by = ROOT
+	is_core_of = ROOT
+}

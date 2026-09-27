@@ -1,0 +1,13 @@
+characters = {
+
+	CUB_Jose_Agripino_Barnet = {
+		name = "Jose Agripino Barnet"
+		portraits = {
+			civilian = { large = GFX_Portrait_CUB_Jose_Agripino_Barnet }
+		}
+		country_leader = {
+			ideology = progressive_liberalism
+			traits = { }
+		}
+	}
+}

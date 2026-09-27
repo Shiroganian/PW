@@ -1,0 +1,15 @@
+# IDC BBA air OOB -- source: lore-scaled BBA template
+air_wings = {
+	1066 = {
+		small_plane_airframe_1 = {
+			owner = "IDC"
+			amount = 12
+			version_name = "IDC 1936 Fighter"
+		}
+		small_plane_cas_airframe_1 = {
+			owner = "IDC"
+			amount = 24
+			version_name = "IDC 1936 CAS"
+		}
+	}
+}

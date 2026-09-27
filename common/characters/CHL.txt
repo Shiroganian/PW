@@ -1,0 +1,13 @@
+characters = {
+
+	CHL_Arturo_Alessandri = {
+		name = "Arturo Alessandri"
+		portraits = {
+			civilian = { large = GFX_Portrait_CHL_Arturo_Alessandri }
+		}
+		country_leader = {
+			ideology = popular_front_socialism
+			traits = { }
+		}
+	}
+}

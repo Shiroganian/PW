@@ -1,0 +1,29 @@
+# YUG BBA air OOB -- source: YUG_1936_air_bba.txt
+air_wings = {
+	107 = {
+		small_plane_airframe_1 = {
+			owner = "YUG"
+			amount = 86
+			version_name = "YUG 1936 Fighter"
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "YUG"
+			amount = 12
+			version_name = "YUG 1936 Naval Bomber"
+		}
+	}
+	106 = {
+		small_plane_cas_airframe_1 = {
+			owner = "YUG"
+			amount = 48
+			version_name = "YUG 1936 CAS"
+		}
+	}
+	104 = {
+		medium_plane_airframe_1 = {
+			owner = "YUG"
+			amount = 24
+			version_name = "YUG 1936 Tactical Bomber"
+		}
+	}
+}

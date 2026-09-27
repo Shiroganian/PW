@@ -1,0 +1,13 @@
+characters = {
+
+	IVO_Felix_Houphouet_Boigny = {
+		name = "Felix Houphouet-Boigny"
+		portraits = {
+			civilian = { large = GFX_Portrait_IVO_Felix_Houphouet_Boigny }
+		}
+		country_leader = {
+			ideology = centrism
+			traits = { }
+		}
+	}
+}

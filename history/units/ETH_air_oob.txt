@@ -1,0 +1,31 @@
+# ETH BBA air OOB -- source: lore-scaled BBA template
+air_wings = {
+	550 = {
+		small_plane_airframe_1 = {
+			owner = "ETH"
+			amount = 60
+			version_name = "ETH 1936 Fighter"
+		}
+	}
+	268 = {
+		small_plane_cas_airframe_1 = {
+			owner = "ETH"
+			amount = 24
+			version_name = "ETH 1936 CAS"
+		}
+	}
+	835 = {
+		medium_plane_airframe_1 = {
+			owner = "ETH"
+			amount = 12
+			version_name = "ETH 1936 Tactical Bomber"
+		}
+	}
+	559 = {
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "ETH"
+			amount = 12
+			version_name = "ETH 1936 Naval Bomber"
+		}
+	}
+}

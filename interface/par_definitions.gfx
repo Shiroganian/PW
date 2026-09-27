@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_PAR_Eusebio_Ayala
+        texturefile = gfx/leaders/PAR/Portrait_PAR_Eusebio_Ayala.dds
+    }
+}

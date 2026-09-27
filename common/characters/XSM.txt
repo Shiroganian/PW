@@ -1,0 +1,13 @@
+characters = {
+
+	XSM_Ma_Bufang = {
+		name = "Ma Bufang"
+		portraits = {
+			civilian = { large = GFX_Portrait_XSM_Ma_Bufang }
+		}
+		country_leader = {
+			ideology = anocracy
+			traits = { }
+		}
+	}
+}

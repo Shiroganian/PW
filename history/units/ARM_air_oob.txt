@@ -1,0 +1,20 @@
+# ARM BBA air OOB -- source: lore-scaled BBA template
+air_wings = {
+	230 = {
+		small_plane_airframe_1 = {
+			owner = "ARM"
+			amount = 24
+			version_name = "ARM 1936 Fighter"
+		}
+		small_plane_cas_airframe_1 = {
+			owner = "ARM"
+			amount = 12
+			version_name = "ARM 1936 CAS"
+		}
+		medium_plane_airframe_1 = {
+			owner = "ARM"
+			amount = 12
+			version_name = "ARM 1936 Tactical Bomber"
+		}
+	}
+}

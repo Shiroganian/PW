@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_VEN_Jovito_Villalba
+        texturefile = gfx/leaders/VEN/Portrait_VEN_Jovito_Villalba.dds
+    }
+}

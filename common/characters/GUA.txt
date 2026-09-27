@@ -1,0 +1,13 @@
+characters = {
+
+	GUA_Jorge_Ubico = {
+		name = "Jorge Ubico"
+		portraits = {
+			civilian = { large = GFX_Portrait_GUA_Jorge_Ubico }
+		}
+		country_leader = {
+			ideology = pan_hispanic_ultranationalism
+			traits = { }
+		}
+	}
+}

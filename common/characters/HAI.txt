@@ -1,0 +1,13 @@
+characters = {
+
+	HAI_Stenio_Vincent = {
+		name = "Stenio Vincent"
+		portraits = {
+			civilian = { large = GFX_Portrait_HAI_Stenio_Vincent }
+		}
+		country_leader = {
+			ideology = classical_conservatism
+			traits = { }
+		}
+	}
+}

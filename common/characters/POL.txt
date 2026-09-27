@@ -1,0 +1,13 @@
+characters = {
+
+	POL_Roman_Dmowski = {
+		name = "Roman Dmowski"
+		portraits = {
+			civilian = { large = GFX_Portrait_POL_Roman_Dmowski }
+		}
+		country_leader = {
+			ideology = clerical_nationalism
+			traits = { }
+		}
+	}
+}

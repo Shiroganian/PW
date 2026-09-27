@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_BEL_Albert_I
+        texturefile = gfx/leaders/BEL/Portrait_BEL_Albert_I.dds
+    }
+}

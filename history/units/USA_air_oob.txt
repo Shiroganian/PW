@@ -1,0 +1,87 @@
+# USA BBA air OOB -- source: USA_1936_air_bba.txt
+air_wings = {
+	378 = {
+		small_plane_airframe_1 = {
+			owner = "USA"
+			amount = 100
+			version_name = "USA 1936 Fighter"
+		}
+	}
+	358 = {
+		small_plane_airframe_1 = {
+			owner = "USA"
+			amount = 100
+			version_name = "USA 1936 Fighter"
+		}
+	}
+	357 = {
+		small_plane_airframe_1 = {
+			owner = "USA"
+			amount = 100
+			version_name = "USA 1936 Fighter"
+		}
+	}
+	366 = {
+		small_plane_airframe_1 = {
+			owner = "USA"
+			amount = 100
+			version_name = "USA 1936 Fighter"
+		}
+	}
+	385 = {
+		small_plane_airframe_1 = {
+			owner = "USA"
+			amount = 100
+			version_name = "USA 1936 Fighter"
+		}
+	}
+	362 = {
+		small_plane_airframe_1 = {
+			owner = "USA"
+			amount = 8
+			version_name = "USA 1936 Fighter"
+		}
+	}
+	361 = {
+		small_plane_cas_airframe_1 = {
+			owner = "USA"
+			amount = 100
+			version_name = "USA 1936 CAS"
+		}
+	}
+	629 = {
+		small_plane_cas_airframe_1 = {
+			owner = "USA"
+			amount = 100
+			version_name = "USA 1936 CAS"
+		}
+	}
+	386 = {
+		small_plane_cas_airframe_1 = {
+			owner = "USA"
+			amount = 52
+			version_name = "USA 1936 CAS"
+		}
+	}
+	371 = {
+		medium_plane_airframe_1 = {
+			owner = "USA"
+			amount = 100
+			version_name = "USA 1936 Tactical Bomber"
+		}
+	}
+	686 = {
+		medium_plane_airframe_1 = {
+			owner = "USA"
+			amount = 44
+			version_name = "USA 1936 Tactical Bomber"
+		}
+	}
+	393 = {
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "USA"
+			amount = 96
+			version_name = "USA 1936 Naval Bomber"
+		}
+	}
+}

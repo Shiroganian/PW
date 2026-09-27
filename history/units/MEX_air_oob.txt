@@ -1,0 +1,36 @@
+# MEX BBA air OOB -- source: MEX_1936_air_bba.txt
+air_wings = {
+	484 = {
+		small_plane_airframe_1 = {
+			owner = "MEX"
+			amount = 100
+			version_name = "MEX 1936 Fighter"
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "MEX"
+			amount = 36
+			version_name = "MEX 1936 Naval Bomber"
+		}
+	}
+	277 = {
+		small_plane_airframe_1 = {
+			owner = "MEX"
+			amount = 80
+			version_name = "MEX 1936 Fighter"
+		}
+	}
+	476 = {
+		small_plane_cas_airframe_1 = {
+			owner = "MEX"
+			amount = 96
+			version_name = "MEX 1936 CAS"
+		}
+	}
+	474 = {
+		medium_plane_airframe_1 = {
+			owner = "MEX"
+			amount = 48
+			version_name = "MEX 1936 Tactical Bomber"
+		}
+	}
+}

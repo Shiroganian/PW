@@ -1,0 +1,35 @@
+# LUX land OOB -- adapted from LUX_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Public Force"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Public Force"
+		location = 6583
+		division_template = "Public Force"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = LUX
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

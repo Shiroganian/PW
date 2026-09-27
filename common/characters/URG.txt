@@ -1,0 +1,13 @@
+characters = {
+
+	URG_Gabriel_Terra = {
+		name = "Gabriel Terra"
+		portraits = {
+			civilian = { large = GFX_Portrait_URG_Gabriel_Terra }
+		}
+		country_leader = {
+			ideology = centrism
+			traits = { }
+		}
+	}
+}

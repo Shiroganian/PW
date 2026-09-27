@@ -1,0 +1,13 @@
+characters = {
+
+	PAR_Eusebio_Ayala = {
+		name = "Eusebio Ayala"
+		portraits = {
+			civilian = { large = GFX_Portrait_PAR_Eusebio_Ayala }
+		}
+		country_leader = {
+			ideology = anocracy
+			traits = { }
+		}
+	}
+}

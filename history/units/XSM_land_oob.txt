@@ -1,0 +1,145 @@
+# XSM land OOB -- adapted from XSM_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Juntuán"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+}
+
+division_template = {
+	name = "Qibing Jun"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Infantry Division"
+		location = 2022
+		division_template = "Infantry Division"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "2nd Infantry Division"
+		location = 12732
+		division_template = "Infantry Division"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "3rd Infantry Division"
+		location = 8018
+		division_template = "Infantry Division"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "4th Infantry Division"
+		location = 5100
+		division_template = "Infantry Division"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "5th Infantry Division"
+		location = 10750
+		division_template = "Infantry Division"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "6th Infantry Division"
+		location = 7971
+		division_template = "Infantry Division"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "1st Juntuán"
+		location = 2022
+		division_template = "Juntuán"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "2nd Juntuán"
+		location = 12732
+		division_template = "Juntuán"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "3rd Juntuán"
+		location = 8018
+		division_template = "Juntuán"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "4th Juntuán"
+		location = 5100
+		division_template = "Juntuán"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "5th Juntuán"
+		location = 10750
+		division_template = "Juntuán"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "1st Qibing Jun"
+		location = 7971
+		division_template = "Qibing Jun"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = XSM
+		}
+		requested_factories = 3
+		progress = 0.20
+		efficiency = 50
+	}
+}

@@ -1,0 +1,13 @@
+characters = {
+
+	CZE_Kamil_Krofta = {
+		name = "Kamil Krofta"
+		portraits = {
+			civilian = { large = GFX_Portrait_CZE_Kamil_Krofta }
+		}
+		country_leader = {
+			ideology = liberal_czechoslovakism
+			traits = { }
+		}
+	}
+}

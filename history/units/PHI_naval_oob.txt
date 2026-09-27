@@ -1,0 +1,57 @@
+# PHI MTG naval OOB -- source: lore-scaled MTG template
+units = {
+	fleet = {
+		name = "National Navy"
+		naval_base = 10265
+		task_force = {
+			name = "National Navy Task Force"
+			location = 10265
+			ship = { name = "PHI CL-01" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PHI version_name = "PHI 1936 Cruiser Class" } } }
+			ship = { name = "PHI DD-01" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PHI version_name = "PHI 1936 Destroyer Class" } } }
+			ship = { name = "PHI DD-02" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PHI version_name = "PHI 1936 Destroyer Class" } } }
+			ship = { name = "PHI DD-03" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PHI version_name = "PHI 1936 Destroyer Class" } } }
+			ship = { name = "PHI DD-04" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PHI version_name = "PHI 1936 Destroyer Class" } } }
+			ship = { name = "PHI DD-05" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PHI version_name = "PHI 1936 Destroyer Class" } } }
+			ship = { name = "PHI DD-06" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PHI version_name = "PHI 1936 Destroyer Class" } } }
+			ship = { name = "PHI SS-01" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = PHI version_name = "PHI 1936 Submarine Class" } } }
+			ship = { name = "PHI SS-02" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = PHI version_name = "PHI 1936 Submarine Class" } } }
+			ship = { name = "PHI SS-03" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = PHI version_name = "PHI 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = PHI
+			version_name = "PHI 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = PHI
+			version_name = "PHI 1936 Destroyer Class"
+		}
+		requested_factories = 3
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = PHI
+			version_name = "PHI 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

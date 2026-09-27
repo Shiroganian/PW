@@ -1,0 +1,13 @@
+characters = {
+
+	CAR_Barthelemy_Boganda = {
+		name = "Barthelemy Boganda"
+		portraits = {
+			civilian = { large = GFX_Portrait_CAR_Barthelemy_Boganda }
+		}
+		country_leader = {
+			ideology = radical_nationalism
+			traits = { }
+		}
+	}
+}

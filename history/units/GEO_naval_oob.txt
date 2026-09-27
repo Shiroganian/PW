@@ -1,0 +1,29 @@
+# GEO MTG naval OOB -- source: lore-scaled MTG template
+units = {
+	fleet = {
+		name = "National Navy"
+		naval_base = 3653
+		task_force = {
+			name = "National Navy Task Force"
+			location = 3653
+			ship = { name = "GEO DD-01" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GEO version_name = "GEO 1936 Destroyer Class" } } }
+			ship = { name = "GEO DD-02" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = GEO version_name = "GEO 1936 Destroyer Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = GEO
+			version_name = "GEO 1936 Destroyer Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

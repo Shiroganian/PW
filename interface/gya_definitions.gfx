@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_GYA_Hubert_Nathaniel_Critchlow
+        texturefile = gfx/leaders/GYA/Portrait_GYA_Hubert_Nathaniel_Critchlow.dds
+    }
+}

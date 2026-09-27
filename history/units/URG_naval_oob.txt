@@ -1,0 +1,47 @@
+# URG MTG naval OOB -- source: URG_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "National Navy"
+		naval_base = 10362
+		task_force = {
+			name = "National Navy Task Force"
+			location = 10362
+			ship = { name = "URG CL-01" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = URG version_name = "URG 1936 Cruiser Class" } } }
+			ship = { name = "ROU Uruguay" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "URG 1936 Destroyer Class" } } }
+			ship = { name = "URG DD-02" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "URG 1936 Destroyer Class" } } }
+			ship = { name = "URG DD-03" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "URG 1936 Destroyer Class" } } }
+			ship = { name = "URG DD-04" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "URG 1936 Destroyer Class" } } }
+			ship = { name = "URG DD-05" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "URG 1936 Destroyer Class" } } }
+			ship = { name = "URG DD-06" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "URG 1936 Destroyer Class" } } }
+			ship = { name = "URG SS-01" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = URG version_name = "URG 1936 Submarine Class" } } }
+			ship = { name = "URG SS-02" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = URG version_name = "URG 1936 Submarine Class" } } }
+			ship = { name = "URG SS-03" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = URG version_name = "URG 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = URG
+			version_name = "URG 1936 Destroyer Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = URG
+			version_name = "URG 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

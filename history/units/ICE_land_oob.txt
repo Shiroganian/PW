@@ -1,0 +1,43 @@
+# ICE land OOB -- adapted from ICE_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Ríkislögreglan"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Ríkislögreglan"
+		location = 12674
+		division_template = "Ríkislögreglan"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = ICE
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

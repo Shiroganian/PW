@@ -1,0 +1,13 @@
+characters = {
+
+	MAD_Monja_Jaona = {
+		name = "Monja Jaona"
+		portraits = {
+			civilian = { large = GFX_Portrait_MAD_Monja_Jaona }
+		}
+		country_leader = {
+			ideology = national_liberalism
+			traits = { }
+		}
+	}
+}

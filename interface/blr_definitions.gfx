@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_BLR_Radaslaw_Astrouski
+        texturefile = gfx/leaders/BLR/Portrait_BLR_Radaslaw_Astrouski.dds
+    }
+}

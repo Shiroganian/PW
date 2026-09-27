@@ -1,0 +1,57 @@
+# RAJ MTG naval OOB -- source: lore-scaled MTG template
+units = {
+	fleet = {
+		name = "Indian State Navy"
+		naval_base = 4245
+		task_force = {
+			name = "Indian State Navy Task Force"
+			location = 4245
+			ship = { name = "RAJ CL-01" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAJ version_name = "RAJ 1936 Cruiser Class" } } }
+			ship = { name = "RAJ DD-01" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "RAJ 1936 Destroyer Class" } } }
+			ship = { name = "RAJ DD-02" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "RAJ 1936 Destroyer Class" } } }
+			ship = { name = "RAJ DD-03" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "RAJ 1936 Destroyer Class" } } }
+			ship = { name = "RAJ DD-04" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "RAJ 1936 Destroyer Class" } } }
+			ship = { name = "RAJ DD-05" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "RAJ 1936 Destroyer Class" } } }
+			ship = { name = "RAJ DD-06" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "RAJ 1936 Destroyer Class" } } }
+			ship = { name = "RAJ SS-01" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = RAJ version_name = "RAJ 1936 Submarine Class" } } }
+			ship = { name = "RAJ SS-02" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = RAJ version_name = "RAJ 1936 Submarine Class" } } }
+			ship = { name = "RAJ SS-03" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = RAJ version_name = "RAJ 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = RAJ
+			version_name = "RAJ 1936 Destroyer Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = RAJ
+			version_name = "RAJ 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = RAJ
+			version_name = "RAJ 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

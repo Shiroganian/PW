@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_HUN_Karl_IV
+        texturefile = gfx/leaders/HUN/Portrait_HUN_Karl_IV.dds
+    }
+}

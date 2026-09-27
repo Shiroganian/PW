@@ -1,0 +1,85 @@
+capital = 889
+
+set_politics = {
+	ruling_party = market_liberal
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	market_liberal = 100
+}
+
+recruit_character = KAT_Mwenda_Msiri_Ngelengwa # Mwenda Msiri Ngelengwa
+
+give_military_access = CFS
+
+declare_war_on = {
+	target = CLM
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = COG
+	type = annex_everything
+}
+
+add_ideas = {
+	CONGO_idea_total_war
+}
+
+oob = "KAT_land_oob"
+starting_train_buffer = 3
+set_convoys = 0
+
+# No starting air force or aircraft designs.
+
+set_research_slots = 3
+set_stability = 0.62
+set_war_support = 0.52
+add_command_power = 20
+
+# Starting military and industrial technology
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	basic_train = 1
+	tech_engineers = 1
+}
+
+# Coherent land, naval, and air doctrine choices
+set_grand_doctrine = grand_battleplan
+set_grand_doctrine = new_fleet_in_being
+set_grand_doctrine = new_operational_integrity
+
+add_breakthrough_progress = {
+	specialization = specialization_land
+	value = 0.55
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_naval
+	value = 0.25
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_air
+	value = 0.25
+}
+
+# Tank knowledge follows national development; variants exist only where the OOB uses armor.
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
+
+# Naval knowledge and variants match the ships in the starting OOB.
+# No starting navy or warship designs.

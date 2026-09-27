@@ -1,0 +1,13 @@
+characters = {
+
+	VIN_Bao_Dai = {
+		name = "Bao Dai"
+		portraits = {
+			civilian = { large = GFX_Portrait_VIN_Bao_Dai }
+		}
+		country_leader = {
+			ideology = revolutionary_monarchy
+			traits = { }
+		}
+	}
+}

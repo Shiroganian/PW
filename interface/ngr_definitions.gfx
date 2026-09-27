@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_NGR_Oumarou_Sanda
+        texturefile = gfx/leaders/NGR/Portrait_NGR_Oumarou_Sanda.dds
+    }
+}

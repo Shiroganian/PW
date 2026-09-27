@@ -1,0 +1,29 @@
+# EGY BBA air OOB -- source: lore-scaled BBA template
+air_wings = {
+	447 = {
+		small_plane_airframe_1 = {
+			owner = "EGY"
+			amount = 60
+			version_name = "EGY 1936 Fighter"
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "EGY"
+			amount = 12
+			version_name = "EGY 1936 Naval Bomber"
+		}
+	}
+	907 = {
+		small_plane_cas_airframe_1 = {
+			owner = "EGY"
+			amount = 36
+			version_name = "EGY 1936 CAS"
+		}
+	}
+	551 = {
+		medium_plane_airframe_1 = {
+			owner = "EGY"
+			amount = 12
+			version_name = "EGY 1936 Tactical Bomber"
+		}
+	}
+}

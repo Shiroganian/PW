@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_CLM_Andre_Matsoua
+        texturefile = gfx/leaders/CLM/Portrait_CLM_Andre_Matsoua.dds
+    }
+}

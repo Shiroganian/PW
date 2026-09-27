@@ -1,0 +1,13 @@
+characters = {
+
+	KHM_Sisowath_Monivong = {
+		name = "Sisowath Monivong"
+		portraits = {
+			civilian = { large = GFX_Portrait_KHM_Sisowath_Monivong }
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			traits = { }
+		}
+	}
+}

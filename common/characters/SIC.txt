@@ -1,0 +1,13 @@
+characters = {
+
+	SIC_Liu_Xiang = {
+		name = "Liu Xiang"
+		portraits = {
+			civilian = { large = GFX_Portrait_SIC_Liu_Xiang }
+		}
+		country_leader = {
+			ideology = anocracy
+			traits = { }
+		}
+	}
+}

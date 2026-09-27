@@ -1,0 +1,168 @@
+# POR land OOB -- adapted from POR_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Força de Caçadores"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Reserve Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Brigada de Cavalaria"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Força de Caçadores"
+		location = 11805
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "2nd Força de Caçadores"
+		location = 9817
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "3rd Força de Caçadores"
+		location = 1751
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "4th Força de Caçadores"
+		location = 8248
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "5th Força de Caçadores"
+		location = 8245
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "6th Força de Caçadores"
+		location = 9787
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "1st Reserve Brigade"
+		location = 11805
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "2nd Reserve Brigade"
+		location = 9817
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "3rd Reserve Brigade"
+		location = 1751
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "4th Reserve Brigade"
+		location = 8248
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "5th Reserve Brigade"
+		location = 8245
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "1st Brigada de Cavalaria"
+		location = 9787
+		division_template = "Brigada de Cavalaria"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = POR
+		}
+		requested_factories = 3
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = POR
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = POR
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_1
+				creator = POR
+				version_name = "POR 1936 Fighter"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+	}
+}

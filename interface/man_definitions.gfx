@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_MAN_Zhang_Jinghui
+        texturefile = gfx/leaders/MAN/Portrait_MAN_Zhang_Jinghui.dds
+    }
+}

@@ -1,0 +1,13 @@
+characters = {
+
+	ENG_George_V = {
+		name = "George V"
+		portraits = {
+			civilian = { large = GFX_Portrait_ENG_George_V }
+		}
+		country_leader = {
+			ideology = paternalistic_conservatism
+			traits = { }
+		}
+	}
+}

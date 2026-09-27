@@ -1,0 +1,13 @@
+characters = {
+
+	JAP_Hirohito = {
+		name = "Hirohito"
+		portraits = {
+			civilian = { large = GFX_Portrait_JAP_Hirohito }
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			traits = { }
+		}
+	}
+}

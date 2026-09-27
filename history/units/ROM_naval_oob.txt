@@ -1,0 +1,57 @@
+# ROM MTG naval OOB -- source: ROM_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "Royal Navy"
+		naval_base = 657
+		task_force = {
+			name = "Royal Navy Task Force"
+			location = 657
+			ship = { name = "ROM CL-01" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ROM version_name = "ROM 1936 Cruiser Class" } } }
+			ship = { name = "NMS Marasti" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "ROM 1936 Destroyer Class" } } }
+			ship = { name = "NMS Marasesti" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "ROM 1936 Destroyer Class" } } }
+			ship = { name = "NMS Regele Ferdinand" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "ROM 1936 Destroyer Class" } } }
+			ship = { name = "NMS Regina Maria" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "ROM 1936 Destroyer Class" } } }
+			ship = { name = "ROM DD-05" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "ROM 1936 Destroyer Class" } } }
+			ship = { name = "ROM DD-06" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "ROM 1936 Destroyer Class" } } }
+			ship = { name = "ROM SS-01" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ROM version_name = "ROM 1936 Submarine Class" } } }
+			ship = { name = "ROM SS-02" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ROM version_name = "ROM 1936 Submarine Class" } } }
+			ship = { name = "ROM SS-03" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ROM version_name = "ROM 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = ROM
+			version_name = "ROM 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = ROM
+			version_name = "ROM 1936 Destroyer Class"
+		}
+		requested_factories = 3
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = ROM
+			version_name = "ROM 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

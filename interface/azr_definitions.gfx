@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_AZR_Mammad_Amin_Rasulzade
+        texturefile = gfx/leaders/AZR/Portrait_AZR_Mammad_Amin_Rasulzade.dds
+    }
+}

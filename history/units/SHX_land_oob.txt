@@ -1,0 +1,215 @@
+# SHX land OOB -- adapted from SHX_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Juntuán"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Infantry Division"
+		location = 4174
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "2nd Infantry Division"
+		location = 8049
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "3rd Infantry Division"
+		location = 7301
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "4th Infantry Division"
+		location = 12356
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "5th Infantry Division"
+		location = 5025
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "6th Infantry Division"
+		location = 7314
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "7th Infantry Division"
+		location = 4174
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "8th Infantry Division"
+		location = 8049
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "9th Infantry Division"
+		location = 7301
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "1st Juntuán"
+		location = 12356
+		division_template = "Juntuán"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "2nd Juntuán"
+		location = 5025
+		division_template = "Juntuán"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "3rd Juntuán"
+		location = 7314
+		division_template = "Juntuán"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "4th Juntuán"
+		location = 4174
+		division_template = "Juntuán"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "1st Motorized Division"
+		location = 8049
+		division_template = "Motorized Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "1st Cavalry Brigade"
+		location = 7301
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "2nd Cavalry Brigade"
+		location = 12356
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = SHX
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = SHX
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = SHX
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = SHX
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

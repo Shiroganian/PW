@@ -1,0 +1,13 @@
+characters = {
+
+	SPR_Jose_Antonio_Primo_de_Rivera = {
+		name = "Jose Antonio Primo de Rivera"
+		portraits = {
+			civilian = { large = GFX_Portrait_SPR_Jose_Antonio_Primo_de_Rivera }
+		}
+		country_leader = {
+			ideology = falangism
+			traits = { }
+		}
+	}
+}

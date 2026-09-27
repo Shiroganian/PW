@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_CHI_Sun_Yat_sen
+        texturefile = gfx/leaders/CHI/Portrait_CHI_Sun_Yat_sen.dds
+    }
+}

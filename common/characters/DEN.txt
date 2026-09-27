@@ -1,0 +1,13 @@
+characters = {
+
+	DEN_Christian_X = {
+		name = "Christian X"
+		portraits = {
+			civilian = { large = GFX_Portrait_DEN_Christian_X }
+		}
+		country_leader = {
+			ideology = progressivism
+			traits = { }
+		}
+	}
+}

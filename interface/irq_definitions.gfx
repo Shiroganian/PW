@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_IRQ_Jafar_al_Askari
+        texturefile = gfx/leaders/IRQ/Portrait_IRQ_Jafar_al_Askari.dds
+    }
+}

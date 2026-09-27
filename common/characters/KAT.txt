@@ -1,0 +1,13 @@
+characters = {
+
+	KAT_Mwenda_Msiri_Ngelengwa = {
+		name = "Mwenda Msiri Ngelengwa"
+		portraits = {
+			civilian = { large = GFX_Portrait_KAT_Mwenda_Msiri_Ngelengwa }
+		}
+		country_leader = {
+			ideology = national_liberalism
+			traits = { }
+		}
+	}
+}

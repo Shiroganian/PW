@@ -1,0 +1,13 @@
+characters = {
+
+	GRE_Alexander_I = {
+		name = "Alexander I"
+		portraits = {
+			civilian = { large = GFX_Portrait_GRE_Alexander_I }
+		}
+		country_leader = {
+			ideology = classical_conservatism
+			traits = { }
+		}
+	}
+}

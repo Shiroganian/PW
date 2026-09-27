@@ -1,0 +1,29 @@
+# BEL BBA air OOB -- source: BEL_1936_air_bba.txt
+air_wings = {
+	6 = {
+		small_plane_airframe_1 = {
+			owner = "BEL"
+			amount = 60
+			version_name = "BEL 1936 Fighter"
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "BEL"
+			amount = 12
+			version_name = "BEL 1936 Naval Bomber"
+		}
+	}
+	977 = {
+		small_plane_cas_airframe_1 = {
+			owner = "BEL"
+			amount = 24
+			version_name = "BEL 1936 CAS"
+		}
+	}
+	34 = {
+		medium_plane_airframe_1 = {
+			owner = "BEL"
+			amount = 12
+			version_name = "BEL 1936 Tactical Bomber"
+		}
+	}
+}

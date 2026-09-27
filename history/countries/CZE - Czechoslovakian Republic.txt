@@ -1,0 +1,171 @@
+capital = 9
+
+set_politics = {
+	ruling_party = social_liberal
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	social_liberal = 100
+}
+
+recruit_character = CZE_Kamil_Krofta # Kamil Krofta
+
+oob = "CZE_land_oob"
+starting_train_buffer = 3
+set_convoys = 0
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	set_air_oob = "CZE_air_oob"
+	set_technology = {
+		engines_1 = 1
+		engines_2 = 1
+		aa_lmg = 1
+		early_bombs = 1
+		aircraft_construction = 1
+		iw_small_airframe = 1
+		basic_small_airframe = 1
+		iw_medium_airframe = 1
+		basic_medium_airframe = 1
+		bba_early_transport_plane = 1
+	}
+
+	create_equipment_variant = {
+		name = "CZE 1936 Tactical Bomber"
+		type = medium_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			engine_type_slot = engine_2_2x
+			special_type_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "CZE 1936 Fighter"
+		type = small_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			fixed_auxiliary_weapon_slot_1 = light_mg_2x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "CZE 1936 CAS"
+		type = small_plane_cas_airframe_1
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			fixed_auxiliary_weapon_slot_1 = light_mg_2x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+	}
+	else = {
+		set_technology = {
+			early_fighter = 1
+			fighter1 = 1
+			early_bomber = 1
+			tactical_bomber1 = 1
+			CAS1 = 1
+			early_transport_plane = 1
+		}
+	}
+}
+
+set_research_slots = 4
+set_stability = 0.65
+set_war_support = 0.32
+add_command_power = 20
+
+# Starting military and industrial technology
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	basic_train = 1
+	gw_artillery = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	support_weapons = 1
+	interwar_artillery = 1
+	interwar_antiair = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	basic_machine_tools = 1
+	construction1 = 1
+	engine_tech_1 = 1
+}
+
+# Coherent land, naval, and air doctrine choices
+set_grand_doctrine = new_mobile_warfare
+set_grand_doctrine = new_fleet_in_being
+set_grand_doctrine = new_battlefield_support
+
+add_breakthrough_progress = {
+	specialization = specialization_land
+	value = 0.55
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_naval
+	value = 0.20
+}
+
+add_breakthrough_progress = {
+	specialization = specialization_air
+	value = 0.55
+}
+
+# Tank knowledge follows national development; variants exist only where the OOB uses armor.
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+	}
+	create_equipment_variant = {
+		name = "CZE 1936 Light Tank"
+		type = light_tank_equipment_2
+		parent_version = 0
+		upgrades = {
+			tank_gun_upgrade = 1
+			tank_engine_upgrade = 2
+			tank_armor_upgrade = 1
+			tank_reliability_upgrade = 1
+		}
+	}
+}
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+	create_equipment_variant = {
+		name = "CZE 1936 Light Tank"
+		type = light_tank_chassis_2
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon
+			turret_type_slot = tank_light_two_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 2
+			tank_nsb_armor_upgrade = 1
+		}
+	}
+}
+
+# Naval knowledge and variants match the ships in the starting OOB.
+# No starting navy or warship designs.

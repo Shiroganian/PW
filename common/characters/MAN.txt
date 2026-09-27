@@ -1,0 +1,13 @@
+characters = {
+
+	MAN_Zhang_Jinghui = {
+		name = "Zhang Jinghui"
+		portraits = {
+			civilian = { large = GFX_Portrait_MAN_Zhang_Jinghui }
+		}
+		country_leader = {
+			ideology = anocracy
+			traits = { }
+		}
+	}
+}

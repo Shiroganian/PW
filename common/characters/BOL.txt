@@ -1,0 +1,13 @@
+characters = {
+
+	BOL_Jose_Luis_Tejada_Sorzano = {
+		name = "Jose Luis Tejada Sorzano"
+		portraits = {
+			civilian = { large = GFX_Portrait_BOL_Jose_Luis_Tejada_Sorzano }
+		}
+		country_leader = {
+			ideology = radical_nationalism
+			traits = { }
+		}
+	}
+}

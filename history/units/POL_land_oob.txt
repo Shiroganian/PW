@@ -1,0 +1,427 @@
+# POL land OOB -- adapted from POL_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Dywizja Piechoty"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Reserve Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Armored Brigade"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Brygada Kawalerii"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Dywizja Piechoty"
+		location = 3544
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Dywizja Piechoty"
+		location = 9427
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "3rd Dywizja Piechoty"
+		location = 9508
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "4th Dywizja Piechoty"
+		location = 6558
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "5th Dywizja Piechoty"
+		location = 11430
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "6th Dywizja Piechoty"
+		location = 3230
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "7th Dywizja Piechoty"
+		location = 6464
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "8th Dywizja Piechoty"
+		location = 9263
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "9th Dywizja Piechoty"
+		location = 11479
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "10th Dywizja Piechoty"
+		location = 422
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "11th Dywizja Piechoty"
+		location = 3393
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "12th Dywizja Piechoty"
+		location = 11301
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "13th Dywizja Piechoty"
+		location = 11399
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "14th Dywizja Piechoty"
+		location = 11411
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "15th Dywizja Piechoty"
+		location = 3392
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "16th Dywizja Piechoty"
+		location = 406
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "17th Dywizja Piechoty"
+		location = 3544
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "18th Dywizja Piechoty"
+		location = 9427
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "19th Dywizja Piechoty"
+		location = 9508
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "20th Dywizja Piechoty"
+		location = 6558
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "21st Dywizja Piechoty"
+		location = 11430
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "22nd Dywizja Piechoty"
+		location = 3230
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "23rd Dywizja Piechoty"
+		location = 6464
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "24th Dywizja Piechoty"
+		location = 9263
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Reserve Brigade"
+		location = 11479
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "2nd Reserve Brigade"
+		location = 422
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "3rd Reserve Brigade"
+		location = 3393
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "4th Reserve Brigade"
+		location = 11301
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "1st Motorized Division"
+		location = 11399
+		division_template = "Motorized Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Motorized Division"
+		location = 11411
+		division_template = "Motorized Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Armored Brigade"
+		location = 3392
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Armored Brigade"
+		location = 406
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Brygada Kawalerii"
+		location = 3544
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Brygada Kawalerii"
+		location = 9427
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "3rd Brygada Kawalerii"
+		location = 9508
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "4th Brygada Kawalerii"
+		location = 6558
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = POL
+		}
+		requested_factories = 8
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = POL
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = POL
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = POL
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_1
+				creator = POL
+				version_name = "POL 1936 Fighter"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_cas_airframe_1
+				creator = POL
+				version_name = "POL 1936 CAS"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+	}
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_chassis_2
+				creator = POL
+				version_name = "POL 1936 Light Tank"
+			}
+			requested_factories = 3
+			progress = 0.20
+			efficiency = 50
+		}
+		else = {
+			add_equipment_production = {
+				equipment = {
+					type = light_tank_equipment_2
+					creator = POL
+					version_name = "POL 1936 Light Tank"
+				}
+				requested_factories = 3
+				progress = 0.20
+				efficiency = 50
+			}
+		}
+	}
+}

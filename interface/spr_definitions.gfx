@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_SPR_Jose_Antonio_Primo_de_Rivera
+        texturefile = gfx/leaders/SPR/Portrait_SPR_Jose_Antonio_Primo_de_Rivera.dds
+    }
+}

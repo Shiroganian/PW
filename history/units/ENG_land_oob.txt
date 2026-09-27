@@ -1,0 +1,389 @@
+# ENG land OOB -- adapted from ENG_1936_nsb.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Territorial Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Motorised Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+	 	engineer = { x = 0 y = 0 }
+	    mot_recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Colonial Garrison"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Royal Marine Brigade"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Infantry Division"
+		location = 6103
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "2nd Infantry Division"
+		location = 6384
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "3rd Infantry Division"
+		location = 9297
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "4th Infantry Division"
+		location = 3501
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "5th Infantry Division"
+		location = 9315
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "6th Infantry Division"
+		location = 3273
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "7th Infantry Division"
+		location = 6237
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "8th Infantry Division"
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "9th Infantry Division"
+		location = 540
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "10th Infantry Division"
+		location = 4135
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "11th Infantry Division"
+		location = 351
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "12th Infantry Division"
+		location = 377
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "13th Infantry Division"
+		location = 3369
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "14th Infantry Division"
+		location = 3379
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "15th Infantry Division"
+		location = 200
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "16th Infantry Division"
+		location = 12003
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "17th Infantry Division"
+		location = 6103
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "18th Infantry Division"
+		location = 6384
+		division_template = "Infantry Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "1st Territorial Division"
+		location = 9297
+		division_template = "Territorial Division"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "2nd Territorial Division"
+		location = 3501
+		division_template = "Territorial Division"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "3rd Territorial Division"
+		location = 9315
+		division_template = "Territorial Division"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "1st Motorised Division"
+		location = 3273
+		division_template = "Motorised Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "2nd Motorised Division"
+		location = 6237
+		division_template = "Motorised Division"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "1st Cavalry Brigade"
+		location = 9392
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "2nd Cavalry Brigade"
+		location = 540
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "1st Colonial Garrison"
+		location = 4135
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "2nd Colonial Garrison"
+		location = 351
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "3rd Colonial Garrison"
+		location = 377
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "4th Colonial Garrison"
+		location = 3369
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "5th Colonial Garrison"
+		location = 3379
+		division_template = "Colonial Garrison"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "1st Royal Marine Brigade"
+		location = 200
+		division_template = "Royal Marine Brigade"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "2nd Royal Marine Brigade"
+		location = 12003
+		division_template = "Royal Marine Brigade"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = ENG
+		}
+		requested_factories = 11
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = ENG
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = ENG
+		}
+		requested_factories = 3
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = ENG
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_1
+				creator = ENG
+				version_name = "ENG 1936 Fighter"
+			}
+			requested_factories = 2
+			progress = 0.20
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_cas_airframe_1
+				creator = ENG
+				version_name = "ENG 1936 CAS"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+	}
+}

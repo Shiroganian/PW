@@ -1,0 +1,27 @@
+# PHI BBA air OOB -- source: PHI_1936_air_bba.txt
+air_wings = {
+	327 = {
+		small_plane_airframe_1 = {
+			owner = "PHI"
+			amount = 60
+			version_name = "PHI 1936 Fighter"
+		}
+		medium_plane_airframe_1 = {
+			owner = "PHI"
+			amount = 12
+			version_name = "PHI 1936 Tactical Bomber"
+		}
+	}
+	1027 = {
+		small_plane_cas_airframe_1 = {
+			owner = "PHI"
+			amount = 36
+			version_name = "PHI 1936 CAS"
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "PHI"
+			amount = 12
+			version_name = "PHI 1936 Naval Bomber"
+		}
+	}
+}

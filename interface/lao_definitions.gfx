@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_LAO_Sisavang_Vong
+        texturefile = gfx/leaders/LAO/Portrait_LAO_Sisavang_Vong.dds
+    }
+}

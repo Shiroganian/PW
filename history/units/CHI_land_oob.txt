@@ -1,0 +1,516 @@
+# CHI land OOB -- adapted from CHI_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Sanjiao Jun"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Juntuán"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+	priority = 0
+}
+
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Armored Brigade"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Qibing Jun"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Sanjiao Jun"
+		location = 11913
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Sanjiao Jun"
+		location = 1047
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "3rd Sanjiao Jun"
+		location = 1319
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "4th Sanjiao Jun"
+		location = 7101
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "5th Sanjiao Jun"
+		location = 4619
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "6th Sanjiao Jun"
+		location = 7137
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "7th Sanjiao Jun"
+		location = 7097
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "8th Sanjiao Jun"
+		location = 10404
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "9th Sanjiao Jun"
+		location = 3992
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "10th Sanjiao Jun"
+		location = 4196
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "11th Sanjiao Jun"
+		location = 4504
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "12th Sanjiao Jun"
+		location = 10076
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "13th Sanjiao Jun"
+		location = 1010
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "14th Sanjiao Jun"
+		location = 10062
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "15th Sanjiao Jun"
+		location = 7965
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "16th Sanjiao Jun"
+		location = 9958
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "17th Sanjiao Jun"
+		location = 1029
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "18th Sanjiao Jun"
+		location = 9970
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "19th Sanjiao Jun"
+		location = 1070
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "20th Sanjiao Jun"
+		location = 9974
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "21st Sanjiao Jun"
+		location = 4130
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "22nd Sanjiao Jun"
+		location = 7222
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "23rd Sanjiao Jun"
+		location = 12019
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "24th Sanjiao Jun"
+		location = 10004
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "25th Sanjiao Jun"
+		location = 11865
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "26th Sanjiao Jun"
+		location = 11913
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "27th Sanjiao Jun"
+		location = 1047
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "28th Sanjiao Jun"
+		location = 1319
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "29th Sanjiao Jun"
+		location = 7101
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "30th Sanjiao Jun"
+		location = 4619
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "31st Sanjiao Jun"
+		location = 7137
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "32nd Sanjiao Jun"
+		location = 7097
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "33rd Sanjiao Jun"
+		location = 10404
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Juntuán"
+		location = 3992
+		division_template = "Juntuán"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "2nd Juntuán"
+		location = 4196
+		division_template = "Juntuán"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "3rd Juntuán"
+		location = 4504
+		division_template = "Juntuán"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "4th Juntuán"
+		location = 10076
+		division_template = "Juntuán"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "5th Juntuán"
+		location = 1010
+		division_template = "Juntuán"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "6th Juntuán"
+		location = 10062
+		division_template = "Juntuán"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "1st Motorized Division"
+		location = 7965
+		division_template = "Motorized Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Motorized Division"
+		location = 9958
+		division_template = "Motorized Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "3rd Motorized Division"
+		location = 1029
+		division_template = "Motorized Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "4th Motorized Division"
+		location = 9970
+		division_template = "Motorized Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Armored Brigade"
+		location = 1070
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Armored Brigade"
+		location = 9974
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Qibing Jun"
+		location = 4130
+		division_template = "Qibing Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Qibing Jun"
+		location = 7222
+		division_template = "Qibing Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "3rd Qibing Jun"
+		location = 12019
+		division_template = "Qibing Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "4th Qibing Jun"
+		location = 10004
+		division_template = "Qibing Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "5th Qibing Jun"
+		location = 11865
+		division_template = "Qibing Jun"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = CHI
+		}
+		requested_factories = 9
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = CHI
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = CHI
+		}
+		requested_factories = 3
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = CHI
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_1
+				creator = CHI
+				version_name = "CHI 1936 Fighter"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_cas_airframe_1
+				creator = CHI
+				version_name = "CHI 1936 CAS"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+	}
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_chassis_2
+				creator = CHI
+				version_name = "CHI 1936 Light Tank"
+			}
+			requested_factories = 3
+			progress = 0.20
+			efficiency = 50
+		}
+		else = {
+			add_equipment_production = {
+				equipment = {
+					type = light_tank_equipment_2
+					creator = CHI
+					version_name = "CHI 1936 Light Tank"
+				}
+				requested_factories = 3
+				progress = 0.20
+				efficiency = 50
+			}
+		}
+	}
+}

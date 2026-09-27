@@ -1,0 +1,13 @@
+characters = {
+
+	INS_Soetomo = {
+		name = "Soetomo"
+		portraits = {
+			civilian = { large = GFX_Portrait_INS_Soetomo }
+		}
+		country_leader = {
+			ideology = national_conservatism
+			traits = { }
+		}
+	}
+}

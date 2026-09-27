@@ -1,0 +1,31 @@
+# BLT BBA air OOB -- source: lore-scaled BBA template
+air_wings = {
+	784 = {
+		small_plane_airframe_1 = {
+			owner = "BLT"
+			amount = 80
+			version_name = "BLT 1936 Fighter"
+		}
+	}
+	814 = {
+		small_plane_cas_airframe_1 = {
+			owner = "BLT"
+			amount = 36
+			version_name = "BLT 1936 CAS"
+		}
+	}
+	810 = {
+		medium_plane_airframe_1 = {
+			owner = "BLT"
+			amount = 12
+			version_name = "BLT 1936 Tactical Bomber"
+		}
+	}
+	808 = {
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "BLT"
+			amount = 12
+			version_name = "BLT 1936 Naval Bomber"
+		}
+	}
+}

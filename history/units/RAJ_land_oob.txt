@@ -1,0 +1,494 @@
+# RAJ land OOB -- adapted from lore-scaled generated formation set
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Rashtriya Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Territorial Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Armored Brigade"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Rashtriya Infantry Division"
+		location = 2086
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Rashtriya Infantry Division"
+		location = 1349
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "3rd Rashtriya Infantry Division"
+		location = 3456
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "4th Rashtriya Infantry Division"
+		location = 10772
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "5th Rashtriya Infantry Division"
+		location = 8087
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "6th Rashtriya Infantry Division"
+		location = 1377
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "7th Rashtriya Infantry Division"
+		location = 9975
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "8th Rashtriya Infantry Division"
+		location = 8011
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "9th Rashtriya Infantry Division"
+		location = 10278
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "10th Rashtriya Infantry Division"
+		location = 4245
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "11th Rashtriya Infantry Division"
+		location = 4950
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "12th Rashtriya Infantry Division"
+		location = 1908
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "13th Rashtriya Infantry Division"
+		location = 4106
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "14th Rashtriya Infantry Division"
+		location = 1553
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "15th Rashtriya Infantry Division"
+		location = 10729
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "16th Rashtriya Infantry Division"
+		location = 1321
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "17th Rashtriya Infantry Division"
+		location = 12754
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "18th Rashtriya Infantry Division"
+		location = 12295
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "19th Rashtriya Infantry Division"
+		location = 4516
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "20th Rashtriya Infantry Division"
+		location = 11929
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "21st Rashtriya Infantry Division"
+		location = 12366
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "22nd Rashtriya Infantry Division"
+		location = 1910
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "23rd Rashtriya Infantry Division"
+		location = 1273
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "24th Rashtriya Infantry Division"
+		location = 2086
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "25th Rashtriya Infantry Division"
+		location = 1349
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "26th Rashtriya Infantry Division"
+		location = 3456
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "27th Rashtriya Infantry Division"
+		location = 10772
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "28th Rashtriya Infantry Division"
+		location = 8087
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "29th Rashtriya Infantry Division"
+		location = 1377
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "30th Rashtriya Infantry Division"
+		location = 9975
+		division_template = "Rashtriya Infantry Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Territorial Brigade"
+		location = 8011
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "2nd Territorial Brigade"
+		location = 10278
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "3rd Territorial Brigade"
+		location = 4245
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "4th Territorial Brigade"
+		location = 4950
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "5th Territorial Brigade"
+		location = 1908
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "1st Motorized Division"
+		location = 4106
+		division_template = "Motorized Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Motorized Division"
+		location = 1553
+		division_template = "Motorized Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "3rd Motorized Division"
+		location = 10729
+		division_template = "Motorized Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Armored Brigade"
+		location = 1321
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Armored Brigade"
+		location = 12754
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Cavalry Brigade"
+		location = 12295
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Cavalry Brigade"
+		location = 4516
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "3rd Cavalry Brigade"
+		location = 11929
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "4th Cavalry Brigade"
+		location = 12366
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "5th Cavalry Brigade"
+		location = 1910
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.84
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = RAJ
+		}
+		requested_factories = 12
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = RAJ
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = RAJ
+		}
+		requested_factories = 4
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = RAJ
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_1
+				creator = RAJ
+				version_name = "RAJ 1936 Fighter"
+			}
+			requested_factories = 2
+			progress = 0.20
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_cas_airframe_1
+				creator = RAJ
+				version_name = "RAJ 1936 CAS"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+	}
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_chassis_2
+				creator = RAJ
+				version_name = "RAJ 1936 Light Tank"
+			}
+			requested_factories = 4
+			progress = 0.20
+			efficiency = 50
+		}
+		else = {
+			add_equipment_production = {
+				equipment = {
+					type = light_tank_equipment_2
+					creator = RAJ
+					version_name = "RAJ 1936 Light Tank"
+				}
+				requested_factories = 4
+				progress = 0.20
+				efficiency = 50
+			}
+		}
+	}
+}

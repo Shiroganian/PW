@@ -1,0 +1,20 @@
+# Minimal scripted localisation used by the GER Gustav Noske leader GUI.
+defined_text = {
+	name = GetFirstOrSecondLeader
+	text = {
+		trigger = {
+			has_country_flag = GER_Gustav_Noske_HoG
+		}
+		localization_key = GER_GUSTAV_NOSKE_GUI_NAME
+	}
+}
+
+defined_text = {
+	name = GetPrimeMinister
+	text = {
+		trigger = {
+			has_country_flag = GER_Gustav_Noske_HoG
+		}
+		localization_key = GER_GUSTAV_NOSKE_GUI_NAME
+	}
+}

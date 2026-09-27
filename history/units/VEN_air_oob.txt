@@ -1,0 +1,20 @@
+# VEN BBA air OOB -- source: lore-scaled BBA template
+air_wings = {
+	307 = {
+		small_plane_airframe_1 = {
+			owner = "VEN"
+			amount = 24
+			version_name = "VEN 1936 Fighter"
+		}
+		small_plane_cas_airframe_1 = {
+			owner = "VEN"
+			amount = 12
+			version_name = "VEN 1936 CAS"
+		}
+		medium_plane_airframe_1 = {
+			owner = "VEN"
+			amount = 12
+			version_name = "VEN 1936 Tactical Bomber"
+		}
+	}
+}

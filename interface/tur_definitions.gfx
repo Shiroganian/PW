@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_TUR_Abdulmecid_II
+        texturefile = gfx/leaders/TUR/Portrait_TUR_Abdulmecid_II.dds
+    }
+}

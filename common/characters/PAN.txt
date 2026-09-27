@@ -1,0 +1,13 @@
+characters = {
+
+	PAN_Harmodio_Arias_Madrid = {
+		name = "Harmodio Arias Madrid"
+		portraits = {
+			civilian = { large = GFX_Portrait_PAN_Harmodio_Arias_Madrid }
+		}
+		country_leader = {
+			ideology = progressive_liberalism
+			traits = { }
+		}
+	}
+}

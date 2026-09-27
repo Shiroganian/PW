@@ -1,0 +1,13 @@
+characters = {
+
+	NEP_Tribhuvan = {
+		name = "Tribhuvan"
+		portraits = {
+			civilian = { large = GFX_Portrait_NEP_Tribhuvan }
+		}
+		country_leader = {
+			ideology = oligarchic_monarchism
+			traits = { }
+		}
+	}
+}

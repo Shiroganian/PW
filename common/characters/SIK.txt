@@ -1,0 +1,13 @@
+characters = {
+
+	SIK_Ma_Zhongying = {
+		name = "Ma Zhongying"
+		portraits = {
+			civilian = { large = GFX_Portrait_SIK_Ma_Zhongying }
+		}
+		country_leader = {
+			ideology = anocracy
+			traits = { }
+		}
+	}
+}

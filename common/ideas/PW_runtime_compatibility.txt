@@ -1,0 +1,37 @@
+ideas = {
+	country = {
+		# These vanilla national-spirit keys are still queried by equipment,
+		# AI, and decision triggers. Pax Wilsoniana replaces common/ideas, so
+		# inert definitions are required even though none should be active in
+		# the mod's starting political setup.
+		BUL_army_restrictions_aat = {
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+		}
+
+		SOV_purged_junior_navy_officers_3 = {
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+		}
+
+		SOV_purged_junior_army_officers_3 = {
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+		}
+
+		SWE_hungershield = {
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+		}
+
+		SPR_political_violence = {
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+		}
+	}
+}

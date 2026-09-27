@@ -1,0 +1,13 @@
+characters = {
+
+	IRQ_Jafar_al_Askari = {
+		name = "Jafar al-Askari"
+		portraits = {
+			civilian = { large = GFX_Portrait_IRQ_Jafar_al_Askari }
+		}
+		country_leader = {
+			ideology = centrism
+			traits = { }
+		}
+	}
+}

@@ -1,0 +1,13 @@
+characters = {
+
+	ELS_Maximiliano_Hernandez_Martinez = {
+		name = "Maximiliano Hernandez Martinez"
+		portraits = {
+			civilian = { large = GFX_Portrait_ELS_Maximiliano_Hernandez_Martinez }
+		}
+		country_leader = {
+			ideology = pan_hispanic_ultranationalism
+			traits = { }
+		}
+	}
+}

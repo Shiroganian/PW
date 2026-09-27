@@ -1,0 +1,20 @@
+# SIC BBA air OOB -- source: lore-scaled BBA template
+air_wings = {
+	1037 = {
+		small_plane_airframe_1 = {
+			owner = "SIC"
+			amount = 48
+			version_name = "SIC 1936 Fighter"
+		}
+		small_plane_cas_airframe_1 = {
+			owner = "SIC"
+			amount = 12
+			version_name = "SIC 1936 CAS"
+		}
+		medium_plane_airframe_1 = {
+			owner = "SIC"
+			amount = 12
+			version_name = "SIC 1936 Tactical Bomber"
+		}
+	}
+}

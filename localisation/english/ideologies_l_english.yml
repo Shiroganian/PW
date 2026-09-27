@@ -1,0 +1,91 @@
+﻿l_english:
+ #Totalitarian Socialist
+
+ totalitarian_socialist: "Totalitarian Socialism"
+ totalitarian_socialist_noun: "Totalitarian Socialism"
+ totalitarian_socialist_desc: "Totalitarian Socialist Regime"
+ totalitarian_socialist_drift: "Drift towards Totalitarian Socialism"
+ totalitarian_socialist_color: "§d"
+ totalitarian_socialist_color_color_name: "§d$totalitarian_socialist$§!"
+
+ #Authoritarian Socialist
+ communist: "Authoritarian Socialism"
+ communist_noun: "Authoritarian Socialism"
+ communist_desc: "Authoritarian Socialist Regime"
+ communist_drift: "Drift towards Authoritarian Socialism"
+ communist_color: "§R"
+ communist_color_name: "§R$communist$§!"
+
+ #Libertarian Socialism
+
+ libertarian_socialist: "Libertarian Socialism"
+ libertarian_socialist_noun: "Libertarian Socialism"
+ libertarian_socialist_desc: "Libertarian Socialist Government"
+ libertarian_socialist_drift: "Drift towards Libertarian Socialism"
+ libertarian_socialist_color: "§t"
+ libertarian_socialist_color_name: "§t$libertarian_socialist$§!"
+ 
+ #Socdem Bernie Sanders Nordic Whatever 
+
+ social_democrat: "Social Democracy"
+ social_democrat_noun: "Social Democracy"
+ social_democrat_desc: "Social Democractic Government"
+ social_democrat_drift: "Drift towards Social Democracy"
+ social_democrat_color: "§s"
+ social_democrat_color_name: "§s$social_democrat$§!"
+
+ #Social Liberalism
+ social_liberal: "Social Liberalism"
+ social_liberal_noun: "Social Liberalism"
+ social_liberal_desc: "Social Liberal Government"
+ social_liberal_drift: "Drift towards Social Liberalism"
+ social_liberal_color: "§0"
+ social_liberal_color_name: "§0$social_liberal$§!"
+ 
+ #Market Liberalism
+ market_liberal: "Market Liberalism"
+ market_liberal_noun: "Market Liberalism"
+ market_liberal_desc: "Market Liberal Government"
+ market_liberal_drift: "Drift towards Market Liberalism"
+ market_liberal_color: "§Y"
+ market_liberal_color_name: "§Y$market_liberal$§!"
+ 
+ #Conservative Democrat
+ conservative: "Social Conservatism"
+ conservative_noun: "Social Conservatism"
+ conservative_desc: "Social Conservative Government"
+ conservative_drift: "Drift towards Social Conservatism"
+ conservative_color: "§3"
+ conservative_color_name: "§3$conservative$§!"
+
+ #Authdem
+ authoritarian_democrat: "Authoritarian Democracy"
+ authoritarian_democrat_noun: "Authoritarian Democracy"
+ authoritarian_democrat_desc: "Authoritarian Democratic Government"
+ authoritarian_democrat_drift: "Drift towards Authoritarian Democracy"
+ authoritarian_democrat_color: "§g"
+ authoritarian_democrat_color_name: "§g$authoritarian_democrat$§!"
+ 
+ #Despotism
+ nationalist: "Despotism"
+ nationalist_noun: "Despotism"
+ nationalist_desc: "Despotic Government"
+ nationalist_drift: "Drift towards Despotism"
+ nationalist_color: "§P"
+ nationalist_color_name: "§P$nationalist$§!"
+
+ #Fascism
+ fascist: "Fascism"
+ fascist_noun: "Fascism"
+ fascist_desc: "Fascist Regime"
+ fascist_drift: "Drift towards Fascism"
+ fascist_color: "§8"
+ fascist_color_name: "§8$fascist$§!"
+ 
+ #Nazism
+ national_socialist: "National Socialism"
+ national_socialist_noun: "National Socialism"
+ national_socialist_desc: "National Socialist Regime"
+ national_socialist_drift: "Drift towards National Socialism"
+ national_socialist_color: "§n"
+ national_socialist_color_name: "§n$national_socialist$§!"

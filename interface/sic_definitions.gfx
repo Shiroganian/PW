@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_SIC_Liu_Xiang
+        texturefile = gfx/leaders/SIC/Portrait_SIC_Liu_Xiang.dds
+    }
+}

@@ -1,0 +1,13 @@
+characters = {
+
+	CFS_Pierre_Ryckmans = {
+		name = "Pierre Ryckmans"
+		portraits = {
+			civilian = { large = GFX_Portrait_CFS_Pierre_Ryckmans }
+		}
+		country_leader = {
+			ideology = euro_african_synthesis
+			traits = { }
+		}
+	}
+}

@@ -1,0 +1,13 @@
+characters = {
+
+	BSF_Plinio_Salgado = {
+		name = "Plinio Salgado"
+		portraits = {
+			civilian = { large = GFX_Portrait_BSF_Plinio_Salgado }
+		}
+		country_leader = {
+			ideology = integralism
+			traits = { }
+		}
+	}
+}

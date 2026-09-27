@@ -1,0 +1,13 @@
+characters = {
+
+	DNZ_Arthur_Brill = {
+		name = "Arthur Brill"
+		portraits = {
+			civilian = { large = GFX_Portrait_DNZ_Arthur_Brill }
+		}
+		country_leader = {
+			ideology = league_mandate_socdem
+			traits = { }
+		}
+	}
+}

@@ -1,0 +1,13 @@
+characters = {
+
+	ITA_Giovanni_Gentile = {
+		name = "Giovanni Gentile"
+		portraits = {
+			civilian = { large = GFX_Portrait_ITA_Giovanni_Gentile }
+		}
+		country_leader = {
+			ideology = classical_fascism
+			traits = { }
+		}
+	}
+}

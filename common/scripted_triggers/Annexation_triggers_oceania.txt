@@ -1,0 +1,19 @@
+# Oceania annexation-release triggers
+
+can_release_AST = {
+	state = 285 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = AST_CONQ }
+		NOT = { country_exists = AST }
+	}
+}
+
+can_release_NZL = {
+	state = 284 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = NZL_CONQ }
+		NOT = { country_exists = NZL }
+	}
+}

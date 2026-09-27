@@ -1,0 +1,155 @@
+# FRA MTG naval OOB -- source: FRA_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "Marine Nationale 1"
+		naval_base = 911
+		task_force = {
+			name = "Marine Nationale Task Force 1"
+			location = 911
+			ship = { name = "Courbet" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Battleship Class" } } }
+			ship = { name = "Provence" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Battleship Class" } } }
+			ship = { name = "Bretagne" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Battleship Class" } } }
+			ship = { name = "FRA BB-07" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Battleship Class" } } }
+			ship = { name = "Pluton" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "Émile Bertin" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "Duguay-Trouin" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "Lamotte-Picquet" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "FRA CL-09" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "FRA CL-11" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "FRA CL-13" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "FRA CL-15" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "Le Terrible" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Jaguar" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Léopard" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Fougueux" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "L'Adroit" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Ouragan" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Brestois" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Boulonnais" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Siroco" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Lynx" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Tartu" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Vauquelin" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Albatros" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Cassard" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Kersaint" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Le Mars" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "La Railleuse" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Simoun" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Typhon" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Le Bordelais" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Trombe" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Basque" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Vauban" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Orphée" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "La Sybille" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Pasteur" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Persée" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Ajax" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Surcouf" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Le Glorieux" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Actéon" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Achéron" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Pégase" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Redoutable" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+		}
+	}
+	fleet = {
+		name = "Marine Nationale 2"
+		naval_base = 9994
+		task_force = {
+			name = "Marine Nationale Task Force 2"
+			location = 9994
+			ship = { name = "Paris" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Battleship Class" } } }
+			ship = { name = "Lorraine" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Battleship Class" } } }
+			ship = { name = "FRA BB-06" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Battleship Class" } } }
+			ship = { name = "La Galissonnière" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "Jeanne d'Arc" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "Primauguet" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "FRA CL-08" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "FRA CL-10" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "FRA CL-12" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "FRA CL-14" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "FRA CL-16" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Cruiser Class" } } }
+			ship = { name = "L'Audacieux" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Chacal" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Panthère" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Frondeur" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Bourrasque" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Orage" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Le Foudroyant" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Cyclone" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Mistral" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Tigre" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Chevalier Paul" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Gerfaut" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Vautour" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Maillé Brézé" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "La Palme" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Tempête" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Le Fortune" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Tramontane" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Tornade" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "L'Alcyon" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Forbin" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Lion" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Destroyer Class" } } }
+			ship = { name = "Amazone" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Antiope" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Achille" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Poncelet" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Archimède" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Phénix" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Protée" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Fresnel" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "L`Espoire" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Monge" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+			ship = { name = "Vengeur" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "FRA 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = FRA
+			version_name = "FRA 1936 Cruiser Class"
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = FRA
+			version_name = "FRA 1936 Battleship Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = FRA
+			version_name = "FRA 1936 Destroyer Class"
+		}
+		requested_factories = 6
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = FRA
+			version_name = "FRA 1936 Submarine Class"
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+}

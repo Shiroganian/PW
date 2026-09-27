@@ -1,0 +1,13 @@
+characters = {
+
+	CLM_Andre_Matsoua = {
+		name = "Andre Matsoua"
+		portraits = {
+			civilian = { large = GFX_Portrait_CLM_Andre_Matsoua }
+		}
+		country_leader = {
+			ideology = national_communism
+			traits = { }
+		}
+	}
+}

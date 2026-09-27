@@ -1,0 +1,66 @@
+# HOL MTG naval OOB -- source: HOL_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "Royal Navy"
+		naval_base = 9498
+		task_force = {
+			name = "Royal Navy Task Force"
+			location = 9498
+			ship = { name = "HrMs Java" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Cruiser Class" } } }
+			ship = { name = "HrMs Sumatra" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Cruiser Class" } } }
+			ship = { name = "HrMs De Ruyter" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Cruiser Class" } } }
+			ship = { name = "HrMs Van Galen" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Destroyer Class" } } }
+			ship = { name = "HrMs Van Ghent" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Destroyer Class" } } }
+			ship = { name = "HrMs Evertsen" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Destroyer Class" } } }
+			ship = { name = "HrMs Kortenaer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Destroyer Class" } } }
+			ship = { name = "HrMs Piet Hein" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Destroyer Class" } } }
+			ship = { name = "HrMs Witte de With" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Destroyer Class" } } }
+			ship = { name = "HrMs Banckert" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Destroyer Class" } } }
+			ship = { name = "HrMs Van Nes" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Destroyer Class" } } }
+			ship = { name = "HOL DD-09" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Destroyer Class" } } }
+			ship = { name = "HOL DD-10" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Destroyer Class" } } }
+			ship = { name = "HrMs O-8" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Submarine Class" } } }
+			ship = { name = "HrMs K-XI" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Submarine Class" } } }
+			ship = { name = "HrMs K-XII" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Submarine Class" } } }
+			ship = { name = "HrMs K-XIII" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Submarine Class" } } }
+			ship = { name = "HOL SS-05" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Submarine Class" } } }
+			ship = { name = "HOL SS-06" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "HOL 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = HOL
+			version_name = "HOL 1936 Destroyer Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = HOL
+			version_name = "HOL 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = HOL
+			version_name = "HOL 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

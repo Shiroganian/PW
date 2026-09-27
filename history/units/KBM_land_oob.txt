@@ -1,0 +1,143 @@
+# KBM land OOB -- adapted from lore-scaled generated formation set
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "National Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "National Guard Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Naval Infantry Brigade"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st National Infantry Division"
+		location = 4202
+		division_template = "National Infantry Division"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.76
+	}
+	division = {
+		name = "2nd National Infantry Division"
+		location = 4425
+		division_template = "National Infantry Division"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.76
+	}
+	division = {
+		name = "1st National Guard Brigade"
+		location = 12090
+		division_template = "National Guard Brigade"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "2nd National Guard Brigade"
+		location = 4202
+		division_template = "National Guard Brigade"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "3rd National Guard Brigade"
+		location = 10182
+		division_template = "National Guard Brigade"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "4th National Guard Brigade"
+		location = 1333
+		division_template = "National Guard Brigade"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "5th National Guard Brigade"
+		location = 12449
+		division_template = "National Guard Brigade"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "6th National Guard Brigade"
+		location = 12492
+		division_template = "National Guard Brigade"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "7th National Guard Brigade"
+		location = 12464
+		division_template = "National Guard Brigade"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "1st Naval Infantry Brigade"
+		location = 4425
+		division_template = "Naval Infantry Brigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.76
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = KBM
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = KBM
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

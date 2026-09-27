@@ -1,0 +1,38 @@
+# POL BBA air OOB -- source: POL_1936_air_bba.txt
+air_wings = {
+	91 = {
+		small_plane_airframe_1 = {
+			owner = "POL"
+			amount = 100
+			version_name = "POL 1936 Fighter"
+		}
+	}
+	10 = {
+		small_plane_airframe_1 = {
+			owner = "POL"
+			amount = 82
+			version_name = "POL 1936 Fighter"
+		}
+	}
+	88 = {
+		small_plane_cas_airframe_1 = {
+			owner = "POL"
+			amount = 84
+			version_name = "POL 1936 CAS"
+		}
+	}
+	97 = {
+		medium_plane_airframe_1 = {
+			owner = "POL"
+			amount = 48
+			version_name = "POL 1936 Tactical Bomber"
+		}
+	}
+	95 = {
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "POL"
+			amount = 36
+			version_name = "POL 1936 Naval Bomber"
+		}
+	}
+}

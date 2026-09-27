@@ -1,0 +1,13 @@
+characters = {
+
+	HUN_Karl_IV = {
+		name = "Karl IV"
+		portraits = {
+			civilian = { large = GFX_Portrait_HUN_Karl_IV }
+		}
+		country_leader = {
+			ideology = habsburg_liberalism
+			traits = { }
+		}
+	}
+}

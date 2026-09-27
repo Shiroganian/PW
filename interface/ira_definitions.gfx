@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_IRA_Nguyen_An_Ninh
+        texturefile = gfx/leaders/IRA/Portrait_IRA_Nguyen_An_Ninh.dds
+    }
+}

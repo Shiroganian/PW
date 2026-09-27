@@ -1,0 +1,57 @@
+# POL MTG naval OOB -- source: POL_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "National Navy"
+		naval_base = 9263
+		task_force = {
+			name = "National Navy Task Force"
+			location = 9263
+			ship = { name = "POL CL-01" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = POL version_name = "POL 1936 Cruiser Class" } } }
+			ship = { name = "ORP Burza" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POL version_name = "POL 1936 Destroyer Class" } } }
+			ship = { name = "ORP Wicher" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POL version_name = "POL 1936 Destroyer Class" } } }
+			ship = { name = "POL DD-03" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POL version_name = "POL 1936 Destroyer Class" } } }
+			ship = { name = "POL DD-04" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POL version_name = "POL 1936 Destroyer Class" } } }
+			ship = { name = "POL DD-05" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POL version_name = "POL 1936 Destroyer Class" } } }
+			ship = { name = "POL DD-06" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POL version_name = "POL 1936 Destroyer Class" } } }
+			ship = { name = "ORP Ryś" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = POL version_name = "POL 1936 Submarine Class" } } }
+			ship = { name = "ORP Wilk" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = POL version_name = "POL 1936 Submarine Class" } } }
+			ship = { name = "ORP Żbik" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = POL version_name = "POL 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = POL
+			version_name = "POL 1936 Destroyer Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = POL
+			version_name = "POL 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = POL
+			version_name = "POL 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

@@ -1,0 +1,13 @@
+characters = {
+
+	SWE_Gustaf_V = {
+		name = "Gustaf V"
+		portraits = {
+			civilian = { large = GFX_Portrait_SWE_Gustaf_V }
+		}
+		country_leader = {
+			ideology = centrism
+			traits = { }
+		}
+	}
+}

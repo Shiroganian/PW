@@ -1,0 +1,13 @@
+characters = {
+
+	BRM_Ba_Maw = {
+		name = "Ba Maw"
+		portraits = {
+			civilian = { large = GFX_Portrait_BRM_Ba_Maw }
+		}
+		country_leader = {
+			ideology = national_conservatism
+			traits = { }
+		}
+	}
+}

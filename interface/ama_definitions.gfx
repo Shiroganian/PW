@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_AMA_Pedro_Aurelio_de_Gois_Monteiro
+        texturefile = gfx/leaders/AMA/Portrait_AMA_Pedro_Aurelio_de_Gois_Monteiro.dds
+    }
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_CMR_Alexandre_Douala_Manga_Bell
+        texturefile = gfx/leaders/CMR/Portrait_CMR_Alexandre_Douala_Manga_Bell.dds
+    }
+}

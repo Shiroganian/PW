@@ -1,0 +1,518 @@
+recheck_annexations = {
+	hidden_effect = {
+		if = {
+			limit = { NOT = { has_country_flag = KR_checking_for_possible_annexations } }
+			set_country_flag = { flag = KR_checking_for_possible_annexations days = 7 value = 1 }
+			country_event = { id = annex.1 days = 1 random_days = 3 }
+		}
+	}
+}
+
+recheck_annexations_immediate = {
+	hidden_effect = { country_event = annex.1 }
+}
+
+# Called from the scope of an owned capital state.
+# Each capital is unique, so only its matching release trigger can pass.
+check_potential_annexations = {
+	check_possible_annexations = yes
+}
+
+check_possible_annexations = {
+	if = {
+		limit = { can_release_USA = yes }
+		ROOT = { activate_mission = annexation_USA_CONQ }
+	}
+	else_if = {
+		limit = { can_release_PIZ = yes }
+		ROOT = { activate_mission = annexation_PIZ_CONQ }
+	}
+	else_if = {
+		limit = { can_release_CAN = yes }
+		ROOT = { activate_mission = annexation_CAN_CONQ }
+	}
+	else_if = {
+		limit = { can_release_MEX = yes }
+		ROOT = { activate_mission = annexation_MEX_CONQ }
+	}
+	else_if = {
+		limit = { can_release_PAN = yes }
+		ROOT = { activate_mission = annexation_PAN_CONQ }
+	}
+	else_if = {
+		limit = { can_release_CUB = yes }
+		ROOT = { activate_mission = annexation_CUB_CONQ }
+	}
+	else_if = {
+		limit = { can_release_GUA = yes }
+		ROOT = { activate_mission = annexation_GUA_CONQ }
+	}
+	else_if = {
+		limit = { can_release_ELS = yes }
+		ROOT = { activate_mission = annexation_ELS_CONQ }
+	}
+	else_if = {
+		limit = { can_release_HON = yes }
+		ROOT = { activate_mission = annexation_HON_CONQ }
+	}
+	else_if = {
+		limit = { can_release_NIC = yes }
+		ROOT = { activate_mission = annexation_NIC_CONQ }
+	}
+	else_if = {
+		limit = { can_release_COS = yes }
+		ROOT = { activate_mission = annexation_COS_CONQ }
+	}
+	else_if = {
+		limit = { can_release_HAI = yes }
+		ROOT = { activate_mission = annexation_HAI_CONQ }
+	}
+	else_if = {
+		limit = { can_release_DOM = yes }
+		ROOT = { activate_mission = annexation_DOM_CONQ }
+	}
+	else_if = {
+		limit = { can_release_BRA = yes }
+		ROOT = { activate_mission = annexation_BRA_CONQ }
+	}
+	else_if = {
+		limit = { can_release_ALM = yes }
+		ROOT = { activate_mission = annexation_ALM_CONQ }
+	}
+	else_if = {
+		limit = { can_release_BSF = yes }
+		ROOT = { activate_mission = annexation_BSF_CONQ }
+	}
+	else_if = {
+		limit = { can_release_AMA = yes }
+		ROOT = { activate_mission = annexation_AMA_CONQ }
+	}
+	else_if = {
+		limit = { can_release_GDC = yes }
+		ROOT = { activate_mission = annexation_GDC_CONQ }
+	}
+	else_if = {
+		limit = { can_release_GYA = yes }
+		ROOT = { activate_mission = annexation_GYA_CONQ }
+	}
+	else_if = {
+		limit = { can_release_VEN = yes }
+		ROOT = { activate_mission = annexation_VEN_CONQ }
+	}
+	else_if = {
+		limit = { can_release_ARG = yes }
+		ROOT = { activate_mission = annexation_ARG_CONQ }
+	}
+	else_if = {
+		limit = { can_release_PRU = yes }
+		ROOT = { activate_mission = annexation_PRU_CONQ }
+	}
+	else_if = {
+		limit = { can_release_CHL = yes }
+		ROOT = { activate_mission = annexation_CHL_CONQ }
+	}
+	else_if = {
+		limit = { can_release_BOL = yes }
+		ROOT = { activate_mission = annexation_BOL_CONQ }
+	}
+	else_if = {
+		limit = { can_release_PAR = yes }
+		ROOT = { activate_mission = annexation_PAR_CONQ }
+	}
+	else_if = {
+		limit = { can_release_URG = yes }
+		ROOT = { activate_mission = annexation_URG_CONQ }
+	}
+	else_if = {
+		limit = { can_release_GER = yes }
+		ROOT = { activate_mission = annexation_GER_CONQ }
+	}
+	else_if = {
+		limit = { can_release_ENG = yes }
+		ROOT = { activate_mission = annexation_ENG_CONQ }
+	}
+	else_if = {
+		limit = { can_release_SOV = yes }
+		ROOT = { activate_mission = annexation_SOV_CONQ }
+	}
+	else_if = {
+		limit = { can_release_FRA = yes }
+		ROOT = { activate_mission = annexation_FRA_CONQ }
+	}
+	else_if = {
+		limit = { can_release_ITA = yes }
+		ROOT = { activate_mission = annexation_ITA_CONQ }
+	}
+	else_if = {
+		limit = { can_release_POL = yes }
+		ROOT = { activate_mission = annexation_POL_CONQ }
+	}
+	else_if = {
+		limit = { can_release_DNZ = yes }
+		ROOT = { activate_mission = annexation_DNZ_CONQ }
+	}
+	else_if = {
+		limit = { can_release_BLR = yes }
+		ROOT = { activate_mission = annexation_BLR_CONQ }
+	}
+	else_if = {
+		limit = { can_release_UKR = yes }
+		ROOT = { activate_mission = annexation_UKR_CONQ }
+	}
+	else_if = {
+		limit = { can_release_BLT = yes }
+		ROOT = { activate_mission = annexation_BLT_CONQ }
+	}
+	else_if = {
+		limit = { can_release_HUN = yes }
+		ROOT = { activate_mission = annexation_HUN_CONQ }
+	}
+	else_if = {
+		limit = { can_release_YUG = yes }
+		ROOT = { activate_mission = annexation_YUG_CONQ }
+	}
+	else_if = {
+		limit = { can_release_ROM = yes }
+		ROOT = { activate_mission = annexation_ROM_CONQ }
+	}
+	else_if = {
+		limit = { can_release_ALB = yes }
+		ROOT = { activate_mission = annexation_ALB_CONQ }
+	}
+	else_if = {
+		limit = { can_release_CZE = yes }
+		ROOT = { activate_mission = annexation_CZE_CONQ }
+	}
+	else_if = {
+		limit = { can_release_BUL = yes }
+		ROOT = { activate_mission = annexation_BUL_CONQ }
+	}
+	else_if = {
+		limit = { can_release_SPR = yes }
+		ROOT = { activate_mission = annexation_SPR_CONQ }
+	}
+	else_if = {
+		limit = { can_release_POR = yes }
+		ROOT = { activate_mission = annexation_POR_CONQ }
+	}
+	else_if = {
+		limit = { can_release_BEL = yes }
+		ROOT = { activate_mission = annexation_BEL_CONQ }
+	}
+	else_if = {
+		limit = { can_release_HOL = yes }
+		ROOT = { activate_mission = annexation_HOL_CONQ }
+	}
+	else_if = {
+		limit = { can_release_LUX = yes }
+		ROOT = { activate_mission = annexation_LUX_CONQ }
+	}
+	else_if = {
+		limit = { can_release_DEN = yes }
+		ROOT = { activate_mission = annexation_DEN_CONQ }
+	}
+	else_if = {
+		limit = { can_release_NOR = yes }
+		ROOT = { activate_mission = annexation_NOR_CONQ }
+	}
+	else_if = {
+		limit = { can_release_SWE = yes }
+		ROOT = { activate_mission = annexation_SWE_CONQ }
+	}
+	else_if = {
+		limit = { can_release_FIN = yes }
+		ROOT = { activate_mission = annexation_FIN_CONQ }
+	}
+	else_if = {
+		limit = { can_release_ICE = yes }
+		ROOT = { activate_mission = annexation_ICE_CONQ }
+	}
+	else_if = {
+		limit = { can_release_JAP = yes }
+		ROOT = { activate_mission = annexation_JAP_CONQ }
+	}
+	else_if = {
+		limit = { can_release_CHI = yes }
+		ROOT = { activate_mission = annexation_CHI_CONQ }
+	}
+	else_if = {
+		limit = { can_release_SIK = yes }
+		ROOT = { activate_mission = annexation_SIK_CONQ }
+	}
+	else_if = {
+		limit = { can_release_QIN = yes }
+		ROOT = { activate_mission = annexation_QIN_CONQ }
+	}
+	else_if = {
+		limit = { can_release_TAN = yes }
+		ROOT = { activate_mission = annexation_TAN_CONQ }
+	}
+	else_if = {
+		limit = { can_release_MON = yes }
+		ROOT = { activate_mission = annexation_MON_CONQ }
+	}
+	else_if = {
+		limit = { can_release_MAN = yes }
+		ROOT = { activate_mission = annexation_MAN_CONQ }
+	}
+	else_if = {
+		limit = { can_release_TIB = yes }
+		ROOT = { activate_mission = annexation_TIB_CONQ }
+	}
+	else_if = {
+		limit = { can_release_SIC = yes }
+		ROOT = { activate_mission = annexation_SIC_CONQ }
+	}
+	else_if = {
+		limit = { can_release_XSM = yes }
+		ROOT = { activate_mission = annexation_XSM_CONQ }
+	}
+	else_if = {
+		limit = { can_release_SHX = yes }
+		ROOT = { activate_mission = annexation_SHX_CONQ }
+	}
+	else_if = {
+		limit = { can_release_SND = yes }
+		ROOT = { activate_mission = annexation_SND_CONQ }
+	}
+	else_if = {
+		limit = { can_release_SHG = yes }
+		ROOT = { activate_mission = annexation_SHG_CONQ }
+	}
+	else_if = {
+		limit = { can_release_RAJ = yes }
+		ROOT = { activate_mission = annexation_RAJ_CONQ }
+	}
+	else_if = {
+		limit = { can_release_INS = yes }
+		ROOT = { activate_mission = annexation_INS_CONQ }
+	}
+	else_if = {
+		limit = { can_release_PHI = yes }
+		ROOT = { activate_mission = annexation_PHI_CONQ }
+	}
+	else_if = {
+		limit = { can_release_AST = yes }
+		ROOT = { activate_mission = annexation_AST_CONQ }
+	}
+	else_if = {
+		limit = { can_release_NZL = yes }
+		ROOT = { activate_mission = annexation_NZL_CONQ }
+	}
+	else_if = {
+		limit = { can_release_KBM = yes }
+		ROOT = { activate_mission = annexation_KBM_CONQ }
+	}
+	else_if = {
+		limit = { can_release_BRM = yes }
+		ROOT = { activate_mission = annexation_BRM_CONQ }
+	}
+	else_if = {
+		limit = { can_release_DBM = yes }
+		ROOT = { activate_mission = annexation_DBM_CONQ }
+	}
+	else_if = {
+		limit = { can_release_VIN = yes }
+		ROOT = { activate_mission = annexation_VIN_CONQ }
+	}
+	else_if = {
+		limit = { can_release_KHM = yes }
+		ROOT = { activate_mission = annexation_KHM_CONQ }
+	}
+	else_if = {
+		limit = { can_release_LAO = yes }
+		ROOT = { activate_mission = annexation_LAO_CONQ }
+	}
+	else_if = {
+		limit = { can_release_IRA = yes }
+		ROOT = { activate_mission = annexation_IRA_CONQ }
+	}
+	else_if = {
+		limit = { can_release_IDC = yes }
+		ROOT = { activate_mission = annexation_IDC_CONQ }
+	}
+	else_if = {
+		limit = { can_release_INF = yes }
+		ROOT = { activate_mission = annexation_INF_CONQ }
+	}
+	else_if = {
+		limit = { can_release_SIA = yes }
+		ROOT = { activate_mission = annexation_SIA_CONQ }
+	}
+	else_if = {
+		limit = { can_release_KAZ = yes }
+		ROOT = { activate_mission = annexation_KAZ_CONQ }
+	}
+	else_if = {
+		limit = { can_release_TMS = yes }
+		ROOT = { activate_mission = annexation_TMS_CONQ }
+	}
+	else_if = {
+		limit = { can_release_NOM = yes }
+		ROOT = { activate_mission = annexation_NOM_CONQ }
+	}
+	else_if = {
+		limit = { can_release_AFG = yes }
+		ROOT = { activate_mission = annexation_AFG_CONQ }
+	}
+	else_if = {
+		limit = { can_release_BLC = yes }
+		ROOT = { activate_mission = annexation_BLC_CONQ }
+	}
+	else_if = {
+		limit = { can_release_GRE = yes }
+		ROOT = { activate_mission = annexation_GRE_CONQ }
+	}
+	else_if = {
+		limit = { can_release_CIZ = yes }
+		ROOT = { activate_mission = annexation_CIZ_CONQ }
+	}
+	else_if = {
+		limit = { can_release_TUR = yes }
+		ROOT = { activate_mission = annexation_TUR_CONQ }
+	}
+	else_if = {
+		limit = { can_release_SYR = yes }
+		ROOT = { activate_mission = annexation_SYR_CONQ }
+	}
+	else_if = {
+		limit = { can_release_ARM = yes }
+		ROOT = { activate_mission = annexation_ARM_CONQ }
+	}
+	else_if = {
+		limit = { can_release_KUR = yes }
+		ROOT = { activate_mission = annexation_KUR_CONQ }
+	}
+	else_if = {
+		limit = { can_release_IRQ = yes }
+		ROOT = { activate_mission = annexation_IRQ_CONQ }
+	}
+	else_if = {
+		limit = { can_release_GEO = yes }
+		ROOT = { activate_mission = annexation_GEO_CONQ }
+	}
+	else_if = {
+		limit = { can_release_AZR = yes }
+		ROOT = { activate_mission = annexation_AZR_CONQ }
+	}
+	else_if = {
+		limit = { can_release_TRA = yes }
+		ROOT = { activate_mission = annexation_TRA_CONQ }
+	}
+	else_if = {
+		limit = { can_release_SAU = yes }
+		ROOT = { activate_mission = annexation_SAU_CONQ }
+	}
+	else_if = {
+		limit = { can_release_PER = yes }
+		ROOT = { activate_mission = annexation_PER_CONQ }
+	}
+	else_if = {
+		limit = { can_release_EGY = yes }
+		ROOT = { activate_mission = annexation_EGY_CONQ }
+	}
+	else_if = {
+		limit = { can_release_SIZ = yes }
+		ROOT = { activate_mission = annexation_SIZ_CONQ }
+	}
+	else_if = {
+		limit = { can_release_ETH = yes }
+		ROOT = { activate_mission = annexation_ETH_CONQ }
+	}
+	else_if = {
+		limit = { can_release_LIB = yes }
+		ROOT = { activate_mission = annexation_LIB_CONQ }
+	}
+	else_if = {
+		limit = { can_release_WAF = yes }
+		ROOT = { activate_mission = annexation_WAF_CONQ }
+	}
+	else_if = {
+		limit = { can_release_SAF = yes }
+		ROOT = { activate_mission = annexation_SAF_CONQ }
+	}
+	else_if = {
+		limit = { can_release_RHO = yes }
+		ROOT = { activate_mission = annexation_RHO_CONQ }
+	}
+	else_if = {
+		limit = { can_release_COG = yes }
+		ROOT = { activate_mission = annexation_COG_CONQ }
+	}
+	else_if = {
+		limit = { can_release_CLM = yes }
+		ROOT = { activate_mission = annexation_CLM_CONQ }
+	}
+	else_if = {
+		limit = { can_release_KAT = yes }
+		ROOT = { activate_mission = annexation_KAT_CONQ }
+	}
+	else_if = {
+		limit = { can_release_CFS = yes }
+		ROOT = { activate_mission = annexation_CFS_CONQ }
+	}
+	else_if = {
+		limit = { can_release_ZAM = yes }
+		ROOT = { activate_mission = annexation_ZAM_CONQ }
+	}
+	else_if = {
+		limit = { can_release_MAD = yes }
+		ROOT = { activate_mission = annexation_MAD_CONQ }
+	}
+	else_if = {
+		limit = { can_release_CMR = yes }
+		ROOT = { activate_mission = annexation_CMR_CONQ }
+	}
+	else_if = {
+		limit = { can_release_CHA = yes }
+		ROOT = { activate_mission = annexation_CHA_CONQ }
+	}
+	else_if = {
+		limit = { can_release_CAR = yes }
+		ROOT = { activate_mission = annexation_CAR_CONQ }
+	}
+	else_if = {
+		limit = { can_release_VOL = yes }
+		ROOT = { activate_mission = annexation_VOL_CONQ }
+	}
+	else_if = {
+		limit = { can_release_IVO = yes }
+		ROOT = { activate_mission = annexation_IVO_CONQ }
+	}
+	else_if = {
+		limit = { can_release_NGR = yes }
+		ROOT = { activate_mission = annexation_NGR_CONQ }
+	}
+	else_if = {
+		limit = { can_release_GHA = yes }
+		ROOT = { activate_mission = annexation_GHA_CONQ }
+	}
+	else_if = {
+		limit = { can_release_GAB = yes }
+		ROOT = { activate_mission = annexation_GAB_CONQ }
+	}
+	else_if = {
+		limit = { can_release_IRE = yes }
+		ROOT = { activate_mission = annexation_IRE_CONQ }
+	}
+	else_if = {
+		limit = { can_release_NEP = yes }
+		ROOT = { activate_mission = annexation_NEP_CONQ }
+	}
+	else_if = {
+		limit = { can_release_BHU = yes }
+		ROOT = { activate_mission = annexation_BHU_CONQ }
+	}
+	else_if = {
+		limit = { can_release_OMA = yes }
+		ROOT = { activate_mission = annexation_OMA_CONQ }
+	}
+	else_if = {
+		limit = { can_release_YEM = yes }
+		ROOT = { activate_mission = annexation_YEM_CONQ }
+	}
+	else_if = {
+		limit = { can_release_SWI = yes }
+		ROOT = { activate_mission = annexation_SWI_CONQ }
+	}
+}

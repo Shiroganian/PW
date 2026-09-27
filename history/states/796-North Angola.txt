@@ -1,0 +1,29 @@
+state={
+	id=796
+	name="STATE_796"
+	history={
+				owner = CFS
+		add_core_of = COG
+		add_core_of = CLM
+		add_core_of = CFS
+buildings = {
+	arms_factory = 1
+	industrial_complex = 1
+			infrastructure = 1
+			2115 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			2115 1 
+		}
+	}
+	provinces={
+		2115 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

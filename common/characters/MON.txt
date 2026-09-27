@@ -1,0 +1,13 @@
+characters = {
+
+	MON_Luvsanjambyn_Mordorj = {
+		name = "Luvsanjambyn Mördorj"
+		portraits = {
+			civilian = { large = GFX_Portrait_MON_Luvsanjambyn_Mordorj }
+		}
+		country_leader = {
+			ideology = ethnic_oligarchism
+			traits = { }
+		}
+	}
+}

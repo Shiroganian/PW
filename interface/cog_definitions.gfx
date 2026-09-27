@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_COG_Joseph_Kasa_Vubu
+        texturefile = gfx/leaders/COG/Portrait_COG_Joseph_Kasa_Vubu.dds
+    }
+}

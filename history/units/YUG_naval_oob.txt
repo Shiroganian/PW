@@ -1,0 +1,57 @@
+# YUG MTG naval OOB -- source: YUG_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "Royal Navy"
+		naval_base = 3924
+		task_force = {
+			name = "Royal Navy Task Force"
+			location = 3924
+			ship = { name = "KB Dalmacija" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = YUG version_name = "YUG 1936 Cruiser Class" } } }
+			ship = { name = "KB Dubrovnik" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = YUG version_name = "YUG 1936 Destroyer Class" } } }
+			ship = { name = "YUG DD-02" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = YUG version_name = "YUG 1936 Destroyer Class" } } }
+			ship = { name = "YUG DD-03" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = YUG version_name = "YUG 1936 Destroyer Class" } } }
+			ship = { name = "YUG DD-04" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = YUG version_name = "YUG 1936 Destroyer Class" } } }
+			ship = { name = "YUG DD-05" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = YUG version_name = "YUG 1936 Destroyer Class" } } }
+			ship = { name = "YUG DD-06" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = YUG version_name = "YUG 1936 Destroyer Class" } } }
+			ship = { name = "KB Hrabri" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = YUG version_name = "YUG 1936 Submarine Class" } } }
+			ship = { name = "KB Nebojsa" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = YUG version_name = "YUG 1936 Submarine Class" } } }
+			ship = { name = "KB Smeli" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = YUG version_name = "YUG 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = YUG
+			version_name = "YUG 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = YUG
+			version_name = "YUG 1936 Destroyer Class"
+		}
+		requested_factories = 3
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = YUG
+			version_name = "YUG 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

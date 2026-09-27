@@ -1,0 +1,13 @@
+characters = {
+
+	TIB_Reting_Rinpoche = {
+		name = "Reting Rinpoche"
+		portraits = {
+			civilian = { large = GFX_Portrait_TIB_Reting_Rinpoche }
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			traits = { }
+		}
+	}
+}

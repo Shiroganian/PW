@@ -1,0 +1,13 @@
+characters = {
+
+	GHA_Joseph_Boakye_Danquah = {
+		name = "Joseph Boakye Danquah"
+		portraits = {
+			civilian = { large = GFX_Portrait_GHA_Joseph_Boakye_Danquah }
+		}
+		country_leader = {
+			ideology = centrism
+			traits = { }
+		}
+	}
+}

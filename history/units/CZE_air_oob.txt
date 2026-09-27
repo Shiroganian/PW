@@ -1,0 +1,29 @@
+# CZE BBA air OOB -- source: CZE_1936_air_bba.txt
+air_wings = {
+	75 = {
+		small_plane_airframe_1 = {
+			owner = "CZE"
+			amount = 100
+			version_name = "CZE 1936 Fighter"
+		}
+		medium_plane_airframe_1 = {
+			owner = "CZE"
+			amount = 36
+			version_name = "CZE 1936 Tactical Bomber"
+		}
+	}
+	9 = {
+		small_plane_airframe_1 = {
+			owner = "CZE"
+			amount = 26
+			version_name = "CZE 1936 Fighter"
+		}
+	}
+	70 = {
+		small_plane_cas_airframe_1 = {
+			owner = "CZE"
+			amount = 48
+			version_name = "CZE 1936 CAS"
+		}
+	}
+}

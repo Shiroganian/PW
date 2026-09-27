@@ -1,0 +1,13 @@
+characters = {
+
+	DOM_Rafael_Trujillo = {
+		name = "Rafael Trujillo"
+		portraits = {
+			civilian = { large = GFX_Portrait_DOM_Rafael_Trujillo }
+		}
+		country_leader = {
+			ideology = classical_fascism
+			traits = { }
+		}
+	}
+}

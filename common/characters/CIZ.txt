@@ -1,0 +1,13 @@
+characters = {
+
+	CIZ_Eleftherios_Venizelos = {
+		name = "Eleftherios Venizelos"
+		portraits = {
+			civilian = { large = GFX_Portrait_CIZ_Eleftherios_Venizelos }
+		}
+		country_leader = {
+			ideology = league_mandate_marlib
+			traits = { }
+		}
+	}
+}

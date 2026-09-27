@@ -1,0 +1,13 @@
+characters = {
+
+	ARG_Julio_Meinvielle = {
+		name = "Julio Meinvielle"
+		portraits = {
+			civilian = { large = GFX_Portrait_ARG_Julio_Meinvielle }
+		}
+		country_leader = {
+			ideology = pan_hispanic_ultranationalism
+			traits = { }
+		}
+	}
+}

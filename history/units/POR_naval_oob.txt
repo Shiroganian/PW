@@ -1,0 +1,66 @@
+# POR MTG naval OOB -- source: POR_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "Marinha Portuguesa"
+		naval_base = 11805
+		task_force = {
+			name = "Marinha Portuguesa Task Force"
+			location = 11805
+			ship = { name = "POR CL-01" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = POR version_name = "POR 1936 Cruiser Class" } } }
+			ship = { name = "POR CL-02" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = POR version_name = "POR 1936 Cruiser Class" } } }
+			ship = { name = "POR CL-03" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = POR version_name = "POR 1936 Cruiser Class" } } }
+			ship = { name = "NRP Tamega" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "POR 1936 Destroyer Class" } } }
+			ship = { name = "NRP Dão" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "POR 1936 Destroyer Class" } } }
+			ship = { name = "NRP Douro" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "POR 1936 Destroyer Class" } } }
+			ship = { name = "NRP Lima" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "POR 1936 Destroyer Class" } } }
+			ship = { name = "NRP Vouga" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "POR 1936 Destroyer Class" } } }
+			ship = { name = "NRP Tejo" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "POR 1936 Destroyer Class" } } }
+			ship = { name = "POR DD-07" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "POR 1936 Destroyer Class" } } }
+			ship = { name = "POR DD-08" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "POR 1936 Destroyer Class" } } }
+			ship = { name = "POR DD-09" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "POR 1936 Destroyer Class" } } }
+			ship = { name = "POR DD-10" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "POR 1936 Destroyer Class" } } }
+			ship = { name = "NRP Delfim" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = POR version_name = "POR 1936 Submarine Class" } } }
+			ship = { name = "NRP Espadarte" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = POR version_name = "POR 1936 Submarine Class" } } }
+			ship = { name = "NRP Golfinho" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = POR version_name = "POR 1936 Submarine Class" } } }
+			ship = { name = "POR SS-04" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = POR version_name = "POR 1936 Submarine Class" } } }
+			ship = { name = "POR SS-05" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = POR version_name = "POR 1936 Submarine Class" } } }
+			ship = { name = "POR SS-06" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = POR version_name = "POR 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = POR
+			version_name = "POR 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = POR
+			version_name = "POR 1936 Destroyer Class"
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = POR
+			version_name = "POR 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

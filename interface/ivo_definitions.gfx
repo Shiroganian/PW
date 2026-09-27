@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_IVO_Felix_Houphouet_Boigny
+        texturefile = gfx/leaders/IVO/Portrait_IVO_Felix_Houphouet_Boigny.dds
+    }
+}

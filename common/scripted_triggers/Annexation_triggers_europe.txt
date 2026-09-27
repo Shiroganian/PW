@@ -1,0 +1,262 @@
+# Europe annexation-release triggers
+
+can_release_GER = {
+	state = 64 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = GER_CONQ }
+		NOT = { country_exists = GER }
+	}
+}
+
+can_release_ENG = {
+	state = 126 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = ENG_CONQ }
+		NOT = { country_exists = ENG }
+	}
+}
+
+can_release_SOV = {
+	state = 219 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = SOV_CONQ }
+		NOT = { country_exists = SOV }
+	}
+}
+
+can_release_FRA = {
+	state = 16 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = FRA_CONQ }
+		NOT = { country_exists = FRA }
+	}
+}
+
+can_release_ITA = {
+	state = 2 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = ITA_CONQ }
+		NOT = { country_exists = ITA }
+	}
+}
+
+can_release_POL = {
+	state = 10 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = POL_CONQ }
+		NOT = { country_exists = POL }
+	}
+}
+
+can_release_DNZ = {
+	state = 85 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = DNZ_CONQ }
+		NOT = { country_exists = DNZ }
+	}
+}
+
+can_release_BLR = {
+	state = 206 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = BLR_CONQ }
+		NOT = { country_exists = BLR }
+	}
+}
+
+can_release_UKR = {
+	state = 202 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = UKR_CONQ }
+		NOT = { country_exists = UKR }
+	}
+}
+
+can_release_BLT = {
+	state = 808 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = BLT_CONQ }
+		NOT = { country_exists = BLT }
+	}
+}
+
+can_release_HUN = {
+	state = 43 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = HUN_CONQ }
+		NOT = { country_exists = HUN }
+	}
+}
+
+can_release_YUG = {
+	state = 107 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = YUG_CONQ }
+		NOT = { country_exists = YUG }
+	}
+}
+
+can_release_ROM = {
+	state = 46 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = ROM_CONQ }
+		NOT = { country_exists = ROM }
+	}
+}
+
+can_release_ALB = {
+	state = 44 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = ALB_CONQ }
+		NOT = { country_exists = ALB }
+	}
+}
+
+can_release_CZE = {
+	state = 9 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = CZE_CONQ }
+		NOT = { country_exists = CZE }
+	}
+}
+
+can_release_BUL = {
+	state = 48 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = BUL_CONQ }
+		NOT = { country_exists = BUL }
+	}
+}
+
+can_release_SPR = {
+	state = 41 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = SPR_CONQ }
+		NOT = { country_exists = SPR }
+	}
+}
+
+can_release_POR = {
+	state = 112 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = POR_CONQ }
+		NOT = { country_exists = POR }
+	}
+}
+
+can_release_BEL = {
+	state = 6 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = BEL_CONQ }
+		NOT = { country_exists = BEL }
+	}
+}
+
+can_release_HOL = {
+	state = 7 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = HOL_CONQ }
+		NOT = { country_exists = HOL }
+	}
+}
+
+can_release_LUX = {
+	state = 8 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = LUX_CONQ }
+		NOT = { country_exists = LUX }
+	}
+}
+
+can_release_DEN = {
+	state = 37 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = DEN_CONQ }
+		NOT = { country_exists = DEN }
+	}
+}
+
+can_release_NOR = {
+	state = 110 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = NOR_CONQ }
+		NOT = { country_exists = NOR }
+	}
+}
+
+can_release_SWE = {
+	state = 141 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = SWE_CONQ }
+		NOT = { country_exists = SWE }
+	}
+}
+
+can_release_FIN = {
+	state = 111 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = FIN_CONQ }
+		NOT = { country_exists = FIN }
+	}
+}
+
+can_release_ICE = {
+	state = 100 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = ICE_CONQ }
+		NOT = { country_exists = ICE }
+	}
+}
+
+can_release_GRE = {
+	state = 47 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = GRE_CONQ }
+		NOT = { country_exists = GRE }
+	}
+}
+
+can_release_IRE = {
+	state = 113 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = IRE_CONQ }
+		NOT = { country_exists = IRE }
+	}
+}
+
+can_release_SWI = {
+	state = 3 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = SWI_CONQ }
+		NOT = { country_exists = SWI }
+	}
+}

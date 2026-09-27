@@ -1,0 +1,66 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		example_trigger = yes
+#	}
+# 
+#	THIS FILE IS FOR TRIGGERS SPECIFICALLY FOR THE CHI TAG
+
+is_independent_china_or_warlord = { #Does not include sinkiang
+	OR = {
+		original_tag = CHI
+		original_tag = SIC
+		original_tag = SHX
+		original_tag = XSM
+		original_tag = SND
+		original_tag = QIN
+		original_tag = MAN
+		original_tag = TIB
+		original_tag = SIK
+		original_tag = MON
+	}
+	is_subject = no
+}
+
+
+is_literally_china = {
+	OR = {
+		original_tag = CHI
+	}
+}
+
+is_literally_china_tooltip = {
+	custom_trigger_tooltip = {
+		tooltip = is_literally_china_tt
+		is_literally_china = yes
+	}
+}
+
+is_chinese_warlord = {
+	OR = {
+		original_tag = SIC
+		original_tag = SHX
+		original_tag = XSM
+		original_tag = SND
+		original_tag = QIN
+		original_tag = MAN
+		original_tag = TIB
+		original_tag = SIK
+		original_tag = MON
+	}
+}
+
+is_chinese_warlord_tooltip = {
+	custom_trigger_tooltip = {
+		tooltip = is_chinese_warlord_tt
+		is_chinese_warlord = yes
+	}
+}

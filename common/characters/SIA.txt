@@ -1,0 +1,13 @@
+characters = {
+
+	SIA_Ananda_Mahidol = {
+		name = "Ananda Mahidol"
+		portraits = {
+			civilian = { large = GFX_Portrait_SIA_Ananda_Mahidol }
+		}
+		country_leader = {
+			ideology = anocracy
+			traits = { }
+		}
+	}
+}

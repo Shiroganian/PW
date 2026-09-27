@@ -1,0 +1,9 @@
+	NDefines_Graphics.NGraphics.COUNTRY_COLOR_HUE_MODIFIER = 0.0
+	NDefines_Graphics.NGraphics.COUNTRY_COLOR_SATURATION_MODIFIER = 0.5
+	NDefines_Graphics.NGraphics.COUNTRY_COLOR_BRIGHTNESS_MODIFIER = 0.6
+	NDefines_Graphics.NGraphics.SUN_HEIGHT  = 500
+	NDefines_Graphics.NGraphics.SUN_HEIGHT_WATER  = 500
+	NDefines_Graphics.NGraphics.SUN_LATITUDE  = 777
+	NDefines_Graphics.NGraphics.SUN_DIFFUSE_COLOR = {0.14, 0.0, 1.0}
+	NDefines_Graphics.NGraphics.SUN_INTENSITY = 0.7
+	NDefines_Graphics.NGraphics.SUN_SPECULAR_INTENSITY = 1.0

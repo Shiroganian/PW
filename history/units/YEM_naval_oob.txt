@@ -1,0 +1,29 @@
+# YEM MTG naval OOB -- source: lore-scaled MTG template
+units = {
+	fleet = {
+		name = "National Navy"
+		naval_base = 8000
+		task_force = {
+			name = "National Navy Task Force"
+			location = 8000
+			ship = { name = "YEM DD-01" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = YEM version_name = "YEM 1936 Destroyer Class" } } }
+			ship = { name = "YEM DD-02" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = YEM version_name = "YEM 1936 Destroyer Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = YEM
+			version_name = "YEM 1936 Destroyer Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

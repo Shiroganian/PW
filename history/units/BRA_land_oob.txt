@@ -1,0 +1,285 @@
+# BRA land OOB -- adapted from BRA_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Divisão de Infantaria"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	support = {
+  	      engineer = { x = 0 y = 0 }
+  	      artillery = { x = 0 y = 1 }
+ 	}
+}
+
+division_template = {
+	name = "Reserve Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Divisão de Cavalaria"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+	}
+	support = {
+	    artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Divisão de Infantaria"
+		location = 10980
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "2nd Divisão de Infantaria"
+		location = 10513
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "3rd Divisão de Infantaria"
+		location = 10999
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "4th Divisão de Infantaria"
+		location = 5168
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "5th Divisão de Infantaria"
+		location = 7476
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "6th Divisão de Infantaria"
+		location = 10447
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "7th Divisão de Infantaria"
+		location = 12987
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "8th Divisão de Infantaria"
+		location = 10933
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "9th Divisão de Infantaria"
+		location = 5107
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "10th Divisão de Infantaria"
+		location = 4548
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "11th Divisão de Infantaria"
+		location = 8181
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "12th Divisão de Infantaria"
+		location = 10980
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "13th Divisão de Infantaria"
+		location = 10513
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "1st Reserve Brigade"
+		location = 10999
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "2nd Reserve Brigade"
+		location = 5168
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "3rd Reserve Brigade"
+		location = 7476
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "4th Reserve Brigade"
+		location = 10447
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "5th Reserve Brigade"
+		location = 12987
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "1st Motorized Division"
+		location = 10933
+		division_template = "Motorized Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "1st Divisão de Cavalaria"
+		location = 5107
+		division_template = "Divisão de Cavalaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "2nd Divisão de Cavalaria"
+		location = 4548
+		division_template = "Divisão de Cavalaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "3rd Divisão de Cavalaria"
+		location = 8181
+		division_template = "Divisão de Cavalaria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = BRA
+		}
+		requested_factories = 5
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = BRA
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = BRA
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = BRA
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_1
+				creator = BRA
+				version_name = "BRA 1936 Fighter"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_cas_airframe_1
+				creator = BRA
+				version_name = "BRA 1936 CAS"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+	}
+}

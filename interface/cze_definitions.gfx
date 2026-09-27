@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_CZE_Kamil_Krofta
+        texturefile = gfx/leaders/CZE/Portrait_CZE_Kamil_Krofta.dds
+    }
+}

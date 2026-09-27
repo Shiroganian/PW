@@ -1,0 +1,233 @@
+# SWI land OOB -- adapted from SWI_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Infanterie-Division"
+
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Grenzbrigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Garrison Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1st Infanterie-Division"
+		location = 9620
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.38
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "2nd Infanterie-Division"
+		location = 9638
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.38
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "3rd Infanterie-Division"
+		location = 658
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.38
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "4th Infanterie-Division"
+		location = 9600
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.38
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "5th Infanterie-Division"
+		location = 636
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.38
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "6th Infanterie-Division"
+		location = 9620
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.38
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "7th Infanterie-Division"
+		location = 9638
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.38
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "8th Infanterie-Division"
+		location = 658
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.38
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "9th Infanterie-Division"
+		location = 9600
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.38
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "10th Infanterie-Division"
+		location = 636
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.38
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "11th Infanterie-Division"
+		location = 9620
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.38
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "12th Infanterie-Division"
+		location = 9638
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.38
+		start_equipment_factor = 0.84
+	}
+	division = {
+		name = "1st Grenzbrigade"
+		location = 658
+		division_template = "Grenzbrigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "2nd Grenzbrigade"
+		location = 9600
+		division_template = "Grenzbrigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "3rd Grenzbrigade"
+		location = 636
+		division_template = "Grenzbrigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "1st Garrison Brigade"
+		location = 9620
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "2nd Garrison Brigade"
+		location = 9638
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "3rd Garrison Brigade"
+		location = 658
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "4th Garrison Brigade"
+		location = 9600
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.74
+	}
+	division = {
+		name = "5th Garrison Brigade"
+		location = 636
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.74
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = SWI
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = SWI
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = SWI
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_1
+				creator = SWI
+				version_name = "SWI 1936 Fighter"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+	}
+}

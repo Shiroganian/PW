@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_JAP_Hirohito
+        texturefile = gfx/leaders/JAP/Portrait_JAP_Hirohito.dds
+    }
+}

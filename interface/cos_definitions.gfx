@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_COS_Ricardo_Jimenez_Oreamuno
+        texturefile = gfx/leaders/COS/Portrait_COS_Ricardo_Jimenez_Oreamuno.dds
+    }
+}

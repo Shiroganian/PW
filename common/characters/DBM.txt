@@ -1,0 +1,13 @@
+characters = {
+
+	DBM_George_V = {
+		name = "George V"
+		portraits = {
+			civilian = { large = GFX_Portrait_DBM_George_V }
+		}
+		country_leader = {
+			ideology = oriental_synthesis
+			traits = { }
+		}
+	}
+}

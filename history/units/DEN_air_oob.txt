@@ -1,0 +1,27 @@
+# DEN BBA air OOB -- source: DEN_1936_air_bba.txt
+air_wings = {
+	37 = {
+		small_plane_airframe_1 = {
+			owner = "DEN"
+			amount = 36
+			version_name = "DEN 1936 Fighter"
+		}
+		medium_plane_airframe_1 = {
+			owner = "DEN"
+			amount = 12
+			version_name = "DEN 1936 Tactical Bomber"
+		}
+	}
+	99 = {
+		small_plane_cas_airframe_1 = {
+			owner = "DEN"
+			amount = 24
+			version_name = "DEN 1936 CAS"
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "DEN"
+			amount = 12
+			version_name = "DEN 1936 Naval Bomber"
+		}
+	}
+}

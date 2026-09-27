@@ -1,0 +1,66 @@
+# SWE MTG naval OOB -- source: SWE_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "Royal Navy"
+		naval_base = 11215
+		task_force = {
+			name = "Royal Navy Task Force"
+			location = 11215
+			ship = { name = "HMS Gotland" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Cruiser Class" } } }
+			ship = { name = "HMS Fylgia" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Cruiser Class" } } }
+			ship = { name = "SWE CL-03" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Cruiser Class" } } }
+			ship = { name = "HMS Örnen" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Destroyer Class" } } }
+			ship = { name = "HMS Jacob Bagge" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Destroyer Class" } } }
+			ship = { name = "HMS Clas Fleming" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Destroyer Class" } } }
+			ship = { name = "HMS Klas Horn" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Destroyer Class" } } }
+			ship = { name = "HMS Klas Uggla" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Destroyer Class" } } }
+			ship = { name = "HMS Ehrensköld" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Destroyer Class" } } }
+			ship = { name = "HMS Nordenskjöld" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Destroyer Class" } } }
+			ship = { name = "SWE DD-08" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Destroyer Class" } } }
+			ship = { name = "SWE DD-09" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Destroyer Class" } } }
+			ship = { name = "SWE DD-10" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Destroyer Class" } } }
+			ship = { name = "HMS Draken" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Submarine Class" } } }
+			ship = { name = "HMS Gripen" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Submarine Class" } } }
+			ship = { name = "HMS Ulven" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Submarine Class" } } }
+			ship = { name = "HMS Hajen" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Submarine Class" } } }
+			ship = { name = "HMS Sälen" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Submarine Class" } } }
+			ship = { name = "HMS Valrossen" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "SWE 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = SWE
+			version_name = "SWE 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = SWE
+			version_name = "SWE 1936 Destroyer Class"
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = SWE
+			version_name = "SWE 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

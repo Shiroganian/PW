@@ -1,0 +1,107 @@
+# BOL land OOB -- adapted from BOL_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "División de Infanteria"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Reserve Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "División de Caballería"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st División de Infanteria"
+		location = 5230
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "2nd División de Infanteria"
+		location = 2160
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "3rd División de Infanteria"
+		location = 5230
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "4th División de Infanteria"
+		location = 2160
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "1st Reserve Brigade"
+		location = 5230
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.12
+		start_equipment_factor = 0.52
+	}
+	division = {
+		name = "2nd Reserve Brigade"
+		location = 2160
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.12
+		start_equipment_factor = 0.52
+	}
+	division = {
+		name = "1st División de Caballería"
+		location = 5230
+		division_template = "División de Caballería"
+		start_experience_factor = 0.20
+		start_equipment_factor = 0.62
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = BOL
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

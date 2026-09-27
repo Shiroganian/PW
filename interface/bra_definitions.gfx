@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_BRA_Getulio_Vargas
+        texturefile = gfx/leaders/BRA/Portrait_BRA_Getulio_Vargas.dds
+    }
+}

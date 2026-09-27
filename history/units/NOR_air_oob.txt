@@ -1,0 +1,31 @@
+# NOR BBA air OOB -- source: NOR_1936_air_bba.txt
+air_wings = {
+	110 = {
+		small_plane_airframe_1 = {
+			owner = "NOR"
+			amount = 48
+			version_name = "NOR 1936 Fighter"
+		}
+	}
+	924 = {
+		small_plane_cas_airframe_1 = {
+			owner = "NOR"
+			amount = 24
+			version_name = "NOR 1936 CAS"
+		}
+	}
+	144 = {
+		medium_plane_airframe_1 = {
+			owner = "NOR"
+			amount = 12
+			version_name = "NOR 1936 Tactical Bomber"
+		}
+	}
+	142 = {
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "NOR"
+			amount = 12
+			version_name = "NOR 1936 Naval Bomber"
+		}
+	}
+}

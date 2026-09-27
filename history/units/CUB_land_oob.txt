@@ -1,0 +1,71 @@
+# CUB land OOB -- adapted from CUB_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Brigada de Infanteria"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Reserve Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1st Brigada de Infanteria"
+		location = 7622
+		division_template = "Brigada de Infanteria"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "2nd Brigada de Infanteria"
+		location = 7622
+		division_template = "Brigada de Infanteria"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "1st Reserve Brigade"
+		location = 7622
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+	division = {
+		name = "2nd Reserve Brigade"
+		location = 7622
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.14
+		start_equipment_factor = 0.56
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = CUB
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

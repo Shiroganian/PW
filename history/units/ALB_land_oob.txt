@@ -1,0 +1,81 @@
+# ALB land OOB -- adapted from ALB_1936.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Këmbësori Pjesëtim"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Territorial Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1st Këmbësori Pjesëtim"
+		location = 9914
+		division_template = "Këmbësori Pjesëtim"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "2nd Këmbësori Pjesëtim"
+		location = 9780
+		division_template = "Këmbësori Pjesëtim"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "3rd Këmbësori Pjesëtim"
+		location = 9914
+		division_template = "Këmbësori Pjesëtim"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.90
+	}
+	division = {
+		name = "1st Territorial Brigade"
+		location = 9780
+		division_template = "Territorial Brigade"
+		start_experience_factor = 0.42
+		start_equipment_factor = 0.80
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = ALB
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

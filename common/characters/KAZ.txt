@@ -1,0 +1,13 @@
+characters = {
+
+	KAZ_Alikhan_Bukeikhanov = {
+		name = "Alikhan Bukeikhanov"
+		portraits = {
+			civilian = { large = GFX_Portrait_KAZ_Alikhan_Bukeikhanov }
+		}
+		country_leader = {
+			ideology = centrism
+			traits = { }
+		}
+	}
+}

@@ -1,0 +1,257 @@
+# INS land OOB -- adapted from lore-scaled generated formation set
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Divisi Infanteri"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Brigade Cadangan"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Brigade Garnisun"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Korps Marinir"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Divisi Infanteri"
+		location = 7381
+		division_template = "Divisi Infanteri"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.76
+	}
+	division = {
+		name = "2nd Divisi Infanteri"
+		location = 13405
+		division_template = "Divisi Infanteri"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.76
+	}
+	division = {
+		name = "3rd Divisi Infanteri"
+		location = 7421
+		division_template = "Divisi Infanteri"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.76
+	}
+	division = {
+		name = "4th Divisi Infanteri"
+		location = 4652
+		division_template = "Divisi Infanteri"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.76
+	}
+	division = {
+		name = "5th Divisi Infanteri"
+		location = 10322
+		division_template = "Divisi Infanteri"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.76
+	}
+	division = {
+		name = "6th Divisi Infanteri"
+		location = 12299
+		division_template = "Divisi Infanteri"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.76
+	}
+	division = {
+		name = "7th Divisi Infanteri"
+		location = 10382
+		division_template = "Divisi Infanteri"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.76
+	}
+	division = {
+		name = "8th Divisi Infanteri"
+		location = 10297
+		division_template = "Divisi Infanteri"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.76
+	}
+	division = {
+		name = "1st Brigade Cadangan"
+		location = 12225
+		division_template = "Brigade Cadangan"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "2nd Brigade Cadangan"
+		location = 13386
+		division_template = "Brigade Cadangan"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "3rd Brigade Cadangan"
+		location = 7381
+		division_template = "Brigade Cadangan"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "1st Brigade Garnisun"
+		location = 13405
+		division_template = "Brigade Garnisun"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "2nd Brigade Garnisun"
+		location = 7421
+		division_template = "Brigade Garnisun"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "3rd Brigade Garnisun"
+		location = 4652
+		division_template = "Brigade Garnisun"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "4th Brigade Garnisun"
+		location = 10322
+		division_template = "Brigade Garnisun"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "5th Brigade Garnisun"
+		location = 12299
+		division_template = "Brigade Garnisun"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "6th Brigade Garnisun"
+		location = 10382
+		division_template = "Brigade Garnisun"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "7th Brigade Garnisun"
+		location = 10297
+		division_template = "Brigade Garnisun"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.66
+	}
+	division = {
+		name = "1st Korps Marinir"
+		location = 12225
+		division_template = "Korps Marinir"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.76
+	}
+	division = {
+		name = "2nd Korps Marinir"
+		location = 13386
+		division_template = "Korps Marinir"
+		start_experience_factor = 0.30
+		start_equipment_factor = 0.76
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = INS
+		}
+		requested_factories = 5
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = INS
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = INS
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_1
+				creator = INS
+				version_name = "INS 1936 Fighter"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_cas_airframe_1
+				creator = INS
+				version_name = "INS 1936 CAS"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+	}
+}

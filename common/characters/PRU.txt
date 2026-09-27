@@ -1,0 +1,13 @@
+characters = {
+
+	PRU_Luis_A_Eguiguren = {
+		name = "Luis A. Eguiguren"
+		portraits = {
+			civilian = { large = GFX_Portrait_PRU_Luis_A_Eguiguren }
+		}
+		country_leader = {
+			ideology = progressivism
+			traits = { }
+		}
+	}
+}

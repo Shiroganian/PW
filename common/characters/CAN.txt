@@ -1,0 +1,13 @@
+characters = {
+
+	CAN_George_V = {
+		name = "George V"
+		portraits = {
+			civilian = { large = GFX_Portrait_CAN_George_V }
+		}
+		country_leader = {
+			ideology = progressive_liberalism
+			traits = { }
+		}
+	}
+}

@@ -1,0 +1,467 @@
+# ITA land OOB -- adapted from ITA_1936_nsb.txt
+# Land formations only; no naval or air units are defined here.
+
+division_template = {
+	name = "Divisione di Fanteria"
+
+
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Divisione Camicie Nere"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Divisione Celere"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Reggimento di Cavalleria"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Divisione di Fanteria"
+		location = 9904
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "2nd Divisione di Fanteria"
+		location = 819
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "3rd Divisione di Fanteria"
+		location = 10074
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "4th Divisione di Fanteria"
+		location = 6788
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "5th Divisione di Fanteria"
+		location = 1149
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "6th Divisione di Fanteria"
+		location = 1130
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "7th Divisione di Fanteria"
+		location = 9907
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "8th Divisione di Fanteria"
+		location = 11773
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "9th Divisione di Fanteria"
+		location = 11954
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "10th Divisione di Fanteria"
+		location = 925
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "11th Divisione di Fanteria"
+		location = 9990
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "12th Divisione di Fanteria"
+		location = 607
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "13th Divisione di Fanteria"
+		location = 603
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "14th Divisione di Fanteria"
+		location = 782
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "15th Divisione di Fanteria"
+		location = 883
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "16th Divisione di Fanteria"
+		location = 6631
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "17th Divisione di Fanteria"
+		location = 11584
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "18th Divisione di Fanteria"
+		location = 1057
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "19th Divisione di Fanteria"
+		location = 1041
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "20th Divisione di Fanteria"
+		location = 1174
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "21st Divisione di Fanteria"
+		location = 4200
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "22nd Divisione di Fanteria"
+		location = 1062
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "23rd Divisione di Fanteria"
+		location = 9904
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "24th Divisione di Fanteria"
+		location = 819
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "25th Divisione di Fanteria"
+		location = 10074
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "26th Divisione di Fanteria"
+		location = 6788
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "27th Divisione di Fanteria"
+		location = 1149
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "28th Divisione di Fanteria"
+		location = 1130
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "1st Divisione Camicie Nere"
+		location = 9907
+		division_template = "Divisione Camicie Nere"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "2nd Divisione Camicie Nere"
+		location = 11773
+		division_template = "Divisione Camicie Nere"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "3rd Divisione Camicie Nere"
+		location = 11954
+		division_template = "Divisione Camicie Nere"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "4th Divisione Camicie Nere"
+		location = 925
+		division_template = "Divisione Camicie Nere"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "5th Divisione Camicie Nere"
+		location = 9990
+		division_template = "Divisione Camicie Nere"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "6th Divisione Camicie Nere"
+		location = 607
+		division_template = "Divisione Camicie Nere"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "7th Divisione Camicie Nere"
+		location = 603
+		division_template = "Divisione Camicie Nere"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "8th Divisione Camicie Nere"
+		location = 782
+		division_template = "Divisione Camicie Nere"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "9th Divisione Camicie Nere"
+		location = 883
+		division_template = "Divisione Camicie Nere"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "10th Divisione Camicie Nere"
+		location = 6631
+		division_template = "Divisione Camicie Nere"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "11th Divisione Camicie Nere"
+		location = 11584
+		division_template = "Divisione Camicie Nere"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "12th Divisione Camicie Nere"
+		location = 1057
+		division_template = "Divisione Camicie Nere"
+		start_experience_factor = 0.17
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "1st Divisione Celere"
+		location = 1041
+		division_template = "Divisione Celere"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "2nd Divisione Celere"
+		location = 1174
+		division_template = "Divisione Celere"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "1st Reggimento di Cavalleria"
+		location = 4200
+		division_template = "Reggimento di Cavalleria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "2nd Reggimento di Cavalleria"
+		location = 1062
+		division_template = "Reggimento di Cavalleria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "3rd Reggimento di Cavalleria"
+		location = 9904
+		division_template = "Reggimento di Cavalleria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "4th Reggimento di Cavalleria"
+		location = 819
+		division_template = "Reggimento di Cavalleria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "5th Reggimento di Cavalleria"
+		location = 10074
+		division_template = "Reggimento di Cavalleria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+	division = {
+		name = "6th Reggimento di Cavalleria"
+		location = 6788
+		division_template = "Reggimento di Cavalleria"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.72
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = ITA
+		}
+		requested_factories = 12
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = ITA
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = ITA
+		}
+		requested_factories = 4
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = ITA
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_1
+				creator = ITA
+				version_name = "ITA 1936 Fighter"
+			}
+			requested_factories = 2
+			progress = 0.20
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_cas_airframe_1
+				creator = ITA
+				version_name = "ITA 1936 CAS"
+			}
+			requested_factories = 1
+			progress = 0.20
+			efficiency = 50
+		}
+	}
+}

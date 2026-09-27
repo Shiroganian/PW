@@ -1,0 +1,13 @@
+characters = {
+
+	AZR_Mammad_Amin_Rasulzade = {
+		name = "Mammad Amin Rasulzade"
+		portraits = {
+			civilian = { large = GFX_Portrait_AZR_Mammad_Amin_Rasulzade }
+		}
+		country_leader = {
+			ideology = national_conservatism
+			traits = { }
+		}
+	}
+}

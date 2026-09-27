@@ -1,0 +1,25 @@
+# MAN BBA air OOB -- source: lore-scaled BBA template
+air_wings = {
+	716 = {
+		small_plane_airframe_1 = {
+			owner = "MAN"
+			amount = 36
+			version_name = "MAN 1936 Fighter"
+		}
+		small_plane_cas_airframe_1 = {
+			owner = "MAN"
+			amount = 24
+			version_name = "MAN 1936 CAS"
+		}
+		medium_plane_airframe_1 = {
+			owner = "MAN"
+			amount = 12
+			version_name = "MAN 1936 Tactical Bomber"
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "MAN"
+			amount = 12
+			version_name = "MAN 1936 Naval Bomber"
+		}
+	}
+}

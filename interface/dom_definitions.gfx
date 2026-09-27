@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_DOM_Rafael_Trujillo
+        texturefile = gfx/leaders/DOM/Portrait_DOM_Rafael_Trujillo.dds
+    }
+}

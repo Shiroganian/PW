@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_PER_Reza_Shah
+        texturefile = gfx/leaders/PER/Portrait_PER_Reza_Shah.dds
+    }
+}

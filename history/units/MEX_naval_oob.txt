@@ -1,0 +1,66 @@
+# MEX MTG naval OOB -- source: MEX_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "National Navy"
+		naval_base = 4965
+		task_force = {
+			name = "National Navy Task Force"
+			location = 4965
+			ship = { name = "ARM Progreso" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Cruiser Class" } } }
+			ship = { name = "MEX CL-02" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Cruiser Class" } } }
+			ship = { name = "MEX CL-03" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Cruiser Class" } } }
+			ship = { name = "ARM Nicolás Bravo" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Destroyer Class" } } }
+			ship = { name = "ARM Durango" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Destroyer Class" } } }
+			ship = { name = "ARM Guanajuato" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Destroyer Class" } } }
+			ship = { name = "ARM Querétaro" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Destroyer Class" } } }
+			ship = { name = "ARM Potosí" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Destroyer Class" } } }
+			ship = { name = "ARM Acapulco" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Destroyer Class" } } }
+			ship = { name = "ARM Mazatlán" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Destroyer Class" } } }
+			ship = { name = "ARM Tampico" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Destroyer Class" } } }
+			ship = { name = "ARM Veracruz" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Destroyer Class" } } }
+			ship = { name = "MEX DD-10" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Destroyer Class" } } }
+			ship = { name = "MEX SS-01" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Submarine Class" } } }
+			ship = { name = "MEX SS-02" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Submarine Class" } } }
+			ship = { name = "MEX SS-03" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Submarine Class" } } }
+			ship = { name = "MEX SS-04" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Submarine Class" } } }
+			ship = { name = "MEX SS-05" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Submarine Class" } } }
+			ship = { name = "MEX SS-06" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = MEX version_name = "MEX 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = MEX
+			version_name = "MEX 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = MEX
+			version_name = "MEX 1936 Destroyer Class"
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = MEX
+			version_name = "MEX 1936 Submarine Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

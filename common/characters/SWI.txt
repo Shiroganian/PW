@@ -1,0 +1,13 @@
+characters = {
+
+	SWI_Federal_Council = {
+		name = "Federal Council"
+		portraits = {
+			civilian = { large = GFX_Portrait_SWI_Federal_Council }
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			traits = { }
+		}
+	}
+}

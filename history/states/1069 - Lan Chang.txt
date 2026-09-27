@@ -1,0 +1,34 @@
+state = {
+	id = 1069
+	name = "STATE_1069"
+	manpower = 214000
+	
+	state_category = town
+
+	history = {
+
+
+		
+		owner = INF
+		add_core_of = IRA
+		add_core_of = INF
+		add_core_of = IDC
+		add_core_of = LAO
+		
+victory_points = {
+			10330 1 # Xayabuli  
+		}
+
+		buildings = {
+			arms_factory = 0
+			infrastructure = 1
+		}
+
+	}
+
+	provinces = {
+		10330 10456 10356 
+	}
+
+	local_supplies = 0.0 
+}

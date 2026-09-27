@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_NZL_George_V
+        texturefile = gfx/leaders/NZL/Portrait_NZL_George_V.dds
+    }
+}

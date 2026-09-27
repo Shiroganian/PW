@@ -1,0 +1,13 @@
+characters = {
+
+	CMR_Alexandre_Douala_Manga_Bell = {
+		name = "Alexandre Douala Manga Bell"
+		portraits = {
+			civilian = { large = GFX_Portrait_CMR_Alexandre_Douala_Manga_Bell }
+		}
+		country_leader = {
+			ideology = classical_conservatism
+			traits = { }
+		}
+	}
+}

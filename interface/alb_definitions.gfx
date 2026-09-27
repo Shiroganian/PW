@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_ALB_Zog_I
+        texturefile = gfx/leaders/ALB/Portrait_ALB_Zog_I.dds
+    }
+}

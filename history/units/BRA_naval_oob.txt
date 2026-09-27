@@ -1,0 +1,66 @@
+# BRA MTG naval OOB -- source: BRA_1936_naval.txt
+units = {
+	fleet = {
+		name = "National Navy"
+		naval_base = 5112
+		task_force = {
+			name = "National Navy Task Force"
+			location = 5112
+			ship = { name = "NRB Bahia" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Cruiser Class" } } }
+			ship = { name = "NRB Rio Grande do Sul" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Cruiser Class" } } }
+			ship = { name = "BRA CL-03" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Cruiser Class" } } }
+			ship = { name = "NRB Piaui" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Destroyer Class" } } }
+			ship = { name = "NRB Rio Grande do Norte" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Destroyer Class" } } }
+			ship = { name = "NRB Paraíba" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Destroyer Class" } } }
+			ship = { name = "NRB Alagoas" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Destroyer Class" } } }
+			ship = { name = "NRB Marnhão" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Destroyer Class" } } }
+			ship = { name = "NRB Sergipe" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Destroyer Class" } } }
+			ship = { name = "NRB Santa Catharina" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Destroyer Class" } } }
+			ship = { name = "NRB Mato Grosso" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Destroyer Class" } } }
+			ship = { name = "BRA DD-09" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Destroyer Class" } } }
+			ship = { name = "BRA DD-10" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Destroyer Class" } } }
+			ship = { name = "NRB Humaytá" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Submarine Class" } } }
+			ship = { name = "BRA SS-02" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Submarine Class" } } }
+			ship = { name = "BRA SS-03" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Submarine Class" } } }
+			ship = { name = "BRA SS-04" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Submarine Class" } } }
+			ship = { name = "BRA SS-05" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Submarine Class" } } }
+			ship = { name = "BRA SS-06" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = BRA version_name = "BRA 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = BRA
+			version_name = "BRA 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = BRA
+			version_name = "BRA 1936 Destroyer Class"
+		}
+		requested_factories = 3
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = BRA
+			version_name = "BRA 1936 Submarine Class"
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+}

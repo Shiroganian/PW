@@ -1,0 +1,217 @@
+# USA MTG naval OOB -- source: USA_1936_naval_mtg.txt
+units = {
+	fleet = {
+		name = "United States Navy 1"
+		naval_base = 1562
+		task_force = {
+			name = "United States Navy Task Force 1"
+			location = 1562
+			ship = { name = "USS Ranger" definition = carrier start_experience_factor = 0.35 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "USA 1936 Carrier Class" } } }
+			ship = { name = "USS Saratoga" definition = carrier start_experience_factor = 0.35 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "USA 1936 Carrier Class" } } }
+			ship = { name = "USS Nevada" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "USA 1936 Battleship Class" } } }
+			ship = { name = "USS Pennsylvania" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "USA 1936 Battleship Class" } } }
+			ship = { name = "USS Tennessee" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "USA 1936 Battleship Class" } } }
+			ship = { name = "USS New Mexico" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "USA 1936 Battleship Class" } } }
+			ship = { name = "USS Idaho" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "USA 1936 Battleship Class" } } }
+			ship = { name = "USS West Virginia" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "USA 1936 Battleship Class" } } }
+			ship = { name = "USS Arkansas" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "USA 1936 Battleship Class" } } }
+			ship = { name = "USS Texas" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "USA 1936 Battleship Class" } } }
+			ship = { name = "USS Omaha" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USS Cincinnati" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USS Concord" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USS Aroostook" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USS Detroit" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USS Richmond" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USA CL-13" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USA CL-15" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USA CL-17" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USS Dewey" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS MacDonough" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Farragut" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Monaghan" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Hatfield" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Fox" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Rathburne" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Waters" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS MacLeish" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Sturtevant" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Bainbridge" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Sands" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Humphreys" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Wasmuth" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Perry" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Southard" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Long" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Reuben James" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Barry" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Broome" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Simpson" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Breckinridge" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Blakeley" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Decatur" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Jacob Jones" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Schenck" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Hamilton" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Litchfield" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Chew" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Crosby" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Hogan" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Kennison" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Palmer" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Stansbury" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Ward" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Argonaut" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-18" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-27" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-34" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-31" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-33" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS Bass" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS Narwhal" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS Nautilus" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS Cuttlefish" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS Pike" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-20" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS R-2" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS R-10" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS R-13" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-21" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-25" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-29" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+		}
+	}
+	fleet = {
+		name = "United States Navy 2"
+		naval_base = 6845
+		task_force = {
+			name = "United States Navy Task Force 2"
+			location = 6845
+			ship = { name = "USS Lexington" definition = carrier start_experience_factor = 0.35 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "USA 1936 Carrier Class" } } }
+			ship = { name = "USS Langley" definition = carrier start_experience_factor = 0.35 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "USA 1936 Carrier Class" } } }
+			ship = { name = "USS Arizona" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "USA 1936 Battleship Class" } } }
+			ship = { name = "USS Oklahoma" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "USA 1936 Battleship Class" } } }
+			ship = { name = "USS California" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "USA 1936 Battleship Class" } } }
+			ship = { name = "USS Mississippi" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "USA 1936 Battleship Class" } } }
+			ship = { name = "USS Colorado" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "USA 1936 Battleship Class" } } }
+			ship = { name = "USS Maryland" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "USA 1936 Battleship Class" } } }
+			ship = { name = "USS New York" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "USA 1936 Battleship Class" } } }
+			ship = { name = "USS Milwaukee" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USS Trenton" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USS Oglala" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USS Raleigh" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USS Memphis" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USS Marblehead" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USA CL-14" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USA CL-16" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USA CL-18" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "USA 1936 Cruiser Class" } } }
+			ship = { name = "USS Hull" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Worden" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Dale" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Aylwin" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Brooks" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Kane" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Talbot" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Dent" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS McCormick" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Overton" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS King" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Lawrence" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Zane" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Trever" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Chandler" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Hovey" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Dallas" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Goff" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Hopkins" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Borie" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Truxtun" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Barney" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Biddle" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Badger" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Leary" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Babbitt" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Roper" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Ballard" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Crane" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Greene" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Howard" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Kilty" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Schley" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Thornton" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS Dorsey" definition = destroyer start_experience_factor = 0.35 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "USA 1936 Destroyer Class" } } }
+			ship = { name = "USS S-1" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-23" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-28" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-35" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-32" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS Barracuda" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS Bonita" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS Dolphin" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS Cachalot" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS Porpoise" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS Shark" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-22" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS R-4" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS R-11" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS R-14" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-24" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+			ship = { name = "USS S-26" definition = submarine start_experience_factor = 0.35 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "USA 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_carrier_1
+			creator = USA
+			version_name = "USA 1936 Carrier Class"
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = USA
+			version_name = "USA 1936 Cruiser Class"
+		}
+		requested_factories = 5
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = USA
+			version_name = "USA 1936 Battleship Class"
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = USA
+			version_name = "USA 1936 Destroyer Class"
+		}
+		requested_factories = 15
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = USA
+			version_name = "USA 1936 Submarine Class"
+		}
+		requested_factories = 7
+		progress = 0.20
+		efficiency = 50
+	}
+}

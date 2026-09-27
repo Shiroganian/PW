@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_AFG_Amanullah_Khan
+        texturefile = gfx/leaders/AFG/Portrait_AFG_Amanullah_Khan.dds
+    }
+}

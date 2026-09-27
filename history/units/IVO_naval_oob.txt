@@ -1,0 +1,28 @@
+# IVO MTG naval OOB -- source: lore-scaled MTG template
+units = {
+	fleet = {
+		name = "National Navy"
+		naval_base = 10803
+		task_force = {
+			name = "National Navy Task Force"
+			location = 10803
+			ship = { name = "IVO DD-01" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = IVO version_name = "IVO 1936 Destroyer Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = IVO
+			version_name = "IVO 1936 Destroyer Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

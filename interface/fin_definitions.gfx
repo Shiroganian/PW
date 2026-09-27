@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_FIN_Carl_G_E_Mannerheim
+        texturefile = gfx/leaders/FIN/Portrait_FIN_Carl_G_E_Mannerheim.dds
+    }
+}

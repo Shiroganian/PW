@@ -1,0 +1,157 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+# Hitler Coma
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_generic_parliament
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = { TAG = GER }
+	}
+}
+# Coup Defeated
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_generic_parliament
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+		trigger = {
+			NOT = {
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = news.2.b
+		trigger = { TAG = GER }
+	}
+}
+
+# Coup Wins
+news_event = {
+	id = news.3
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_news_event_generic_parliament
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.3.a
+		trigger = {
+			NOT = {
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = news.3.b
+		trigger = { TAG = GER }
+	}
+}
+
+## GER-SOV ends
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_news_event_generic_parliament
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.4.a
+		trigger = {
+			NOT = {
+				TAG = GER
+                TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = news.4.b
+		trigger = { TAG = GER }
+	}
+    option = {
+		name = news.4.c
+		trigger = { TAG = SOV }
+	}
+}
+
+## RESOLUTION 91
+news_event = {
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = GFX_news_event_generic_parliament
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.5.a
+	}
+}
+
+## RESOLUTION 92
+news_event = {
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_news_event_generic_parliament
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.6.a
+	}
+}
+
+## HITLER AWAKENS
+news_event = {
+	id = news.7
+	title = news.7.t
+	desc = news.7.d
+	picture = GFX_news_event_generic_parliament
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.7.a
+	}
+}

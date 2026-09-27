@@ -1,0 +1,31 @@
+# SWE BBA air OOB -- source: SWE_1936_air_bba.txt
+air_wings = {
+	141 = {
+		small_plane_airframe_1 = {
+			owner = "SWE"
+			amount = 60
+			version_name = "SWE 1936 Fighter"
+		}
+	}
+	38 = {
+		small_plane_cas_airframe_1 = {
+			owner = "SWE"
+			amount = 36
+			version_name = "SWE 1936 CAS"
+		}
+	}
+	913 = {
+		medium_plane_airframe_1 = {
+			owner = "SWE"
+			amount = 24
+			version_name = "SWE 1936 Tactical Bomber"
+		}
+	}
+	140 = {
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "SWE"
+			amount = 12
+			version_name = "SWE 1936 Naval Bomber"
+		}
+	}
+}

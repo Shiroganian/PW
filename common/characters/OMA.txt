@@ -1,0 +1,13 @@
+characters = {
+
+	OMA_Said_bin_Taimur = {
+		name = "Said bin Taimur"
+		portraits = {
+			civilian = { large = GFX_Portrait_OMA_Said_bin_Taimur }
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+			traits = { }
+		}
+	}
+}

@@ -1,0 +1,17 @@
+# YEM BBA air OOB -- source: lore-scaled BBA template
+air_wings = {
+	992 = {
+		small_plane_airframe_1 = {
+			owner = "YEM"
+			amount = 12
+			version_name = "YEM 1936 Fighter"
+		}
+	}
+	659 = {
+		small_plane_cas_airframe_1 = {
+			owner = "YEM"
+			amount = 12
+			version_name = "YEM 1936 CAS"
+		}
+	}
+}

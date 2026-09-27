@@ -1,0 +1,13 @@
+characters = {
+
+	ETH_Haile_Selassie_I = {
+		name = "Haile Selassie I"
+		portraits = {
+			civilian = { large = GFX_Portrait_ETH_Haile_Selassie_I }
+		}
+		country_leader = {
+			ideology = solomonic_pan_africanism
+			traits = { }
+		}
+	}
+}

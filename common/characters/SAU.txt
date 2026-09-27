@@ -1,0 +1,13 @@
+characters = {
+
+	SAU_Ibn_Saud = {
+		name = "Ibn Saud"
+		portraits = {
+			civilian = { large = GFX_Portrait_SAU_Ibn_Saud }
+		}
+		country_leader = {
+			ideology = oligarchic_monarchism
+			traits = { }
+		}
+	}
+}

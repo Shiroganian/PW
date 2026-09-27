@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_RHO_George_V
+        texturefile = gfx/leaders/RHO/Portrait_RHO_George_V.dds
+    }
+}

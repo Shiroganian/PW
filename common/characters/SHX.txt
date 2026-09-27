@@ -1,0 +1,13 @@
+characters = {
+
+	SHX_Yan_Xishan = {
+		name = "Yan Xishan"
+		portraits = {
+			civilian = { large = GFX_Portrait_SHX_Yan_Xishan }
+		}
+		country_leader = {
+			ideology = anocracy
+			traits = { }
+		}
+	}
+}

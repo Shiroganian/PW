@@ -1,0 +1,13 @@
+characters = {
+
+	COG_Joseph_Kasa_Vubu = {
+		name = "Joseph Kasa-Vubu"
+		portraits = {
+			civilian = { large = GFX_Portrait_COG_Joseph_Kasa_Vubu }
+		}
+		country_leader = {
+			ideology = classical_conservatism
+			traits = { }
+		}
+	}
+}

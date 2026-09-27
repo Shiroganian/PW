@@ -1,0 +1,31 @@
+state={
+	id=685
+	name="STATE_685"
+	manpower = 39467
+	
+	state_category = megalopolis
+
+	history={
+		
+		owner = PIZ
+
+		add_core_of = PIZ
+victory_points = {
+			7617 5 
+		}
+		buildings = {
+			dockyard = 2
+			industrial_complex = 6
+			arms_factory = 2
+			infrastructure = 4
+			air_base = 6
+			7617 = {
+				naval_base = 3
+			}
+		}
+	}
+	
+	provinces={ 7617 }
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,13 @@
+characters = {
+
+	LIB_Edwin_Barclay = {
+		name = "Edwin Barclay"
+		portraits = {
+			civilian = { large = GFX_Portrait_LIB_Edwin_Barclay }
+		}
+		country_leader = {
+			ideology = humanistic_capitalism
+			traits = { }
+		}
+	}
+}

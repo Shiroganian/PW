@@ -1,0 +1,546 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			#USA
+			361 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { USA.release_event = 2 }
+
+			#PIZ
+			685 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { PIZ.release_event = 3 }
+
+			#CAN
+			276 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { CAN.release_event = 4 }
+
+			#MEX
+			277 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { MEX.release_event = 5 }
+
+			#PAN
+			304 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { PAN.release_event = 6 }
+
+			#CUB
+			315 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { CUB.release_event = 7 }
+
+			#GUA
+			313 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { GUA.release_event = 8 }
+
+			#ELS
+			314 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { ELS.release_event = 9 }
+
+			#HON
+			312 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { HON.release_event = 10 }
+
+			#NIC
+			317 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { NIC.release_event = 11 }
+
+			#COS
+			316 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { COS.release_event = 12 }
+
+			#HAI
+			318 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { HAI.release_event = 13 }
+
+			#DOM
+			319 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { DOM.release_event = 14 }
+
+			#BRA
+			500 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { BRA.release_event = 15 }
+
+			#ALM
+			495 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { ALM.release_event = 16 }
+
+			#BSF
+			940 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { BSF.release_event = 17 }
+
+			#AMA
+			938 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { AMA.release_event = 18 }
+
+			#GDC
+			306 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { GDC.release_event = 19 }
+
+			#GYA
+			687 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { GYA.release_event = 20 }
+
+			#VEN
+			307 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { VEN.release_event = 21 }
+
+			#ARG
+			278 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { ARG.release_event = 22 }
+
+			#PRU
+			303 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { PRU.release_event = 23 }
+
+			#CHL
+			279 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { CHL.release_event = 24 }
+
+			#BOL
+			302 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { BOL.release_event = 25 }
+
+			#PAR
+			301 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { PAR.release_event = 26 }
+
+			#URG
+			300 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { URG.release_event = 27 }
+
+			#GER
+			64 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { GER.release_event = 28 }
+
+			#ENG
+			126 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { ENG.release_event = 29 }
+
+			#SOV
+			219 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { SOV.release_event = 30 }
+
+			#FRA
+			16 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { FRA.release_event = 31 }
+
+			#ITA
+			2 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { ITA.release_event = 32 }
+
+			#POL
+			10 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { POL.release_event = 33 }
+
+			#DNZ
+			85 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { DNZ.release_event = 34 }
+
+			#BLR
+			206 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { BLR.release_event = 35 }
+
+			#UKR
+			202 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { UKR.release_event = 36 }
+
+			#BLT
+			808 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { BLT.release_event = 37 }
+
+			#HUN
+			43 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { HUN.release_event = 38 }
+
+			#YUG
+			107 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { YUG.release_event = 39 }
+
+			#ROM
+			46 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { ROM.release_event = 40 }
+
+			#ALB
+			44 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { ALB.release_event = 41 }
+
+			#CZE
+			9 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { CZE.release_event = 42 }
+
+			#BUL
+			48 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { BUL.release_event = 43 }
+
+			#SPR
+			41 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { SPR.release_event = 44 }
+
+			#POR
+			112 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { POR.release_event = 45 }
+
+			#BEL
+			6 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { BEL.release_event = 46 }
+
+			#HOL
+			7 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { HOL.release_event = 47 }
+
+			#LUX
+			8 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { LUX.release_event = 48 }
+
+			#DEN
+			37 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { DEN.release_event = 49 }
+
+			#NOR
+			110 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { NOR.release_event = 50 }
+
+			#SWE
+			141 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { SWE.release_event = 51 }
+
+			#FIN
+			111 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { FIN.release_event = 52 }
+
+			#ICE
+			100 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { ICE.release_event = 53 }
+
+			#JAP
+			282 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { JAP.release_event = 54 }
+
+			#CHI
+			1035 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { CHI.release_event = 55 }
+
+			#SIK
+			617 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { SIK.release_event = 56 }
+
+			#QIN
+			608 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { QIN.release_event = 57 }
+
+			#TAN
+			329 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { TAN.release_event = 58 }
+
+			#MON
+			330 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { MON.release_event = 59 }
+
+			#MAN
+			328 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { MAN.release_event = 60 }
+
+			#TIB
+			322 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { TIB.release_event = 61 }
+
+			#SIC
+			1037 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { SIC.release_event = 62 }
+
+			#XSM
+			283 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { XSM.release_event = 63 }
+
+			#SHX
+			615 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { SHX.release_event = 64 }
+
+			#SND
+			1038 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { SND.release_event = 65 }
+
+			#SHG
+			613 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { SHG.release_event = 66 }
+
+			#RAJ
+			439 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { RAJ.release_event = 67 }
+
+			#INS
+			1058 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { INS.release_event = 68 }
+
+			#PHI
+			327 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { PHI.release_event = 69 }
+
+			#AST
+			285 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { AST.release_event = 70 }
+
+			#NZL
+			284 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { NZL.release_event = 71 }
+
+			#KBM
+			288 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { KBM.release_event = 72 }
+
+			#BRM
+			640 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { BRM.release_event = 73 }
+
+			#DBM
+			995 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { DBM.release_event = 74 }
+
+			#VIN
+			286 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { VIN.release_event = 75 }
+
+			#KHM
+			741 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { KHM.release_event = 76 }
+
+			#LAO
+			1068 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { LAO.release_event = 77 }
+
+			#IRA
+			1017 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { IRA.release_event = 78 }
+
+			#IDC
+			1066 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { IDC.release_event = 79 }
+
+			#INF
+			671 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { INF.release_event = 80 }
+
+			#SIA
+			1076 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { SIA.release_event = 81 }
+
+			#KAZ
+			405 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { KAZ.release_event = 82 }
+
+			#TMS
+			584 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { TMS.release_event = 83 }
+
+			#NOM
+			586 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { NOM.release_event = 84 }
+
+			#AFG
+			267 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { AFG.release_event = 85 }
+
+			#BLC
+			1012 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { BLC.release_event = 86 }
+
+			#GRE
+			47 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { GRE.release_event = 87 }
+
+			#CIZ
+			797 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { CIZ.release_event = 88 }
+
+			#TUR
+			49 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { TUR.release_event = 89 }
+
+			#SYR
+			554 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { SYR.release_event = 90 }
+
+			#ARM
+			230 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { ARM.release_event = 91 }
+
+			#KUR
+			350 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { KUR.release_event = 92 }
+
+			#IRQ
+			291 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { IRQ.release_event = 93 }
+
+			#GEO
+			231 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { GEO.release_event = 94 }
+
+			#AZR
+			229 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { AZR.release_event = 95 }
+
+			#TRA
+			821 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { TRA.release_event = 96 }
+
+			#SAU
+			292 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { SAU.release_event = 97 }
+
+			#PER
+			266 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { PER.release_event = 98 }
+
+			#EGY
+			907 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { EGY.release_event = 99 }
+
+			#SIZ
+			446 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { SIZ.release_event = 100 }
+
+			#ETH
+			271 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { ETH.release_event = 101 }
+
+			#LIB
+			298 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { LIB.release_event = 102 }
+
+			#WAF
+			558 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { WAF.release_event = 103 }
+
+			#SAF
+			275 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { SAF.release_event = 104 }
+
+			#RHO
+			545 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { RHO.release_event = 105 }
+
+			#COG
+			538 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { COG.release_event = 106 }
+
+			#CLM
+			718 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { CLM.release_event = 107 }
+
+			#KAT
+			889 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { KAT.release_event = 108 }
+
+			#CFS
+			295 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { CFS.release_event = 109 }
+
+			#ZAM
+			771 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { ZAM.release_event = 110 }
+
+			#MAD
+			543 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { MAD.release_event = 111 }
+
+			#CMR
+			773 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { CMR.release_event = 112 }
+
+			#CHA
+			774 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { CHA.release_event = 113 }
+
+			#CAR
+			660 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { CAR.release_event = 114 }
+
+			#VOL
+			778 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { VOL.release_event = 115 }
+
+			#IVO
+			779 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { IVO.release_event = 116 }
+
+			#NGR
+			781 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { NGR.release_event = 117 }
+
+			#GHA
+			274 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { GHA.release_event = 118 }
+
+			#GAB
+			539 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { GAB.release_event = 119 }
+
+			#IRE
+			113 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { IRE.release_event = 120 }
+
+			#NEP
+			323 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { NEP.release_event = 121 }
+
+			#BHU
+			324 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { BHU.release_event = 122 }
+
+			#OMA
+			294 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { OMA.release_event = 123 }
+
+			#YEM
+			992 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { YEM.release_event = 124 }
+
+			#SWI
+			3 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { SWI.release_event = 125 }
+
+		}
+	}
+
+	# ROOT is the winner; FROM is the annexed country.
+	on_annex = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = KR_checking_for_possible_annexations }
+					is_subject = no
+				}
+				set_country_flag = KR_checking_for_possible_annexations
+				country_event = { id = annex.1 days = 1 random_days = 3 }
+			}
+		}
+	}
+
+	# ROOT is the winner; FROM is the loser.
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = KR_checking_for_possible_annexations }
+					is_subject = no
+				}
+				set_country_flag = KR_checking_for_possible_annexations
+				country_event = { id = annex.1 days = 1 random_days = 3 }
+			}
+		}
+	}
+
+	# ROOT is the new controller; FROM.FROM is the state.
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					owns_state = FROM.FROM
+					is_in_array = { global.annexation_relevant_states = FROM.FROM }
+					NOT = { has_country_flag = KR_checking_for_possible_annexations }
+					is_subject = no
+				}
+				set_country_flag = KR_checking_for_possible_annexations
+				country_event = { id = annex.1 days = 1 random_days = 3 }
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+characters = {
+
+	RAJ_Vinayak_Damodar_Savarkar = {
+		name = "Vinayak Damodar Savarkar"
+		portraits = {
+			civilian = { large = GFX_Portrait_RAJ_Vinayak_Damodar_Savarkar }
+		}
+		country_leader = {
+			ideology = hindutva
+			traits = { }
+		}
+	}
+}

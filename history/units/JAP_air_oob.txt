@@ -1,0 +1,66 @@
+# JAP BBA air OOB -- source: JAP_1936_air_bba.txt
+air_wings = {
+	533 = {
+		small_plane_airframe_1 = {
+			owner = "JAP"
+			amount = 100
+			version_name = "JAP 1936 Fighter"
+		}
+	}
+	524 = {
+		small_plane_airframe_1 = {
+			owner = "JAP"
+			amount = 100
+			version_name = "JAP 1936 Fighter"
+		}
+	}
+	282 = {
+		small_plane_airframe_1 = {
+			owner = "JAP"
+			amount = 100
+			version_name = "JAP 1936 Fighter"
+		}
+	}
+	684 = {
+		small_plane_airframe_1 = {
+			owner = "JAP"
+			amount = 78
+			version_name = "JAP 1936 Fighter"
+		}
+	}
+	646 = {
+		small_plane_cas_airframe_1 = {
+			owner = "JAP"
+			amount = 100
+			version_name = "JAP 1936 CAS"
+		}
+	}
+	530 = {
+		small_plane_cas_airframe_1 = {
+			owner = "JAP"
+			amount = 92
+			version_name = "JAP 1936 CAS"
+		}
+	}
+	529 = {
+		medium_plane_airframe_1 = {
+			owner = "JAP"
+			amount = 100
+			version_name = "JAP 1936 Tactical Bomber"
+		}
+	}
+	528 = {
+		medium_plane_airframe_1 = {
+			owner = "JAP"
+			amount = 8
+			version_name = "JAP 1936 Tactical Bomber"
+		}
+	}
+	526 = {
+		small_plane_naval_bomber_airframe_1 = {
+			owner = "JAP"
+			amount = 72
+			version_name = "JAP 1936 Naval Bomber"
+		}
+	}
+}

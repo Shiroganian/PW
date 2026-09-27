@@ -1,0 +1,68 @@
+BRM_foreign_support = {
+    allowed = {
+        original_tag = INS
+    }
+
+    enable = {
+        always = yes
+    }
+
+    abort = {
+        always = no
+    }
+
+    ai_strategy = {
+        type = send_volunteers_desire
+        id = BRM
+        value = 10000
+    }
+
+    ai_strategy = {
+        type = support
+        id = BRM
+        value = 5000
+    }
+
+	ai_strategy = {
+        type = antagonize
+        id = KBM
+        value = 5000
+    }
+
+	ai_strategy = {
+        type = antagonize
+        id = DBM
+        value = 5000
+    }
+
+	ai_strategy = {
+        type = protect
+        id = BRM
+        value = 5000
+    }
+}
+
+IDC_foreign_support = {
+	allowed = {
+		OR = {
+			original_tag = PHI
+			original_tag = INS
+		}
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = IDC
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = IDC
+		value = 200
+	}
+}

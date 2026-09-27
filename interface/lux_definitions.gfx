@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_LUX_Charlotte
+        texturefile = gfx/leaders/LUX/Portrait_LUX_Charlotte.dds
+    }
+}

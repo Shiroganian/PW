@@ -1,0 +1,31 @@
+# ALB MTG naval OOB -- source: lore-scaled MTG template
+units = {
+	fleet = {
+		name = "Royal Navy"
+		naval_base = 11767
+		task_force = {
+			name = "Royal Navy Task Force"
+			location = 11767
+			ship = { name = "ALB DD-01" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ALB version_name = "ALB 1936 Destroyer Class" } } }
+			ship = { name = "ALB DD-02" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ALB version_name = "ALB 1936 Destroyer Class" } } }
+			ship = { name = "ALB DD-03" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ALB version_name = "ALB 1936 Destroyer Class" } } }
+			ship = { name = "ALB SS-01" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ALB version_name = "ALB 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = ALB
+			version_name = "ALB 1936 Destroyer Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

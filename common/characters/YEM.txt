@@ -1,0 +1,13 @@
+characters = {
+
+	YEM_Ali_bin_Abd_al_Karim_al_Abdali = {
+		name = "Ali bin Abd al-Karim al-Abdali"
+		portraits = {
+			civilian = { large = GFX_Portrait_YEM_Ali_bin_Abd_al_Karim_al_Abdali }
+		}
+		country_leader = {
+			ideology = oligarchic_monarchism
+			traits = { }
+		}
+	}
+}

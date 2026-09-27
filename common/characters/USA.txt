@@ -1,0 +1,13 @@
+characters = {
+
+	USA_Huey_P_Long_Jr = {
+		name = "Huey P. Long Jr."
+		portraits = {
+			civilian = { large = GFX_Portrait_USA_Huey_P_Long_Jr }
+		}
+		country_leader = {
+			ideology = longism
+			traits = { }
+		}
+	}
+}

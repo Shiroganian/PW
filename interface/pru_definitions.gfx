@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_PRU_Luis_A_Eguiguren
+        texturefile = gfx/leaders/PRU/Portrait_PRU_Luis_A_Eguiguren.dds
+    }
+}

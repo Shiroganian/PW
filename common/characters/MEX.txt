@@ -1,0 +1,13 @@
+characters = {
+
+	MEX_Jose_Vasconcelos = {
+		name = "Jose Vasconcelos"
+		portraits = {
+			civilian = { large = GFX_Portrait_MEX_Jose_Vasconcelos }
+		}
+		country_leader = {
+			ideology = pan_hispanic_ultranationalism
+			traits = { }
+		}
+	}
+}

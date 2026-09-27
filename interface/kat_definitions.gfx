@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_KAT_Mwenda_Msiri_Ngelengwa
+        texturefile = gfx/leaders/KAT/Portrait_KAT_Mwenda_Msiri_Ngelengwa.dds
+    }
+}

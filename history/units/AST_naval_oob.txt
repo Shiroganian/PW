@@ -1,0 +1,66 @@
+# AST MTG naval OOB -- source: AST_1936_naval.txt
+units = {
+	fleet = {
+		name = "Royal Australian Navy"
+		naval_base = 12406
+		task_force = {
+			name = "Royal Australian Navy Task Force"
+			location = 12406
+			ship = { name = "HMAS Sydney" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "AST 1936 Cruiser Class" } } }
+			ship = { name = "HMAS Adelaide" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "AST 1936 Cruiser Class" } } }
+			ship = { name = "AST CL-03" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "AST 1936 Cruiser Class" } } }
+			ship = { name = "HMAS Vampire" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "AST 1936 Destroyer Class" } } }
+			ship = { name = "HMAS Vendetta" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "AST 1936 Destroyer Class" } } }
+			ship = { name = "HMAS Voyager" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "AST 1936 Destroyer Class" } } }
+			ship = { name = "HMAS Waterhen" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "AST 1936 Destroyer Class" } } }
+			ship = { name = "HMAS Stuart" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "AST 1936 Destroyer Class" } } }
+			ship = { name = "AST DD-06" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "AST 1936 Destroyer Class" } } }
+			ship = { name = "AST DD-07" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "AST 1936 Destroyer Class" } } }
+			ship = { name = "AST DD-08" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "AST 1936 Destroyer Class" } } }
+			ship = { name = "AST DD-09" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "AST 1936 Destroyer Class" } } }
+			ship = { name = "AST DD-10" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "AST 1936 Destroyer Class" } } }
+			ship = { name = "AST SS-01" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "AST 1936 Submarine Class" } } }
+			ship = { name = "AST SS-02" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "AST 1936 Submarine Class" } } }
+			ship = { name = "AST SS-03" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "AST 1936 Submarine Class" } } }
+			ship = { name = "AST SS-04" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "AST 1936 Submarine Class" } } }
+			ship = { name = "AST SS-05" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "AST 1936 Submarine Class" } } }
+			ship = { name = "AST SS-06" definition = submarine start_experience_factor = 0.25 equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "AST 1936 Submarine Class" } } }
+		}
+	}
+}
+
+############################
+## STARTING NAVAL BUILDS  ##
+############################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = AST
+			version_name = "AST 1936 Cruiser Class"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = AST
+			version_name = "AST 1936 Destroyer Class"
+		}
+		requested_factories = 4
+		progress = 0.20
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = AST
+			version_name = "AST 1936 Submarine Class"
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 50
+	}
+}

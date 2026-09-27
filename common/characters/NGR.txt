@@ -1,0 +1,13 @@
+characters = {
+
+	NGR_Oumarou_Sanda = {
+		name = "Oumarou Sanda"
+		portraits = {
+			civilian = { large = GFX_Portrait_NGR_Oumarou_Sanda }
+		}
+		country_leader = {
+			ideology = oligarchy
+			traits = { }
+		}
+	}
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Portrait_KUR_Mahmud_Barzanji
+        texturefile = gfx/leaders/KUR/Portrait_KUR_Mahmud_Barzanji.dds
+    }
+}

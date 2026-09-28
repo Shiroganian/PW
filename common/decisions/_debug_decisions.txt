@@ -1393,4 +1393,96 @@ debug_decisions = {
 			base = 0
 		}
 	}
+
+	ger_expand_faction = {
+		icon = placeholder
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = show_debug_decisions_flag
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			GER = {
+				add_to_faction = HOL
+				add_to_faction = DEN
+				add_to_faction = BLT
+				add_to_faction = CZE
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	great_asian_war = {
+		icon = placeholder
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = show_debug_decisions_flag
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			RAJ = {
+				create_faction_from_template = {
+					template = faction_template_triple_alliance
+					name = "Hindusphere"
+					icon = GFX_faction_logo_generic_2
+					color = { 100 100 150 }
+				}
+				add_to_faction = KBM
+				add_to_faction = LAO
+				add_to_faction = KHM
+				add_to_faction = VIN
+				declare_war_on = {
+					target = INS
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = SIA
+					type = annex_everything
+				}
+			}
+			INS = {
+				create_faction_from_template = {
+					template = faction_template_national_front
+					name = "Indosphere"
+					icon = GFX_faction_logo_generic_2
+					color = { 100 100 150 }
+				}
+				add_to_faction = BRM
+				add_to_faction = IDC
+				declare_war_on = {
+					target = RAJ
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = SIA
+					type = annex_everything
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
 }

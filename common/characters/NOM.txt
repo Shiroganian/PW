@@ -6,7 +6,7 @@ characters = {
 			civilian = { large = GFX_Portrait_NOM_Ibrahim_Bek }
 		}
 		country_leader = {
-			ideology = ethnic_oligarchism
+			ideology = decentralized_oligarchism
 			traits = { }
 		}
 	}

@@ -1,7 +1,7 @@
 characters = {
 
 	HUN_Karl_IV = {
-		name = "Karl IV"
+		name = "IV. Károly"
 		portraits = {
 			civilian = { large = GFX_Portrait_HUN_Karl_IV }
 		}

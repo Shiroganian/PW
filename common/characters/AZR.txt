@@ -6,7 +6,7 @@ characters = {
 			civilian = { large = GFX_Portrait_AZR_Mammad_Amin_Rasulzade }
 		}
 		country_leader = {
-			ideology = national_conservatism
+			ideology = liberal_socialism
 			traits = { }
 		}
 	}

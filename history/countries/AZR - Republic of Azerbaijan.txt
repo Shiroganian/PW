@@ -1,12 +1,12 @@
 capital = 229
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = social_liberal
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	conservative = 100
+	social_liberal = 100
 }
 
 recruit_character = AZR_Mammad_Amin_Rasulzade # Mammad Amin Rasulzade

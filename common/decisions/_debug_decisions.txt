@@ -1261,6 +1261,10 @@ debug_decisions = {
 					target = DEN
 					type = annex_everything
 				}
+				declare_war_on = {
+					target = SWI
+					type = annex_everything
+				}
 			}
 		}
 

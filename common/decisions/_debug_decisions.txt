@@ -898,4 +898,374 @@ debug_decisions = {
 			}
 		}
 	}
+
+	indochina_war = {
+		icon = placeholder
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = show_debug_decisions_flag
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			IDC = {
+				declare_war_on = {
+					target = VIN
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = LAO
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = KHM
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = IRA
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = INF
+					type = annex_everything
+				}
+			}
+			IRA = {
+				declare_war_on = {
+					target = VIN
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = LAO
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = KHM
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = IDC
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = INF
+					type = annex_everything
+				}
+			}
+			INF = {
+				declare_war_on = {
+					target = VIN
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = LAO
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = KHM
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = IRA
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = IDC
+					type = annex_everything
+				}
+			}
+			VIN = {
+				declare_war_on = {
+					target = IDC
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = IRA
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = INF
+					type = annex_everything
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	china_warlord_war = {
+		icon = placeholder
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = show_debug_decisions_flag
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			CHI = {
+				declare_war_on = {
+					target = XSM
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = SND
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = SHX
+					type = annex_everything
+				}
+			}
+			QIN = {
+				declare_war_on = {
+					target = XSM
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = SND
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = SHX
+					type = annex_everything
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	chinese_civil_war = {
+		icon = placeholder
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = show_debug_decisions_flag
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			CHI = {
+				declare_war_on = {
+					target = QIN
+					type = annex_everything
+				}
+			}
+			QIN = {
+				declare_war_on = {
+					target = CHI
+					type = annex_everything
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	world_war_2 = {
+		icon = placeholder
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = show_debug_decisions_flag
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			FRA = {
+				declare_war_on = {
+					target = BEL
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = LUX
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = GER
+					type = annex_everything
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	central_asian_war = {
+		icon = placeholder
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = show_debug_decisions_flag
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			KAZ = {
+				declare_war_on = {
+					target = TMS
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = NOM
+					type = annex_everything
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	eastern_war = {
+		icon = placeholder
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = show_debug_decisions_flag
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			SOV = {
+				declare_war_on = {
+					target = TRA
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = UKR
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = BLR
+					type = annex_everything
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	russian_expansion_war = {
+		icon = placeholder
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = show_debug_decisions_flag
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			SOV = {
+				declare_war_on = {
+					target = BLT
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = FIN
+					type = annex_everything
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	balkan_war = {
+		icon = placeholder
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = show_debug_decisions_flag
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ITA = {
+				declare_war_on = {
+					target = YUG
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = ALB
+					type = annex_everything
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
 }

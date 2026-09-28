@@ -1,14 +1,14 @@
 capital = 584
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = fascist
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarian_democrat = 100
+	fascist = 100
 }
 
-recruit_character = TMS_Junaid_Khan # Junaid Khan
+recruit_character = TMS_Ismail_Enver # Ismail Enver
 
 oob = "TMS_land_oob"
 starting_train_buffer = 3

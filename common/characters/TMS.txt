@@ -1,12 +1,12 @@
 characters = {
 
-	TMS_Junaid_Khan = {
-		name = "Junaid Khan"
+	TMS_Ismail_Enver = {
+		name = "İsmâil Enver"
 		portraits = {
-			civilian = { large = GFX_Portrait_TMS_Junaid_Khan }
+			civilian = { large = GFX_Portrait_TMS_Ismail_Enver }
 		}
 		country_leader = {
-			ideology = ethnic_oligarchism
+			ideology = clerical_fascism
 			traits = { }
 		}
 	}

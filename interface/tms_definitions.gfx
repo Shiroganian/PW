@@ -1,6 +1,6 @@
 spriteTypes = {
     spriteType = {
-        name = GFX_Portrait_TMS_Junaid_Khan
-        texturefile = gfx/leaders/TMS/Portrait_TMS_Junaid_Khan.dds
+        name = GFX_Portrait_TMS_Ismail_Enver
+        texturefile = gfx/leaders/TMS/Portrait_TMS_Ismail_Enver.dds
     }
 }

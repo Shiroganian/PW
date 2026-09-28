@@ -6,7 +6,7 @@ characters = {
 			civilian = { large = GFX_Portrait_IRQ_Jafar_al_Askari }
 		}
 		country_leader = {
-			ideology = centrism
+			ideology = oriental_wilsonianism
 			traits = { }
 		}
 	}

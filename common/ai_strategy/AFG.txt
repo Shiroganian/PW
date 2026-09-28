@@ -16,7 +16,7 @@ AFG_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineers
-		value = 8
+		value = 100
 	}
 	ai_strategy = {
 		type = role_ratio

@@ -45,7 +45,7 @@ division_template = {
 units = {
 	division = {
 		name = "1st Infantry Division"
-		location = 1573
+		location = 1459
 		division_template = "Infantry Division"
 		start_experience_factor = 0.20
 		start_equipment_factor = 0.62
@@ -73,7 +73,7 @@ units = {
 	}
 	division = {
 		name = "1st Reserve Brigade"
-		location = 1573
+		location = 1459
 		division_template = "Reserve Brigade"
 		start_experience_factor = 0.12
 		start_equipment_factor = 0.52

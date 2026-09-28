@@ -1,6 +1,11 @@
 # NOM BBA air OOB -- source: lore-scaled BBA template
 air_wings = {
-	830 = {
+	405 = {
+		small_plane_cas_airframe_1 = {
+			owner = "NOM"
+			amount = 12
+			version_name = "NOM 1936 CAS"
+		}
 		small_plane_airframe_1 = {
 			owner = "NOM"
 			amount = 36
@@ -10,13 +15,6 @@ air_wings = {
 			owner = "NOM"
 			amount = 12
 			version_name = "NOM 1936 Tactical Bomber"
-		}
-	}
-	405 = {
-		small_plane_cas_airframe_1 = {
-			owner = "NOM"
-			amount = 12
-			version_name = "NOM 1936 CAS"
 		}
 	}
 }

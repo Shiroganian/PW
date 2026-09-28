@@ -45,7 +45,7 @@ division_template = {
 units = {
 	division = {
 		name = "1st Infantry Division"
-		location = 1459
+		location = 7243
 		division_template = "Infantry Division"
 		start_experience_factor = 0.28
 		start_equipment_factor = 0.70
@@ -66,7 +66,7 @@ units = {
 	}
 	division = {
 		name = "4th Infantry Division"
-		location = 1554
+		location = 1517
 		division_template = "Infantry Division"
 		start_experience_factor = 0.28
 		start_equipment_factor = 0.70
@@ -80,7 +80,7 @@ units = {
 	}
 	division = {
 		name = "1st Cavalry Brigade"
-		location = 1459
+		location = 7243
 		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.28
 		start_equipment_factor = 0.70
@@ -101,7 +101,7 @@ units = {
 	}
 	division = {
 		name = "4th Cavalry Brigade"
-		location = 1554
+		location = 1517
 		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.28
 		start_equipment_factor = 0.70

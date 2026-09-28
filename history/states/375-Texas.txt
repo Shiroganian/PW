@@ -18,9 +18,8 @@ state={
 		
 
 		owner = USA
-
-
 		add_core_of = USA
+		add_claim_by = MEX
 buildings = {
 	dockyard = 1
 			infrastructure = 4 #was: 6

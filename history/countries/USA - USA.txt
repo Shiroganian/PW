@@ -21,6 +21,11 @@ set_popularities = {
 
 recruit_character = USA_Huey_P_Long_Jr # Huey P. Long Jr.
 
+give_guarantee = PIZ
+give_guarantee = PAN
+give_guarantee = CUB
+
+
 oob = "USA_land_oob"
 starting_train_buffer = 3
 set_convoys = 650

@@ -15,8 +15,8 @@ state={
 	history={
 		
 		owner = USA
-
 		add_core_of = USA
+		add_claim_by = MEX
 buildings = {
 			infrastructure = 4
 			industrial_complex = 1

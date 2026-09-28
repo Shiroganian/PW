@@ -3,7 +3,7 @@ state = {
 	name = "STATE_640"
 
 	resources = {
-		tungsten = 50 # was 120, 70 was moved to Shan
+		tungsten = 100 # was 120, 70 was moved to Shan
 	}
 	
 	manpower = 258241

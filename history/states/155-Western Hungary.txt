@@ -6,8 +6,8 @@ state = {
 	state_category = large_town # was city
 
 	resources = {
-		aluminium = 40 # moved from Northern Hungary, then was 60
-		coal = 1 # more coal is added through a focus
+		aluminium = 80 # moved from Northern Hungary, then was 60
+		coal = 2 # more coal is added through a focus
 	}
 
 	history = {

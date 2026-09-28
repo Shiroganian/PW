@@ -43,7 +43,7 @@ buildings = {
 	manpower=2249080
 
 	resources = {
-		coal = 11 #initial distribution = with infra 28.8 / 1280 total
+		coal = 22 #initial distribution = with infra 28.8 / 1280 total
 	}
 	buildings_max_level_factor=1.000
 	state_category=large_city

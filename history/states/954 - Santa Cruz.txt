@@ -6,8 +6,8 @@ state = {
 	state_category = rural
 	
 	resources = {
-		oil = 3
-		coal = 2 # initial distribution = with infra 2.4 / 2 total
+		oil = 6
+		coal = 4 # initial distribution = with infra 2.4 / 2 total
 	}
 
 	history = {

@@ -5,8 +5,8 @@ state = {
 	state_category = town
 
 	resources = {
-		steel = 8 # was: 30
-		tungsten = 8 # was: 52 - moved 10 to South Korea and the Sangdong province
+		steel = 16 # was: 30
+		tungsten = 16 # was: 52 - moved 10 to South Korea and the Sangdong province
 	}
 
 	history = {

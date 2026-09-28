@@ -4,7 +4,7 @@ state={
 	name="STATE_520"
 	resources={
 		steel = 0 #removed 22 in TAOG, historically not a producer of any scale.
-		tungsten = 8 #starting amount divided better in TAOG
+		tungsten = 16 #starting amount divided better in TAOG
 	}
 
 	history={

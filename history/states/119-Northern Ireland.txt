@@ -35,8 +35,8 @@ victory_points = {
 	state_category="city"
 	
 	resources={
-		aluminium=2
-		coal = 2 #initial distribution
+		aluminium=4
+		coal = 4 #initial distribution
 	}
 
 	local_supplies=0.0 

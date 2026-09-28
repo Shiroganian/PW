@@ -7,9 +7,9 @@ state = {
 	state_category = town
 	
 	resources = {
-		rubber = 40 
-		steel = 2
-		aluminium = 2
+		rubber = 80 
+		steel = 4
+		aluminium = 4
 	}
 
 	history = {

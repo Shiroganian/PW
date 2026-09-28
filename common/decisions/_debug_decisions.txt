@@ -1394,7 +1394,7 @@ debug_decisions = {
 		}
 	}
 
-	ger_expand_faction = {
+	ger_clean_up = {
 		icon = placeholder
 
 		available = {

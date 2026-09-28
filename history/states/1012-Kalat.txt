@@ -5,6 +5,12 @@ state={
 		7049 8098 8066
 	}
 	state_category = town
+
+	resources = {
+		oil = 2
+		steel = 1
+		chromium = 4
+	}
 	manpower = 480164
 
 	history = {

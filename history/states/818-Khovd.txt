@@ -22,5 +22,9 @@ buildings = {
 	manpower=149000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+
+	resources = {
+		steel = 1
+	}
 	local_supplies=0.000
 }

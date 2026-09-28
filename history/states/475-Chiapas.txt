@@ -6,6 +6,14 @@ state={
 	
 	state_category = rural
 
+	resources = {
+		aluminium = 2
+		rubber = 4
+		tungsten = 2
+		steel = 1
+		coal = 3
+	}
+
 	history={
 		
 		owner = MEX

@@ -30,5 +30,11 @@ victory_points = {
 	buildings_max_level_factor=1.000
 	state_category=town
 
+	resources = {
+		rubber = 3
+		steel = 4
+		coal = 10
+	}
+
 	local_supplies=1.0 
 }

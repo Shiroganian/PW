@@ -23,5 +23,9 @@ victory_points = {
 	buildings_max_level_factor = 1
 	state_category = "wasteland"
 
+	resources = {
+		steel = 1
+	}
+
 	local_supplies = 0.0 
 }

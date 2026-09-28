@@ -6,6 +6,13 @@ state={
 	
 	state_category = pastoral
 
+	resources = {
+		oil = 2
+		rubber = 2
+		tungsten = 2
+		steel = 1
+	}
+
 	history={
 		
 		owner = GDC

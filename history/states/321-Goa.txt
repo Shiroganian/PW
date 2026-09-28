@@ -6,6 +6,11 @@ state={
 
 	state_category = enclave
 
+	resources = {
+		aluminium = 2
+		steel = 1
+	}
+
 	history={
 		
 		owner = RAJ

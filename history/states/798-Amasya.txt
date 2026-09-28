@@ -8,6 +8,10 @@ state={
 	
 	state_category = rural
 
+	resources = {
+		steel = 1
+	}
+
 	history= {
 		
 		owner = TUR

@@ -6,9 +6,9 @@ state = {
 	state_category = large_city
 	
 	resources = {
-		steel = 28 # was: 24, then 16
-		tungsten = 16 # In replacement of nitrate
-		chromium = 8 # in replacement of nitrate
+		steel = 14 # was: 24, then 16
+		tungsten = 8 # In replacement of nitrate
+		chromium = 4 # in replacement of nitrate
 	}
 
 	history = {

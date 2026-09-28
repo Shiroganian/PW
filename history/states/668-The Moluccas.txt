@@ -6,6 +6,13 @@ state={
 	
 	state_category = small_island
 
+	resources = {
+		aluminium = 2
+		rubber = 4
+		tungsten = 2
+		steel = 1
+	}
+
 	history = {
 
 

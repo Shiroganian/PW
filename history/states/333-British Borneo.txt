@@ -6,9 +6,9 @@ state = {
 	manpower = 503200
 
 	resources = {
-		rubber = 40 # was: 72, then 40
-		oil = 2
-		coal = 2 # initial distribution
+		rubber = 20 # was: 72, then 40
+		oil = 1
+		coal = 1 # initial distribution
 	}
 	
 	state_category = rural

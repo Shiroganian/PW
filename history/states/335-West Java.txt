@@ -7,8 +7,8 @@ state={
 	state_category = large_city
 	
 	resources={
-		rubber = 102 #26-02-03: was:82
-		oil = 22 #was:0
+		rubber = 51 #26-02-03: was:82
+		oil = 11 #was:0
 	}
 
 	history={

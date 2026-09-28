@@ -3,8 +3,8 @@ state = {
 	name = "STATE_723" # Canterbury 
 	manpower = 347198
 	resources = {
-		tungsten = 2 # was: 6, then 4
-		coal = 4 #initial distribution
+		tungsten = 1 # was: 6, then 4
+		coal = 2 #initial distribution
 	}
 
 	state_category = rural

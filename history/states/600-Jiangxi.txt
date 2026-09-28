@@ -29,5 +29,11 @@ buildings = {
 	buildings_max_level_factor=1.000
 	state_category=town
 
+	resources = {
+		tungsten = 12
+		steel = 4
+		coal = 4
+	}
+
 	local_supplies=2.0 #was 3 
 }

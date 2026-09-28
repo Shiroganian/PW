@@ -3,8 +3,8 @@ state = {
 	name = "STATE_288"
 
 	resources = {
-		tungsten = 184
-		oil = 112
+		tungsten = 92
+		oil = 56
 	}
 	
 	manpower = 2107805

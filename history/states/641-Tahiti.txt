@@ -5,6 +5,10 @@ state={
 	manpower=105786
 	state_category = small_island
 
+	resources = {
+		steel = 1
+	}
+
 	history={
 		
 		owner = USA

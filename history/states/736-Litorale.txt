@@ -4,6 +4,11 @@ state = {
 	
 	state_category = city
 
+	resources = {
+		steel = 1
+		chromium = 3
+	}
+
 	history = {
 		
 		owner = ITA

@@ -3,6 +3,13 @@ state = {
 	name = "STATE_993"
 	
 	state_category = rural
+
+	resources = {
+		rubber = 3
+		tungsten = 3
+		steel = 1
+		coal = 2
+	}
 	manpower = 216959
 	
 	history = {

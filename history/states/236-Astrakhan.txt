@@ -6,6 +6,11 @@ state={
 	
 	state_category = rural
 
+	resources = {
+		oil = 6
+		steel = 1
+	}
+
 	history={
 		
 		owner = TRA

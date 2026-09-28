@@ -17,6 +17,12 @@ buildings = {
 	}
 	manpower=984612
 	state_category = rural
+
+	resources = {
+		oil = 1
+		steel = 1
+		coal = 2
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

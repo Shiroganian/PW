@@ -3,6 +3,11 @@ state={
 	name="STATE_1006"
 	manpower = 949599
 	state_category = rural
+
+	resources = {
+		steel = 1
+		chromium = 3
+	}
 	provinces={
 		5082 12831 
 	}

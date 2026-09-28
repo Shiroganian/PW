@@ -25,7 +25,7 @@ victory_points = {
 	manpower=1373994
 	
 	resources = {
-		coal = 2 #Lowgrade lignite and sub-bituminous coal
+		coal = 1 #Lowgrade lignite and sub-bituminous coal
 	}
 	
 	state_category = town

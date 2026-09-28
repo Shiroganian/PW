@@ -6,6 +6,12 @@ state={
 	
 	state_category = large_city
 
+	resources = {
+		oil = 2
+		steel = 5
+		coal = 10
+	}
+
 	history={
 		
 		owner = TRA

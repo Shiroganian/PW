@@ -5,6 +5,14 @@ state = {
 	
 	state_category = rural
 	
+	resources = {
+		oil = 2
+		aluminium = 2
+		steel = 1
+		chromium = 2
+		coal = 2
+	}
+
 	history = {
 
 		owner = CZE

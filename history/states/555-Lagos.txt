@@ -6,6 +6,11 @@ state={
 	
 	state_category = tiny_island
 
+	resources = {
+		rubber = 2
+		steel = 1
+	}
+
 	history={
 		
 		owner = JAP

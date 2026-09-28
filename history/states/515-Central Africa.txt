@@ -4,6 +4,11 @@ state = {
 	manpower = 1456356
 	
 	state_category = wasteland
+
+	resources = {
+		aluminium = 2
+		rubber = 1
+	}
 	impassable = yes
 	force_link_ownership_to = 781 # Niger
 

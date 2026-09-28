@@ -42,5 +42,10 @@ victory_points = {
 	manpower=571935
 	state_category=town
 
+	resources = {
+		steel = 1
+		chromium = 3
+	}
+
 	local_supplies=0.0 
 }

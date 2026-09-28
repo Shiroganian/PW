@@ -5,6 +5,8 @@ state={
 	manpower = 178429
 	state_category = pastoral
 	resources={
+		steel = 1
+		chromium = 2
 	}
 	history={
 		owner = SWI

@@ -6,8 +6,8 @@ state = {
 	manpower = 1667516
 
 	resources = {
-		tungsten = 140
-		coal = 8 #Kalewa mines near the Chindwin River
+		tungsten = 70
+		coal = 4 #Kalewa mines near the Chindwin River
 	}
 	
 	history = {

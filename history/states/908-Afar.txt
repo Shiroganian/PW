@@ -33,5 +33,9 @@ set_variable = {
 	manpower = 560000
 	buildings_max_level_factor = 1.000
 	state_category = rural
+
+	resources = {
+		steel = 1
+	}
 	local_supplies = 0.000
 }

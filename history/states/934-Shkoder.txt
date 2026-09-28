@@ -3,9 +3,9 @@ state = {
 	id = 934
 	name = "STATE_934"
 	resources = {
-		aluminium = 2.000
-        chromium = 2.000
-        coal = 2 # initial distribution = with infra 1.4 / 1 total
+		aluminium = 1.000
+        chromium = 1.000
+        coal = 1 # initial distribution = with infra 1.4 / 1 total
 	}
 
 	history = {

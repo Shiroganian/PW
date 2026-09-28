@@ -5,6 +5,11 @@ state = {
 	manpower = 5597704
 	state_category = metropolis
 
+	resources = {
+		steel = 5
+		coal = 6
+	}
+
 	history = {
 		
 		owner = ITA

@@ -8,6 +8,10 @@ state={
 	
 	state_category = enclave
 
+	resources = {
+		steel = 1
+	}
+
 	history= {
 		
 		owner = TUR

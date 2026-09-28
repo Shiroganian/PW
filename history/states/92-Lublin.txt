@@ -25,7 +25,7 @@ victory_points = {
 	manpower=2464600
 
 	resources = {
-		coal = 4 # initial distribution
+		coal = 2 # initial distribution
 	}
 
 	buildings_max_level_factor=1.000

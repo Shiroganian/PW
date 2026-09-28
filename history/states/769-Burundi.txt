@@ -3,6 +3,13 @@ state = {
 	name = "STATE_769" # Burundi
 	
 	state_category = pastoral
+
+	resources = {
+		aluminium = 1
+		rubber = 2
+		steel = 2
+		chromium = 1
+	}
 	manpower = 2145731
 
 	history = {

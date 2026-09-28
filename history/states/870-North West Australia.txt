@@ -12,6 +12,10 @@ buildings = {
 		}
 	}
 	state_category = pastoral
+
+	resources = {
+		steel = 1
+	}
 	manpower=25000 #PreTAOG 1000
 
 	buildings_max_level_factor=1.000

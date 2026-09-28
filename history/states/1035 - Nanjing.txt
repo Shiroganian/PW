@@ -5,6 +5,9 @@ state = {
 	state_category = megalopolis
 	resources = {
 
+		tungsten = 3
+		steel = 4
+		coal = 6
 	}
 
 	history = {

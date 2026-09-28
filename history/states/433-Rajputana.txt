@@ -26,6 +26,13 @@ buildings = {
 
 	}
 	state_category = rural
+
+	resources = {
+		aluminium = 2
+		tungsten = 2
+		steel = 3
+		chromium = 2
+	}
 	manpower=11786000
 	buildings_max_level_factor=1.000
 	state_category=town

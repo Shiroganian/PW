@@ -25,6 +25,13 @@ buildings = {
 	}
 	manpower=4772823 
 	state_category = town
+
+	resources = {
+		aluminium = 2
+		rubber = 4
+		steel = 2
+		coal = 3
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

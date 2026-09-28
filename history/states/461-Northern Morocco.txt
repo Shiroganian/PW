@@ -3,8 +3,8 @@ state = {
 	name = "STATE_461"
 
 	resources = {
-		chromium = 24.000 #added due to portugal setup
-		coal = 6 #initial distribution
+		chromium = 12.000 #added due to portugal setup
+		coal = 3 #initial distribution
 	}
 
 	manpower = 3197719

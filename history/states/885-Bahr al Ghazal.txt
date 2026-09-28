@@ -2,6 +2,12 @@ state={
 	id=885
 	name = "STATE_885" # Bahr al Ghazal
 	state_category = pastoral
+
+	resources = {
+		aluminium = 1
+		rubber = 2
+		steel = 1
+	}
 	history = {
 				owner = EGY
 		add_core_of = EGY

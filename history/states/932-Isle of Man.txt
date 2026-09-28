@@ -3,6 +3,10 @@ state = {
 	manpower = 51000
 	name = "STATE_932"
 	state_category = small_island
+
+	resources = {
+		steel = 1
+	}
 	history = {
 		
 				owner = ENG

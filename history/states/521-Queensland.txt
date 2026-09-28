@@ -2,8 +2,8 @@ state={
 	id=521
 	name="STATE_521"
 	resources={
-		tungsten = 4 #starting amount divided better in TAOG
-		coal = 10 #4 > 5
+		tungsten = 2 #starting amount divided better in TAOG
+		coal = 5 #4 > 5
 	}
 
 	history={

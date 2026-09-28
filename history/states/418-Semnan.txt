@@ -6,6 +6,11 @@ state={
 	
 	state_category = wasteland
 
+	resources = {
+		oil = 2
+		chromium = 2
+	}
+
 	history={
 		
 		owner = PER

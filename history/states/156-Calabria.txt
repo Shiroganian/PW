@@ -5,6 +5,12 @@ state = {
 	manpower = 1772000 # was 2966315 before Puglia was added
 	
 	state_category = town
+
+	resources = {
+		aluminium = 2
+		steel = 1
+		chromium = 2
+	}
 	history = {
 				owner = ITA
 		add_core_of = ITA

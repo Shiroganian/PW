@@ -6,6 +6,13 @@ state=
 	
 	state_category = enclave
 	
+	resources = {
+		aluminium = 1
+		rubber = 1
+		steel = 1
+		chromium = 1
+	}
+
 	history= {
 			
 		owner = ETH

@@ -6,6 +6,13 @@ state={
 	
 	state_category = large_town
 
+	resources = {
+		aluminium = 3
+		rubber = 4
+		steel = 2
+		chromium = 2
+	}
+
 	history={
 		
 		owner = CMR

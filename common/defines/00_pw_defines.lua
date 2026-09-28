@@ -102,8 +102,8 @@ NDefines.NIndustrialOrganisation.ASSIGN_DESIGN_TEAM_PP_COST_PER_DAY = 0.05	-- Va
 
 -- Graphics
 NDefines.NGraphics.POLITICAL_GRID_SMALL_BOX_LIMIT = 8						-- Vanilla is 6
-NDefines.NGraphics.COUNTRY_FLAG_SMALL_TEX_WIDTH = 11						-- Vanilla is 10
-NDefines.NGraphics.COUNTRY_FLAG_STRIPE_TEX_MAX_WIDTH = 11					-- Vanilla is 10
+NDefines.NGraphics.COUNTRY_FLAG_SMALL_TEX_WIDTH = 10						-- Vanilla is 10
+NDefines.NGraphics.COUNTRY_FLAG_STRIPE_TEX_MAX_WIDTH = 10					-- Vanilla is 10
 
 -- General AI
 NDefines.NAI.MIN_AI_SCORE_TO_TRADE_LAW_OVERRIDE_HARD_CODED_SCORE = 0.0		-- Vanilla is 1000.0

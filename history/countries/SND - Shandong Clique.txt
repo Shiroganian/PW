@@ -1,5 +1,12 @@
 capital = 1038
 
+QIN = {
+	set_autonomy = {
+		target = SND
+		autonomous_state = autonomy_personal_union
+	}
+} 
+
 set_politics = {
 	ruling_party = authoritarian_democrat
 	elections_allowed = no

@@ -1026,10 +1026,6 @@ debug_decisions = {
 					type = annex_everything
 				}
 				declare_war_on = {
-					target = SND
-					type = annex_everything
-				}
-				declare_war_on = {
 					target = SHX
 					type = annex_everything
 				}
@@ -1037,10 +1033,6 @@ debug_decisions = {
 			QIN = {
 				declare_war_on = {
 					target = XSM
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = SND
 					type = annex_everything
 				}
 				declare_war_on = {

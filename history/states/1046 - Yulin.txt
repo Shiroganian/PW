@@ -6,10 +6,8 @@ state={
 	}
 
 	history={
-		
-		owner = SHX
 
-		add_core_of = SHX
+		owner = QIN
 		add_core_of = CHI
 		add_core_of = QIN
 buildings = {

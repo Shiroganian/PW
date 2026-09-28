@@ -9,7 +9,9 @@ state={
 	state_category = wasteland
 	history={
 
-		owner = QIN
+		owner = XSM
+
+		add_core_of = XSM
 		add_core_of = CHI
 		add_core_of = QIN
 		victory_points = {

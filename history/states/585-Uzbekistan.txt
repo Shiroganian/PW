@@ -3,11 +3,10 @@ state = {
 	name = "STATE_585" #Navoiy
 
 	history = {
-		
-		
-		owner = KAZ
+		owner = TMS
 
-		add_core_of = KAZ
+		add_core_of = TMS
+		add_claim_by = KAZ
 buildings = {
 	arms_factory = 1
 	industrial_complex = 1

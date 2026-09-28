@@ -235,7 +235,7 @@ can_release_SIA = {
 }
 
 can_release_KAZ = {
-	state = 405 # Capital
+	state = 588 # Capital
 	is_claim_or_core_of_ROOT = no
 	ROOT = {
 		NOT = { has_country_flag = KAZ_CONQ }

@@ -1928,7 +1928,7 @@ annexation_decisions = {
 		fire_only_once = no
 		cancel_trigger = {
 			NOT = {
-				405 = { is_owned_and_controlled_by = ROOT }
+				588 = { is_owned_and_controlled_by = ROOT }
 			}
 		}
 		complete_effect = {

@@ -1,4 +1,3 @@
-# BEL BBA air OOB -- source: BEL_1936_air_bba.txt
 air_wings = {
 	6 = {
 		small_plane_airframe_1 = {

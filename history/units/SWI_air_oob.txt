@@ -1,4 +1,3 @@
-# SWI BBA air OOB -- source: SWI_1936_air_bba.txt
 air_wings = {
 	3 = {
 		small_plane_airframe_1 = {

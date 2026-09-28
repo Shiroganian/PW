@@ -1,4 +1,3 @@
-# ETH BBA air OOB -- source: lore-scaled BBA template
 air_wings = {
 	550 = {
 		small_plane_airframe_1 = {

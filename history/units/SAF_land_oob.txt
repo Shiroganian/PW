@@ -1,5 +1,3 @@
-# SAF land OOB -- adapted from SAF_1936.txt
-# Land formations only; no naval or air units are defined here.
 
 division_template = {
 	name = "District Force"
@@ -158,9 +156,6 @@ units = {
 	}
 }
 
-#########################
-## STARTING PRODUCTION ##
-#########################
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

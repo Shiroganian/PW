@@ -280,9 +280,6 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "ideology_name"
-						# The scripted GUI uses this row for the country's subideology.
-						# Keep the broad ideology hidden in diplomacy so the order is
-						# party, subideology, election information.
 						position = { x = 5 y = 600 }
 						font = "hoi_16mbs"
 						text = "ideology"

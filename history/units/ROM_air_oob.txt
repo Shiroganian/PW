@@ -1,4 +1,3 @@
-# ROM BBA air OOB -- source: ROM_1936_air_bba.txt
 air_wings = {
 	46 = {
 		small_plane_airframe_1 = {

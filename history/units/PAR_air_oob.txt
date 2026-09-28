@@ -1,4 +1,3 @@
-# PAR BBA air OOB -- source: PAR_1936_air_bba.txt
 air_wings = {
 	301 = {
 		small_plane_airframe_1 = {

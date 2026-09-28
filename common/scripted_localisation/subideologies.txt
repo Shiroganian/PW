@@ -1,6 +1,3 @@
-# Displays the active country leader's PW subideology in politics and diplomacy.
-# Generated from common/ideologies/00_ideologies.txt so every registered type is covered.
-
 defined_text = {
 	name = GetSubIdeology
 	text = {

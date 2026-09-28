@@ -1,5 +1,3 @@
-# JAP land OOB -- adapted from JAP_1936_nsb.txt
-# Land formations only; no naval or air units are defined here.
 
 division_template = {
 	name = "Hohei Shidan"
@@ -360,9 +358,6 @@ units = {
 	}
 }
 
-#########################
-## STARTING PRODUCTION ##
-#########################
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

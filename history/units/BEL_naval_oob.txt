@@ -1,4 +1,3 @@
-# BEL MTG naval OOB -- source: lore-scaled MTG template
 units = {
 	fleet = {
 		name = "Royal Navy"
@@ -20,9 +19,6 @@ units = {
 	}
 }
 
-############################
-## STARTING NAVAL BUILDS  ##
-############################
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

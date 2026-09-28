@@ -1,5 +1,3 @@
-# ENG land OOB -- adapted from ENG_1936_nsb.txt
-# Land formations only; no naval or air units are defined here.
 
 division_template = {
 	name = "Infantry Division"
@@ -323,9 +321,6 @@ units = {
 	}
 }
 
-#########################
-## STARTING PRODUCTION ##
-#########################
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

@@ -1,4 +1,3 @@
-# DEN BBA air OOB -- source: DEN_1936_air_bba.txt
 air_wings = {
 	37 = {
 		small_plane_airframe_1 = {

@@ -1,4 +1,3 @@
-# POR BBA air OOB -- source: POR_1936_air_bba.txt
 air_wings = {
 	112 = {
 		small_plane_airframe_1 = {

@@ -1,4 +1,3 @@
-# CHI BBA air OOB -- source: CHI_1936_air_bba.txt
 air_wings = {
 	592 = {
 		small_plane_airframe_1 = {

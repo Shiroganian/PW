@@ -77,7 +77,6 @@ set_stability = 0.88
 set_war_support = 0.10
 add_command_power = 10
 
-# Starting military and industrial technology
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -100,7 +99,6 @@ set_technology = {
 	engine_tech_1 = 1
 }
 
-# Coherent land, naval, and air doctrine choices
 set_grand_doctrine = superior_firepower
 set_grand_doctrine = new_fleet_in_being
 set_grand_doctrine = new_operational_integrity
@@ -120,7 +118,6 @@ add_breakthrough_progress = {
 	value = 0.45
 }
 
-# Tank knowledge follows national development; variants exist only where the OOB uses armor.
 if = {
 	limit = { NOT = { has_dlc = "No Step Back" } }
 	set_technology = {
@@ -138,6 +135,3 @@ if = {
 		engine_tech_1 = 1
 	}
 }
-
-# Naval knowledge and variants match the ships in the starting OOB.
-# No starting navy or warship designs.

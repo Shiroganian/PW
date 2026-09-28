@@ -1,7 +1,3 @@
-# Subideology labels attached through common/scripted_guis/sg_subideologies.txt.
-# Politics: broad ideology, subideology, election information.
-# Diplomacy: ruling party, subideology, election information.
-
 guiTypes = {
 	containerWindowType = {
 		name = "countrypoliticsview_ideology_info"

@@ -1,4 +1,3 @@
-# GRE BBA air OOB -- source: GRE_1936_air_bba.txt
 air_wings = {
 	47 = {
 		small_plane_airframe_1 = {

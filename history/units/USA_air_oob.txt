@@ -1,4 +1,3 @@
-# USA BBA air OOB -- source: USA_1936_air_bba.txt
 air_wings = {
 	378 = {
 		small_plane_airframe_1 = {

@@ -1,4 +1,3 @@
-# YUG BBA air OOB -- source: YUG_1936_air_bba.txt
 air_wings = {
 	107 = {
 		small_plane_airframe_1 = {

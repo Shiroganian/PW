@@ -1,5 +1,3 @@
-# CAN land OOB -- adapted from CAN_1936_nsb.txt
-# Land formations only; no naval or air units are defined here.
 
 division_template = {
 	name = "Royal Infantry Division"
@@ -141,9 +139,6 @@ units = {
 	}
 }
 
-#########################
-## STARTING PRODUCTION ##
-#########################
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

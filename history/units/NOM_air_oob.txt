@@ -1,4 +1,3 @@
-# NOM BBA air OOB -- source: lore-scaled BBA template
 air_wings = {
 	405 = {
 		small_plane_cas_airframe_1 = {

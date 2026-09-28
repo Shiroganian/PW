@@ -1,4 +1,3 @@
-# PER BBA air OOB -- source: PER_1936_air_bba.txt
 air_wings = {
 	266 = {
 		small_plane_airframe_1 = {

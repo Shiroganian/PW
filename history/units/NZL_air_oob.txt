@@ -1,4 +1,3 @@
-# NZL BBA air OOB -- source: NZL_1936_air_bba.txt
 air_wings = {
 	1079 = {
 		small_plane_airframe_1 = {

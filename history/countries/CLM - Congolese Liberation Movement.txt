@@ -33,14 +33,12 @@ oob = "CLM_land_oob"
 starting_train_buffer = 3
 set_convoys = 0
 
-# No starting air force or aircraft designs.
 
 set_research_slots = 2
 set_stability = 0.35
 set_war_support = 0.78
 add_command_power = 30
 
-# Starting military and industrial technology
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -48,7 +46,6 @@ set_technology = {
 	tech_engineers = 1
 }
 
-# Coherent land, naval, and air doctrine choices
 set_grand_doctrine = mass_assault
 set_grand_doctrine = new_fleet_in_being
 set_grand_doctrine = new_operational_integrity
@@ -68,7 +65,6 @@ add_breakthrough_progress = {
 	value = 0.20
 }
 
-# Tank knowledge follows national development; variants exist only where the OOB uses armor.
 if = {
 	limit = { NOT = { has_dlc = "No Step Back" } }
 	set_technology = {
@@ -82,6 +78,3 @@ if = {
 		engine_tech_1 = 1
 	}
 }
-
-# Naval knowledge and variants match the ships in the starting OOB.
-# No starting navy or warship designs.

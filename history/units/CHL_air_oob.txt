@@ -1,4 +1,3 @@
-# CHL BBA air OOB -- source: CHL_1936_air_bba.txt
 air_wings = {
 	279 = {
 		small_plane_airframe_1 = {

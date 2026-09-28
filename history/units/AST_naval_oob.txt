@@ -1,4 +1,3 @@
-# AST MTG naval OOB -- source: AST_1936_naval.txt
 units = {
 	fleet = {
 		name = "Royal Australian Navy"
@@ -29,9 +28,6 @@ units = {
 	}
 }
 
-############################
-## STARTING NAVAL BUILDS  ##
-############################
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

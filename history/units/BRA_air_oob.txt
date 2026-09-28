@@ -1,4 +1,3 @@
-# BRA BBA air OOB -- source: BRA_1936_air_bba.txt
 air_wings = {
 	500 = {
 		small_plane_airframe_1 = {

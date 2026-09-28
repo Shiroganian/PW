@@ -1,4 +1,3 @@
-# SIA BBA air OOB -- source: SIA_1936_air_bba.txt
 air_wings = {
 	1076 = {
 		small_plane_airframe_1 = {

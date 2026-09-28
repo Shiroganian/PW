@@ -1,4 +1,3 @@
-# GDC BBA air OOB -- source: GDC_1936_air_bba.txt
 air_wings = {
 	493 = {
 		small_plane_airframe_1 = {

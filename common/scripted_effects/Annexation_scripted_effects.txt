@@ -692,7 +692,6 @@ transfer_to_ROOT = {
 }
 
 # global scope
-# Global scope. The released government inherits the occupier's ideology and election rules.
 puppet_released_tag = {
 	puppet = var:tag_to_release
 	var:tag_to_release = {
@@ -717,7 +716,6 @@ puppet_released_tag = {
 	recheck_annexations = yes
 }
 
-# Global scope. Variant for releases that must retain an existing cosmetic tag.
 puppet_released_tag_nocosmetic = {
 	puppet = var:tag_to_release
 	var:tag_to_release = {

@@ -1,4 +1,3 @@
-# GER BBA air OOB -- source: GER_1936_air_bba.txt
 air_wings = {
 	763 = {
 		small_plane_airframe_1 = {

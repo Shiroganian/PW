@@ -15,14 +15,12 @@ oob = "WAF_land_oob"
 starting_train_buffer = 3
 set_convoys = 35
 
-# No starting air force or aircraft designs.
 
 set_research_slots = 3
 set_stability = 0.68
 set_war_support = 0.24
 add_command_power = 15
 
-# Starting military and industrial technology
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -40,7 +38,6 @@ set_technology = {
 	engine_tech_1 = 1
 }
 
-# Coherent land, naval, and air doctrine choices
 set_grand_doctrine = grand_battleplan
 set_grand_doctrine = new_fleet_in_being
 set_grand_doctrine = new_operational_integrity
@@ -60,7 +57,6 @@ add_breakthrough_progress = {
 	value = 0.30
 }
 
-# Tank knowledge follows national development; variants exist only where the OOB uses armor.
 if = {
 	limit = { NOT = { has_dlc = "No Step Back" } }
 	set_technology = {
@@ -77,7 +73,6 @@ if = {
 	}
 }
 
-# Naval knowledge and variants match the ships in the starting OOB.
 if = {
 	limit = { NOT = { has_dlc = "Man the Guns" } }
 	set_technology = {

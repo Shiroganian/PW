@@ -1,4 +1,3 @@
-# DNZ MTG naval OOB -- source: lore-scaled MTG template
 units = {
 	fleet = {
 		name = "Danzig Harbor Guard"
@@ -12,9 +11,6 @@ units = {
 	}
 }
 
-############################
-## STARTING NAVAL BUILDS  ##
-############################
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

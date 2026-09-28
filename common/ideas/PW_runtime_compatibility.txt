@@ -1,9 +1,5 @@
 ideas = {
 	country = {
-		# These vanilla national-spirit keys are still queried by equipment,
-		# AI, and decision triggers. Pax Wilsoniana replaces common/ideas, so
-		# inert definitions are required even though none should be active in
-		# the mod's starting political setup.
 		BUL_army_restrictions_aat = {
 			allowed = { always = no }
 			allowed_civil_war = { always = no }

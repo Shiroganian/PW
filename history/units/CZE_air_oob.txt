@@ -1,4 +1,3 @@
-# CZE BBA air OOB -- source: CZE_1936_air_bba.txt
 air_wings = {
 	75 = {
 		small_plane_airframe_1 = {

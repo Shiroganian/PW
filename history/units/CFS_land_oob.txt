@@ -1,5 +1,3 @@
-# CFS land OOB -- adapted from lore-scaled generated formation set
-# Land formations only; no naval or air units are defined here.
 
 division_template = {
 	name = "Infantry Division"
@@ -66,9 +64,6 @@ units = {
 	}
 }
 
-#########################
-## STARTING PRODUCTION ##
-#########################
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

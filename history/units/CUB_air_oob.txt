@@ -1,4 +1,3 @@
-# CUB BBA air OOB -- source: lore-scaled BBA template
 air_wings = {
 	315 = {
 		small_plane_airframe_1 = {

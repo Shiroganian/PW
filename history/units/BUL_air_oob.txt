@@ -1,4 +1,3 @@
-# BUL BBA air OOB -- source: BUL_1936_air_bba.txt
 air_wings = {
 	48 = {
 		small_plane_airframe_1 = {

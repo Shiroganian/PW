@@ -1,5 +1,3 @@
-# YEM land OOB -- adapted from YEM_1936.txt
-# Land formations only; no naval or air units are defined here.
 
 division_template = {
 	name = "Alfurqat Almasha"
@@ -51,9 +49,6 @@ units = {
 	}
 }
 
-#########################
-## STARTING PRODUCTION ##
-#########################
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

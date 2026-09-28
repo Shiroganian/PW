@@ -1,4 +1,3 @@
-# SPR BBA air OOB -- source: SPR_1936_air_bba.txt
 air_wings = {
 	41 = {
 		small_plane_airframe_1 = {

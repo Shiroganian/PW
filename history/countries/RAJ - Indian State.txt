@@ -10,6 +10,9 @@ set_popularities = {
 
 recruit_character = RAJ_Vinayak_Damodar_Savarkar # Vinayak Damodar Savarkar
 
+set_country_flag = can_send_volunteers
+set_country_flag = KR_free_allow_lend_lease
+
 oob = "RAJ_land_oob"
 starting_train_buffer = 5
 set_convoys = 140

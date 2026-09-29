@@ -30,7 +30,7 @@ buildings = {
 	resources = {
 		aluminium = 2
 		tungsten = 2
-		steel = 3
+		steel = 5
 		chromium = 2
 	}
 	manpower=11786000

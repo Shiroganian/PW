@@ -8,7 +8,7 @@ state = {
 	
 	resources = {
 		rubber = 40 
-		steel = 2
+		steel = 3
 		aluminium = 2
 	}
 

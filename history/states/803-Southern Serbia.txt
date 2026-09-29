@@ -27,7 +27,7 @@ victory_points = {
 	state_category=pastoral
 
 	resources = {
-		steel = 1
+		steel = 2
 		chromium = 3
 	}
 

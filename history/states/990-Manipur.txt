@@ -10,7 +10,7 @@ state={
 		aluminium = 1
 		rubber = 2
 		tungsten = 2
-		steel = 1
+		steel = 2
 	}
 	manpower = 445606
 	history={

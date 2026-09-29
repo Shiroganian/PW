@@ -7,7 +7,7 @@ state = {
 	resources = {
 		rubber = 3
 		tungsten = 3
-		steel = 1
+		steel = 2
 		coal = 2
 	}
 	manpower = 216959

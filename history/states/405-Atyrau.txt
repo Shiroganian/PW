@@ -34,7 +34,7 @@ victory_points = {
 
 	resources = {
 		oil = 4
-		steel = 1
+		steel = 2
 	}
 
 	local_supplies = 2.0 

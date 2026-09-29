@@ -25,6 +25,6 @@ buildings = {
 	state_category=small_island
 
 	resources = {
-		steel = 1
+		steel = 2
 	}
 }

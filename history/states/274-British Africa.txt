@@ -5,7 +5,7 @@ state = {
 	manpower = 3163600
 
 	resources = {
-		steel = 8 
+		steel = 12 
 		tungsten = 8 
 		chromium = 4
 	} #Maganese

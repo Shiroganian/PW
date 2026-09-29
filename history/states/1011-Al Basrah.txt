@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1011"
 
 	resources = {
-		steel = 4
+		steel = 6
 		aluminium = 7
 	}
 	

@@ -27,6 +27,6 @@ victory_points = {
 	state_category=town
 
 	resources = {
-		steel = 1
+		steel = 2
 	}
 }

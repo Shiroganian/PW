@@ -24,7 +24,7 @@ victory_points = {
 	state_category = "wasteland"
 
 	resources = {
-		steel = 1
+		steel = 2
 	}
 
 	local_supplies = 0.0 

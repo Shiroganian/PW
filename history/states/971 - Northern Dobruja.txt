@@ -3,7 +3,7 @@ state = {
 	name = "STATE_971" # Northern Dobruja
 	manpower = 490000
 	resources = {
-		steel = 1
+		steel = 2
 	}
 
 	state_category = city

@@ -39,7 +39,7 @@ victory_points = {
 
 	resources = {
 		aluminium = 2
-		steel = 5
+		steel = 8
 		chromium = 2
 		coal = 12
 	}

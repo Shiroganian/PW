@@ -9,7 +9,7 @@ state={
 	resources = {
 		aluminium = 4
 		rubber = 4
-		steel = 2
+		steel = 3
 	}
 	history={
 				owner = IVO

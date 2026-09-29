@@ -31,7 +31,7 @@ victory_points = {
 	state_category=town
 
 	resources = {
-		steel = 4
+		steel = 6
 		coal = 6
 	}
 

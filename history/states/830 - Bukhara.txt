@@ -33,7 +33,7 @@ victory_points = {
 	state_category = large_town
 
 	resources = {
-		steel = 2
+		steel = 3
 	}
 
 	local_supplies = 2.0 

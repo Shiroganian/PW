@@ -46,7 +46,7 @@ victory_points = {
 		aluminium = 2
 		rubber = 6
 		tungsten = 2
-		steel = 2
+		steel = 3
 	}
 
 	local_supplies = 0.0 

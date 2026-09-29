@@ -9,7 +9,7 @@ state={
 	state_category= metropolis
 
 	resources = {
-		steel = 1
+		steel = 2
 	}
 	local_supplies=1.000
 	history={

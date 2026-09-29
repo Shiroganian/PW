@@ -55,7 +55,7 @@ victory_points = {
 
 	resources = {
 		aluminium = 2
-		steel = 2
+		steel = 3
 		chromium = 2
 	}
 	local_supplies = 0.000

@@ -50,7 +50,7 @@ set_variable = {
 
 	resources = {
 		aluminium = 2
-		steel = 1
+		steel = 2
 		chromium = 3
 	}
 	local_supplies=0.000

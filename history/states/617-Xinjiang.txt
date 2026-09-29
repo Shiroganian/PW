@@ -43,7 +43,7 @@ buildings = {
 	resources = {
 		oil = 4
 		tungsten = 4
-		steel = 1
+		steel = 2
 		coal = 2
 	}
 

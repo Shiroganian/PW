@@ -14,7 +14,7 @@ buildings = {
 	state_category = pastoral
 
 	resources = {
-		steel = 1
+		steel = 2
 		coal = 2
 	}
 	manpower=60000 #PreTAOG 10000

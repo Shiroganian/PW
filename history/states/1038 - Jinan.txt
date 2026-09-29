@@ -8,7 +8,7 @@ state = {
 	resources = {
 		
 		tungsten = 4
-		steel = 5
+		steel = 8
 		coal = 20
 	}
 	

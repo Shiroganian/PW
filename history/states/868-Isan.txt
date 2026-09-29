@@ -29,7 +29,7 @@ buildings = {
 	resources = {
 		aluminium = 2
 		rubber = 4
-		steel = 2
+		steel = 3
 		coal = 3
 	}
 	buildings_max_level_factor=1.000

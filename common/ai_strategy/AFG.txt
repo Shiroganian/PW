@@ -99,3 +99,27 @@ AFG_unit_production = {
 		value = 1
 	}
 }
+
+AFG_mortal_enemies = {
+	allowed = {
+		original_tag = AFG
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = RAJ
+		value = 100
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = PER
+		value = 80
+	}
+}

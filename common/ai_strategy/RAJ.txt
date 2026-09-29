@@ -114,3 +114,15 @@ RAJ_unit_production = {
 		value = 1
 	}
 }
+
+RAJ_kill_indonesia = {
+	allowed = { original_tag = RAJ }
+	enable = { always = yes }
+	abort = { always = no }
+
+	ai_strategy = {
+		type = invade
+		id = INS
+		value = 100
+	}
+}

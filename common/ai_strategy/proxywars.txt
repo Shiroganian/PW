@@ -42,6 +42,51 @@ BRM_foreign_support = {
     }
 }
 
+KBM_foreign_support = {
+    allowed = {
+        original_tag = RAJ
+    }
+
+    enable = {
+        always = yes
+    }
+
+    abort = {
+        always = no
+    }
+
+    ai_strategy = {
+        type = send_volunteers_desire
+        id = KBM
+        value = 10000
+    }
+
+    ai_strategy = {
+        type = support
+        id = KBM
+        value = 5000
+    }
+
+	ai_strategy = {
+        type = antagonize
+        id = BRM
+        value = 5000
+    }
+
+	ai_strategy = {
+        type = antagonize
+        id = DBM
+        value = 5000
+    }
+
+	ai_strategy = {
+        type = protect
+        id = BRM
+        value = 5000
+    }
+}
+
+
 IDC_foreign_support = {
 	allowed = {
 		OR = {

@@ -11,6 +11,10 @@ set_popularities = {
 
 recruit_character = JAP_Hirohito # Hirohito
 
+add_ideas = {
+	JAPAN_qing_aid
+}
+
 oob = "JAP_land_oob"
 starting_train_buffer = 4
 set_convoys = 400

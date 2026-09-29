@@ -114,3 +114,30 @@ JAP_unit_production = {
 		value = 1
 	}
 }
+
+JAP_help_qing = {
+	allowed = {
+        original_tag = JAP
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = QIN
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = QIN
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = CHI
+		value = 100
+	}
+}

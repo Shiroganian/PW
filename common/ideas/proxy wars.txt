@@ -116,6 +116,24 @@ ideas = {
 				mobilization_speed = 0.25
 			}
 		}
+		JAPAN_qing_aid = {
+			picture = INDOCHINA_idea_total_war
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				air_volunteer_cap = 500
+				send_volunteer_size = 10
+			}
+		}
 		CONGO_idea_total_war = {
 			picture = CONGO_idea_total_war
 			

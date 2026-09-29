@@ -114,3 +114,20 @@ QIN_unit_production = {
 		value = 1
 	}
 }
+
+QIN_fight_for_china = {
+	allowed = { original_tag = QIN }
+	enable = { always = yes }
+	abort = { always = no }
+
+	ai_strategy = {
+		type = antagonize
+		id = CHI
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = CHI
+		value = 100
+	}
+}

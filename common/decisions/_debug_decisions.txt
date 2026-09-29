@@ -1462,6 +1462,7 @@ debug_decisions = {
 				}
 				add_to_faction = BRM
 				add_to_faction = IDC
+				add_to_faction = AFG
 				declare_war_on = {
 					target = RAJ
 					type = annex_everything

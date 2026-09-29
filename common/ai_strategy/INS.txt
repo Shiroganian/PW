@@ -116,6 +116,12 @@ INS_kill_india = {
 	abort = { always = no }
 
 	ai_strategy = {
+		type = naval_mission_threshold
+		id = MISSION_PATROL
+		value = -100
+	}
+
+	ai_strategy = {
 		type = invade
 		id = RAJ
 		value = 100

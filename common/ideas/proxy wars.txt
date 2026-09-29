@@ -82,8 +82,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				air_volunteer_cap = 400
-				send_volunteer_size = 1
+				air_volunteer_cap = 100
 			}
 		}
 		INDOCHINA_idea_total_war = {

@@ -5,6 +5,12 @@ state = {
 	manpower = 325000 #PreTAOG 38000 
 	state_category = enclave
 
+	resources = {
+		aluminium = 1
+		rubber = 2
+		steel = 2
+	}
+
 	impassable = yes 
 	force_link_ownership_to = 523 # Papua 
 

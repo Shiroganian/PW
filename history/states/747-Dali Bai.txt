@@ -6,6 +6,13 @@ state = {
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 
+	resources = {
+		rubber = 2
+		tungsten = 4
+		steel = 2
+		coal = 3
+	}
+
 	history = {
 
 		owner = CHI

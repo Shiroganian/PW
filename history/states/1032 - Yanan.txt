@@ -5,6 +5,13 @@ state = {
 	buildings_max_level_factor = 1
 	state_category = town
 
+	resources = {
+		oil = 4
+		tungsten = 4
+		steel = 3
+		coal = 8
+	}
+
 	history = {
 
 		owner = SHX

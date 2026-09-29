@@ -16,7 +16,7 @@ AFG_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineers
-		value = 8
+		value = 25
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -26,17 +26,17 @@ AFG_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 22
+		value = 16
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = motorized
-		value = 8
+		value = 4
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = anti_armor
-		value = 1
+		value = 2
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -51,7 +51,7 @@ AFG_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 75
+		value = 80
 	}
 	ai_strategy = {
 		type = equipment_production_factor
@@ -97,5 +97,29 @@ AFG_unit_production = {
 		type = equipment_production_min_factories_archetype
 		id = motorized_equipment
 		value = 1
+	}
+}
+
+AFG_mortal_enemies = {
+	allowed = {
+		original_tag = AFG
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = RAJ
+		value = 100
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = PER
+		value = 80
 	}
 }

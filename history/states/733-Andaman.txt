@@ -4,6 +4,11 @@ state={
 	manpower=29500
 	state_category = small_island
 	
+	resources = {
+		rubber = 2
+		steel = 2
+	}
+
 	history={
 			
 		owner = RAJ

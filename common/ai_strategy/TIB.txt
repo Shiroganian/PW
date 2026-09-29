@@ -16,7 +16,7 @@ TIB_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineers
-		value = 8
+		value = 28
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -26,7 +26,7 @@ TIB_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 3
+		value = 12
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -36,7 +36,7 @@ TIB_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = anti_armor
-		value = 1
+		value = 2
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -51,7 +51,7 @@ TIB_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 78
+		value = 84
 	}
 	ai_strategy = {
 		type = equipment_production_factor

@@ -2,6 +2,9 @@ state = {
 	id = 1071
 	name = "STATE_1071"
 	resources = {
+		aluminium = 1
+		rubber = 2
+		steel = 2
 	}
 	
 	state_category = small_island

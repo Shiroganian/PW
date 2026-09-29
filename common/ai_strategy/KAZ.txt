@@ -26,12 +26,12 @@ KAZ_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 22
+		value = 28
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = motorized
-		value = 0
+		value = 4
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -46,12 +46,12 @@ KAZ_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = -10
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 75
+		value = 82
 	}
 	ai_strategy = {
 		type = equipment_production_factor

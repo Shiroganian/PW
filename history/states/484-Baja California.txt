@@ -4,6 +4,11 @@ state = {
 	manpower = 108841
 	state_category = rural
 	
+	resources = {
+		tungsten = 2
+		steel = 2
+	}
+
 	history={
 			
 		owner = MEX

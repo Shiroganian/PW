@@ -11,7 +11,7 @@ USA_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = paratroopers
-		value = 1
+		value = 3
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -21,37 +21,37 @@ USA_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = marines
-		value = 10
+		value = 18
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 3
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = motorized
-		value = 4
+		value = 12
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = anti_armor
-		value = 3
+		value = 5
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = mechanized
-		value = 7
+		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = 9
+		value = 12
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 68
+		value = 62
 	}
 	ai_strategy = {
 		type = unit_ratio
@@ -107,5 +107,93 @@ USA_unit_production = {
 		type = equipment_production_min_factories_archetype
 		id = artillery_equipment
 		value = 1
+	}
+}
+
+USA_supporting_AFG = {
+	allowed = {
+        original_tag = USA
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = AFG
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = AFG
+		value = 200
+	}
+}
+
+USA_supporting_IRQ = {
+	allowed = {
+        original_tag = USA
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = IRQ
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = IRQ
+		value = 200
+	}
+}
+
+USA_supporting_CHI = {
+	allowed = {
+        original_tag = USA
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = CHI
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = CHI
+		value = 200
+	}
+}
+
+USA_supporting_ENG = {
+	allowed = {
+        original_tag = USA
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = ENG
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = ENG
+		value = 200
 	}
 }

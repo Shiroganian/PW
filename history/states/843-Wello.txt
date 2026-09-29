@@ -41,5 +41,11 @@ set_variable = {
 	manpower=650000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+
+	resources = {
+		aluminium = 2
+		steel = 2
+		chromium = 2
+	}
 	local_supplies=0.000
 }

@@ -4,6 +4,11 @@ state = {
 	manpower = 380000
 	state_category = wasteland
 
+	resources = {
+		tungsten = 5
+		coal = 2
+	}
+
 	history = {
 
 		owner = SIK

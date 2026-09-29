@@ -6,6 +6,11 @@ state={
 	
 	state_category = metropolis
 
+	resources = {
+		steel = 6
+		coal = 10
+	}
+
 	history = {
 
 		owner = QIN

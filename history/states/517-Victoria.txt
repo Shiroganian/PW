@@ -3,7 +3,7 @@ state={
 	id=517
 	name="STATE_517"
 	resources={
-		steel = 6 #down from 8 in TAOG
+		steel = 9 #down from 8 in TAOG
 		chromium = 4
 	}
 

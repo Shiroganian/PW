@@ -2,6 +2,10 @@ state={
 	id=667
 	name="STATE_667"
 	resources={
+		aluminium = 2
+		rubber = 3
+		tungsten = 2
+		steel = 2
 	}
 
 	history={

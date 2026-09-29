@@ -6,6 +6,12 @@ state={
 	
 	state_category = city
 
+	resources = {
+		aluminium = 3
+		steel = 3
+		coal = 2
+	}
+
 	history={
 		
 		owner = USA

@@ -1,6 +1,6 @@
 BRM_foreign_support = {
     allowed = {
-        original_tag = INS
+		original_tag = INS
     }
 
     enable = {
@@ -22,31 +22,69 @@ BRM_foreign_support = {
         id = BRM
         value = 5000
     }
+}
 
-	ai_strategy = {
-        type = antagonize
+KBM_foreign_support = {
+    allowed = {
+        original_tag = RAJ
+    }
+
+    enable = {
+        always = yes
+    }
+
+    abort = {
+        always = no
+    }
+
+    ai_strategy = {
+        type = send_volunteers_desire
+        id = KBM
+        value = 10000
+    }
+
+    ai_strategy = {
+        type = support
         id = KBM
         value = 5000
     }
+}
 
-	ai_strategy = {
-        type = antagonize
+DBM_foreign_support = {
+    allowed = {
+        original_tag = ENG
+    }
+
+    enable = {
+        always = yes
+    }
+
+    abort = {
+        always = no
+    }
+
+    ai_strategy = {
+        type = send_volunteers_desire
+        id = DBM
+        value = 10000
+    }
+
+    ai_strategy = {
+        type = support
         id = DBM
         value = 5000
     }
-
-	ai_strategy = {
-        type = protect
-        id = BRM
-        value = 5000
-    }
 }
+
 
 IDC_foreign_support = {
 	allowed = {
 		OR = {
 			original_tag = PHI
 			original_tag = INS
+            original_tag = AST
+            original_tag = NZL
+            original_tag = CHI
 		}
 	}
 	enable = {
@@ -63,6 +101,125 @@ IDC_foreign_support = {
 	ai_strategy = {
 		type = support
 		id = IDC
+		value = 200
+	}
+}
+
+VIN_foreign_support = {
+	allowed = {
+        OR = {
+            original_tag = RAJ
+            original_tag = QIN
+        }
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = VIN
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = VIN
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = KHM
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = KHM
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = LAO
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = LAO
+		value = 200
+	}
+}
+
+KAT_foreign_support = {
+	allowed = {
+        OR = {
+            original_tag = ETH
+            original_tag = ZAM
+        }
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = KAT
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = KAT
+		value = 200
+	}
+}
+
+COG_foreign_support = {
+	allowed = {
+        OR = {
+            original_tag = USA
+        }
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = COG
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = COG
+		value = 200
+	}
+}
+
+CFS_foreign_support = {
+	allowed = {
+        OR = {
+            original_tag = GAB
+            original_tag = CAR
+        }
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = CFS
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = CFS
 		value = 200
 	}
 }

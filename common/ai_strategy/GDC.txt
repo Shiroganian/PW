@@ -26,7 +26,7 @@ GDC_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 3
+		value = 5
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -36,7 +36,7 @@ GDC_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = anti_armor
-		value = 1
+		value = 4
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -51,7 +51,7 @@ GDC_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 88
+		value = 78
 	}
 	ai_strategy = {
 		type = unit_ratio

@@ -40,5 +40,12 @@ buildings = {
 	buildings_max_level_factor=1.000
 	state_category=rural
 
+	resources = {
+		oil = 4
+		tungsten = 4
+		steel = 2
+		coal = 2
+	}
+
 	local_supplies=6.0 
 }

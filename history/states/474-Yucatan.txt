@@ -5,6 +5,12 @@ state = {
 	
 	state_category = metropolis
 
+	resources = {
+		rubber = 2
+		steel = 2
+		coal = 2
+	}
+
 	history = {
 
 

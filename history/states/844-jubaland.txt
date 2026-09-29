@@ -5,6 +5,13 @@ state = {
 	
 	state_category = pastoral
 	
+	resources = {
+		aluminium = 2
+		rubber = 3
+		steel = 2
+		chromium = 2
+	}
+
 	history = {
 			
 		owner = ETH

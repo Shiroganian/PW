@@ -5,6 +5,11 @@ state = {
 	manpower = 385000
 	state_category = large_town
 
+	resources = {
+		steel = 2
+		coal = 3
+	}
+
 	history = {
 
 		owner = JAP

@@ -9,7 +9,7 @@ state = {
 		rubber = 100 # was: 848
 		tungsten = 40 # was: 308, then 189
 		aluminium = 1
-		steel = 2
+		steel = 3
 	}
 
 	history = {

@@ -5,6 +5,12 @@ state={
 		5075 5105 8013 8044  
 	}
 	state_category = rural
+
+	resources = {
+		oil = 3
+		steel = 2
+		chromium = 3
+	}
 	manpower = 512000
 	history={
 				owner = AFG

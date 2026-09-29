@@ -11,7 +11,7 @@ INS_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = paratroopers
-		value = 1
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -21,17 +21,17 @@ INS_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = marines
-		value = 10
+		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = -20
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = motorized
-		value = 4
+		value = 5
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -51,7 +51,7 @@ INS_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 75
+		value = 78
 	}
 	ai_strategy = {
 		type = unit_ratio
@@ -107,5 +107,40 @@ INS_unit_production = {
 		type = equipment_production_min_factories_archetype
 		id = artillery_equipment
 		value = 1
+	}
+}
+
+INS_kill_india = {
+	allowed = { original_tag = INS }
+	enable = { always = yes }
+	abort = { always = no }
+
+	ai_strategy = {
+		type = naval_mission_threshold
+		id = MISSION_PATROL
+		value = -250
+	}
+
+	ai_strategy = {
+		type = invade
+		id = RAJ
+		value = 200
+	}
+
+	ai_strategy = {
+		type = invade
+		id = VIN
+		value = 300
+	}
+
+	ai_strategy = {
+		type = invade
+		id = SIA
+		value = 400
+	}
+
+	ai_strategy = {
+		type = naval_invasion_focus
+		value = 500
 	}
 }

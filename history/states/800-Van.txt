@@ -35,5 +35,10 @@ victory_points = {
 	manpower = 365490
 	state_category = rural
 
+	resources = {
+		steel = 2
+		chromium = 4
+	}
+
 	local_supplies=0.0 
 }

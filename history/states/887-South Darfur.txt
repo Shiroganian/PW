@@ -5,6 +5,11 @@ state={
 	manpower = 302020
 	state_category = wasteland
 	
+	resources = {
+		aluminium = 1
+		rubber = 1
+	}
+
 	history = {
 			
 		owner = EGY

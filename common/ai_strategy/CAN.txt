@@ -11,7 +11,7 @@ CAN_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = paratroopers
-		value = 1
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -21,22 +21,22 @@ CAN_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = marines
-		value = 0
+		value = 5
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = -20
+		value = 5
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = motorized
-		value = 8
+		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = anti_armor
-		value = 3
+		value = 4
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -46,12 +46,12 @@ CAN_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = 2
+		value = 6
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 75
+		value = 74
 	}
 	ai_strategy = {
 		type = unit_ratio

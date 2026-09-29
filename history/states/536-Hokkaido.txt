@@ -5,7 +5,7 @@ state = {
 	manpower = 3012000 # was 2812000
 
 	resources = {
-		steel = 18 #Took half of Tohoku's steel
+		steel = 27 #Took half of Tohoku's steel
 		coal = 10 #initial distribution
 	}
 	

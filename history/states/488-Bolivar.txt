@@ -6,6 +6,13 @@ state={
 	
 	state_category = pastoral
 
+	resources = {
+		aluminium = 2
+		rubber = 3
+		tungsten = 2
+		steel = 2
+	}
+
 	history={
 		
 		owner = VEN

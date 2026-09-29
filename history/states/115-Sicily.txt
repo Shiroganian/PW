@@ -52,5 +52,11 @@ victory_points = {
 	manpower = 3836571
 	buildings_max_level_factor = 1.000
 	state_category = city
+
+	resources = {
+		aluminium = 2
+		steel = 3
+		chromium = 2
+	}
 	local_supplies = 0.000
 }

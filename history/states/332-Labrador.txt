@@ -4,6 +4,10 @@ state={
 	
 	state_category = wasteland
 
+	resources = {
+		steel = 12
+	}
+
 	history={
 		
 		owner = CAN

@@ -5,6 +5,11 @@ state = {
 
 	state_category = town # was large_city
 
+	resources = {
+		steel = 3
+		coal = 2
+	}
+
 	history = {
 
 

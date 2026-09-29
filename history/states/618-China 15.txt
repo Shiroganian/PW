@@ -6,6 +6,13 @@ state={
 
 	state_category = pastoral
 
+	resources = {
+		oil = 3
+		tungsten = 3
+		steel = 2
+		coal = 2
+	}
+
 	history={
 		
 		owner = SIK

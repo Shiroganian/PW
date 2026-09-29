@@ -26,12 +26,12 @@ SIA_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 3
+		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = motorized
-		value = 8
+		value = 5
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -46,12 +46,12 @@ SIA_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = -10
+		value = 2
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 75
+		value = 86
 	}
 	ai_strategy = {
 		type = unit_ratio

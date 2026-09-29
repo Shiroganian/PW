@@ -4,7 +4,7 @@ state = {
 	manpower = 4266278 # Unified tohoku is about 6575000 
 	state_category = town # was large_city
 	resources = {
-		steel = 10 # was: 35, then 15
+		steel = 15 # was: 35, then 15
 		oil = 3 #Should be located in the northern state after the split
 		coal = 2 #initial distribution
 	}

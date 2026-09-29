@@ -5,6 +5,14 @@ state={
 	manpower = 1085440
 	state_category=rural
 
+	resources = {
+		aluminium = 2
+		rubber = 2
+		steel = 2
+		chromium = 2
+		coal = 1
+	}
+
 	history={
 		
 		owner = ENG

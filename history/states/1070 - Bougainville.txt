@@ -37,5 +37,11 @@ buildings = {
 	buildings_max_level_factor = 1
 	state_category = small_island
 
+	resources = {
+		aluminium = 1
+		rubber = 2
+		steel = 2
+	}
+
 	local_supplies = 0.0 
 }

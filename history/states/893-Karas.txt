@@ -4,6 +4,10 @@ state={
 	manpower = 46200
 	state_category = wasteland
 
+	resources = {
+		chromium = 3
+	}
+
 	history={
 		
 		owner = SAF

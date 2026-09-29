@@ -5,6 +5,12 @@ state={
 	manpower=	25678
 	state_category = tiny_island
 
+	resources = {
+		aluminium = 3
+		rubber = 2
+		steel = 2
+	}
+
 	history={
 		
 		owner = USA

@@ -6,7 +6,7 @@ CIZ_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = garrison
-		value = 5
+		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -21,7 +21,7 @@ CIZ_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = marines
-		value = -10
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -51,7 +51,7 @@ CIZ_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 75
+		value = 92
 	}
 	ai_strategy = {
 		type = equipment_production_factor

@@ -16,17 +16,17 @@ DBM_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineers
-		value = 0
+		value = 12
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = marines
-		value = 0
+		value = 4
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = -20
+		value = 6
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -51,7 +51,7 @@ DBM_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 78
+		value = 90
 	}
 	ai_strategy = {
 		type = unit_ratio

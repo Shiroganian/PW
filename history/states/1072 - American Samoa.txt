@@ -4,6 +4,11 @@ state = {
 	manpower = 43214
 	state_category = tiny_island
 
+	resources = {
+		rubber = 1
+		steel = 2
+	}
+
 	history = {
 
 

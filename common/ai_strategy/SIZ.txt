@@ -6,7 +6,7 @@ SIZ_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = garrison
-		value = 5
+		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -51,7 +51,7 @@ SIZ_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 78
+		value = 92
 	}
 	ai_strategy = {
 		type = unit_ratio

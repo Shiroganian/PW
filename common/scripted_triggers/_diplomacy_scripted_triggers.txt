@@ -205,10 +205,7 @@ DIPLOMACY_OFFER_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 	if = {
 		limit = {
-			OR = {
-				has_global_flag = KR_limited_allow_lend_lease
-				has_global_flag = KR_free_allow_lend_lease
-			}
+			always = yes
 		}
 		# always = yes	# Less costly on CPU to have nothing here than an "always = yes" in this context @Tran
 	}
@@ -241,10 +238,7 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 	if = {
 		limit = {
-			OR = {
-				has_global_flag = KR_limited_allow_lend_lease
-				has_global_flag = KR_free_allow_lend_lease
-			}
+			always = yes
 		}
 		# always = yes	# Less costly on CPU to have nothing here than an "always = yes" in this context @Tran
 	}
@@ -382,9 +376,8 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = {
 DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 	if = {
 		limit = {
-			is_ai = yes
+			always = yes
 		}
-		has_country_flag = can_send_volunteers
 	}
 	else_if = {
 		limit = {

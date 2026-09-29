@@ -5,6 +5,10 @@ state={
 	
 	state_category = enclave
 	
+	resources = {
+		steel = 2
+	}
+
 	history={
 			
 		owner = CHI

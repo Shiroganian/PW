@@ -7,7 +7,7 @@ state = {
 	resources = {
 		coal = 12 #16 > 12
 		tungsten = 2 #starting amount divided better in TAOG
-		steel = 16 #added 16 steel in TAOG
+		steel = 24 #added 16 steel in TAOG
 	}
 
 	history = {

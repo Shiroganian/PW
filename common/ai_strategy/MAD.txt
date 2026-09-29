@@ -21,12 +21,12 @@ MAD_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = marines
-		value = 0
+		value = 15
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 3
+		value = -20
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -51,7 +51,7 @@ MAD_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 78
+		value = 85
 	}
 	ai_strategy = {
 		type = unit_ratio

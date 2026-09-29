@@ -93,7 +93,7 @@ units = {
 	}
 	division = {
 		name = "6th Infantry Division"
-		location = 7314
+		location = 12344
 		division_template = "Infantry Division"
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.72
@@ -135,7 +135,7 @@ units = {
 	}
 	division = {
 		name = "3rd Juntuán"
-		location = 7314
+		location = 12344
 		division_template = "Juntuán"
 		start_experience_factor = 0.17
 		start_equipment_factor = 0.62

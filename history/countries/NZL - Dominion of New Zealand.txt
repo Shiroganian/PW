@@ -18,6 +18,10 @@ set_popularities = {
 
 recruit_character = NZL_George_V # George V
 
+add_ideas = {
+	INDOCHINA_idea_indonesia_volunteers
+}
+
 oob = "NZL_land_oob"
 starting_train_buffer = 3
 set_convoys = 65
@@ -86,6 +90,9 @@ set_war_support = 0.24
 add_command_power = 15
 
 set_technology = {
+	marines = 1
+	tech_trucks = 1
+	motorised_infantry = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	basic_train = 1

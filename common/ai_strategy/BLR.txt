@@ -45,12 +45,12 @@ BLR_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = marines
-		value = -10
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 3
+		value = 8
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -60,7 +60,7 @@ BLR_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = anti_armor
-		value = 1
+		value = 2
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -70,12 +70,12 @@ BLR_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = -10
+		value = -5
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 78
+		value = 90
 	}
 	ai_strategy = {
 		type = equipment_production_factor

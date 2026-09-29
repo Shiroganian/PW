@@ -37,14 +37,14 @@ units = {
 	}
 	division = {
 		name = "2nd People's Rifle Division"
-		location = 2220
+		location = 2034
 		division_template = "People's Rifle Division"
 		start_experience_factor = 0.32
 		start_equipment_factor = 0.62
 	}
 	division = {
 		name = "3rd People's Rifle Division"
-		location = 9962
+		location = 7161
 		division_template = "People's Rifle Division"
 		start_experience_factor = 0.32
 		start_equipment_factor = 0.62
@@ -65,14 +65,14 @@ units = {
 	}
 	division = {
 		name = "3rd Revolutionary Militia"
-		location = 2220
+		location = 2034
 		division_template = "Revolutionary Militia"
 		start_experience_factor = 0.24
 		start_equipment_factor = 0.52
 	}
 	division = {
 		name = "4th Revolutionary Militia"
-		location = 9962
+		location = 7161
 		division_template = "Revolutionary Militia"
 		start_experience_factor = 0.24
 		start_equipment_factor = 0.52

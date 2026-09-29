@@ -3,6 +3,13 @@ state = {
 	name = "STATE_1076"
 
 	state_category=metropolis
+
+	resources = {
+		aluminium = 2
+		rubber = 4
+		steel = 3
+		coal = 2
+	}
 	local_supplies=1
 	manpower = 2314096
 

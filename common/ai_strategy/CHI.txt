@@ -11,7 +11,7 @@ CHI_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = paratroopers
-		value = 1
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -26,22 +26,22 @@ CHI_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 10
+		value = 14
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = motorized
-		value = 8
+		value = 6
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = anti_armor
-		value = 3
+		value = 4
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = mechanized
-		value = 3
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -51,7 +51,7 @@ CHI_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 88
+		value = 84
 	}
 	ai_strategy = {
 		type = unit_ratio
@@ -112,5 +112,23 @@ CHI_unit_production = {
 		type = equipment_production_min_factories_archetype
 		id = motorized_equipment
 		value = 1
+	}
+}
+
+
+CHI_fight_for_china = {
+	allowed = { original_tag = CHI }
+	enable = { always = yes }
+	abort = { always = no }
+
+	ai_strategy = {
+		type = antagonize
+		id = QIN
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = QIN
+		value = 100
 	}
 }

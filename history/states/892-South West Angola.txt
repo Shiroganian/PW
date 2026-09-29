@@ -4,6 +4,12 @@ state={
 	manpower = 960000
 	state_category = pastoral
 
+	resources = {
+		aluminium = 2
+		steel = 2
+		chromium = 3
+	}
+
 	history={
 		
 		owner = POR

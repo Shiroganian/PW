@@ -6,6 +6,14 @@ state={
 	
 	state_category = rural
 
+	resources = {
+		aluminium = 2
+		tungsten = 3
+		steel = 3
+		chromium = 4
+		coal = 2
+	}
+
 	history={
 				owner = RAJ
 		add_core_of = RAJ

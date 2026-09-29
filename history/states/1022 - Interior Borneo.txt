@@ -9,6 +9,10 @@ state = {
 	impassable_ignored_links = { 1024 } # Sabah
 
 	resources = {
+		oil = 2
+		aluminium = 2
+		rubber = 4
+		steel = 2
 	}
 	
 	state_category = enclave

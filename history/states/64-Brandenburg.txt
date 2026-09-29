@@ -6,6 +6,11 @@ state = {
 
 	state_category = megalopolis
 
+	resources = {
+		steel = 8
+		coal = 10
+	}
+
 	history = {
 
 		owner = GER

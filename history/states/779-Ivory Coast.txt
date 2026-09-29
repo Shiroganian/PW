@@ -5,6 +5,12 @@ state={
 	manpower = 3850734
 	
 	state_category = large_town
+
+	resources = {
+		aluminium = 4
+		rubber = 4
+		steel = 3
+	}
 	history={
 				owner = IVO
 		add_core_of = IVO

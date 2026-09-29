@@ -2,6 +2,10 @@ state={
 	id=1077
 	name="STATE_1077"
 	resources={
+		aluminium = 2
+		rubber = 3
+		steel = 2
+		coal = 2
 	}
 	state_category=town
 	history={

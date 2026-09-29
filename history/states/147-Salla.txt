@@ -5,6 +5,10 @@ state = {
 	
 	state_category = enclave
 	
+	resources = {
+		chromium = 2
+	}
+
 	history = {	
 
 			

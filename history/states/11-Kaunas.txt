@@ -32,4 +32,8 @@ victory_points = {
 	manpower=971940
 	buildings_max_level_factor=1.000
 	state_category=city
+
+	resources = {
+		steel = 2
+	}
 }

@@ -109,3 +109,91 @@ USA_unit_production = {
 		value = 1
 	}
 }
+
+USA_supporting_AFG = {
+	allowed = {
+        original_tag = USA
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = AFG
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = AFG
+		value = 200
+	}
+}
+
+USA_supporting_IRQ = {
+	allowed = {
+        original_tag = USA
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = IRQ
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = IRQ
+		value = 200
+	}
+}
+
+USA_supporting_CHI = {
+	allowed = {
+        original_tag = USA
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = CHI
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = CHI
+		value = 200
+	}
+}
+
+USA_supporting_ENG = {
+	allowed = {
+        original_tag = USA
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = ENG
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = ENG
+		value = 200
+	}
+}

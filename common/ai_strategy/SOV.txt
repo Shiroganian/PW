@@ -114,3 +114,33 @@ SOV_unit_production = {
 		value = 1
 	}
 }
+
+SOV_mortal_enemies = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = TRA
+		value = 100
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = UKR
+		value = 90
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = BLR
+		value = 80
+	}
+}

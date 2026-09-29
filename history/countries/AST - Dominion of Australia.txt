@@ -19,6 +19,10 @@ set_popularities = {
 
 recruit_character = AST_George_V # George V
 
+add_ideas = {
+	INDOCHINA_idea_indonesia_volunteers
+}
+
 oob = "AST_land_oob"
 starting_train_buffer = 4
 set_convoys = 180

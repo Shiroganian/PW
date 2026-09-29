@@ -1,6 +1,6 @@
 BRM_foreign_support = {
     allowed = {
-        original_tag = INS
+		original_tag = INS
     }
 
     enable = {
@@ -19,24 +19,6 @@ BRM_foreign_support = {
 
     ai_strategy = {
         type = support
-        id = BRM
-        value = 5000
-    }
-
-	ai_strategy = {
-        type = antagonize
-        id = KBM
-        value = 5000
-    }
-
-	ai_strategy = {
-        type = antagonize
-        id = DBM
-        value = 5000
-    }
-
-	ai_strategy = {
-        type = protect
         id = BRM
         value = 5000
     }
@@ -66,29 +48,11 @@ KBM_foreign_support = {
         id = KBM
         value = 5000
     }
-
-	ai_strategy = {
-        type = antagonize
-        id = BRM
-        value = 5000
-    }
-
-	ai_strategy = {
-        type = antagonize
-        id = DBM
-        value = 5000
-    }
-
-	ai_strategy = {
-        type = protect
-        id = KBM
-        value = 5000
-    }
 }
 
 DBM_foreign_support = {
     allowed = {
-        original_tag = RAJ
+        original_tag = ENG
     }
 
     enable = {
@@ -110,24 +74,6 @@ DBM_foreign_support = {
         id = DBM
         value = 5000
     }
-
-	ai_strategy = {
-        type = antagonize
-        id = BRM
-        value = 5000
-    }
-
-	ai_strategy = {
-        type = antagonize
-        id = KBM
-        value = 5000
-    }
-
-	ai_strategy = {
-        type = protect
-        id = DBM
-        value = 5000
-    }
 }
 
 
@@ -136,6 +82,9 @@ IDC_foreign_support = {
 		OR = {
 			original_tag = PHI
 			original_tag = INS
+            original_tag = AST
+            original_tag = NZL
+            original_tag = CHI
 		}
 	}
 	enable = {
@@ -152,6 +101,51 @@ IDC_foreign_support = {
 	ai_strategy = {
 		type = support
 		id = IDC
+		value = 200
+	}
+}
+
+VIN_foreign_support = {
+	allowed = {
+        OR = {
+            original_tag = RAJ
+            original_tag = QIN
+        }
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = VIN
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = VIN
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = KHM
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = KHM
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = LAO
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = LAO
 		value = 200
 	}
 }

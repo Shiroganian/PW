@@ -1,0 +1,806 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = german_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = GER
+		}
+	}
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1250 }
+
+	focus = {
+		id = GER_1936_european_defense_programm
+		available = {
+			has_faction_template = faction_template_union_of_europe
+		}
+
+		bypass = {
+			
+		}
+
+		cost = 3
+		x = 23
+		y = 0
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = GER_defense_programm
+				days = 1825
+			}
+			BEL = {
+				add_timed_idea = {
+					idea = GER_defense_programm
+				    days = 1825
+				}
+			}
+			LUX = {
+				add_timed_idea = {
+					idea = GER_defense_programm
+				    days = 1825
+				}
+			}
+		}
+	}
+	focus = {
+		id = GER_1936_reinforce_the_siegfried_line
+		prerequisite = { focus = GER_1936_european_defense_programm }
+		mutually_exclusive = { focus = GER_1936_establish_the_wotan_line }
+		relative_position_id = GER_1936_european_defense_programm
+		available = {
+			
+		}
+		bypass = {
+			
+		}
+
+		cost = 7
+		x = 4
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GER_1936_establish_the_wotan_line
+		prerequisite = { focus = GER_1936_european_defense_programm }
+		mutually_exclusive = { focus = GER_1936_reinforce_the_siegfried_line }
+		relative_position_id = GER_1936_european_defense_programm
+		available = {
+			
+		}
+		bypass = {
+			
+		}
+
+		cost = 7
+		x = 2
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GER_1936_alpenfestung 
+		prerequisite = { focus = GER_1936_reinforce_the_siegfried_line focus = GER_1936_establish_the_wotan_line }
+		relative_position_id = GER_1936_establish_the_wotan_line
+		available = {
+			
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 1
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GER_1936_befreiungskrieg
+		prerequisite = { focus = GER_1936_european_defense_programm }
+		relative_position_id = GER_1936_european_defense_programm
+		available = {
+			custom_trigger_tooltip = GER_france_declared_war_tt
+			hidden_trigger {
+				always = no
+			}
+		}
+		bypass = {
+			
+		}
+
+		cost = 0
+		x = 0
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GER_1936_reenact_the_schliffen_plan
+		prerequisite = { focus = GER_1936_befreiungskrieg }
+		mutually_exclusive = { focus = GER_1936_launch_the_kesselring_plan }
+		relative_position_id = GER_1936_befreiungskrieg
+		available = {
+			has_war_with = FRA
+		}
+		bypass = {
+			
+		}
+
+		cost = 3
+		x = -1
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GER_1936_launch_the_kesselring_plan
+		prerequisite = { focus = GER_1936_befreiungskrieg }
+		mutually_exclusive = { focus = GER_1936_reenact_the_schliffen_plan }
+		relative_position_id = GER_1936_befreiungskrieg
+		available = {
+			has_war_with = FRA
+		}
+		bypass = {
+			
+		}
+
+		cost = 3
+		x = 1
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GER_1936_a_fight_for_survival
+		prerequisite = { focus = GER_1936_reenact_the_schliffen_plan focus = GER_1936_launch_the_kesselring_plan }
+		relative_position_id = GER_1936_befreiungskrieg
+		available = {
+			has_war_with = FRA
+		}
+		bypass = {
+			
+		}
+
+		cost = 3
+		x = 0
+		y = 2
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GER_1936_german_hegemony
+		prerequisite = { focus = GER_1936_reenact_the_schliffen_plan focus = GER_1936_launch_the_kesselring_plan }
+		relative_position_id = GER_1936_befreiungskrieg
+		available = {
+			custom_trigger_tooltip = GER_has_won_war_tt
+			hidden_trigger = {
+				always = no
+			}
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 0
+		y = 2
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = GER_1936_kleiner_broder
+		prerequisite = { focus = GER_1936_european_defense_programm }
+		relative_position_id = GER_1936_european_defense_programm
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 3
+		x = -3
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_protect_luxembourg_city
+		prerequisite = { focus = GER_1936_kleiner_broder }
+		relative_position_id = GER_1936_kleiner_broder
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 0
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_the_heart_of_europe
+		prerequisite = { focus = GER_1936_european_defense_programm }
+		relative_position_id = GER_1936_european_defense_programm
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 3
+		x = -7
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_expand_the_carabiniers_cyclistes
+		prerequisite = { focus = GER_1936_the_heart_of_europe }
+		relative_position_id = GER_1936_the_heart_of_europe
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = -2
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_improve_belgian_infrastructure
+		prerequisite = { focus = GER_1936_the_heart_of_europe }
+		relative_position_id = GER_1936_the_heart_of_europe
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 0
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_economic_deals
+		prerequisite = { focus = GER_1936_the_heart_of_europe }
+		relative_position_id = GER_1936_the_heart_of_europe
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 2
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_offer_eternal_protection
+		prerequisite = { focus = GER_1936_expand_the_carabiniers_cyclistes }
+		prerequisite = { focus = GER_1936_improve_belgian_infrastructure }
+		prerequisite = { focus = GER_1936_economic_deals }
+		relative_position_id = GER_1936_the_heart_of_europe
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 0
+		y = 2
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_expand_western_alliances
+		prerequisite = { focus = GER_1936_european_defense_programm }
+		relative_position_id = GER_1936_european_defense_programm
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 3
+		x = -16
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_fund_catalonian_resistance
+		prerequisite = { focus = GER_1936_european_defense_programm }
+		relative_position_id = GER_1936_european_defense_programm
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = -13
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_anti_french_army
+		prerequisite = { focus = GER_1936_european_defense_programm }
+		relative_position_id = GER_1936_european_defense_programm
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = -10
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_invite_netherlands
+		prerequisite = { focus = GER_1936_expand_western_alliances }
+		mutually_exclusive = { focus = GER_1936_liberate_the_dutch }
+		relative_position_id = GER_1936_expand_western_alliances
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 5
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_liberate_the_dutch
+		prerequisite = { focus = GER_1936_expand_western_alliances }
+		mutually_exclusive = { focus = GER_1936_invite_netherlands }
+		relative_position_id = GER_1936_expand_western_alliances
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 3
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_save_belgium
+		prerequisite = { focus = GER_1936_expand_western_alliances }
+		prerequisite = { focus = GER_1936_the_heart_of_europe }
+		relative_position_id = GER_1936_expand_western_alliances
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 6
+		y = 2
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_dutch_trades
+		prerequisite = { focus = GER_1936_invite_netherlands focus = GER_1936_liberate_the_dutch }
+		relative_position_id = GER_1936_expand_western_alliances
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 4
+		y = 2
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_military_mission_in_britian
+		prerequisite = { focus = GER_1936_dutch_trades }
+		relative_position_id = GER_1936_dutch_trades
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = -2
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_invite_british_military_advisors
+		prerequisite = { focus = GER_1936_military_mission_in_britian }
+		relative_position_id = GER_1936_dutch_trades
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = -1
+		y = 2
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_british_trading_deal
+		prerequisite = { focus = GER_1936_dutch_trades }
+		relative_position_id = GER_1936_dutch_trades
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 2
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_economic_alliance
+		prerequisite = { focus = GER_1936_british_trading_deal }
+		relative_position_id = GER_1936_dutch_trades
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 1
+		y = 2
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_invite_uk
+		prerequisite = { focus = GER_1936_invite_british_military_advisors focus = GER_1936_economic_alliance }
+		relative_position_id = GER_1936_invite_british_military_advisors
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 1
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_invite_usa
+		prerequisite = { focus = GER_1936_invite_uk }
+		relative_position_id = GER_1936_invite_british_military_advisors
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 1
+		y = 2
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_pursue_nordic_corporation
+		prerequisite = { focus = GER_1936_expand_western_alliances }
+		relative_position_id = GER_1936_expand_western_alliances
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = -5
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_liberate_the_danish
+		prerequisite = { focus = GER_1936_pursue_nordic_corporation }
+		mutually_exclusive = { focus = GER_1936_ally_the_danish }
+		relative_position_id = GER_1936_pursue_nordic_corporation
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = -1
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_ally_the_danish
+		prerequisite = { focus = GER_1936_pursue_nordic_corporation }
+		mutually_exclusive = { focus = GER_1936_liberate_the_danish }
+		relative_position_id = GER_1936_pursue_nordic_corporation
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 1
+		y = 1
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = GER_1936_danish_butter
+		prerequisite = { focus = GER_1936_liberate_the_danish focus = GER_1936_ally_the_danish }
+		relative_position_id = GER_1936_pursue_nordic_corporation
+		available = {
+
+		}
+		bypass = {
+			
+		}
+
+		cost = 5
+		x = 0
+		y = 2
+		icon = GFX_focus_PLACEHOLDER
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+	}
+}

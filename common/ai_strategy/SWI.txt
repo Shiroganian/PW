@@ -11,12 +11,12 @@ SWI_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = paratroopers
-		value = 1
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineers
-		value = 8
+		value = 25
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -26,7 +26,7 @@ SWI_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = -20
+		value = 8
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -36,7 +36,7 @@ SWI_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = anti_armor
-		value = 3
+		value = 2
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -51,7 +51,7 @@ SWI_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 75
+		value = 78
 	}
 	ai_strategy = {
 		type = equipment_production_factor

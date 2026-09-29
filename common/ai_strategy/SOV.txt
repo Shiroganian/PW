@@ -11,12 +11,12 @@ SOV_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = paratroopers
-		value = 1
+		value = 3
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineers
-		value = 0
+		value = 3
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -26,32 +26,32 @@ SOV_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 3
+		value = 6
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = motorized
-		value = 8
+		value = 15
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = anti_armor
-		value = 3
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = mechanized
 		value = 7
 	}
 	ai_strategy = {
 		type = role_ratio
+		id = mechanized
+		value = 10
+	}
+	ai_strategy = {
+		type = role_ratio
 		id = armor
-		value = 9
+		value = 15
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 68
+		value = 64
 	}
 	ai_strategy = {
 		type = unit_ratio

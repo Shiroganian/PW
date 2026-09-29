@@ -16,7 +16,7 @@ SIK_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineers
-		value = 0
+		value = 5
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -26,7 +26,7 @@ SIK_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 22
+		value = 28
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -51,7 +51,7 @@ SIK_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 88
+		value = 86
 	}
 	ai_strategy = {
 		type = equipment_production_factor

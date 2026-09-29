@@ -11,7 +11,7 @@ RAJ_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = paratroopers
-		value = 1
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -26,32 +26,32 @@ RAJ_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 3
+		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = motorized
-		value = 8
+		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = anti_armor
-		value = 3
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = mechanized
-		value = 3
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = armor
 		value = 5
 	}
 	ai_strategy = {
 		type = role_ratio
+		id = mechanized
+		value = 0
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 8
+	}
+	ai_strategy = {
+		type = role_ratio
 		id = infantry
-		value = 88
+		value = 80
 	}
 	ai_strategy = {
 		type = unit_ratio

@@ -6,7 +6,7 @@ BSF_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = garrison
-		value = 5
+		value = 3
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -26,7 +26,7 @@ BSF_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 3
+		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -51,7 +51,7 @@ BSF_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 88
+		value = 96
 	}
 	ai_strategy = {
 		type = equipment_production_factor

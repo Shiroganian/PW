@@ -11,7 +11,7 @@ BRA_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = paratroopers
-		value = 1
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -26,7 +26,7 @@ BRA_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 3
+		value = 8
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -36,22 +36,22 @@ BRA_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = anti_armor
-		value = 3
+		value = 4
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = mechanized
-		value = 3
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = 2
+		value = 5
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 75
+		value = 76
 	}
 	ai_strategy = {
 		type = unit_ratio

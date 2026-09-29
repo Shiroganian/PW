@@ -11,7 +11,7 @@ POR_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = paratroopers
-		value = 1
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -21,17 +21,17 @@ POR_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = marines
-		value = 0
+		value = 8
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 3
+		value = 4
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = motorized
-		value = 4
+		value = 5
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -46,12 +46,12 @@ POR_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = 2
+		value = 3
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 75
+		value = 80
 	}
 	ai_strategy = {
 		type = unit_ratio

@@ -21,7 +21,7 @@ IRE_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = marines
-		value = 0
+		value = 15
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -31,7 +31,7 @@ IRE_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = motorized
-		value = 8
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -51,7 +51,7 @@ IRE_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 75
+		value = 85
 	}
 	ai_strategy = {
 		type = unit_ratio

@@ -87,6 +87,7 @@ set_war_support = 0.70
 add_command_power = 25
 
 set_technology = {
+	mountaineers = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	basic_train = 1

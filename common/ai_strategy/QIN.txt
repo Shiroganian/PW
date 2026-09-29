@@ -11,7 +11,7 @@ QIN_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = paratroopers
-		value = 1
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -26,32 +26,32 @@ QIN_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = 10
+		value = 16
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = motorized
-		value = 8
+		value = 4
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = anti_armor
-		value = 3
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = mechanized
-		value = 3
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = armor
 		value = 2
 	}
 	ai_strategy = {
 		type = role_ratio
+		id = mechanized
+		value = 0
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 3
+	}
+	ai_strategy = {
+		type = role_ratio
 		id = infantry
-		value = 88
+		value = 86
 	}
 	ai_strategy = {
 		type = unit_ratio

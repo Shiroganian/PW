@@ -51,7 +51,7 @@ GHA_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 78
+		value = 88
 	}
 	ai_strategy = {
 		type = unit_ratio

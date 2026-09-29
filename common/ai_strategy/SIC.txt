@@ -16,27 +16,27 @@ SIC_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineers
-		value = 0
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = marines
-		value = -10
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = cavalry
-		value = 10
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = motorized
 		value = 8
 	}
 	ai_strategy = {
 		type = role_ratio
+		id = marines
+		value = 0
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = 14
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = motorized
+		value = 3
+	}
+	ai_strategy = {
+		type = role_ratio
 		id = anti_armor
-		value = 1
+		value = 2
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -46,7 +46,7 @@ SIC_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = -10
+		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio

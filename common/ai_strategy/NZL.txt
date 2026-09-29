@@ -21,22 +21,22 @@ NZL_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = marines
-		value = 10
+		value = 15
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = cavalry
-		value = -20
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = motorized
 		value = 0
 	}
 	ai_strategy = {
 		type = role_ratio
+		id = motorized
+		value = 5
+	}
+	ai_strategy = {
+		type = role_ratio
 		id = anti_armor
-		value = 1
+		value = 3
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -46,7 +46,7 @@ NZL_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = -10
+		value = 3
 	}
 	ai_strategy = {
 		type = role_ratio

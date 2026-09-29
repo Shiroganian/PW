@@ -91,6 +91,8 @@ set_war_support = 0.52
 add_command_power = 25
 
 set_technology = {
+	paratroopers = 1
+	mechanised_infantry = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	basic_train = 1

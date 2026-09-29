@@ -131,7 +131,7 @@ ideas = {
 			
 			modifier = {
 				air_volunteer_cap = 500
-				send_volunteer_size = 10
+				send_volunteer_size = 15
 			}
 		}
 		CONGO_idea_total_war = {

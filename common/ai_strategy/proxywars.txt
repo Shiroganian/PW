@@ -149,3 +149,77 @@ VIN_foreign_support = {
 		value = 200
 	}
 }
+
+KAT_foreign_support = {
+	allowed = {
+        OR = {
+            original_tag = ETH
+            original_tag = ZAM
+        }
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = KAT
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = KAT
+		value = 200
+	}
+}
+
+COG_foreign_support = {
+	allowed = {
+        OR = {
+            original_tag = USA
+        }
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = COG
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = COG
+		value = 200
+	}
+}
+
+CFS_foreign_support = {
+	allowed = {
+        OR = {
+            original_tag = GAB
+            original_tag = CAR
+        }
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = CFS
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = CFS
+		value = 200
+	}
+}

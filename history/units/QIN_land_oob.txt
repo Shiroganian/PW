@@ -73,7 +73,7 @@ units = {
 	}
 	division = {
 		name = "3rd Royal Infantry Division"
-		location = 8127
+		location = 7314
 		division_template = "Royal Infantry Division"
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.72
@@ -129,7 +129,7 @@ units = {
 	}
 	division = {
 		name = "11th Royal Infantry Division"
-		location = 4783
+		location = 12331
 		division_template = "Royal Infantry Division"
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.72
@@ -157,7 +157,7 @@ units = {
 	}
 	division = {
 		name = "1st Territorial Brigade"
-		location = 8127
+		location = 7314
 		division_template = "Territorial Brigade"
 		start_experience_factor = 0.17
 		start_equipment_factor = 0.62
@@ -213,7 +213,7 @@ units = {
 	}
 	division = {
 		name = "2nd Royal Cavalry Brigade"
-		location = 4783
+		location = 12331
 		division_template = "Royal Cavalry Brigade"
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.72

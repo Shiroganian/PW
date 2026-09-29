@@ -1,0 +1,60 @@
+same_government_type_as_ROOT = {
+	has_government = ROOT
+}
+
+has_military_academy = {
+	always = yes
+}
+
+has_naval_academy = {
+	always = yes
+}
+
+has_air_academy = {
+	always = yes
+}
+
+has_air_force_command = {
+	always = yes
+}
+
+NORDIC_basic_joint_trigger = {
+	OR = {
+		original_tag = DEN
+		original_tag = FIN
+		original_tag = ICE
+		original_tag = NOR
+		original_tag = SWE
+	}
+}
+
+NOR_AAT = {
+	always = no
+}
+
+TUR_cannot_form_kurdish_collaboration_government = {
+	always = no
+}
+
+SOV_is_right_opposition = {
+	always = no
+}
+
+is_important_state = {
+	OR = {
+		is_capital = yes
+		victory_points > 0
+	}
+}
+
+is_china_claim_of_JAP = {
+	always = no
+}
+
+is_british_colonial_claim = {
+	always = no
+}
+
+is_french_colonial_claim = {
+	always = no
+}

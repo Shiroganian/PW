@@ -5,3 +5,17 @@ annexation_decisions = {
 
 	allowed = { always = no } #manually activated
 }
+
+generic_purchase_old_ships_category = {
+	icon = GFX_decision_generic_naval
+	visible = {
+		has_country_flag = generic_purchase_old_ships_flag
+	}
+}
+
+generic_refit_civilian_ships_category = {
+	icon = GFX_decision_generic_merge_plant_ship
+	visible = {
+		has_country_flag = refit_convoy_ships_flag
+	}
+}

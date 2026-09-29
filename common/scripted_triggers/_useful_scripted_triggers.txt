@@ -273,7 +273,7 @@ ROOT_is_in_entente = {
 			is_faction_leader = yes
 			is_in_faction_with = ROOT
 		}
-		GBR = {
+		ENG = {
 			is_faction_leader = yes
 			is_in_faction_with = ROOT
 		}
@@ -322,14 +322,6 @@ is_clear_other_claims = {
 			is_british_colonial_claim = yes
 		}
 		AND = {
-			ROOT = { tag = GBR }
-			is_british_colonial_claim = yes
-		}
-		AND = {
-			ROOT = { tag = FRA }
-			is_french_colonial_claim = yes
-		}
-		AND = {
 			ROOT = { tag = JAP }
 			OR = {
 				region = 194 #Malay Peninsula
@@ -342,7 +334,7 @@ is_clear_other_claims = {
 			}
 		}
 		AND = {
-			ROOT = { tag = NFA }
+			ROOT = { tag = FRA }
 			is_french_colonial_claim = yes
 		}
 		ROOT = { is_ai = no }

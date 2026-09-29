@@ -1,0 +1,6 @@
+opinion_modifiers = {
+	KR_returned_land = {
+		value = 25
+		decay = 1
+	}
+}

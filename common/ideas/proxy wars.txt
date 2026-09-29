@@ -47,7 +47,7 @@ ideas = {
 			
 			modifier = {
 				air_volunteer_cap = 200
-				send_volunteer_size = 3
+				send_volunteer_size = 2
 			}
 		}
 		INDOCHINA_idea_indonesia_volunteers = {
@@ -65,7 +65,7 @@ ideas = {
 			
 			modifier = {
 				air_volunteer_cap = 400
-				send_volunteer_size = 2
+				send_volunteer_size = 1
 			}
 		}
 		INDOCHINA_idea_commonwealth_volunteers = {
@@ -83,7 +83,7 @@ ideas = {
 			
 			modifier = {
 				air_volunteer_cap = 400
-				send_volunteer_size = 3
+				send_volunteer_size = 1
 			}
 		}
 		INDOCHINA_idea_total_war = {

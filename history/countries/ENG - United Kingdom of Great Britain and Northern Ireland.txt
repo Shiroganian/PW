@@ -14,6 +14,9 @@ give_guarantee = HOL
 
 recruit_character = ENG_George_V # George V
 
+set_country_flag = can_send_volunteers
+set_country_flag = KR_free_allow_lend_lease
+
 oob = "ENG_land_oob"
 starting_train_buffer = 4
 set_convoys = 500

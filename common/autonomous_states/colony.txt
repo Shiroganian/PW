@@ -43,17 +43,6 @@ autonomy_state = {
 
 	allowed = {
 		has_dlc = "Together for Victory"
-
-		if = {
-			limit = { has_dlc = "Death or Dishonor" }
-			OR = {
-				OVERLORD = { NOT = { OR = {
-				has_government = fascist 
-				has_government = national_socialist 
-			} } }
-				OVERLORD = { tag = ITA }
-			}
-		}
 	}
 	
 	can_take_level = {

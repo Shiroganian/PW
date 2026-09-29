@@ -45,37 +45,6 @@ autonomy_state = {
 
 	allowed = {
 		has_dlc = "Together for Victory"
-
-		if = {
-			limit = { has_dlc = "Death or Dishonor" }
-			NOT = {
-				AND = {
-					OVERLORD = { OR = {
-						has_government = fascist 
-						has_government = national_socialist 
-					} } 
-					ROOT = { OR = {
-						has_government = fascist 
-						has_government = national_socialist 
-					} } 
-				}
-			}
-			
-		}
-		if = {
-			limit = {
-				has_dlc = "Waking the Tiger"
-			}
-
-			NOT = {
-				AND = {
-					OVERLORD = { tag = JAP } 
-				}
-				AND = {
-					OVERLORD = { tag = JAP } 
-				}
-			}
-		}
 	}
 	
 	can_take_level = {

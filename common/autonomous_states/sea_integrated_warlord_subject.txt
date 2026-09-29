@@ -55,12 +55,12 @@ autonomy_state = {
 			has_autonomy_state = autonomy_sea_warlord_subject
 		}	
 	}
-
+	
 	can_take_level = {
-		#trigger here
+		always = no
 	}
 
 	can_lose_level = {
-		#trigger here
+		always = no
 	}
 }

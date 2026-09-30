@@ -185,6 +185,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				consumer_goods_factor = 0.10
+				stability_factor = -0.05
 				monthly_population = -0.5
 			}
 		}
@@ -202,6 +204,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				consumer_goods_factor = -0.10
+				stability_factor = 0.05
 				monthly_population = 0.5
 			}
 		}

@@ -24,7 +24,7 @@ victory_points = {
 
 		buildings = {
 			dockyard = 1
-			arms_factory = 5
+			arms_factory = 8
 
 			infrastructure = 2
 			industrial_complex = 6

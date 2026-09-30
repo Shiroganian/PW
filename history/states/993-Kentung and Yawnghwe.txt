@@ -20,7 +20,8 @@ state = {
 		add_core_of = BRM
 		add_core_of = KBM
 buildings = {
-			infrastructure = 0
+			infrastructure = 1
+			arms_factory = 2
 		}
 
 		victory_points = {

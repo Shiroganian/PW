@@ -136,6 +136,26 @@ JAP_help_qing = {
 		value = 200
 	}
 	ai_strategy = {
+		type = send_volunteers_desire
+		id = MAN
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = MAN
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = SND
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = SND
+		value = 200
+	}
+	ai_strategy = {
 		type = antagonize
 		id = CHI
 		value = 100

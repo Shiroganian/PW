@@ -6,17 +6,17 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	totalitarian_socialist = 2
-	communist = 2
+	totalitarian_socialist = 3
+	communist = 3
 	libertarian_socialist = 6
 	social_democrat = 20
 	social_liberal = 15
 	market_liberal = 25
 	conservative = 10
 	authoritarian_democrat = 10
-	nationalist = 7
-	fascist = 2
-	national_socialist = 1
+	nationalist = 0
+	fascist = 5
+	national_socialist = 3
 }
 
 recruit_character = USA_Huey_P_Long_Jr # Huey P. Long Jr.

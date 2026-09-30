@@ -3278,12 +3278,12 @@
  USA_conservative_party_long:0 "Republican Party"
  USA_authoritarian_democrat_party:0 "Democratic Party"
  USA_authoritarian_democrat_party_long:0 "Democratic Party"
- USA_nationalist_party:0 "America First Committee"
- USA_nationalist_party_long:0 "America First Committee"
- USA_fascist_party:0 "Silver Legion"
- USA_fascist_party_long:0 "Silver Legion of America"
- USA_national_socialist_party:0 "German American Bund"
- USA_national_socialist_party_long:0 "German American Bund"
+ USA_nationalist_party:0 "U.S. Armed Forces"
+ USA_nationalist_party_long:0 "United States Armed Forces"
+ USA_fascist_party:0 "CUP"
+ USA_fascist_party_long:0 "Christian Union Party"
+ USA_national_socialist_party:0 "ARP"
+ USA_national_socialist_party_long:0 "American Rejuvanation Party"
 
  # VEN
  VEN_totalitarian_socialist_party:0 "PCV"

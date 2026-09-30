@@ -14,7 +14,16 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				trade_opinion_factor = 0.5
+				lend_lease_tension = -0.15
+				send_volunteer_size = 3
+				air_volunteer_cap = 200
+				social_democrat_drift = 0.01
+				social_liberal_drift = 0.01
+				market_liberal_drift = 0.01
+				conservative_drift = 0.01
+				authoritarian_democrat_drift = 0.01
+				political_power_gain = -0.05
 			}
 		}
 		USA_idea_supreme_court = {
@@ -31,7 +40,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				drift_defence_factor = 0.15
+				market_liberal_drift = 0.01
+				conservative_drift = 0.02
+				authoritarian_democrat_drift = 0.01
 			}
 		}
 		USA_idea_recession_politics = {
@@ -48,7 +60,11 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				stability_factor = -0.15
+				communist_drift = 0.02
+				libertarian_socialist_drift = 0.02
+				fascist_drift = 0.02
+				national_socialist_drift = 0.02
 			}
 		}
 		USA_idea_disjointed_gop = {
@@ -65,7 +81,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				market_liberal_drift = -0.01
+				conservative_drift = -0.01
 			}
 		}
 		USA_idea_democratic_crisis = {
@@ -82,7 +99,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				political_power_factor = -0.15
+				social_democrat_drift = -0.3
+				social_liberal_drift = -0.2
+				authoritarian_democrat_drift = -0.1
 			}
 		}
 		USA_idea_recovery_economy = {
@@ -99,7 +119,13 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				consumer_goods_factor = 0.25
+				global_building_slots_factor = -0.15
+				production_speed_buildings_factor = -0.05 
+				production_speed_industrial_complex_factor = -0.10 
+				production_speed_arms_factory_factor = -0.25
+				production_speed_dockyard_factor = -0.20
+				production_speed_infrastructure_factor = 0.05
 			}
 		}
 		USA_idea_navy_with_a_army = {
@@ -116,7 +142,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				production_speed_arms_factory_factor = -0.05
+				production_speed_dockyard_factor = 0.10
+				industrial_capacity_dockyard = 0.15
+				industrial_capacity_factory = -0.10
 			}
 		}
 		USA_idea_hispanic_strategy = {
@@ -133,7 +162,12 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				decryption_factor = 0.15
+				intel_network_gain_factor = 0.15
+				operative_slot = 2
+				ai_desired_divisions_factor = -0.25
+				ai_focus_naval_factor = 0.25
+				ai_focus_aviation_factor = 0.25
 			}
 		}
 		USA_idea_hispanic_flight = {
@@ -150,7 +184,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				monthly_population = -0.5
 			}
 		}
 		MEX_idea_hispanic_arrival = {
@@ -167,7 +201,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				monthly_population = 0.5
 			}
 		}
 	}

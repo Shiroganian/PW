@@ -61,9 +61,10 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.15
+				totalitarian_socialist_drift = 0.01
 				communist_drift = 0.02
 				libertarian_socialist_drift = 0.02
-				fascist_drift = 0.02
+				fascist_drift = 0.03
 				national_socialist_drift = 0.02
 			}
 		}

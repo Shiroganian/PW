@@ -1,0 +1,174 @@
+ideas = {
+	country = {
+		USA_idea_leader_of_the_free_world = {
+			picture = USA_idea_leader_of_the_free_world
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		USA_idea_supreme_court = {
+			picture = USA_idea_supreme_court
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		USA_idea_recession_politics = {
+			picture = USA_idea_recession_politics
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		USA_idea_disjointed_gop = {
+			picture = USA_idea_disjointed_gop
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		USA_idea_democratic_crisis = {
+			picture = USA_idea_democratic_crisis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		USA_idea_recovery_economy = {
+			picture = USA_idea_recovery_economy
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		USA_idea_navy_with_a_army = {
+			picture = USA_idea_navy_with_a_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		USA_idea_hispanic_strategy = {
+			picture = USA_idea_hispanic_strategy
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		USA_idea_hispanic_flight = {
+			picture = USA_idea_hispanic_flight
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		MEX_idea_hispanic_arrival = {
+			picture = USA_idea_hispanic_flight
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+	}
+}

@@ -10,6 +10,11 @@ set_popularities = {
 
 recruit_character = MEX_Jose_Vasconcelos # Jose Vasconcelos
 
+add_timed_idea = {
+    idea = MEX_idea_hispanic_arrival
+    days = 180
+}
+
 oob = "MEX_land_oob"
 starting_train_buffer = 5
 set_convoys = 120

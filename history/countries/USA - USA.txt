@@ -21,6 +21,22 @@ set_popularities = {
 
 recruit_character = USA_Huey_P_Long_Jr # Huey P. Long Jr.
 
+add_ideas = {
+	USA_idea_leader_of_the_free_world
+	USA_idea_supreme_court
+	USA_idea_recession_politics
+	USA_idea_disjointed_gop
+	USA_idea_democratic_crisis
+	USA_idea_recovery_economy
+	USA_idea_navy_with_a_army
+	USA_idea_hispanic_strategy
+}
+
+add_timed_idea = {
+    idea = USA_idea_hispanic_flight
+    days = 180
+}
+
 give_guarantee = PIZ
 give_guarantee = PAN
 give_guarantee = CUB

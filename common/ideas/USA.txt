@@ -100,9 +100,9 @@ ideas = {
 			
 			modifier = {
 				political_power_factor = -0.15
-				social_democrat_drift = -0.3
-				social_liberal_drift = -0.2
-				authoritarian_democrat_drift = -0.1
+				social_democrat_drift = -0.03
+				social_liberal_drift = -0.02
+				authoritarian_democrat_drift = -0.01
 			}
 		}
 		USA_idea_recovery_economy = {

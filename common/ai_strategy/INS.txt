@@ -143,4 +143,28 @@ INS_kill_india = {
 		type = naval_invasion_focus
 		value = 500
 	}
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 101
+		value = 150
+	}
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 73
+		value = 150
+	}
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 75
+		value = 150
+	}
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 72
+		value = 150
+	}
 }

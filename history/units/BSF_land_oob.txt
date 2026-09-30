@@ -57,7 +57,7 @@ units = {
 	}
 	division = {
 		name = "1st National Militia Brigade"
-		location = 2198
+		location = 12939
 		division_template = "National Militia Brigade"
 		start_experience_factor = 0.20
 		start_equipment_factor = 0.62

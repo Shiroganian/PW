@@ -64,7 +64,7 @@ units = {
 	}
 	division = {
 		name = "1st Reserve Brigade"
-		location = 2147
+		location = 12853
 		division_template = "Reserve Brigade"
 		start_experience_factor = 0.20
 		start_equipment_factor = 0.62

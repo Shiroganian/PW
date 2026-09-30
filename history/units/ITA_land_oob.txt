@@ -182,7 +182,7 @@ units = {
 	}
 	division = {
 		name = "18th Divisione di Fanteria"
-		location = 1057
+		location = 1174
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.72
@@ -336,7 +336,7 @@ units = {
 	}
 	division = {
 		name = "12th Divisione Camicie Nere"
-		location = 1057
+		location = 1174
 		division_template = "Divisione Camicie Nere"
 		start_experience_factor = 0.17
 		start_equipment_factor = 0.62

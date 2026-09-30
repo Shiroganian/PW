@@ -1,6 +1,3 @@
-# Pax Wilsoniana country roster
-
-# North America
 USA = "countries/USA.txt"
 PIZ = "countries/PIZ.txt"
 CAN = "countries/CAN.txt"
@@ -14,8 +11,6 @@ NIC = "countries/NIC.txt"
 COS = "countries/COS.txt"
 HAI = "countries/HAI.txt"
 DOM = "countries/DOM.txt"
-
-# South America
 BRA = "countries/BRA.txt"
 ALM = "countries/ALM.txt"
 BSF = "countries/BSF.txt"
@@ -29,8 +24,6 @@ CHL = "countries/CHL.txt"
 BOL = "countries/BOL.txt"
 PAR = "countries/PAR.txt"
 URG = "countries/URG.txt"
-
-# Europe
 GER = "countries/GER.txt"
 ENG = "countries/ENG.txt"
 SOV = "countries/SOV.txt"
@@ -57,8 +50,6 @@ NOR = "countries/NOR.txt"
 SWE = "countries/SWE.txt"
 FIN = "countries/FIN.txt"
 ICE = "countries/ICE.txt"
-
-# Asia
 JAP = "countries/JAP.txt"
 CHI = "countries/CHI.txt"
 SIK = "countries/SIK.txt"
@@ -92,8 +83,6 @@ TMS = "countries/TMS.txt"
 NOM = "countries/NOM.txt"
 AFG = "countries/AFG.txt"
 BLC = "countries/BLC.txt"
-
-# Middle East
 GRE = "countries/GRE.txt"
 CIZ = "countries/CIZ.txt"
 TUR = "countries/TUR.txt"
@@ -106,8 +95,6 @@ AZR = "countries/AZR.txt"
 TRA = "countries/TRA.txt"
 SAU = "countries/SAU.txt"
 PER = "countries/PER.txt"
-
-# Africa
 EGY = "countries/EGY.txt"
 SIZ = "countries/SIZ.txt"
 ETH = "countries/ETH.txt"
@@ -129,8 +116,6 @@ IVO = "countries/IVO.txt"
 NGR = "countries/NGR.txt"
 GHA = "countries/GHA.txt"
 GAB = "countries/GAB.txt"
-
-# Additional historical countries
 IRE = "countries/IRE.txt"
 NEP = "countries/NEP.txt"
 BHU = "countries/BHU.txt"

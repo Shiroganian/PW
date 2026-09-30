@@ -118,7 +118,7 @@ INS_kill_india = {
 	ai_strategy = {
 		type = naval_mission_threshold
 		id = MISSION_PATROL
-		value = -250
+		value = -500
 	}
 
 	ai_strategy = {

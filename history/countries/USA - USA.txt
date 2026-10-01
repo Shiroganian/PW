@@ -36,6 +36,7 @@ recruit_character = USA_Huey_P_Long_Jr # Huey P. Long Jr.
 
 add_ideas = {
 	USA_idea_leader_of_the_free_world
+	USA_idea_the_new_colossus
 	USA_idea_supreme_court
 	USA_idea_recession_politics
 	USA_idea_disjointed_gop

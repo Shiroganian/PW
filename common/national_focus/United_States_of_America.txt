@@ -1475,19 +1475,21 @@ focus_tree = {
 			remove_ideas = {
 				USA_idea_recession_politics
 			}
-			add_popularity = {
-				ideology = social_democrat
-				popularity = 0.04
-			}
-			
-			add_popularity = {
-				ideology = social_liberal
-				popularity = 0.02
-			}
-			
-			add_popularity = {
-				ideology = authoritarian_democrat
-				popularity = 0.01
+			hidden_effect = {
+				add_popularity = {
+					ideology = social_democrat
+					popularity = 0.04
+				}
+				
+				add_popularity = {
+					ideology = social_liberal
+					popularity = 0.02
+				}
+				
+				add_popularity = {
+					ideology = authoritarian_democrat
+					popularity = 0.01
+				}
 			}
 		}
 	}
@@ -1908,7 +1910,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			add_political_power = 75
 			add_ideas = {
 				USA_idea_national_optimism
 			}

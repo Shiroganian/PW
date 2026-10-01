@@ -14,7 +14,6 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				trade_opinion_factor = 0.5
 				lend_lease_tension = -0.15
 				send_volunteer_size = 3
 				air_volunteer_cap = 200
@@ -23,8 +22,26 @@ ideas = {
 				market_liberal_drift = 0.01
 				conservative_drift = 0.01
 				authoritarian_democrat_drift = 0.01
-				political_power_gain = -0.05
+				political_power_gain = -0.10
+			}
+		}
+		USA_idea_the_new_colossus = {
+			picture = USA_idea_the_new_colossus
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_opinion_factor = 0.5
 				min_export = 0.05
+				political_power_gain = -0.05
 			}
 		}
 		USA_idea_supreme_court = {

@@ -1,8 +1,61 @@
 ﻿l_english:
- USA_idea_demobilization_1: "Post-War Demobilization"
- USA_idea_demobilization_1_desc: ""
+ USA_idea_leader_of_the_free_world: "Leader Of The Free World"
+ USA_idea_leader_of_the_free_world_desc: ""
+
+ USA_idea_the_new_colossus: "The New Colossus"
+ USA_idea_the_new_colossus_desc: ""
+
+ USA_idea_supreme_court: "United States Supreme Court"
+ USA_idea_supreme_court_desc: ""
+
+ USA_idea_recession_politics: "Recession Politics"
+ USA_idea_recession_politics_desc: ""
+
+ USA_idea_disjointed_gop: "Disjointed GOP"
+ USA_idea_disjointed_gop_desc: ""
+
+ USA_idea_democratic_crisis: "Trouble In Democracy"
+ USA_idea_democratic_crisis_desc: ""
+
+ USA_idea_recovery_economy: "Recovering Economy"
+ USA_idea_recovery_economy_desc: ""
+
+ USA_idea_picking_up_economy: "Picking Up Economy"
+ USA_idea_picking_up_economy_desc: ""
+
+ USA_idea_navy_with_a_army: "A Navy With A Army"
+ USA_idea_navy_with_a_army_desc: ""
+
+ USA_idea_hispanic_strategy: "Latin American Strategy"
+ USA_idea_hispanic_strategy_desc: ""
+
+ USA_idea_hispanic_flight: "Hispanic Flight"
+ USA_idea_hispanic_flight_desc: ""
+
+ MEX_idea_hispanic_arrival: "Hispanic Arrival"
+ MEX_idea_hispanic_arrival_desc: ""
+
+ USA_idea_league_funding: "Funding The League"
+ USA_idea_league_funding_desc: ""
+
+ USA_idea_wilsonian_deal: "The Wilsonian Deal"
+ USA_idea_wilsonian_deal_desc: ""
+
+ USA_idea_semivisible_empire: "The Semivisible Empire"
+ USA_idea_semivisible_empire_desc: ""
+
+ USA_idea_southern_deal: "The Southern Deal"
+ USA_idea_southern_deal_desc: ""
+
+ USA_idea_longist_wilsonianism: "Longist Wilsonianism"
+ USA_idea_longist_wilsonianism_desc: ""
+
+ USA_idea_longist_southernism: "Longist Southernism"
+ USA_idea_longist_southernism_desc: ""
+
+ USA_idea_national_optimism: "National Optimism"
+ USA_idea_national_optimism_desc: ""
 
  USA_machine_modifier: "The Longist Political Machine"
  USA_machine_modifier_desc: ""
-
  USA_modify_machine_modifier_tt: "Modify §Y$USA_machine_modifier$§! by:"

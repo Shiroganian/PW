@@ -225,11 +225,9 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-	}
-	option = { 	
-		name = usa.5.b
-		ai_chance = {
-			factor = 0
+		add_timed_idea = {
+			idea = USA_idea_national_optimism
+			days = 60
 		}
 	}
 }

@@ -41,6 +41,8 @@ ideas = {
 			modifier = {
 				trade_opinion_factor = 0.5
 				min_export = 0.05
+				monthly_population = 0.15
+				stability_factor = -0.05
 				political_power_gain = -0.05
 			}
 		}

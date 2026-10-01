@@ -138,12 +138,6 @@ country_event = {
 			factor = 100
 		}
 	}
-	option = { 	
-		name = usa.2.b
-		ai_chance = {
-			factor = 0
-		}
-	}
 }
 
 country_event = {
@@ -166,12 +160,6 @@ country_event = {
 		name = usa.3.a
 		ai_chance = {
 			factor = 100
-		}
-	}
-	option = { 	
-		name = usa.3.b
-		ai_chance = {
-			factor = 0
 		}
 	}
 }

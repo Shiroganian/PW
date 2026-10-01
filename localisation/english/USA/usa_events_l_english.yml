@@ -3,3 +3,10 @@
  usa.1.d:0 "Long, that's all."
  usa.1.a:0 "President Long Holds On!"
  usa.1.b:0 "The GOP Wins!"
+
+ #### NEWS EVENTS LOC
+
+ usa_news.1.t:0 "American Political Crisis"
+ usa_news.1.d:0 "Trouble in Washington as President Long finds his coalition rapidly fracturing, with many worrying he could lose this years' election."
+ usa_news.1.a:0 "Can The Kingfish Hold On?"
+ usa_news.1.b:0 "Damn Splitters.."

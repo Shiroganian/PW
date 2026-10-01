@@ -137,6 +137,18 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.10
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = -0.02
+		}
 	}
 }
 

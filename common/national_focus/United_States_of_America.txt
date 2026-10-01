@@ -56,17 +56,11 @@ focus_tree = {
 
 		completion_reward = {
 			country_event = usa.2
-			add_popularity = {
-				ideology = social_democrat
-				popularity = -0.10
-			}
-			add_popularity = {
-				ideology = social_liberal
-				popularity = -0.05
-			}
-			add_popularity = {
-				ideology = authoritarian_democrat
-				popularity = -0.02
+			hidden_effect = {
+				news_event = { 
+					id = usa_news.1 
+					days = 10 
+				}
 			}
 		}
 	}
@@ -778,7 +772,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_completed_focus = USA_1936_Party_Meet_With_Kennedy
+					has_completed_focus = USA_1936_Party_Approach_The_Center
 				}	
 				add_ideas = {
 					USA_idea_longist_wilsonianism
@@ -805,24 +799,26 @@ focus_tree = {
 			}
 			else_if = {
 				limit = { 
-					has_completed_focus = USA_1936_Party_Meet_With_Byrd
+					has_completed_focus = USA_1936_Party_Approach_The_Right
 				}
 				add_ideas = {
 					USA_idea_longist_southernism
 				}
 				custom_effect_tooltip = usa_party_popularity_shift_tt
-				set_popularities = {
-					totalitarian_socialist = 2
-					communist = 3
-					libertarian_socialist = 3
-					social_democrat = 30
-					social_liberal = 10
-					market_liberal = 15
-					conservative = 10
-					authoritarian_democrat = 20
-					nationalist = 0
-					fascist = 4
-					national_socialist = 3
+				hidden_effect = {
+					set_popularities = {
+						totalitarian_socialist = 2
+						communist = 3
+						libertarian_socialist = 3
+						social_democrat = 30
+						social_liberal = 10
+						market_liberal = 15
+						conservative = 10
+						authoritarian_democrat = 20
+						nationalist = 0
+						fascist = 4
+						national_socialist = 3
+					}
 				}
 				remove_ideas = {
 					USA_idea_democratic_crisis

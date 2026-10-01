@@ -1,0 +1,32 @@
+﻿###########################
+# USA NEWS Events
+###########################
+
+add_namespace = usa_news
+
+country_event = {
+	id = usa_news.1
+	title = usa_news.1.t
+	desc = usa_news.1.d
+	picture = GFX_report_event_usa_election_generic
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = { 	
+		name = usa_news.1.a
+		trigger = {
+			not = {
+				original_tag = USA
+			}
+		}
+	}
+
+	option = { 	
+		name = usa_news.1.b
+		trigger = {
+			original_tag = USA
+		}
+	}
+}

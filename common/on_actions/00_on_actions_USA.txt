@@ -1,0 +1,9 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            USA = {
+                country_event = { id = usa.1 days = 307 random_days = 1 } # 
+            }
+        }
+    }
+}

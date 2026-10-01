@@ -55,6 +55,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
+			country_event = usa.1
 			add_popularity = {
 				ideology = social_democrat
 				popularity = -0.10
@@ -1479,19 +1480,22 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
+			remove_ideas = {
+				USA_idea_recession_politics
+			}
 			add_popularity = {
 				ideology = social_democrat
-				popularity = 0.08
-			}
-			
-			add_popularity = {
-				ideology = social_liberal
 				popularity = 0.04
 			}
 			
 			add_popularity = {
-				ideology = authoritarian_democrat
+				ideology = social_liberal
 				popularity = 0.02
+			}
+			
+			add_popularity = {
+				ideology = authoritarian_democrat
+				popularity = 0.01
 			}
 		}
 	}
@@ -1866,6 +1870,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.15
+			}
 			country_event = usa.millionmanrally
 		}
 	}
@@ -1876,7 +1884,7 @@ focus_tree = {
 		x = 9
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 10			
@@ -1912,7 +1920,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			add_political_power = 75
+			add_ideas = {
+				USA_idea_national_optimism
+			}
 		}
 	}
 
@@ -1948,7 +1959,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			country_event = usa.longismreadyforreelection
 		}
 	}
 

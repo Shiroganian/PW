@@ -1,0 +1,116 @@
+﻿###########################
+# USA Events
+###########################
+
+add_namespace = usa
+
+country_event = {
+	id = usa.1
+	title = usa.1.t
+	desc = usa.1.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+		USA = {
+			has_elections = yes
+		}
+		date > 1936.1.1
+		date < 1937.1.1
+	}
+
+	immediate = {
+		
+	}
+
+	option = { 	
+		name = usa.1.a
+		ai_chance = {
+			factor = 100
+		}
+		complete_national_focus = USA_Long_President_Long_Relected
+		custom_effect_tooltip = usa_party_popularity_shift_tt
+		hidden_effect = {
+			if = {
+				limit = {
+					has_completed_focus = USA_1936_Party_Meet_With_Kennedy
+				}
+				hidden_effect = {
+					set_popularities = {
+						totalitarian_socialist = 2
+						communist = 3
+						libertarian_socialist = 3
+						social_democrat = 30
+						social_liberal = 25
+						market_liberal = 10
+						conservative = 10
+						authoritarian_democrat = 10
+						nationalist = 0
+						fascist = 4
+						national_socialist = 3
+					}
+				}
+			}
+			else_if = {
+				limit = { 
+					has_completed_focus = USA_1936_Party_Thesis_Antithesis_Synthesis
+				}
+				set_popularities = {
+					totalitarian_socialist = 2
+					communist = 3
+					libertarian_socialist = 3
+					social_democrat = 35
+					social_liberal = 15
+					market_liberal = 10
+					conservative = 10
+					authoritarian_democrat = 15
+					nationalist = 0
+					fascist = 4
+					national_socialist = 3
+				}
+			}
+			else_if = {
+				limit = { 
+					has_completed_focus = USA_1936_Party_Meet_With_Byrd
+				}
+				set_popularities = {
+					totalitarian_socialist = 2
+					communist = 3
+					libertarian_socialist = 3
+					social_democrat = 30
+					social_liberal = 10
+					market_liberal = 10
+					conservative = 10
+					authoritarian_democrat = 25
+					nationalist = 0
+					fascist = 4
+					national_socialist = 3
+				}
+			}
+			else = {
+				set_popularities = {
+					totalitarian_socialist = 2
+					communist = 3
+					libertarian_socialist = 3
+					social_democrat = 20
+					social_liberal = 15
+					market_liberal = 20
+					conservative = 15
+					authoritarian_democrat = 15
+					nationalist = 0
+					fascist = 4
+					national_socialist = 3
+				}
+			}
+		}
+
+	}
+	option = { 	
+		name = usa.1.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

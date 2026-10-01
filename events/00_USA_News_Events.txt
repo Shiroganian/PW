@@ -30,3 +30,30 @@ news_event = {
 		}
 	}
 }
+
+news_event = {
+	id = usa_news.2
+	title = usa_news.1.t
+	desc = usa_news.1.d
+	picture = GFX_event_test
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = { 	
+		name = usa_news.1.a
+		trigger = {
+			not = {
+				original_tag = USA
+			}
+		}
+	}
+
+	option = { 	
+		name = usa_news.1.b
+		trigger = {
+			original_tag = USA
+		}
+	}
+}

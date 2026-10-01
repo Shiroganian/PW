@@ -33,6 +33,9 @@ buildings = {
 		victory_points = {
 			10370 1 
 		}
+        add_dynamic_modifier = {
+            modifier = USA_dymod_jim_crow_1
+        }
 
 	}
 

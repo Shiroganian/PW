@@ -13,6 +13,9 @@ buildings = {
 		victory_points = {
 			7588 3
 		}
+        add_dynamic_modifier = {
+            modifier = USA_dymod_jim_crow_1
+        }
 	}
 	provinces={
 		801 3941 3975 4627 6850 6958 6971 7466 7588 7646 9923 10441 11888 

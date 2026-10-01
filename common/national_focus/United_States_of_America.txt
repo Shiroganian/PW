@@ -208,7 +208,7 @@ focus_tree = {
 		x = -6
 		y = 1
 
-		cost = 4
+		cost = 3
 
 		ai_will_do = {
 			factor = 10			
@@ -234,7 +234,19 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			add_stability = -0.02
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = authoritarian_democrat
+				popularity = 0.01
+			}
 		}
 	}
 
@@ -244,7 +256,7 @@ focus_tree = {
 		x = -2
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -274,7 +286,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.04
+			}
 		}
 	}
 
@@ -284,7 +299,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -310,7 +325,17 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = social_democrat
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.04
+			}
+			add_ideas = {
+				USA_idea_league_funding
+			}
 		}
 	}
 
@@ -320,7 +345,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -346,7 +371,15 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			add_political_power = 75
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.02
+			}
 		}
 	}
 
@@ -356,7 +389,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -386,7 +419,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			country_event = usa.kennedy
 		}
 	}
 
@@ -396,7 +429,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -427,7 +460,22 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			add_ideas = {
+				USA_idea_wilsonian_deal
+			}
+			set_popularities = {
+				totalitarian_socialist = 2
+				communist = 3
+				libertarian_socialist = 3
+				social_democrat = 30
+				social_liberal = 25
+				market_liberal = 15
+				conservative = 10
+				authoritarian_democrat = 5
+				nationalist = 0
+				fascist = 4
+				national_socialist = 3
+			}
 		}
 	}
 
@@ -437,7 +485,7 @@ focus_tree = {
 		x = 2
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -467,7 +515,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = authoritarian_democrat
+				popularity = 0.04
+			}
 		}
 	}
 
@@ -477,7 +528,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -504,7 +555,17 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = social_democrat
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = authoritarian_democrat
+				popularity = 0.04
+			}
+			add_ideas = {
+				USA_idea_semivisible_empire
+			}
 		}
 	}
 
@@ -514,7 +575,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -541,7 +602,15 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			add_political_power = 25
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.04
+			}
+			add_popularity = {
+				ideology = authoritarian_democrat
+				popularity = 0.01
+			}
 		}
 	}
 
@@ -552,7 +621,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -583,7 +652,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			country_event = usa.talmadge
 		}
 	}
 
@@ -593,7 +662,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -624,7 +693,22 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			add_ideas = {
+				USA_idea_southern_deal
+			}
+			set_popularities = {
+				totalitarian_socialist = 2
+				communist = 3
+				libertarian_socialist = 3
+				social_democrat = 30
+				social_liberal = 5
+				market_liberal = 15
+				conservative = 10
+				authoritarian_democrat = 25
+				nationalist = 0
+				fascist = 4
+				national_socialist = 3
+			}
 		}
 	}
 
@@ -634,7 +718,7 @@ focus_tree = {
 		x = 2
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -666,7 +750,51 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			if = {
+				limit = {
+					has_completed_focus = USA_1936_Party_Meet_With_Kennedy
+				}
+				add_ideas = {
+					USA_idea_longist_wilsonianism
+				}
+				set_popularities = {
+					totalitarian_socialist = 2
+					communist = 3
+					libertarian_socialist = 3
+					social_democrat = 30
+					social_liberal = 20
+					market_liberal = 15
+					conservative = 10
+					authoritarian_democrat = 10
+					nationalist = 0
+					fascist = 4
+					national_socialist = 3
+				}
+			}
+			else_if = {
+				limit = { 
+					has_completed_focus = USA_1936_Party_Meet_With_Byrd
+				}
+				add_ideas = {
+					USA_idea_longist_southernism
+				}
+				set_popularities = {
+					totalitarian_socialist = 2
+					communist = 3
+					libertarian_socialist = 3
+					social_democrat = 30
+					social_liberal = 10
+					market_liberal = 15
+					conservative = 10
+					authoritarian_democrat = 20
+					nationalist = 0
+					fascist = 4
+					national_socialist = 3
+				}
+			}
+			else = {
+				custom_effect_tooltip = usa_synthesis_explanation_tt
+			}
 		}
 	}
 
@@ -676,7 +804,7 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		cost = 4
+		cost = 3
 
 		ai_will_do = {
 			factor = 10			
@@ -712,7 +840,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -748,7 +876,7 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -784,7 +912,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -824,7 +952,7 @@ focus_tree = {
 		x = 2
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -860,7 +988,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -896,7 +1024,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -932,7 +1060,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -972,7 +1100,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1012,7 +1140,7 @@ focus_tree = {
 		x = 6
 		y = 1
 
-		cost = 4
+		cost = 3
 
 		ai_will_do = {
 			factor = 10			
@@ -1048,7 +1176,7 @@ focus_tree = {
 		x = -2
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1084,7 +1212,7 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1120,7 +1248,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1160,7 +1288,7 @@ focus_tree = {
 		x = 2
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1196,7 +1324,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1236,7 +1364,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1280,7 +1408,7 @@ focus_tree = {
 		x = 3
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1324,7 +1452,7 @@ focus_tree = {
 		x = 2
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1361,7 +1489,7 @@ focus_tree = {
 		x = 9
 		y = 1
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 10			
@@ -1407,7 +1535,7 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		cost = 10
+		cost = 4
 
 		ai_will_do = {
 			factor = 10			
@@ -1511,7 +1639,7 @@ focus_tree = {
 		x = -2
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1628,7 +1756,7 @@ focus_tree = {
 		x = 2
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1666,7 +1794,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1702,7 +1830,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1738,7 +1866,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1774,7 +1902,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1850,7 +1978,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1886,7 +2014,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1922,7 +2050,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1962,7 +2090,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -2002,7 +2130,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -2078,7 +2206,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -2114,7 +2242,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -2150,7 +2278,7 @@ focus_tree = {
 		x = 3
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -2186,7 +2314,7 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -2222,7 +2350,7 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -2258,7 +2386,7 @@ focus_tree = {
 		x = 2
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -2294,7 +2422,7 @@ focus_tree = {
 		x = 2
 		y = 1
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -2395,7 +2523,7 @@ focus_tree = {
 		x = 55
 		y = 5
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10		
@@ -2435,7 +2563,7 @@ focus_tree = {
 		x = 30
 		y = 5
 
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 10

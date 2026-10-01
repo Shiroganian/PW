@@ -1230,7 +1230,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 10			
@@ -1870,7 +1870,7 @@ focus_tree = {
 		id = USA_1936_Rock_Em_Sock_Em
 		icon = GFX_focus_generic_workers_and_farmers_rise
 		x = 9
-		y = 1
+		y = 2
 
 		cost = 1
 
@@ -1912,41 +1912,6 @@ focus_tree = {
 			add_ideas = {
 				USA_idea_national_optimism
 			}
-		}
-	}
-
-	focus = {
-		id = USA_1936_Longism_Ready_For_Reelection
-		icon = GFX_focus_usa_recruit_the_free_corps
-		x = 0
-		y = 1
-
-		cost = 3
-
-		ai_will_do = {
-			factor = 10			
-		}
-
-		prerequisite = { 
-			focus = USA_1936_Rock_Em_Sock_Em
-		}
-
-		relative_position_id = USA_1936_Rock_Em_Sock_Em
-
-		available = {
-			
-		}
-
-		bypass = {
-			has_country_flag = USA_1936_election_held
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_POLITICS }
-
-		completion_reward = {
 			country_event = usa.5
 		}
 	}
@@ -1955,7 +1920,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Long_President_Long_Relected
-		icon = GFX_focus_AFG_pashtunistan_referendum 
+		icon = GFX_focus_usa_recruit_the_free_corps
 		x = 10
 		y = 10
 

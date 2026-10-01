@@ -38,22 +38,20 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					has_completed_focus = USA_1936_Party_Meet_With_Kennedy
+					has_completed_focus = USA_1936_Party_A_Peculiar_Reconciliation
 				}
-				hidden_effect = {
-					set_popularities = {
-						totalitarian_socialist = 2
-						communist = 3
-						libertarian_socialist = 3
-						social_democrat = 30
-						social_liberal = 25
-						market_liberal = 10
-						conservative = 10
-						authoritarian_democrat = 10
-						nationalist = 0
-						fascist = 4
-						national_socialist = 3
-					}
+				set_popularities = {
+					totalitarian_socialist = 2
+					communist = 3
+					libertarian_socialist = 3
+					social_democrat = 30
+					social_liberal = 25
+					market_liberal = 10
+					conservative = 10
+					authoritarian_democrat = 10
+					nationalist = 0
+					fascist = 4
+					national_socialist = 3
 				}
 			}
 			else_if = {
@@ -76,7 +74,7 @@ country_event = {
 			}
 			else_if = {
 				limit = { 
-					has_completed_focus = USA_1936_Party_Meet_With_Byrd
+					has_completed_focus = USA_1936_Party_White_Populism
 				}
 				set_popularities = {
 					totalitarian_socialist = 2

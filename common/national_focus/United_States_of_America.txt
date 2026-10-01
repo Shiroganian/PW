@@ -1062,7 +1062,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 10			
@@ -1110,6 +1110,18 @@ focus_tree = {
 						instant_build = yes
 					}
 				}
+				if = {
+					limit = {
+						392 = {
+							infrastructure < 5
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
 			}
 			373 = {
 				if = {
@@ -1129,21 +1141,14 @@ focus_tree = {
 						instant_build = yes
 					}
 				}
-			}
-			388 = {
 				if = {
 					limit = {
-						388 = {
-							free_building_slots = {
-								building = industrial_complex
-								size > 1
-								include_locked = yes
-							}
+						373 = {
+							infrastructure < 5
 						}
 					}
-					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
-						type = industrial_complex
+						type = infrastructure
 						level = 1
 						instant_build = yes
 					}
@@ -1391,7 +1396,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 1
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1857,10 +1862,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			add_popularity = {
-				ideology = social_democrat
-				popularity = 0.15
-			}
 			country_event = usa.4
 		}
 	}

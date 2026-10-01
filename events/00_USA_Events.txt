@@ -199,11 +199,9 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-	}
-	option = { 	
-		name = usa.4.b
-		ai_chance = {
-			factor = 0
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.15
 		}
 	}
 }

@@ -449,7 +449,7 @@ focus_tree = {
 		}
 
 		available = {
-			
+			has_country_flag = USA_Long_Wilsonian_Aligned
 		}
 
 		bypass = {
@@ -690,7 +690,7 @@ focus_tree = {
 		}
 
 		available = {
-			
+			has_country_flag = USA_Long_Southern_Aligned
 		}
 
 		bypass = {
@@ -757,7 +757,7 @@ focus_tree = {
 		}
 
 		available = {
-			
+			has_country_flag = USA_Long_Synthesis_Aligned
 		}
 
 		bypass = {
@@ -1925,7 +1925,7 @@ focus_tree = {
 		}
 
 		available = {
-			always = no
+			has_country_flag = USA_1936_election_held
 		}
 
 		bypass = {

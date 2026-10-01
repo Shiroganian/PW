@@ -40,6 +40,7 @@ country_event = {
 				limit = {
 					has_completed_focus = USA_1936_Party_A_Peculiar_Reconciliation
 				}
+				set_country_flag = USA_1936_election_held
 				set_popularities = {
 					totalitarian_socialist = 2
 					communist = 3
@@ -58,6 +59,7 @@ country_event = {
 				limit = { 
 					has_completed_focus = USA_1936_Party_Thesis_Antithesis_Synthesis
 				}
+				set_country_flag = USA_1936_election_held
 				set_popularities = {
 					totalitarian_socialist = 2
 					communist = 3
@@ -76,6 +78,7 @@ country_event = {
 				limit = { 
 					has_completed_focus = USA_1936_Party_White_Populism
 				}
+				set_country_flag = USA_1936_election_held
 				set_popularities = {
 					totalitarian_socialist = 2
 					communist = 3
@@ -91,6 +94,7 @@ country_event = {
 				}
 			}
 			else = {
+				set_country_flag = USA_1936_election_held
 				set_popularities = {
 					totalitarian_socialist = 2
 					communist = 3
@@ -135,19 +139,48 @@ country_event = {
 	option = { 	
 		name = usa.2.a
 		ai_chance = {
-			factor = 100
+			modifier = {
+				factor = 1000
+				is_historical_focus_on = yes
+			}
+			factor = 10	
 		}
 		add_popularity = {
 			ideology = social_democrat
-			popularity = -0.10
+			popularity = 0.10
 		}
 		add_popularity = {
 			ideology = social_liberal
-			popularity = -0.05
+			popularity = 0.05
 		}
 		add_popularity = {
 			ideology = authoritarian_democrat
-			popularity = -0.02
+			popularity = 0.02
+		}
+		hidden_effect = {
+			set_country_flag = USA_Long_Synthesis_Aligned
+		}
+	}
+
+	option = { 	
+		name = usa.2.b
+		ai_chance = {
+			factor = 10
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.10
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.02
+		}
+		hidden_effect = {
+			set_country_flag = USA_Long_Wilsonian_Aligned
 		}
 	}
 }
@@ -171,7 +204,48 @@ country_event = {
 	option = { 	
 		name = usa.3.a
 		ai_chance = {
-			factor = 100
+			modifier = {
+				factor = 1000
+				is_historical_focus_on = yes
+			}
+			factor = 10	
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.10
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.05
+		}
+		hidden_effect = {
+			set_country_flag = USA_Long_Synthesis_Aligned
+		}
+	}
+
+	option = { 	
+		name = usa.3.b
+		ai_chance = {
+			factor = 10
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.10
+		}
+		hidden_effect = {
+			set_country_flag = USA_Long_Southern_Aligned
 		}
 	}
 }

@@ -55,7 +55,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			country_event = usa.1
+			country_event = usa.2
 			add_popularity = {
 				ideology = social_democrat
 				popularity = -0.10
@@ -427,7 +427,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			country_event = usa.kennedy
+			country_event = usa.2
 		}
 	}
 
@@ -668,7 +668,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			country_event = usa.talmadge
+			country_event = usa.3
 		}
 	}
 
@@ -1422,22 +1422,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.05
-			
-			random_owned_controlled_state = {
-				limit = {
-					is_core_of = ROOT
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
+			swap_ideas = {
+				remove_idea = USA_idea_recovery_economy
+				add_idea = USA_idea_picking_up_economy
 			}
 		}
 	}
@@ -1874,7 +1861,7 @@ focus_tree = {
 				ideology = social_democrat
 				popularity = 0.15
 			}
-			country_event = usa.millionmanrally
+			country_event = usa.4
 		}
 	}
 
@@ -1959,7 +1946,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			country_event = usa.longismreadyforreelection
+			country_event = usa.5
 		}
 	}
 

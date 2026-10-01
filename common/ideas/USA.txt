@@ -131,6 +131,29 @@ ideas = {
 				production_speed_infrastructure_factor = 0.05
 			}
 		}
+		USA_idea_picking_up_economy = {
+			picture = USA_idea_picking_up_economy
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.20
+				global_building_slots_factor = -0.10
+				production_speed_buildings_factor = -0.05 
+				production_speed_industrial_complex_factor = -0.05 
+				production_speed_arms_factory_factor = -0.20
+				production_speed_dockyard_factor = -0.15
+				production_speed_infrastructure_factor = 0.05
+			}
+		}
 		USA_idea_navy_with_a_army = {
 			picture = USA_idea_navy_with_a_army
 			
@@ -209,6 +232,125 @@ ideas = {
 				consumer_goods_factor = -0.15
 				stability_factor = 0.05
 				monthly_population = 0.5
+			}
+		}
+		USA_idea_league_funding = {
+			picture = USA_idea_league_funding
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		USA_idea_wilsonian_deal = {
+			picture = USA_idea_wilsonian_deal
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		USA_idea_semivisible_empire = {
+			picture = USA_idea_semivisible_empire
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		USA_idea_southern_deal = {
+			picture = USA_idea_southern_deal
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		USA_idea_longist_wilsonianism = {
+			picture = USA_idea_longist_wilsonianism
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		USA_idea_longist_southernism = {
+			picture = USA_idea_longist_southernism
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+		USA_idea_national_optimism = {
+			picture = USA_idea_national_optimism
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
 			}
 		}
 	}

@@ -32,6 +32,9 @@ country_event = {
 		}
 		complete_national_focus = USA_Long_President_Long_Relected
 		custom_effect_tooltip = usa_party_popularity_shift_tt
+		remove_ideas = {
+			USA_idea_disjointed_gop
+		}
 		hidden_effect = {
 			if = {
 				limit = {
@@ -109,6 +112,126 @@ country_event = {
 	}
 	option = { 	
 		name = usa.1.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = usa.2
+	title = usa.2.t
+	desc = usa.2.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+	}
+
+	immediate = {
+		
+	}
+
+	option = { 	
+		name = usa.2.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { 	
+		name = usa.2.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = usa.3
+	title = usa.3.t
+	desc = usa.3.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+	}
+
+	immediate = {
+		
+	}
+
+	option = { 	
+		name = usa.3.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { 	
+		name = usa.3.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = usa.4
+	title = usa.4.t
+	desc = usa.4.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+	}
+
+	immediate = {
+		
+	}
+
+	option = { 	
+		name = usa.4.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { 	
+		name = usa.4.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = usa.5
+	title = usa.5.t
+	desc = usa.5.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+	}
+
+	immediate = {
+		
+	}
+
+	option = { 	
+		name = usa.5.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { 	
+		name = usa.5.b
 		ai_chance = {
 			factor = 0
 		}

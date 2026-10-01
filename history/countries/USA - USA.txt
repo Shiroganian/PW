@@ -19,6 +19,19 @@ set_popularities = {
 	national_socialist = 3
 }
 
+set_variable = { USA_machine_defensive_war_stability_factor = 0}
+set_variable = { USA_machine_offensive_war_stability_factor = 0}
+set_variable = { USA_machine_party_popularity_stability_factor = 0.05}
+set_variable = { USA_machine_weekly_manpower = 0}
+set_variable = { USA_machine_stability_factor = -0.15}
+set_variable = { USA_machine_conscription = 0 }
+set_variable = { USA_machine_social_democrat_drift = 0.01 }
+set_variable = { USA_machine_political_power_factor = -0.05}
+set_variable = { USA_machine_resistance_growth = 0 }
+set_variable = { USA_machine_compliance_growth = 0 }
+set_variable = { USA_machine_subjects_autonomy_gain = 0 }
+set_variable = { USA_machine_conscription_factor = 0}
+
 recruit_character = USA_Huey_P_Long_Jr # Huey P. Long Jr.
 
 add_ideas = {

@@ -73,3 +73,24 @@ USA_dymod_jim_crow_4 = {
 	state_production_speed_buildings_factor = -0.25
 	local_manpower = -0.50
 }
+
+USA_machine_modifier = {
+	icon = GFX_idea_unknown
+	enable = { always = yes }
+	remove_trigger = {
+		always = no
+	}
+	defensive_war_stability_factor = USA_machine_defensive_war_stability_factor
+	offensive_war_stability_factor = USA_machine_offensive_war_stability_factor
+	party_popularity_stability_factor = USA_machine_party_popularity_stability_factor
+	weekly_manpower = USA_machine_weekly_manpower
+	stability_factor = USA_machine_stability_factor
+	conscription = USA_machine_conscription
+	social_democrat_drift = USA_machine_social_democrat_drift
+	political_power_factor = USA_machine_political_power_factor
+	resistance_growth = USA_machine_resistance_growth
+	compliance_growth = USA_machine_compliance_growth
+	subjects_autonomy_gain = USA_machine_subjects_autonomy_gain
+	mobilization_laws_cost_factor = USA_machine_mobilization_laws_cost_factor
+	conscription_factor = USA_machine_conscription_factor
+}

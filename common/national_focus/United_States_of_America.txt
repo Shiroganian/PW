@@ -211,7 +211,7 @@ focus_tree = {
 		x = -6
 		y = 1
 
-		cost = 3
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -259,7 +259,7 @@ focus_tree = {
 		x = -2
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			modifier = {
@@ -352,7 +352,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 10			
@@ -498,7 +498,7 @@ focus_tree = {
 		x = 2
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 10			
@@ -590,7 +590,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 10			
@@ -839,7 +839,7 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		cost = 3
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -970,7 +970,7 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 10			
@@ -1091,7 +1091,63 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			392 = {
+				if = {
+					limit = {
+						392 = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			373 = {
+				if = {
+					limit = {
+						373 = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			388 = {
+				if = {
+					limit = {
+						388 = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
 		}
 	}
 
@@ -1235,7 +1291,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 10			
@@ -1334,7 +1390,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 10			
@@ -1364,7 +1420,24 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
+			add_stability = 0.05
 			
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1391,7 +1464,9 @@ focus_tree = {
 		relative_position_id = USA_1936_Economic_Mechanize_Farming
 
 		available = {
-			
+			not = {
+				has_idea = USA_idea_democratic_crisis
+			}
 		}
 
 		bypass = {
@@ -1404,7 +1479,20 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.08
+			}
 			
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.04
+			}
+			
+			add_popularity = {
+				ideology = authoritarian_democrat
+				popularity = 0.02
+			}
 		}
 	}
 
@@ -1414,7 +1502,7 @@ focus_tree = {
 		x = 6
 		y = 1
 
-		cost = 3
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1440,7 +1528,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			add_political_power = -125	
+			add_dynamic_modifier = {
+				modifier = USA_machine_modifier
+			}
 		}
 	}
 
@@ -1450,7 +1541,7 @@ focus_tree = {
 		x = -2
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 10			
@@ -1476,7 +1567,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			custom_effect_tooltip = USA_modify_machine_modifier_tt
+			add_to_variable = { USA_machine_political_power_factor = -0.05 tooltip = political_power_factor_tt }
+			add_to_variable = { USA_machine_party_popularity_stability_factor = 0.05 tooltip = party_popularity_stability_factor_tt }
 		}
 	}
 
@@ -1486,7 +1579,7 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 10			
@@ -1512,7 +1605,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			custom_effect_tooltip = USA_modify_machine_modifier_tt
+			add_to_variable = { USA_machine_political_power_factor = -0.05 tooltip = political_power_factor_tt }
+			add_to_variable = { USA_machine_social_democrat_drift = 0.01 tooltip = social_democrat_drift_tt }
 		}
 	}
 
@@ -1522,7 +1617,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 10			
@@ -1552,7 +1647,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			custom_effect_tooltip = USA_modify_machine_modifier_tt
+			add_to_variable = { USA_machine_political_power_factor = 0.05 tooltip = political_power_factor_tt }
+			add_to_variable = { USA_machine_stability_factor = 0.10 tooltip = stability_factor_tt }
 		}
 	}
 
@@ -1562,7 +1659,7 @@ focus_tree = {
 		x = 2
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 10			
@@ -1588,7 +1685,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			custom_effect_tooltip = USA_modify_machine_modifier_tt
+			add_to_variable = { USA_machine_political_power_factor = -0.05 tooltip = political_power_factor_tt }
+			add_to_variable = { USA_machine_weekly_manpower = 100 tooltip = weekly_manpower_tt }
 		}
 	}
 
@@ -1598,7 +1697,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 10			
@@ -1628,7 +1727,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			custom_effect_tooltip = USA_modify_machine_modifier_tt
+			add_to_variable = { USA_machine_political_power_factor = 0.05 tooltip = political_power_factor_tt }
+			add_to_variable = { USA_machine_social_democrat_drift = 0.02 tooltip = social_democrat_drift_tt }
 		}
 	}
 
@@ -1678,7 +1779,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			custom_effect_tooltip = USA_modify_machine_modifier_tt
+			add_to_variable = { USA_machine_political_power_factor = 0.10 tooltip = political_power_factor_tt }
+			add_to_variable = { USA_machine_social_democrat_drift = 0.02 tooltip = social_democrat_drift_tt }
+			add_to_variable = { USA_machine_conscription_factor = 0.15 tooltip = conscription_factor_tt }
 		}
 	}
 
@@ -1722,7 +1826,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			custom_effect_tooltip = USA_modify_machine_modifier_tt
+			add_to_variable = { USA_machine_political_power_factor = 0.20 tooltip = political_power_factor_tt }
+			add_to_variable = { USA_machine_social_democrat_drift = 0.01 tooltip = social_democrat_drift_tt }
+			add_to_variable = { USA_machine_stability_factor = 0.10 tooltip = stability_factor_tt }
 		}
 	}
 
@@ -1759,7 +1866,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			country_event = usa.millionmanrally
 		}
 	}
 
@@ -1769,7 +1876,7 @@ focus_tree = {
 		x = 9
 		y = 1
 
-		cost = 3
+		cost = 2
 
 		ai_will_do = {
 			factor = 10			
@@ -1815,7 +1922,7 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		cost = 4
+		cost = 3
 
 		ai_will_do = {
 			factor = 10			
@@ -2810,7 +2917,7 @@ focus_tree = {
 		}
 
 		available = {
-
+			always = no
 		}
 
 		bypass = {
@@ -2854,7 +2961,7 @@ focus_tree = {
 		}
 
 		available = {
-
+			always = no
 		}
 
 		bypass = {

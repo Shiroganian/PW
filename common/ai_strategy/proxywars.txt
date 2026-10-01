@@ -1,6 +1,9 @@
 BRM_foreign_support = {
     allowed = {
-		original_tag = INS
+		OR = {
+			original_tag = INS
+			original_tag = CHI
+		}
     }
 
     enable = {

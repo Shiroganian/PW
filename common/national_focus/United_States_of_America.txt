@@ -46,7 +46,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -93,7 +93,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -133,7 +133,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -176,7 +176,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -186,18 +186,21 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 50
-			set_popularities = {
-				totalitarian_socialist = 1
-				communist = 2
-				libertarian_socialist = 5
-				social_democrat = 15
-				social_liberal = 10
-				market_liberal = 30
-				conservative = 20
-				authoritarian_democrat = 10
-				nationalist = 0
-				fascist = 5
-				national_socialist = 2
+			custom_effect_tooltip = usa_party_popularity_shift_tt
+			hidden_effect = {
+				set_popularities = {
+					totalitarian_socialist = 1
+					communist = 2
+					libertarian_socialist = 5
+					social_democrat = 15
+					social_liberal = 10
+					market_liberal = 30
+					conservative = 20
+					authoritarian_democrat = 10
+					nationalist = 0
+					fascist = 5
+					national_socialist = 2
+				}
 			}
 		}
 	}
@@ -225,7 +228,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -259,6 +262,10 @@ focus_tree = {
 		cost = 2
 
 		ai_will_do = {
+			modifier = {
+				factor = 1000
+				is_historical_focus_on = yes
+			}
 			factor = 10			
 		}
 
@@ -277,7 +284,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -316,7 +323,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -362,7 +369,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -410,7 +417,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -451,7 +458,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -463,18 +470,24 @@ focus_tree = {
 			add_ideas = {
 				USA_idea_wilsonian_deal
 			}
-			set_popularities = {
-				totalitarian_socialist = 2
-				communist = 3
-				libertarian_socialist = 3
-				social_democrat = 30
-				social_liberal = 25
-				market_liberal = 15
-				conservative = 10
-				authoritarian_democrat = 5
-				nationalist = 0
-				fascist = 4
-				national_socialist = 3
+			custom_effect_tooltip = usa_party_popularity_shift_tt
+			hidden_effect = {
+				set_popularities = {
+					totalitarian_socialist = 2
+					communist = 3
+					libertarian_socialist = 3
+					social_democrat = 30
+					social_liberal = 25
+					market_liberal = 15
+					conservative = 10
+					authoritarian_democrat = 5
+					nationalist = 0
+					fascist = 4
+					national_socialist = 3
+				}	
+			}
+			remove_ideas = {
+				USA_idea_democratic_crisis
 			}
 		}
 	}
@@ -502,11 +515,13 @@ focus_tree = {
 		}
 
 		available = {
-			
+			not = {
+				has_completed_focus = USA_1936_People_Enroll_Blacks
+			}
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -546,7 +561,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -593,7 +608,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -643,7 +658,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -684,7 +699,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -696,18 +711,24 @@ focus_tree = {
 			add_ideas = {
 				USA_idea_southern_deal
 			}
-			set_popularities = {
-				totalitarian_socialist = 2
-				communist = 3
-				libertarian_socialist = 3
-				social_democrat = 30
-				social_liberal = 5
-				market_liberal = 15
-				conservative = 10
-				authoritarian_democrat = 25
-				nationalist = 0
-				fascist = 4
-				national_socialist = 3
+			custom_effect_tooltip = usa_party_popularity_shift_tt
+			hidden_effect = {
+				set_popularities = {
+					totalitarian_socialist = 2
+					communist = 3
+					libertarian_socialist = 3
+					social_democrat = 30
+					social_liberal = 5
+					market_liberal = 15
+					conservative = 10
+					authoritarian_democrat = 25
+					nationalist = 0
+					fascist = 4
+					national_socialist = 3
+				}
+			}
+			remove_ideas = {
+				USA_idea_democratic_crisis
 			}
 		}
 	}
@@ -721,6 +742,10 @@ focus_tree = {
 		cost = 2
 
 		ai_will_do = {
+			modifier = {
+				factor = 1000
+				is_historical_focus_on = yes
+			}
 			factor = 10			
 		}
 
@@ -741,7 +766,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -753,22 +778,28 @@ focus_tree = {
 			if = {
 				limit = {
 					has_completed_focus = USA_1936_Party_Meet_With_Kennedy
-				}
+				}	
 				add_ideas = {
 					USA_idea_longist_wilsonianism
 				}
-				set_popularities = {
-					totalitarian_socialist = 2
-					communist = 3
-					libertarian_socialist = 3
-					social_democrat = 30
-					social_liberal = 20
-					market_liberal = 15
-					conservative = 10
-					authoritarian_democrat = 10
-					nationalist = 0
-					fascist = 4
-					national_socialist = 3
+				custom_effect_tooltip = usa_party_popularity_shift_tt
+				hidden_effect = {
+					set_popularities = {
+						totalitarian_socialist = 2
+						communist = 3
+						libertarian_socialist = 3
+						social_democrat = 30
+						social_liberal = 20
+						market_liberal = 15
+						conservative = 10
+						authoritarian_democrat = 10
+						nationalist = 0
+						fascist = 4
+						national_socialist = 3
+					}
+				}
+				remove_ideas = {
+					USA_idea_democratic_crisis
 				}
 			}
 			else_if = {
@@ -778,6 +809,7 @@ focus_tree = {
 				add_ideas = {
 					USA_idea_longist_southernism
 				}
+				custom_effect_tooltip = usa_party_popularity_shift_tt
 				set_popularities = {
 					totalitarian_socialist = 2
 					communist = 3
@@ -790,6 +822,9 @@ focus_tree = {
 					nationalist = 0
 					fascist = 4
 					national_socialist = 3
+				}
+				remove_ideas = {
+					USA_idea_democratic_crisis
 				}
 			}
 			else = {
@@ -821,7 +856,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -830,7 +865,38 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -857,7 +923,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -866,7 +932,35 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			375 = {
+				if = {
+					limit = {
+						375 = {
+							infrastructure < 5
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			add_resource = {
+				type = oil
+				amount = 18
+				state = 375
+			}
+			add_resource = {
+				type = oil
+				amount = 12
+				state = 371
+			}
+			add_resource = {
+				type = oil
+				amount = 6
+				state = 374
+			}
 		}
 	}
 
@@ -893,7 +987,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -902,7 +996,62 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			376 = {
+				if = {
+					limit = {
+						376 = {
+							infrastructure < 5
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			382 = {
+				if = {
+					limit = {
+						382 = {
+							infrastructure < 5
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			383 = {
+				if = {
+					limit = {
+						383 = {
+							infrastructure < 5
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			374 = {
+				if = {
+					limit = {
+						374 = {
+							infrastructure < 5
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
 		}
 	}
 
@@ -933,7 +1082,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -952,7 +1101,7 @@ focus_tree = {
 		x = 2
 		y = 1
 
-		cost = 2
+		cost = 1
 
 		ai_will_do = {
 			factor = 10			
@@ -969,7 +1118,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -978,7 +1127,38 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1005,7 +1185,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -1014,7 +1194,38 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1041,7 +1252,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -1050,7 +1261,70 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICS }
 
 		completion_reward = {
-			
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1081,7 +1355,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -1121,7 +1395,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -1157,7 +1431,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -1193,7 +1467,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -1229,7 +1503,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -1269,7 +1543,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -1305,7 +1579,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -1345,7 +1619,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -1367,6 +1641,10 @@ focus_tree = {
 		cost = 2
 
 		ai_will_do = {
+			modifier = {
+				factor = 1000
+				is_historical_focus_on = yes
+			}
 			factor = 10			
 		}
 
@@ -1385,11 +1663,13 @@ focus_tree = {
 		}
 
 		available = {
-			
+			not = {
+				has_completed_focus = USA_1936_Party_Approach_The_Right
+			}
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -1433,7 +1713,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -1470,7 +1750,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -1516,7 +1796,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes
@@ -1552,7 +1832,7 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			has_country_flag = USA_1936_election_held
 		}
 
 		cancel_if_invalid = yes

@@ -12,9 +12,6 @@ state={
 victory_points = {
 			3379 5 
 		}
-		victory_points = {
-			385 1 # Londonderry
-		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -28,7 +25,7 @@ victory_points = {
 	}
 
 	provinces={
-		276 385 3217 3242 3329 3379 11257 
+		276 3217 3242 3329 3379 
 	}
 	manpower=1198537
 	buildings_max_level_factor=1

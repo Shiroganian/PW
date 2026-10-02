@@ -20,6 +20,9 @@ state=
 		victory_points = {
 			11371 1 #Sligo
 		}
+		victory_points = {
+			385 1 # Londonderry
+		}
 		buildings = {
 			arms_factory = 2
 			industrial_complex = 2
@@ -29,7 +32,7 @@ state=
 
 	provinces=
 	{
-337 3396 9255 9303 9321 9369 11238 11287 11371 	}
+337 3396 9255 9303 9321 9369 11238 11287 11371 385 11257 }
 
 	local_supplies=13.0 
 }

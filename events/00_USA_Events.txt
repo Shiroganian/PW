@@ -4,7 +4,7 @@
 
 add_namespace = usa
 
-country_event = {
+country_event = { # 1936 Election
 	id = usa.1
 	title = usa.1.t
 	desc = usa.1.d
@@ -36,11 +36,15 @@ country_event = {
 			USA_idea_disjointed_gop
 		}
 		hidden_effect = {
+			news_event = { 
+				id = usa_news.2
+				days = 1 
+			}
+			set_country_flag = USA_1936_election_held
 			if = {
 				limit = {
 					has_completed_focus = USA_1936_Party_A_Peculiar_Reconciliation
 				}
-				set_country_flag = USA_1936_election_held
 				set_popularities = {
 					totalitarian_socialist = 2
 					communist = 3
@@ -59,7 +63,6 @@ country_event = {
 				limit = { 
 					has_completed_focus = USA_1936_Party_Thesis_Antithesis_Synthesis
 				}
-				set_country_flag = USA_1936_election_held
 				set_popularities = {
 					totalitarian_socialist = 2
 					communist = 3
@@ -78,7 +81,6 @@ country_event = {
 				limit = { 
 					has_completed_focus = USA_1936_Party_White_Populism
 				}
-				set_country_flag = USA_1936_election_held
 				set_popularities = {
 					totalitarian_socialist = 2
 					communist = 3
@@ -94,7 +96,6 @@ country_event = {
 				}
 			}
 			else = {
-				set_country_flag = USA_1936_election_held
 				set_popularities = {
 					totalitarian_socialist = 2
 					communist = 3

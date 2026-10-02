@@ -1,6 +1,6 @@
 spriteTypes = {
     spriteType = {
-        name = GFX_Portrait_POL_Roman_Dmowski
-        texturefile = gfx/leaders/POL/Portrait_POL_Roman_Dmowski.dds
+        name = GFX_Portrait_POL_Jozef_Pilsudski
+        texturefile = gfx/leaders/POL/Portrait_POL_Jozef_Pilsudski.dds
     }
 }

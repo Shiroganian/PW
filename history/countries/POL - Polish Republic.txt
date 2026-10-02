@@ -11,7 +11,7 @@ set_popularities = {
 give_guarantee = HUN
 give_guarantee = UKR
 
-recruit_character = POL_Roman_Dmowski # Roman Dmowski
+recruit_character = POL_Jozef_Pilsudski # Roman Dmowski
 
 oob = "POL_land_oob"
 starting_train_buffer = 5

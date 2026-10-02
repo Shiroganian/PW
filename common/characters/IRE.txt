@@ -1,12 +1,12 @@
 characters = {
 
-	IRE_George_V = {
-		name = "George V"
+	IRE_Micheal_Collins = {
+		name = "Mícheál Ó Coileáin"
 		portraits = {
-			civilian = { large = GFX_Portrait_IRE_George_V }
+			civilian = { large = GFX_Portrait_IRE_Micheal_Collins }
 		}
 		country_leader = {
-			ideology = national_conservatism
+			ideology = humanistic_capitalism
 			traits = { }
 		}
 	}

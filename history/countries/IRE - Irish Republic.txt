@@ -1,22 +1,24 @@
 capital = 113
 
-ENG = {
-	set_autonomy = {
-		target = IRE
-		autonomous_state = autonomy_dominion
-	}
-} 
-
-
 set_politics = {
-	ruling_party = conservative
+	ruling_party = social_liberal
 	elections_allowed = yes
 }
 set_popularities = {
-	conservative = 100
+	totalitarian_socialist = 1
+	communist = 2
+	libertarian_socialist = 4
+	social_democrat = 15
+	social_liberal = 30
+	market_liberal = 10
+	conservative = 20
+	authoritarian_democrat = 10
+	nationalist = 5
+	fascist = 2
+	national_socialist = 1
 }
 
-recruit_character = IRE_George_V # George V
+recruit_character = IRE_Micheal_Collins # Micheal Collins
 
 oob = "IRE_land_oob"
 starting_train_buffer = 2

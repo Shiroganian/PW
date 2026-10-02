@@ -849,7 +849,9 @@ focus_tree = {
 		relative_position_id = USA_1936_Address_The_People
 
 		available = {
-			
+			not = {
+				has_idea = USA_idea_democratic_crisis
+			}
 		}
 
 		bypass = {
@@ -1453,9 +1455,6 @@ focus_tree = {
 		relative_position_id = USA_1936_Economic_Mechanize_Farming
 
 		available = {
-			not = {
-				has_idea = USA_idea_democratic_crisis
-			}
 		}
 
 		bypass = {
@@ -1509,7 +1508,9 @@ focus_tree = {
 		relative_position_id = USA_1936_Address_The_People
 
 		available = {
-			
+			not = {
+				has_idea = USA_idea_democratic_crisis
+			}
 		}
 
 		bypass = {
@@ -1847,7 +1848,6 @@ focus_tree = {
 		relative_position_id = USA_1936_People_Enroll_Blacks
 
 		available = {
-			
 		}
 
 		bypass = {

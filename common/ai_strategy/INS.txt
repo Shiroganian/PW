@@ -145,32 +145,26 @@ INS_kill_india = {
 	}
 
 	ai_strategy = {
-		type = naval_avoid_region
+		type = naval_invasion_support_priority
 		id = 101
-		value = -500
+		value = 200
 	}
 
 	ai_strategy = {
-		type = naval_avoid_region
-		id = 72
-		value = -500
-	}
-
-	ai_strategy = {
-		type = naval_avoid_region
+		type = naval_invasion_support_priority
 		id = 73
-		value = -500
+		value = 200
 	}
 
 	ai_strategy = {
-		type = naval_avoid_region
+		type = naval_invasion_support_priority
 		id = 75
-		value = -500
+		value = 200
 	}
 
 	ai_strategy = {
-		type = naval_avoid_region
-		id = 71
-		value = -500
+		type = naval_invasion_support_priority
+		id = 72
+		value = 200
 	}
 }

@@ -1,12 +1,5 @@
 capital = 938
 
-BRA = {
-	set_autonomy = {
-		target = AMA
-		autonomous_state = autonomy_colony
-	}
-} 
-
 set_politics = {
 	ruling_party = authoritarian_democrat
 	elections_allowed = no
@@ -19,10 +12,25 @@ give_military_access = USA
 
 recruit_character = AMA_Pedro_Aurelio_de_Gois_Monteiro # Pedro Aurelio de Gois Monteiro
 
+add_ideas = {
+	AMAZON_idea_total_war
+}
+
 oob = "AMA_land_oob"
 starting_train_buffer = 3
 set_convoys = 20
 
+declare_war_on = {
+	target = ALM
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = BSF
+	type = annex_everything
+}
+
+give_military_access = BRA
 
 set_research_slots = 2
 set_stability = 0.55

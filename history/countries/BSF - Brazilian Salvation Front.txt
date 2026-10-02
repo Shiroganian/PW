@@ -10,10 +10,23 @@ set_popularities = {
 
 recruit_character = BSF_Plinio_Salgado # Plinio Salgado
 
+add_ideas = {
+	AMAZON_idea_total_war
+}
+
 oob = "BSF_land_oob"
 starting_train_buffer = 3
 set_convoys = 0
 
+declare_war_on = {
+	target = AMA
+	type = annex_everything
+}
+
+declare_war_on = {
+	target = ALM
+	type = annex_everything
+}
 
 set_research_slots = 2
 set_stability = 0.48

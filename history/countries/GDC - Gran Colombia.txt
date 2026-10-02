@@ -14,6 +14,8 @@ oob = "GDC_land_oob"
 starting_train_buffer = 4
 set_convoys = 55
 
+give_military_access = MEX
+
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 	set_air_oob = "GDC_air_oob"

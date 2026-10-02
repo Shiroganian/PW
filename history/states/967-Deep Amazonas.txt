@@ -7,7 +7,8 @@ state={
 
 	
 		owner = ALM
-
+		add_core_of = BSF
+		add_core_of = AMA
 		add_core_of = ALM
 }
 

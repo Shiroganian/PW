@@ -9,8 +9,9 @@ state={
 	history={
 		
 		owner = AMA
-
+		add_core_of = BSF
 		add_core_of = AMA
+		add_core_of = ALM
 buildings = {
 	industrial_complex = 2
 	arms_factory = 1

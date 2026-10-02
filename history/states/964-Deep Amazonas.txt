@@ -7,6 +7,8 @@ state={
 	history={
 			owner = BSF
 		add_core_of = BSF
+		add_core_of = AMA
+		add_core_of = ALM
 }
 	manpower=13541
 	impassable = yes

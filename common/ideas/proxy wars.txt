@@ -165,5 +165,35 @@ ideas = {
 				mobilization_speed = 0.15
 			}
 		}
+		AMAZON_idea_total_war = {
+			picture = AMAZON_idea_total_war
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.150
+				conscription_factor = 0.50
+				consumer_goods_factor = -0.75
+				ai_desired_divisions_factor = 15
+				ai_focus_aggressive_factor = 10
+				ai_focus_war_production_factor = 5
+				weekly_manpower = 5000
+				production_lack_of_resource_penalty_factor = -0.75    
+				surrender_limit = 1.00
+				political_power_factor = 0.25
+				equipment_capture_factor = 0.75
+				supply_consumption_factor = -0.50
+				out_of_supply_factor = -0.75
+				mobilization_speed = 0.50
+			}
+		}
 	}
 }

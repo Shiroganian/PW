@@ -39,7 +39,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				trade_opinion_factor = 0.5
+				trade_opinion_factor = 0.35
 				min_export = 0.05
 				monthly_population = 0.15
 				stability_factor = -0.05
@@ -267,7 +267,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				consumer_goods_factor = 0.05
+				political_power_factor = 0.10
+				trade_opinion_factor = 0.15
 			}
 		}
 		USA_idea_wilsonian_deal = {
@@ -284,7 +286,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				political_power_factor = -0.05
+				social_democrat_drift = 0.01
+				social_liberal_drift = 0.02
 			}
 		}
 		USA_idea_semivisible_empire = {
@@ -301,7 +305,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				consumer_goods_factor = -0.10
+				political_power_factor = -0.05
+				trade_opinion_factor = -0.15
 			}
 		}
 		USA_idea_southern_deal = {
@@ -318,7 +324,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				political_power_factor = -0.05
+				social_democrat_drift = 0.01
+				authoritarian_democrat_drift = 0.02
 			}
 		}
 		USA_idea_longist_wilsonianism = {
@@ -335,7 +343,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				political_power_factor = -0.10
+				social_democrat_drift = 0.03
+				social_liberal_drift = 0.02
+				authoritarian_democrat_drift = 0.01
 			}
 		}
 		USA_idea_longist_southernism = {
@@ -352,7 +363,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-
+				political_power_factor = -0.10
+				social_democrat_drift = 0.03
+				social_liberal_drift = 0.01
+				authoritarian_democrat_drift = 0.02
 			}
 		}
 		USA_idea_national_optimism = {

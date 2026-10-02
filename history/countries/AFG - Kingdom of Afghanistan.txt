@@ -13,7 +13,7 @@ recruit_character = AFG_Amanullah_Khan # Amanullah Khan
 
 oob = "AFG_land_oob"
 starting_train_buffer = 3
-set_convoys = 0
+set_convoys = 50
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }

@@ -1,17 +1,17 @@
 capital = 10
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = nationalist
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarian_democrat = 100
+	nationalist = 100
 }
 
 give_guarantee = HUN
 give_guarantee = UKR
 
-recruit_character = POL_Jozef_Pilsudski # Roman Dmowski
+recruit_character = POL_Jozef_Pilsudski # Jozef Pilsudski
 
 oob = "POL_land_oob"
 starting_train_buffer = 5

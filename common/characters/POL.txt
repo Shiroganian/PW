@@ -1,12 +1,12 @@
 characters = {
 
 	POL_Jozef_Pilsudski = {
-		name = "Roman Dmowski"
+		name = "Józef Piłsudski"
 		portraits = {
 			civilian = { large = GFX_Portrait_POL_Jozef_Pilsudski }
 		}
 		country_leader = {
-			ideology = clerical_nationalism
+			ideology = military_junta
 			traits = { }
 		}
 	}

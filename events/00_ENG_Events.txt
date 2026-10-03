@@ -25,10 +25,7 @@ country_event = { # George V Dies
 				limit = {
 					tag = ENG
 				}
-				news_event = { 
-					id = eng_news.1 
-					days = 0 
-				}
+				add_stability = -0.05
 			}
 			else_if = {
 				limit = {
@@ -112,6 +109,17 @@ country_event = { # George V Dies
 		name = eng.1.a
 		ai_chance = {
 			factor = 100
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					tag = ENG
+				}
+				news_event = { 
+					id = eng_news.1 
+					days = 0 
+				}
+			}
 		}
 	}
 }

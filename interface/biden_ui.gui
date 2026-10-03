@@ -36,7 +36,7 @@ guiTypes = {
 			position = { x = 155 y = 230 }
 			pdx_tooltip = "HOS_OR_HOG"
 		}
-
+		
 		instantTextboxType = {
 			name = "pm_name"
 			position = { x = 8 y = 226 }
@@ -47,7 +47,7 @@ guiTypes = {
 			maxHeight = 20
 			format = center
 			vertical_alignment = center
-		}
+		}	
 	}
 }
 

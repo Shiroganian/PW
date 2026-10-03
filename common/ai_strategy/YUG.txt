@@ -114,3 +114,21 @@ YUG_unit_production = {
 		value = 1
 	}
 }
+
+YUG_mortal_enemies = {
+	allowed = {
+		original_tag = YUG
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = ITA
+		value = 100
+	}
+}

@@ -109,3 +109,21 @@ POR_unit_production = {
 		value = 1
 	}
 }
+
+POR_mortal_enemies = {
+	allowed = {
+		original_tag = POR
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = SPR
+		value = 100
+	}
+}

@@ -114,3 +114,21 @@ FIN_unit_production = {
 		value = 1
 	}
 }
+
+FIN_mortal_enemies = {
+	allowed = {
+		original_tag = FIN
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = SOV
+		value = 100
+	}
+}

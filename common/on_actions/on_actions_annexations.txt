@@ -233,6 +233,10 @@ on_actions = {
 			330 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
 			set_variable = { MON.release_event = 59 }
 
+			#KOR
+			525 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
+			set_variable = { KOR.release_event = 126 }
+
 			#MAN
 			328 = { add_to_array = { global.annexation_relevant_states = THIS } } # Capital
 			set_variable = { MAN.release_event = 60 }

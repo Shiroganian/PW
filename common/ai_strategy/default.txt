@@ -12,6 +12,7 @@ default_unit_production = {
 				tag = SOV
 				original_tag = ITA
 				original_tag = JAP
+				original_tag = KOR
 				original_tag = HUN
 				original_tag = SIA
 				original_tag = USA

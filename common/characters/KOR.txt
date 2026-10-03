@@ -1,0 +1,13 @@
+characters = {
+
+	KOR_Hirohito = {
+		name = "Hirohito"
+		portraits = {
+			civilian = { large = GFX_Portrait_JAP_Hirohito }
+		}
+		country_leader = {
+			ideology = anocracy
+			traits = { }
+		}
+	}
+}

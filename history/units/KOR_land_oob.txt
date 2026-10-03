@@ -1,0 +1,92 @@
+division_template = {
+	name = "Imperial Korean Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Korean Territorial Brigade"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Korean Mountain Brigade"
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Imperial Korean Division"
+		location = 7125
+		division_template = "Imperial Korean Infantry Division"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.70
+	}
+	division = {
+		name = "2nd Imperial Korean Division"
+		location = 4052
+		division_template = "Imperial Korean Infantry Division"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.70
+	}
+	division = {
+		name = "3rd Imperial Korean Division"
+		location = 4056
+		division_template = "Imperial Korean Infantry Division"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.70
+	}
+	division = {
+		name = "1st Korean Territorial Brigade"
+		location = 11835
+		division_template = "Korean Territorial Brigade"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.70
+	}
+	division = {
+		name = "2nd Korean Territorial Brigade"
+		location = 6928
+		division_template = "Korean Territorial Brigade"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.70
+	}
+	division = {
+		name = "1st Korean Mountain Brigade"
+		location = 1148
+		division_template = "Korean Mountain Brigade"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.70
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = KOR
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 50
+	}
+}

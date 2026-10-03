@@ -197,7 +197,7 @@ units = {
 	}
 	division = {
 		name = "14th Hohei Shidan"
-		location = 4056
+		location = 1182
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.35
 		start_equipment_factor = 0.84
@@ -323,7 +323,7 @@ units = {
 	}
 	division = {
 		name = "1st Chuton-chi Shidan"
-		location = 4056
+		location = 1182
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.27
 		start_equipment_factor = 0.74

@@ -256,6 +256,10 @@ check_possible_annexations = {
 		ROOT = { activate_mission = annexation_MAN_CONQ }
 	}
 	else_if = {
+		limit = { can_release_KOR = yes }
+		ROOT = { activate_mission = annexation_KOR_CONQ }
+	}
+	else_if = {
 		limit = { can_release_TIB = yes }
 		ROOT = { activate_mission = annexation_TIB_CONQ }
 	}

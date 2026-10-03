@@ -296,3 +296,12 @@ can_release_BHU = {
 		NOT = { country_exists = BHU }
 	}
 }
+
+can_release_KOR = {
+	state = 525 # Capital
+	is_claim_or_core_of_ROOT = no
+	ROOT = {
+		NOT = { has_country_flag = KOR_CONQ }
+		NOT = { country_exists = KOR }
+	}
+}

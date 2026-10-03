@@ -822,3 +822,7 @@ D50 = {
 	color = rgb { 210 106 47 }
 	color_ui = rgb { 255 138 61 }
 }
+KOR = {
+	color = rgb { 162 143 108 }
+	color_ui = rgb { 185 166 132 }
+}

@@ -2873,3 +2873,27 @@ country_event = { # Fate of the Swiss Confederation
 		occupy_medium_country = yes
 	}
 }
+
+
+country_event = { # Fate of the Empire of Korea
+	id = annex.126
+	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.126" }
+	title = annexation_KOR_CONQ
+	desc = annexation_KOR_CONQ_desc
+	is_triggered_only = yes
+
+	option = {
+		name = annexation_release_as_puppet
+		ai_chance = { factor = 100 }
+		set_temp_variable = { tag_to_release = KOR }
+		release_targeted_tag = yes
+	}
+
+	option = {
+		name = annexation_continue_occupation
+		ai_chance = { factor = 0 }
+		trigger = { NOT = { tag = KOR } }
+		set_country_flag = KOR_CONQ
+		occupy_medium_country = yes
+	}
+}

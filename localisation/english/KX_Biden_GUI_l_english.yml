@@ -2,7 +2,7 @@
 
  GUI_leader: "Leader"
 
- HOS_OR_HOG:0 "Click to switch between §GLeader§! and §CVice Leader§! view"
+ HOS_OR_HOG:0 "[GetHOGTitle]"
  GUILEADERNAME:0 "[GUIHOSNAME]"
  GUIHOSNAME:0 "§Y[ROOT.GetLeader]§!\n--------------\n [THIS.GetLeaderDescription]"
  GUILEADERNAMETRAIT:0 "§Y[ROOT.GetLeader]§!\n\n[THIS.GetLeaderTrait]\n --------------\n [THIS.GetLeaderDescription]"
@@ -25,3 +25,10 @@
  ITA_ITALO_BALBO_GUI_NAME:0 "Italo Balbo"
 
  HOG_OR_LEADER1:0 "Head of Government"
+ PM_OR_LEADER1:0 "Prime Minister of [FROM.GetNameWithFlag]"
+ CH_OR_LEADER1:0 "Chancellor of [FROM.GetNameWithFlag]"
+ DC_OR_LEADER1:0 "Prime Minister of [FROM.GetNameWithFlag]"
+ PM_OR_LEADER:0 "Click to switch between §GKing§! and §CPrime Minister§! view"
+ CH_OR_LEADER:0 "Click to switch between §GPresident§! and §CChancellor§! view"
+ DC_OR_LEADER:0 "Click to switch between §GDuce§! and §CPrime Minister§! view"
+

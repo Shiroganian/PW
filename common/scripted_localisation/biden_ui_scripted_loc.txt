@@ -52,6 +52,29 @@ defined_text = {
 	}
 }
 
+
+defined_text = {
+	name = GetHeadDescription
+	text = {
+		trigger = {
+			has_country_flag = GER_Gustav_Noske_HoG
+		}
+		localization_key = POLITICS_GUSTAV_NOSKE_DESC
+	}
+	text = {
+		trigger = {
+			has_country_flag = ENG_Austen_Chamberlain_HoG
+		}
+		localization_key = POLITICS_AUSTEN_CHAMBERLAIN_DESC
+	}
+	text = {
+		trigger = {
+			has_country_flag = ITA_Italo_Balbo_HoG
+		}
+		localization_key = POLITICS_ITALO_BALBO_DESC
+	}
+}
+
 defined_text = {
 	name = GetPrimeMinister
 	text = {
@@ -80,11 +103,53 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				tag = GER
 				tag = ENG
+			}
+		}
+		localization_key = PM_OR_LEADER1
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = GER
+			}
+		}
+		localization_key = CH_OR_LEADER1
+	}
+	text = {
+		trigger = {
+			OR = {
 				tag = ITA
 			}
 		}
-		localization_key = HOG_OR_LEADER1
+		localization_key = DC_OR_LEADER1
+	}
+}
+
+defined_text = {
+	name = GetHOGTitle
+	text = {
+		trigger = {
+			OR = {
+				tag = ENG
+			}
+		}
+		localization_key = PM_OR_LEADER
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = GER
+			}
+		}
+		localization_key = CH_OR_LEADER
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = ITA
+			}
+		}
+		localization_key = DC_OR_LEADER
 	}
 }

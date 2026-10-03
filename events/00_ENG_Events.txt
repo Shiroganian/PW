@@ -1,0 +1,117 @@
+﻿###########################
+# ENG Events
+###########################
+
+add_namespace = eng
+
+country_event = { # George V Dies
+	id = eng.1
+	title = eng.1.t
+	desc = eng.1.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		always = yes
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_global_flag = ENG_king_george_V
+			set_global_flag = ENG_king_edward_VIII
+			ENG_create_monarchy = yes
+			if = {
+				limit = {
+					tag = ENG
+				}
+				news_event = { 
+					id = eng_news.1 
+					days = 0 
+				}
+			}
+			else_if = {
+				limit = {
+					tag = CAN
+				}
+				create_country_leader = {
+					name = "Edward VIII"
+					desc = "POLITICS_EDWARD_VIII_DESC"
+					picture = "GFX_Portrait_ENG_Edward_VIII"
+					expire = "1.1.1"
+					ideology = progressive_liberalism
+				}
+			}
+			else_if = {
+				limit = { 
+					tag = NZL 
+				}
+				create_country_leader = {
+					name = "Edward VIII"
+					desc = "POLITICS_EDWARD_VIII_DESC"
+					picture = "GFX_Portrait_ENG_Edward_VIII"
+					expire = "1.1.1"
+					ideology = progressivism
+				}
+			}
+			else_if = {
+				limit = { 
+					tag = SAF 
+				}
+				create_country_leader = {
+					name = "Edward VIII"
+					desc = "POLITICS_EDWARD_VIII_DESC"
+					picture = "GFX_Portrait_ENG_Edward_VIII"
+					expire = "1.1.1"
+					ideology = national_liberalism
+				}
+			}
+			else_if = {
+				limit = { 
+					tag = DBM
+				}
+				create_country_leader = {
+					name = "Edward VIII"
+					desc = "POLITICS_EDWARD_VIII_DESC"
+					picture = "GFX_Portrait_ENG_Edward_VIII"
+					expire = "1.1.1"
+					ideology = oriental_synthesis
+				}
+			}
+			else_if = {
+				limit = { 
+					tag = RHO
+				}
+				create_country_leader = {
+					name = "Edward VIII"
+					desc = "POLITICS_EDWARD_VIII_DESC"
+					picture = "GFX_Portrait_ENG_Edward_VIII"
+					expire = "1.1.1"
+					ideology = classical_conservatism
+				}
+			}
+			else_if = {
+				limit = { 
+					tag = AST
+				}
+				create_country_leader = {
+					name = "Edward VIII"
+					desc = "POLITICS_EDWARD_VIII_DESC"
+					picture = "GFX_Portrait_ENG_Edward_VIII"
+					expire = "1.1.1"
+					ideology = progressivism
+				}
+			}
+			else = {
+
+			}
+		}
+	}
+
+	option = { 	
+		name = eng.1.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

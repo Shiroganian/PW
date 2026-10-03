@@ -1,0 +1,208 @@
+ENG_create_monarchy = {
+	if = {
+		limit = { has_global_flag = ENG_king_george_V }
+
+		create_country_leader = {
+			name = "George V"
+			desc = "POLITICS_GEORGE_V_DESC"
+			picture = "GFX_Portrait_ENG_George_V"
+			expire = "1.1.1"
+			ideology = social_corporatism
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "POLITICS_GEORGE_V_DESC"
+			picture = "GFX_Portrait_ENG_George_V"
+			expire = "1.1.1"
+			ideology = left_centrism
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "POLITICS_GEORGE_V_DESC"
+			picture = "GFX_Portrait_ENG_George_V"
+			expire = "1.1.1"
+			ideology = centrism
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "POLITICS_GEORGE_V_DESC"
+			picture = "GFX_Portrait_ENG_George_V"
+			expire = "1.1.1"
+			ideology = classical_liberalism
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "POLITICS_GEORGE_V_DESC"
+			picture = "GFX_Portrait_ENG_George_V"
+			expire = "1.1.1"
+			ideology = paternalistic_conservatism
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "POLITICS_GEORGE_V_DESC"
+			picture = "GFX_Portrait_ENG_George_V"
+			expire = "1.1.1"
+			ideology = anocracy
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "POLITICS_GEORGE_V_DESC"
+			picture = "GFX_Portrait_ENG_George_V"
+			expire = "1.1.1"
+			ideology = absolute_monarchy
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "POLITICS_GEORGE_V_DESC"
+			picture = "GFX_Portrait_ENG_George_V"
+			expire = "1.1.1"
+			ideology = classical_fascism
+		}
+		create_country_leader = {
+			name = "George V"
+			desc = "POLITICS_GEORGE_V_DESC"
+			picture = "GFX_Portrait_ENG_George_V"
+			expire = "1.1.1"
+			ideology = national_bolshevism
+		}
+	}
+
+	else_if = {
+		limit = { has_global_flag = ENG_king_edward_VIII }
+
+		create_country_leader = {
+			name = "Edward VIII"
+			desc = "POLITICS_EDWARD_VIII_DESC"
+			picture = "GFX_Portrait_ENG_Edward_VIII"
+			expire = "1.1.1"
+			ideology = social_corporatism
+		}
+		create_country_leader = {
+			name = "Edward VIII"
+			desc = "POLITICS_EDWARD_VIII_DESC"
+			picture = "GFX_Portrait_ENG_Edward_VIII"
+			expire = "1.1.1"
+			ideology = left_centrism
+		}
+		create_country_leader = {
+			name = "Edward VIII"
+			desc = "POLITICS_EDWARD_VIII_DESC"
+			picture = "GFX_Portrait_ENG_Edward_VIII"
+			expire = "1.1.1"
+			ideology = centrism
+		}
+		create_country_leader = {
+			name = "Edward VIII"
+			desc = "POLITICS_EDWARD_VIII_DESC"
+			picture = "GFX_Portrait_ENG_Edward_VIII"
+			expire = "1.1.1"
+			ideology = classical_liberalism
+		}
+		create_country_leader = {
+			name = "Edward VIII"
+			desc = "POLITICS_EDWARD_VIII_DESC"
+			picture = "GFX_Portrait_ENG_Edward_VIII"
+			expire = "1.1.1"
+			ideology = paternalistic_conservatism
+		}
+		create_country_leader = {
+			name = "Edward VIII"
+			desc = "POLITICS_EDWARD_VIII_DESC"
+			picture = "GFX_Portrait_ENG_Edward_VIII"
+			expire = "1.1.1"
+			ideology = anocracy
+		}
+		create_country_leader = {
+			name = "Edward VIII"
+			desc = "POLITICS_EDWARD_VIII_DESC"
+			picture = "GFX_Portrait_ENG_Edward_VIII"
+			expire = "1.1.1"
+			ideology = absolute_monarchy
+		}
+		create_country_leader = {
+			name = "Edward VIII"
+			desc = "POLITICS_EDWARD_VIII_DESC"
+			picture = "GFX_Portrait_ENG_Edward_VIII"
+			expire = "1.1.1"
+			ideology = classical_fascism
+		}
+		create_country_leader = {
+			name = "Edward VIII"
+			desc = "POLITICS_EDWARD_VIII_DESC"
+			picture = "GFX_Portrait_ENG_Edward_VIII"
+			expire = "1.1.1"
+			ideology = national_bolshevism
+		}
+	}
+
+	else_if = {
+		limit = { has_global_flag = ENG_king_george_VI }
+
+		create_country_leader = {
+			name = "George VI"
+			desc = "POLITICS_GEORGE_VI_DESC"
+			picture = "GFX_Portrait_ENG_George_VI"
+			expire = "1.1.1"
+			ideology = social_corporatism
+		}
+		create_country_leader = {
+			name = "George VI"
+			desc = "POLITICS_GEORGE_VI_DESC"
+			picture = "GFX_Portrait_ENG_George_VI"
+			expire = "1.1.1"
+			ideology = left_centrism
+		}
+		create_country_leader = {
+			name = "George VI"
+			desc = "POLITICS_GEORGE_VI_DESC"
+			picture = "GFX_Portrait_ENG_George_VI"
+			expire = "1.1.1"
+			ideology = centrism
+		}
+		create_country_leader = {
+			name = "George VI"
+			desc = "POLITICS_GEORGE_VI_DESC"
+			picture = "GFX_Portrait_ENG_George_VI"
+			expire = "1.1.1"
+			ideology = classical_liberalism
+		}
+		create_country_leader = {
+			name = "George VI"
+			desc = "POLITICS_GEORGE_VI_DESC"
+			picture = "GFX_Portrait_ENG_George_VI"
+			expire = "1.1.1"
+			ideology = paternalistic_conservatism
+		}
+		create_country_leader = {
+			name = "George VI"
+			desc = "POLITICS_GEORGE_VI_DESC"
+			picture = "GFX_Portrait_ENG_George_VI"
+			expire = "1.1.1"
+			ideology = anocracy
+		}
+		create_country_leader = {
+			name = "George VI"
+			desc = "POLITICS_GEORGE_VI_DESC"
+			picture = "GFX_Portrait_ENG_George_VI"
+			expire = "1.1.1"
+			ideology = absolute_monarchy
+		}
+		create_country_leader = {
+			name = "George VI"
+			desc = "POLITICS_GEORGE_VI_DESC"
+			picture = "GFX_Portrait_ENG_George_VI"
+			expire = "1.1.1"
+			ideology = classical_fascism
+		}
+		create_country_leader = {
+			name = "George VI"
+			desc = "POLITICS_GEORGE_VI_DESC"
+			picture = "GFX_Portrait_ENG_George_VI"
+			expire = "1.1.1"
+			ideology = national_bolshevism
+		}
+	}
+	else = {
+		
+	}
+}

@@ -1,0 +1,71 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			set_global_flag = ENG_king_george_V
+
+			ENG = {
+				ENG_create_monarchy = yes
+			}
+			CAN = {
+				ENG_create_monarchy = yes
+				create_country_leader = {
+					name = "George V"
+					desc = "POLITICS_GEORGE_V_DESC"
+					picture = "GFX_Portrait_ENG_George_V"
+					expire = "1.1.1"
+					ideology = progressive_liberalism
+				}
+			}
+			NZL = {
+				ENG_create_monarchy = yes
+				create_country_leader = {
+					name = "George V"
+					desc = "POLITICS_GEORGE_V_DESC"
+					picture = "GFX_Portrait_ENG_George_V"
+					expire = "1.1.1"
+					ideology = progressivism
+				}
+			}
+			SAF = {
+				ENG_create_monarchy = yes
+				create_country_leader = {
+					name = "George V"
+					desc = "POLITICS_GEORGE_V_DESC"
+					picture = "GFX_Portrait_ENG_George_V"
+					expire = "1.1.1"
+					ideology = national_liberalism
+				}
+			}
+			DBM = {
+				ENG_create_monarchy = yes
+				create_country_leader = {
+					name = "George V"
+					desc = "POLITICS_GEORGE_V_DESC"
+					picture = "GFX_Portrait_ENG_George_V"
+					expire = "1.1.1"
+					ideology = oriental_synthesis
+				}
+			}
+			RHO = {
+				ENG_create_monarchy = yes
+				create_country_leader = {
+					name = "George V"
+					desc = "POLITICS_GEORGE_V_DESC"
+					picture = "GFX_Portrait_ENG_George_V"
+					expire = "1.1.1"
+					ideology = classical_conservatism
+				}
+			}
+			AST = {
+				ENG_create_monarchy = yes
+				create_country_leader = {
+					name = "George V"
+					desc = "POLITICS_GEORGE_V_DESC"
+					picture = "GFX_Portrait_ENG_George_V"
+					expire = "1.1.1"
+					ideology = progressivism
+				}
+			}
+		}
+	}
+}

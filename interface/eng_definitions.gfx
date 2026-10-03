@@ -3,4 +3,14 @@ spriteTypes = {
         name = GFX_Portrait_ENG_George_V
         texturefile = gfx/leaders/ENG/Portrait_ENG_George_V.dds
     }
+
+    spriteType = {
+        name = GFX_Portrait_ENG_Edward_VIII
+        texturefile = gfx/leaders/ENG/Portrait_ENG_Edward_VIII.dds
+    }
+
+    spriteType = {
+        name = GFX_Portrait_ENG_George_VI
+        texturefile = gfx/leaders/ENG/Portrait_ENG_George_VI.dds
+    }
 }

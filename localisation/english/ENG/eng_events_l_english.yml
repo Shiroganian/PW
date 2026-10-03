@@ -1,0 +1,11 @@
+﻿l_english:
+ eng.1.t:0 "Death of King George V"
+ eng.1.d:0 "The death of King George V has sent shockwaves through the British Empire, with Edward VIII set to inherit the throne."
+ eng.1.a:0 "The Empire Grieves."
+
+ #### NEWS EVENTS LOC
+
+ eng_news.1.t:0 "Death of King George V"
+ eng_news.1.d:0 "The King of Great Britain and her Commonwealth, George V, has passed away, in his stead comes the young Edward VIII, sure to be a controversial due to his eccentric lifestyle."
+ eng_news.1.a:0 "Our condolences."
+ eng_news.1.b:0 "The King is dead, long live the King!"

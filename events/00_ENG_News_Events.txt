@@ -1,0 +1,48 @@
+﻿###########################
+# ENG Events
+###########################
+
+add_namespace = eng_news
+
+news_event = { # George V Dies
+	id = eng_news.1
+	title = eng_news.1.t
+	desc = eng_news.1.d
+	picture = GFX_event_test
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = { 	
+		name = eng_news.1.a
+		trigger = {
+			not = {
+				or = {
+					original_tag = ENG
+					original_tag = CAN
+					original_tag = NZL
+					original_tag = SAF
+					original_tag = DBM
+					original_tag = RHO
+					original_tag = AST
+				}
+			}
+		}
+	}
+
+	option = { 	
+		name = eng_news.1.b
+		trigger = {
+			or = {
+				original_tag = ENG
+				original_tag = CAN
+				original_tag = NZL
+				original_tag = SAF
+				original_tag = DBM
+				original_tag = RHO
+				original_tag = AST
+			}
+		}
+	}
+}

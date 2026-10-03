@@ -12,6 +12,18 @@ guiTypes = {
 		}
 
 		iconType = {
+			name = "Austen_Chamberlain"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_ENG_Austen_Chamberlain"
+		}
+
+		iconType = {
+			name = "Italo_Balbo"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_ITA_Italo_Balbo"
+		}
+
+		iconType = {
 			name = "pm_frame"
 			quadTextureSprite = "GFX_pol_leader_frame"
 			position = { x = 0 y = 0 }
@@ -37,4 +49,32 @@ guiTypes = {
 			vertical_alignment = center
 		}
 	}
+}
+
+guiTypes = {
+	containerWindowType = {
+		name = "for_joe_biden_gui"
+		position = { x = 130 y = 255 }
+		
+		IconType = {
+			name = "for_leader_button"
+			position = { x = 0 y = 0}
+			spriteType = "GFX_HOS_button"
+			pdx_tooltip = "GetSecondLEADER"
+		}
+	}
+	
+	containerwindowtype = {
+		name = "mapmode_leader_gui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 72 height = 72 }
+		
+		iconType = {
+			name = "leader_gui_icon"
+			position = { x = 0 y = 0}
+			spriteType = "GFX_HOS_button"
+			pdx_tooltip = "GetSecondLEADER"
+		}
+	}
+	
 }

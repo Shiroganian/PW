@@ -11,7 +11,7 @@
  GUIHOGNAME:0 "§Y[ROOT.GetPrimeMinister]§!\n--------------\n [THIS.GetHeadDescription]"
  GUIHOGNAME2:0 "§Y[ROOT.GetOtherPrimeMinister]§!\n--------------\n [THIS.GetSecondHeadDescription]"
  GUIHOGNAME3:0 "[ROOT.GUIHOGNAME]"
- GetSecondLEADER:0 "[GetFORHOGTitle]\n\n\n\n\n\n\n\n £[GetPMPortrait]\n\n\n\n\n\n\n\n\n §Y[GetPrimeMinister]§!\n [THIS. GetHeadDescription]"
+ GetSecondLEADER:0 "[GetFORHOGTitle]\n\n\n\n\n\n\n\n £[GetPMPortrait]\n\n\n\n\n\n\n\n\n §Y[GetPrimeMinister]§!\n [THIS.GetHeadDescription]"
  GetThirdLEADER:0 "[GetThirdLeaderTitle]\n\n\n\n\n\n\n\n £[GetOtherPMPortrait]\n\n\n\n\n\n\n\n\n §Y[GetOtherPrimeMinister]§!\n [THIS.GetSecondHeadDescription]"
 
  NORMAL_FOR_TITLE:0 "[GetFORHOGTitle]"
@@ -21,4 +21,7 @@
  # PT_OR_RK2:0 "Reichskanzler of [FROM.GetNameWithFlag]" # unused until i figure out how this works
 
  GER_GUSTAV_NOSKE_GUI_NAME:0 "Gustav Noske"
+ ENG_AUSTEN_CHAMBERLAIN_GUI_NAME:0 "Austen Chamberlain"
+ ITA_ITALO_BALBO_GUI_NAME:0 "Italo Balbo"
 
+ HOG_OR_LEADER1:0 "Head of Government"

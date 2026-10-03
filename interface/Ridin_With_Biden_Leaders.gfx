@@ -7,7 +7,19 @@ spriteTypes = {
 
 	# Gustav Noske HoG portrait.
 	spriteType = {
-		name = "GFX_Portrait_Germany_Gustav_Noske"
-		texturefile = "gfx/leaders/GER/Portrait_Germany_Gustav_Noske.png"
+		name = "GFX_Portrait_GER_Gustav_Noske"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Gustav_Noske.dds"
+	}
+
+	# Austen Chamberlain HoG portrait.
+	spriteType = {
+		name = "GFX_Portrait_ENG_Austen_Chamberlain"
+		texturefile = "gfx/leaders/ENG/Portrait_ENG_Austen_Chamberlain.dds"
+	}
+
+	# Italo Balbo HoG portrait.
+	spriteType = {
+		name = "GFX_Portrait_ITA_Italo_Balbo"
+		texturefile = "gfx/leaders/ITA/Portrait_ITA_Italo_Balbo.dds"
 	}
 }

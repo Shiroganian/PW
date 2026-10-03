@@ -1,5 +1,3 @@
-# Pax Wilsoniana leader GUI trigger.
-# The mod replaces common/scripted_triggers, so this trigger must live in PW.
 uses_leader_gui = {
 	OR = {
 		AND = {
@@ -7,6 +5,20 @@ uses_leader_gui = {
 			has_country_flag = LEADER_GUI_VISIBLE
 			OR = {
 				has_country_flag = GER_Gustav_Noske_HoG
+			}
+		}
+		AND = {
+			tag = ENG
+			has_country_flag = LEADER_GUI_VISIBLE
+			OR = {
+				has_country_flag = ENG_Austen_Chamberlain_HoG
+			}
+		}
+		AND = {
+			tag = ITA
+			has_country_flag = LEADER_GUI_VISIBLE
+			OR = {
+				has_country_flag = ITA_Italo_Balbo_HoG
 			}
 		}
 	}

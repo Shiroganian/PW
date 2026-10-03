@@ -13,5 +13,31 @@ on_actions = {
 				}
             }
         }
+		effect = {
+            if = {
+                limit = { 
+					original_tag = ENG 
+					NOT = { 
+						has_government = conservative 
+					} 
+				}
+				ENG = {
+                	clr_country_flag = ENG_Austen_Chamberlain_HoG 
+				}
+            }
+        }
+		effect = {
+            if = {
+                limit = { 
+					original_tag = ITA 
+					NOT = { 
+						has_government = fascist 
+					} 
+				}
+				ITA = {
+                	clr_country_flag = ITA_Italo_Balbo_HoG 
+				}
+            }
+        }
     }
 }

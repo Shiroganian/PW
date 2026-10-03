@@ -14,6 +14,9 @@ give_guarantee = HOL
 
 recruit_character = ENG_George_V # George V
 
+set_country_flag = LEADER_GUI_VISIBLE
+set_country_flag = ENG_Austen_Chamberlain_HoG
+
 set_country_flag = can_send_volunteers
 set_country_flag = KR_free_allow_lend_lease
 

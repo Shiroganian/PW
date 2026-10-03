@@ -31,7 +31,6 @@ recruit_character = GER_Joseph_Joos # Joseph Joos
 set_country_flag = LEADER_GUI_VISIBLE
 set_country_flag = GER_Gustav_Noske_HoG
 
-
 oob = "GER_land_oob"
 starting_train_buffer = 5
 set_convoys = 200

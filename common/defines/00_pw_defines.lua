@@ -13,7 +13,7 @@ NDefines.NCountry.FEMALE_UNIT_LEADER_BASE_CHANCE = {
 	0.0, -- army leaders												-- Vanilla is 0.0
 	0.7, -- operatives													-- Vanilla is 1.0
 }
-NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 1.5						-- Vanilla is 2
+NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 2.0						-- Vanilla is 2
 NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.1						-- Vanilla is 0.2 
 NDefines.NTrade.ALLOW_TRADE_CUT_OFF = 0 									-- Vanilla is 0
 NDefines.NTrade.BASE_TRADE_FACTOR = 100										-- Vanilla is 150
